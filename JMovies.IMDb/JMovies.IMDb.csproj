@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>JnRMnT</Authors>
+    <Company>JnRMnT</Company>
+    <Copyright>JnRMnT</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>JMovies IMDb Data Provider Library - Currently supports on-demand screen scraping from IMDb to receive movie and person details.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.12" />
+    <PackageReference Include="JM.Framework" Version="1.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Net.Requests" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks.Parallel" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JMovies.IMDb.Common\JMovies.IMDb.Common.csproj" />
+    <ProjectReference Include="..\JMovies.IMDb.Entities\JMovies.IMDb.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
