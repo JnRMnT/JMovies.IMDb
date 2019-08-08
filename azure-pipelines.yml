@@ -23,6 +23,12 @@ steps:
     msbuildArchitecture: 'x64'
     configuration: 'Release'
   displayName: "Build Project"
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: 'JMovies.IMDb.Tests/'
+    testRunTitle: 'Unit Tests'
+  displayName: "Run Unit Tests"
 - task: CopyFiles@2
   inputs:
     SourceFolder: ''
