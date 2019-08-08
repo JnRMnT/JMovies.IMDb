@@ -270,7 +270,7 @@ namespace JMovies.IMDb.Providers
 
         public Person GetPerson(long id, Person person)
         {
-            if (id == default)
+            if (id == default(long))
             {
                 throw new JMException("IMDbIDEmpty");
             }
