@@ -19,7 +19,7 @@ namespace JMovies.IMDb.Providers
     {
         public Movie GetMovie(long id, bool fetchDetailedCast)
         {
-            if (id == default)
+            if (id == default(long))
             {
                 throw new JMException("IMDbIDEmpty");
             }
