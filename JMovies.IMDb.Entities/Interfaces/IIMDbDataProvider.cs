@@ -1,4 +1,5 @@
-﻿using JMovies.IMDb.Entities.IMDB;
+﻿using JMovies.IMDb.Entities.Movies;
+using JMovies.IMDb.Entities.People;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -7,6 +7,7 @@
     <Company>JnRMnT</Company>
     <Copyright>JnRMnT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
-using JMovies.IMDb.Entities.IMDB;
+using JMovies.IMDb.Entities.Movies;
+using JMovies.IMDb.Entities.People;
 using Fizzler.Systems.HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
 using System.Text.RegularExpressions;

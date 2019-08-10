@@ -1,6 +1,7 @@
 ﻿using HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
-using JMovies.IMDb.Entities.IMDB;
+using JMovies.IMDb.Entities.Movies;
+using JMovies.IMDb.Entities.People;
 using JMovies.IMDb.Entities.Interfaces;
 using System.Collections.Generic;
 using System.IO;

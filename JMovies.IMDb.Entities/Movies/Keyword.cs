@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JMovies.IMDb.Entities.IMDB
+namespace JMovies.IMDb.Entities.Movies
 {
-    public class Country
+    public class Keyword
     {
-        public string Name { get; set; }
+        public string Value { get; set; }
         public string Identifier { get; set; }
     }
 }

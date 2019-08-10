@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JMovies.IMDb.Entities.IMDB
+namespace JMovies.IMDb.Entities.Movies
 {
-    public enum ProductionTypeEnum
+    public enum CreditRoleType
     {
         Undefined,
-        Movie,
-        TVSeries
+        Director,
+        Acting,
+        Writer,
+        Creator
     }
 }

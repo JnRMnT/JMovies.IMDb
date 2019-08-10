@@ -1,5 +1,6 @@
 ﻿using System;
-using JMovies.IMDb.Entities.IMDB;
+using JMovies.IMDb.Entities.Movies;
+using JMovies.IMDb.Entities.People;
 using JMovies.IMDb.Entities.Interfaces;
 using JMovies.IMDb.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
