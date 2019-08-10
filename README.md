@@ -7,3 +7,6 @@ A IMDb data provider library written for .NET Standart platform that uses screen
 
 ## Under the hood
 JMovies.IMDb uses .NET standart Http Web Requests to fetch the IMDB pages and parse them using HtmlAgilityPack+Fizzler.
+
+## Maintenance
+I will personaly maintain the project as much as i can but as it uses Screen Scraping it is possible that it will require some changes along the way, so every issue report and pull request is welcome!
