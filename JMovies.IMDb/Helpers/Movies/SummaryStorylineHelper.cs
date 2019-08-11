@@ -6,7 +6,7 @@ using JMovies.IMDb.Common.Constants;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 
-namespace JMovies.IMDb.Helpers
+namespace JMovies.IMDb.Helpers.Movies
 {
     public class SummaryStorylineHelper
     {

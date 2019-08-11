@@ -9,7 +9,9 @@ namespace JMovies.IMDb.Common.Constants
 {
     public class IMDbConstants
     {
-        public static readonly int IMDbIDLength = 7;
+        public static readonly int HttpMaxRetryCount = 5;
+        public static readonly int HttpRetrySleepTime = 1000;
+        public static readonly int IMDbIDLength = 8;
         public static readonly string DefaultScrapingCulture = "en-US";
         public static readonly string BaseURL = "https://www.imdb.com/";
         public static readonly string MoviesPath = "title/";
@@ -22,6 +24,7 @@ namespace JMovies.IMDb.Common.Constants
         public static readonly string CompaniesPath = "company/";
         public static readonly string FullCreditsPath = "fullcredits/";
         public static readonly string TVSeriesOgType = "video.tv_show";
+        public static readonly string BioPagePath = "bio/";
 
         public static readonly string Star = "Star";
         public static readonly string Director = "Director";
@@ -43,6 +46,17 @@ namespace JMovies.IMDb.Common.Constants
         public static readonly string ProductionCompany = "Production Co";
         public static readonly string Runtime = "Runtime";
 
+        #region Biography Page Table Labes
+        public const string BioOverviewBirthName = "Birth Name";
+        public const string BioOverviewBirthInfo = "Born";
+        public const string BioOverviewHeight = "Height";
+        public const string BioOverviewNickName = "Nickname";
+        #endregion
+        #region Filmography Categories
+        public static readonly string ActorCategoryName = "actor";
+        public static readonly string ActressCategoryName = "actress";
+        #endregion
+        #region IMDB specific Regexes
         public static readonly Regex StarsSummaryRegex = new Regex(Star + "[s]?:", RegexOptions.IgnoreCase);
         public static readonly Regex DirectorsSummaryRegex = new Regex(Director + "[s]?:", RegexOptions.IgnoreCase);
         public static readonly Regex WritersSummaryRegex = new Regex(Writer + "[s]?:", RegexOptions.IgnoreCase);
@@ -70,5 +84,9 @@ namespace JMovies.IMDb.Common.Constants
         public static readonly Regex ProductionCompanyLinkRegex = new Regex(CompaniesPath + CompanyIDPrefix + @"(\d+).*?");
         public static readonly Regex RuntimeHeaderRegex = new Regex(Runtime + ":", RegexOptions.IgnoreCase);
         public static readonly Regex CharacterEpisodeInfoRegex = new Regex(@"\n*\s*\(?(\d+)\s+episodes?,\s+(\d+)-?(\d*)\)?\s*\n*", RegexOptions.IgnoreCase);
+        public static readonly Regex BioHeightRegex = new Regex(@"\((\d\.\d{1,2}).*m\)");
+        public static readonly Regex IMDBIDRegex = new Regex("(" + MovieIDPrefix + "|" + PersonIDPrefix + "|" + CompanyIDPrefix + @")(\d+)");
+        public static readonly Regex CreditYearRegex = new Regex(@"(\d{4})(\/\w)?[–-]?(\d{4})?(\/\w)?");
+        #endregion
     }
 }

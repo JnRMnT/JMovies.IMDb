@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace JMovies.IMDb.Entities.Movies
 {
-    public class Movie
+    public class Movie: Production
     {
-        public long IMDbID { get; set; }
-        public string Title { get; set; }
         public string OriginalTitle { get; set; }
         public string PlotSummary { get; set; }
         public string StoryLine { get; set; }
         public Credit[] Credits { get; set; }
-        public int Year { get; set; }
         public string[] TagLines { get; set; }
         public Keyword[] Keywords { get; set; }
         public Genre[] Genres { get; set; }
@@ -27,12 +24,7 @@ namespace JMovies.IMDb.Entities.Movies
         public Budget Budget { get; set; }
         public Company[] ProductionCompanies { get; set; }
         public TimeSpan Runtime { get; set; }
-        public virtual ProductionTypeEnum ProductonType
-        {
-            get
-            {
-                return ProductionTypeEnum.Movie;
-            }
-        }
+
+        public override ProductionTypeEnum ProductionType => ProductionTypeEnum.Movie;
     }
 }

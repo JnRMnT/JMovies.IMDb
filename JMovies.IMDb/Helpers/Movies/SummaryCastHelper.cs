@@ -6,7 +6,7 @@ using Fizzler.Systems.HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
 using System.Text.RegularExpressions;
 
-namespace JMovies.IMDb.Helpers
+namespace JMovies.IMDb.Helpers.Movies
 {
     public class SummaryCastHelper
     {

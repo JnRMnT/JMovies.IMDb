@@ -12,6 +12,11 @@ namespace JMovies.IMDb.Entities.Movies
         Director,
         Acting,
         Writer,
-        Creator
+        Creator,
+        Producer,
+        Composer,
+        MusicDepartment,
+        Actor,
+        Actress
     }
 }

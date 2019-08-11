@@ -13,31 +13,40 @@ namespace JMovies.IMDb.Tests
         [TestMethod]
         public void MovieScraping()
         {
-            long movieID = 1477834;//397442;//6412452;
+            long[] movieIDs = new long[] { 1477834, 397442, 6412452 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            Movie movie = imdbDataProvider.GetMovie(movieID, false);
-            Assert.IsNotNull(movie);
-            Assert.AreEqual(movieID, movie.IMDbID);
+            foreach (long movieID in movieIDs)
+            {
+                Movie movie = imdbDataProvider.GetMovie(movieID, false);
+                Assert.IsNotNull(movie);
+                Assert.AreEqual(movieID, movie.IMDbID);
+            }
         }
 
         [TestMethod]
         public void DetailedMovieScraping()
         {
-            long movieID = 1477834;//1477834;//397442;//6412452;
+            long[] movieIDs = new long[] { 1477834, 397442, 6412452 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            Movie movie = imdbDataProvider.GetMovie(movieID, true);
-            Assert.IsNotNull(movie);
-            Assert.AreEqual(movieID, movie.IMDbID);
+            foreach (long movieID in movieIDs)
+            {
+                Movie movie = imdbDataProvider.GetMovie(movieID, true);
+                Assert.IsNotNull(movie);
+                Assert.AreEqual(movieID, movie.IMDbID);
+            }
         }
 
         [TestMethod]
         public void PersonScraping()
         {
-            long personID = 1297015;
+            long[] personIDs = new long[] { 3614913, 5253, 1297015, 3614913, 1877 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            Person person = imdbDataProvider.GetPerson(personID);
-            Assert.IsNotNull(person);
-            Assert.AreEqual(personID, person.IMDbID);
+            foreach (long personID in personIDs)
+            {
+                Person person = imdbDataProvider.GetPerson(personID, true);
+                Assert.IsNotNull(person);
+                Assert.AreEqual(personID, person.IMDbID);
+            }
         }
     }
 }
