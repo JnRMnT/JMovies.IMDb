@@ -18,7 +18,11 @@ steps:
   displayName: "Install DocFx"
 - task: CmdLine@2
   inputs:
-    script: 'docfx $(Build.ArtifactStagingDirectory)'
+    script: 'docfx init -q'
+  displayName: "Initialize DocFx Project"
+- task: CmdLine@2
+  inputs:
+    script: 'docfx docfx_project/docfx.json'
   displayName: "Generate Documentation"
 - task: NuGetCommand@2
   inputs:
