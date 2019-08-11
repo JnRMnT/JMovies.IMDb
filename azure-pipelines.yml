@@ -12,7 +12,14 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
   displayName: "Install NuGet"
-
+- task: CmdLine@2
+  inputs:
+    script: 'choco install docfx -y'
+  displayName: "Install DocFx"
+- task: CmdLine@2
+  inputs:
+    script: 'docfx $(Build.ArtifactStagingDirectory)'
+  displayName: "Generate Documentation"
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
