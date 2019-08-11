@@ -10,3 +10,6 @@ JMovies.IMDb uses .NET standart Http Web Requests to fetch the IMDB pages and pa
 
 ## Maintenance
 I will personaly maintain the project as much as i can but as it uses Screen Scraping it is possible that it will require some changes along the way, so every issue report and pull request is welcome!
+
+## Warning
+Please know that this library is not intended for bulk data scraping from IMDb and it is restricted by them. Also note that this library is not affliated with IMDB and you need to use it at your own risk/responsibility.
