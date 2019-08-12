@@ -13,8 +13,15 @@ using JMovies.IMDb.Entities.Common;
 
 namespace JMovies.IMDb.Helpers.People
 {
+    /// <summary>
+    /// Class responsible for parsing the Bio Page
+    /// </summary>
     public class BioPageHelper
     {
+        /// <summary>
+        /// Method responsible for parsing the Bio Page
+        /// </summary>
+        /// <param name="person">Person to be populated</param>
         public static void ParseBioPage(Person person)
         {
             string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + person.IMDbID.ToString().PadLeft(IMDbConstants.IMDbIDLength, '0') + "/" + IMDbConstants.BioPagePath;

@@ -13,8 +13,17 @@ using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.People
 {
+    /// <summary>
+    /// Class responsible for parsing the person page
+    /// </summary>
     public class PersonPageHelper
     {
+        /// <summary>
+        /// Method responsible for parsing the person page
+        /// </summary>
+        /// <param name="person">Person to be populated</param>
+        /// <param name="documentNode">HTML Node containing the person page</param>
+        /// <param name="fetchAdditionalDetails">Boolean flag indicating if additional details should be fetched</param>
         public static void Parse(Person person, HtmlNode documentNode, bool fetchAdditionalDetails)
         {
             #region Main Details Parsing
@@ -169,6 +178,11 @@ namespace JMovies.IMDb.Helpers.People
             #endregion
         }
 
+        /// <summary>
+        /// Method responsible for detecting gender based on filmography categories
+        /// </summary>
+        /// <param name="person">The person which the gender will be detected</param>
+        /// <param name="filmogpaphyCategories">HTML Nodes containing filmography categories</param>
         private static void DetectGender(Person person, HtmlNode[] filmogpaphyCategories)
         {
             HtmlNode actingCategory = filmogpaphyCategories.FirstOrDefault((categoryWrapper) =>

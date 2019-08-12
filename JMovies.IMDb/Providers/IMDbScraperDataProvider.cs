@@ -15,14 +15,17 @@ using JM.Entities.Framework;
 
 namespace JMovies.IMDb.Providers
 {
+    /// <summary>
+    /// Data provider that fetches the data real-time on IMDb website using Screen Scraping and returns it as per defined in IIMDbDataProvider.
+    /// </summary>
     public class IMDbScraperDataProvider : IIMDbDataProvider
     {
         /// <summary>
-        /// Gets Production Details based on ID
+        /// Gets Production Information iresspective of type
         /// </summary>
-        /// <param name="id"></param>
-        /// <param name="fetchDetailedCast"></param>
-        /// <returns></returns>
+        /// <param name="id">ID of the production</param>
+        /// <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+        /// <returns>Production instance containing retreived information</returns>
         public Production GetProduction(long id, bool fetchDetailedCast)
         {
             if (id == default(long))
@@ -56,12 +59,25 @@ namespace JMovies.IMDb.Providers
             return movie;
         }
 
+        /// <summary>
+        /// Gets Person information
+        /// </summary>
+        /// <param name="id">ID of the Person</param>
+        /// <param name="fetchAdditionalDetails">Should the additional details be also fetched? This effects the response time.</param>
+        /// <returns>Person instance containing retreived information</returns>
         public Person GetPerson(long id, bool fetchAdditionalDetails)
         {
             Person person = new Person();
             return GetPerson(id, person, fetchAdditionalDetails);
         }
 
+        /// <summary>
+        /// Gets Person information
+        /// </summary>
+        /// <param name="id">ID of the Person</param>
+        /// <param name="person">Person instance to be populated</param>
+        /// <param name="fetchAdditionalDetails">Should the additional details be also fetched? This effects the response time.</param>
+        /// <returns>Person instance containing retreived information</returns>
         public Person GetPerson(long id, Person person, bool fetchAdditionalDetails)
         {
             if (id == default(long))
@@ -95,11 +111,23 @@ namespace JMovies.IMDb.Providers
             return person;
         }
 
+        /// <summary>
+        /// Gets Movie information
+        /// </summary>
+        /// <param name="id">ID of the movie</param>
+        /// <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+        /// <returns>Movie instance containing retreived information</returns>
         public Movie GetMovie(long id, bool fetchDetailedCast)
         {
             return GetProduction(id, fetchDetailedCast) as Movie;
         }
 
+        /// <summary>
+        /// Gets TV Series information
+        /// </summary>
+        /// <param name="id">ID of the TV Series</param>
+        /// <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+        /// <returns>TV Series instance containing retreived information</returns>
         public TVSeries GetTvSeries(long id, bool fetchDetailedCast)
         {
             return GetProduction(id, fetchDetailedCast) as TVSeries;

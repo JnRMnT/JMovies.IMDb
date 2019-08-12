@@ -8,8 +8,16 @@ using System.Collections.Generic;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
+    /// <summary>
+    /// Class responsible for parsing the summary-story line section 
+    /// </summary>
     public class SummaryStorylineHelper
     {
+        /// <summary>
+        /// Method responsible for parsing the summary-story line section  
+        /// </summary>
+        /// <param name="movie">Movie instance to be populated</param>
+        /// <param name="storyLineSection">HTML Node containing Story Line section</param>
         public static void Parse(Movie movie, HtmlNode storyLineSection)
         {
             HtmlNode storyLine = storyLineSection.QuerySelector("p span");

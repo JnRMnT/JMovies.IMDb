@@ -8,8 +8,16 @@ using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
+    /// <summary>
+    /// Class responsible for parsing Cast Summary Section
+    /// </summary>
     public class SummaryCastHelper
     {
+        /// <summary>
+        /// Internal Method responsible to parse cast summary from related HTML Node
+        /// </summary>
+        /// <param name="creditSummaryNode">HTML Node that contains the credits summary section</param>
+        /// <returns>Parsed credits array</returns>
         internal static Credit[] GetCreditInfo(HtmlNode creditSummaryNode)
         {
             List<Credit> credits = new List<Credit>();

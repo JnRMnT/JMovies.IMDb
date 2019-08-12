@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace JMovies.IMDb.Entities.Movies
+namespace JMovies.IMDb.Entities.Common
 {
     /// <summary>
-    /// Class definition of an Official Site
+    /// Class definition for basic online image
     /// </summary>
-    public class OfficialSite
+    public class Image
     {
         /// <summary>
-        /// Title of the official website
+        /// Title of the image
         /// </summary>
         public string Title { get; set; }
-
         /// <summary>
-        /// URL of the official website
+        /// URL of the image
         /// </summary>
         public string URL { get; set; }
     }

@@ -10,10 +10,13 @@ using System.Threading.Tasks;
 
 namespace JMovies.IMDb.Helpers
 {
+    /// <summary>
+    /// Class responsible for providing utility methods for HTTP Operations
+    /// </summary>
     public class HttpHelper
     {
         /// <summary>
-        /// Initializes the web request using the URL and configures the request for default language & dummy User Agent/IP Info
+        /// Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info
         /// </summary>
         /// <param name="url">URL of the Request</param>
         /// <returns>Configured Web Request</returns>
@@ -31,7 +34,7 @@ namespace JMovies.IMDb.Helpers
         }
 
         /// <summary>
-        /// Retry mechanism for sending Web Request that is required to avoid IMDB blocks
+        /// Retry mechanism for sending Web Request that is required to avoid Connectivity issues
         /// </summary>
         /// <param name="webRequest">Request to be sent</param>
         /// <param name="retryCount">Current Retry Count</param>

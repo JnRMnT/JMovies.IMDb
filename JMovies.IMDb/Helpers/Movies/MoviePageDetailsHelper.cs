@@ -15,8 +15,20 @@ using System.Linq;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
+    /// <summary>
+    /// Class responsible for parsing the Movie Page Details
+    /// </summary>
     public class MoviePageDetailsHelper
     {
+        /// <summary>
+        /// Main Parse method of the Movie Page
+        /// </summary>
+        /// <param name="providerInstance">Instance reference of the IMDbScraperDataProvider</param>
+        /// <param name="movie">Movie instance that is populated</param>
+        /// <param name="documentNode">Document Node of the movie page</param>
+        /// <param name="moviePageUrl">URL of the movie page</param>
+        /// <param name="fetchDetailedCast">Flag that indicates if the detailed cast should be fetched or not</param>
+        /// <returns>If scraping was successful or not</returns>
         public static bool Parse(IMDbScraperDataProvider providerInstance, Movie movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)
         {
             HtmlNode titleTypeTag = documentNode.QuerySelector("meta[property='og:type']");
@@ -139,6 +151,12 @@ namespace JMovies.IMDb.Helpers.Movies
             return true;
         }
 
+        /// <summary>
+        /// Method responsible for parsing the cast list of the movie
+        /// </summary>
+        /// <param name="movie">Movie instance to be populated</param>
+        /// <param name="credits">Credits list to be filled</param>
+        /// <param name="castListNode">Html node that holds the cast list</param>
         private static void ParseCastList(Movie movie, List<Credit> credits, HtmlNode castListNode)
         {
             if (castListNode != null)
@@ -163,7 +181,7 @@ namespace JMovies.IMDb.Helpers.Movies
                         List<Character> characters = new List<Character>();
                         foreach (HtmlNode characterNode in charactersNode.QuerySelectorAll("a"))
                         {
-                            Character character = GetCharacter(characterNode, characters, movie);
+                            Character character = GetCharacter(characterNode, movie);
                             if (character != null)
                             {
                                 characters.Add(character);
@@ -171,7 +189,7 @@ namespace JMovies.IMDb.Helpers.Movies
                         }
                         if (characters.Count == 0)
                         {
-                            Character character = GetCharacter(charactersNode.FirstChild, characters, movie);
+                            Character character = GetCharacter(charactersNode.FirstChild, movie);
                             if (character != null && (!string.IsNullOrEmpty(character.Name) || character.IMDbID != null))
                             {
                                 characters.Add(character);
@@ -185,7 +203,13 @@ namespace JMovies.IMDb.Helpers.Movies
             }
         }
         
-        private static Character GetCharacter(HtmlNode characterNode, List<Character> characters, Movie movie)
+        /// <summary>
+        /// Method responsible for parsing a single character information
+        /// </summary>
+        /// <param name="characterNode">HTML Node that holds the character information</param>
+        /// <param name="movie">Movie instance that is populated</param>
+        /// <returns>Parsed character instance</returns>
+        private static Character GetCharacter(HtmlNode characterNode, Movie movie)
         {
             if (!characterNode.GetClasses().Any(e => e == "toggle-episodes"))
             {
@@ -231,6 +255,11 @@ namespace JMovies.IMDb.Helpers.Movies
             }
         }
 
+        /// <summary>
+        /// Method responsible for parsing the details section of the movie page
+        /// </summary>
+        /// <param name="movie">Movie instance to be populated</param>
+        /// <param name="detailsSection">HTML Node containing the Details section</param>
         public static void ParseDetailsSection(Movie movie, HtmlNode detailsSection)
         {
             foreach (HtmlNode detailBox in detailsSection.QuerySelectorAll(".txt-block"))

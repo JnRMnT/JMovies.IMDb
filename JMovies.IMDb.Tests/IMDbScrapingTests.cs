@@ -7,9 +7,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace JMovies.IMDb.Tests
 {
+    /// <summary>
+    /// Test class that provides different test scenarios of IMDb Screen Scraping
+    /// </summary>
     [TestClass]
     public class IMDbScrapingTests
     {
+        /// <summary>
+        /// Method that tests scraping of different Movie Details for basic details
+        /// </summary>
         [TestMethod]
         public void MovieScraping()
         {
@@ -23,6 +29,9 @@ namespace JMovies.IMDb.Tests
             }
         }
 
+        /// <summary>
+        /// Method that tests scraping of different Movie Details for extended details
+        /// </summary>
         [TestMethod]
         public void DetailedMovieScraping()
         {
@@ -36,6 +45,9 @@ namespace JMovies.IMDb.Tests
             }
         }
 
+        /// <summary>
+        /// Method that tests scraping of person pages
+        /// </summary>
         [TestMethod]
         public void PersonScraping()
         {

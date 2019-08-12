@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,7 +9,12 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>JnRMnT</Authors>
     <Company>JnRMnT</Company>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
+    <Description>JMovies IMDb Common Library - A .Net Standart class library that provides constant definitions and Extension methods for IMDb scraping.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>F:\Genel\Projeler\JMovies.IMDb\JMovies.IMDb.Common\JMovies.IMDb.Common.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

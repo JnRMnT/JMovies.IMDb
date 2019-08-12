@@ -6,8 +6,16 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Class responsible for providing Extenions for TimeSpans
+/// </summary>
 public static class TimeSpanExtensions
 {
+    /// <summary>
+    /// Extension that converts HTML DateTime string into C# TimeSpan
+    /// </summary>
+    /// <param name="dateTimeString">HTML DateTime String</param>
+    /// <returns>C# TimeSpan equivalent</returns>
     public static TimeSpan ToHtmlTimeSpan(this string dateTimeString)
     {
         TimeSpan timeSpan = TimeSpan.Zero;
