@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>F:\Genel\Projeler\JMovies.IMDb\JMovies.IMDb.Common\JMovies.IMDb.Common.xml</DocumentationFile>
+    <DocumentationFile>JMovies.IMDb.Common.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
