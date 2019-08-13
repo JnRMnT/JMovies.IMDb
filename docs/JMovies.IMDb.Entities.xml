@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JMovies.IMDb.Entities</name>
+    </assembly>
+    <members>
+        <member name="T:JMovies.IMDb.Entities.Common.Amount">
+            <summary>
+            Class definition of Money related Amounts
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Amount.Value">
+            <summary>
+            Decimal value of the amount
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Amount.Currency">
+            <summary>
+            Currency of the amount
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Common.Image">
+            <summary>
+            Class definition for basic online image
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Image.Title">
+            <summary>
+            Title of the image
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Image.URL">
+            <summary>
+            URL of the image
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Common.Length">
+            <summary>
+            Class definition of Length that contains both Imperial and Metric length information
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Common.Length.#ctor(System.Int32)">
+            <summary>
+            Metric based Length constructor
+            </summary>
+            <param name="metricLength">Metric length</param>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Length.Metric">
+            <summary>
+            Metric Length
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Length.Imperial">
+            <summary>
+            Imperial Length
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider">
+            <summary>
+            Data provider interface that Scraper implements. This interface can be safely used for Dependency Injection.
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetProduction(System.Int64,System.Boolean)">
+            <summary>
+            Gets Production Information iresspective of type
+            </summary>
+            <param name="id">ID of the production</param>
+            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <returns>Production instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetMovie(System.Int64,System.Boolean)">
+            <summary>
+            Gets Movie information
+            </summary>
+            <param name="id">ID of the movie</param>
+            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <returns>Movie instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetTvSeries(System.Int64,System.Boolean)">
+            <summary>
+            Gets TV Series information
+            </summary>
+            <param name="id">ID of the TV Series</param>
+            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <returns>TV Series instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetPerson(System.Int64,System.Boolean)">
+            <summary>
+            Gets Person information
+            </summary>
+            <param name="id">ID of the Person</param>
+            <param name="fetchAdditionalDetails">Should the additional details be also fetched? This effects the response time.</param>
+            <returns>Person instance containing retreived information</returns>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.ActingCredit">
+            <summary>
+            Class definition of an Acting Credit
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ActingCredit.Characters">
+            <summary>
+            Characters played by the actor/actress
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Movies.ActingCredit.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.AKA">
+            <summary>
+            Class definition for other names of the title
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.AKA.Description">
+            <summary>
+            Description of the alternative name
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.AKA.Name">
+            <summary>
+            Alternative name of the Title
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Budget">
+            <summary>
+            Class definition of Budget of a Title
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Budget.Description">
+            <summary>
+            Description related to the budget information
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Budget.Amount">
+            <summary>
+            Amount of the budget of the title
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Character">
+            <summary>
+            Class definition of a character in a title
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Character.IMDbID">
+            <summary>
+            IMDb ID
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Character.Name">
+            <summary>
+            Name of the character
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Company">
+            <summary>
+            Class definition of a company related to the industry
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Company.ID">
+            <summary>
+            ID of the company
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Company.Name">
+            <summary>
+            Name of the company
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Country">
+            <summary>
+            Class definition of a country
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Country.Name">
+            <summary>
+            Name of the country
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Country.Identifier">
+            <summary>
+            Unique identifier of the country
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Credit">
+            <summary>
+            Class definition of a credit in a title
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Credit.Person">
+            <summary>
+            Person related to the credit
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Credit.RoleType">
+            <summary>
+            Role of the person in the title
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.CreditRoleType">
+            <summary>
+            Enumeration of Role Types in a credit
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Undefined">
+            <summary>
+            Default Value of Credit Role
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Director">
+            <summary>
+            Director role in a title
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Acting">
+            <summary>
+            Acting role in a title
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Writer">
+            <summary>
+            Writer role in a title
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Creator">
+            <summary>
+            Creator role in a title
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Producer">
+            <summary>
+            Producer role in a title
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Composer">
+            <summary>
+            Composer role in a title
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.MusicDepartment">
+            <summary>
+            Part of a Music Department
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Actor">
+            <summary>
+            Actor role in a title
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.CreditRoleType.Actress">
+            <summary>
+            Actress role in a title
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Genre">
+            <summary>
+            Class definition of a genre
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Genre.Value">
+            <summary>
+            Name of the Genre
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Genre.Identifier">
+            <summary>
+            Unique identifier of the Genre
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Keyword">
+            <summary>
+            Class definition of a keyword related to a title
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Keyword.Value">
+            <summary>
+            Keyword name
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Keyword.Identifier">
+            <summary>
+            Unique Identifier of a keyword
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Language">
+            <summary>
+            Class definition of a language
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Language.Name">
+            <summary>
+            Name of the language
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Language.Identifier">
+            <summary>
+            Unique Identifier of the language
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Movie">
+            <summary>
+            Class definition of a movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.OriginalTitle">
+            <summary>
+            Original Title of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.PlotSummary">
+            <summary>
+            Plot Summary of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.StoryLine">
+            <summary>
+            Story Line of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.Credits">
+            <summary>
+            Credits of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.TagLines">
+            <summary>
+            Tag Lines of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.Keywords">
+            <summary>
+            Keywords of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.Genres">
+            <summary>
+            Genres of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.OfficialSites">
+            <summary>
+            Official Sites of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.Countries">
+            <summary>
+            Countries of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.Languages">
+            <summary>
+            Languages of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.ReleaseDates">
+            <summary>
+            Release dates of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.AKAs">
+            <summary>
+            Alternative names of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.FilmingLocations">
+            <summary>
+            Filming Locations of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.Budget">
+            <summary>
+            Budget of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.ProductionCompanies">
+            <summary>
+            Production Companies of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.Runtime">
+            <summary>
+            Length of the movie
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.ProductionType">
+            <summary>
+            Type of the production
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.OfficialSite">
+            <summary>
+            Class definition of an Official Site
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.OfficialSite.Title">
+            <summary>
+            Title of the official website
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.OfficialSite.URL">
+            <summary>
+            URL of the official website
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Production">
+            <summary>
+            Base class of any production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.IMDbID">
+            <summary>
+            IMDb ID of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.Title">
+            <summary>
+            Title of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.Year">
+            <summary>
+            Production Year
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.Rating">
+            <summary>
+            Current Rating of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.ProductionType">
+            <summary>
+            Type of the Production
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.ProductionTypeEnum">
+            <summary>
+            Enumeration of Production Types
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.ProductionTypeEnum.Undefined">
+            <summary>
+            Default Production Type
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.ProductionTypeEnum.Movie">
+            <summary>
+            Movie
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.Movies.ProductionTypeEnum.TVSeries">
+            <summary>
+            TV Series
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.Rating">
+            <summary>
+            Class definition of Ratings
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Rating.Value">
+            <summary>
+            Value of the rating
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Rating.RateCount">
+            <summary>
+            Count of rates
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.ReleaseDate">
+            <summary>
+            Class definition of release dates
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ReleaseDate.Date">
+            <summary>
+            Date of the release
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ReleaseDate.Country">
+            <summary>
+            Country of release date
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.TVCharacter">
+            <summary>
+            Class definition of a TV Character
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TVCharacter.EpisodeCount">
+            <summary>
+            Count of episodes the character was in
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TVCharacter.StartYear">
+            <summary>
+            Character first appereance year
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TVCharacter.EndYear">
+            <summary>
+            Character last appereance year
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.TVSeries">
+            <summary>
+            Class definition of TV Series
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TVSeries.EndYear">
+            <summary>
+            End Year of the series
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TVSeries.ProductionType">
+            <summary>
+            Type of the production
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.People.Actor">
+            <summary>
+            Class definition of an actor
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.People.GenderEnum">
+            <summary>
+            Enumeration of genders
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.People.GenderEnum.Undefined">
+            <summary>
+            Default Gender
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.People.GenderEnum.Male">
+            <summary>
+            Male
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Entities.People.GenderEnum.Female">
+            <summary>
+            Female
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.People.Person">
+            <summary>
+            Class definition of a person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.IMDbID">
+            <summary>
+            IMDb ID of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.FullName">
+            <summary>
+            Full Name of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.PrimaryImage">
+            <summary>
+            Main image of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.Roles">
+            <summary>
+            Roles of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.BirthDate">
+            <summary>
+            Birth Date of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.BirthPlace">
+            <summary>
+            Birth Place of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.BirthName">
+            <summary>
+            Birth Place of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.Height">
+            <summary>
+            Height of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.NickName">
+            <summary>
+            NickName of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.MiniBiography">
+            <summary>
+            Mini Biography of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.Photos">
+            <summary>
+            Available Photos of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.KnownFor">
+            <summary>
+            Known credits of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.Gender">
+            <summary>
+            Gender of the person
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.People.ProductionCredit">
+            <summary>
+            Credit of a person in a specific production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.ProductionCredit.Credit">
+            <summary>
+            Credit
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.ProductionCredit.Production">
+            <summary>
+            The production that person is credited in
+            </summary>
+        </member>
+    </members>
+</doc>
