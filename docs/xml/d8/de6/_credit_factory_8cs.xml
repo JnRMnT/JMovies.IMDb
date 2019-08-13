@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d8/de6/_credit_factory_8cs" kind="file" language="C#">
+    <compoundname>CreditFactory.cs</compoundname>
+    <innerclass refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory" prot="public">JMovies::IMDb::Factories::CreditFactory</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d9d/namespace_j_movies_1_1_i_m_db_1_1_factories">JMovies::IMDb::Factories</innernamespace>
+    <innernamespace refid="de/d38/namespace_j_m_1_1_entities_1_1_interfaces">JM::Entities::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>JM.Entities.Interfaces;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d5/d13/namespace_j_movies" kindref="compound">JMovies</ref>.<ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>.<ref refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kindref="compound">Entities</ref>.<ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kindref="compound">Movies</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d5/d13/namespace_j_movies" kindref="compound">JMovies</ref>.<ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>.<ref refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kindref="compound">Entities</ref>.<ref refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people" kindref="compound">People</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="dc/d9d/namespace_j_movies_1_1_i_m_db_1_1_factories" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dc/d9d/namespace_j_movies_1_1_i_m_db_1_1_factories" kindref="compound">JMovies.IMDb.Factories</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory" kindref="compound">CreditFactory</ref>:<sp/>IFactory&lt;Credit,<sp/>CreditRoleType&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref><sp/><ref refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory_1a6e561017cd0ca523c39e080211900f07" kindref="member">Build</ref>(<ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" kindref="member">CreditRoleType</ref><sp/>type)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(type)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" kindref="member">CreditRoleType</ref>.Actor:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" kindref="member">CreditRoleType</ref>.Actress:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" kindref="member">CreditRoleType</ref>.Acting:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" kindref="compound">ActingCredit</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb/Factories/CreditFactory.cs"/>
+  </compounddef>
+</doxygen>

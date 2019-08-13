@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Helpers::Movies::SummaryCastHelper</compoundname>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper_1a8a7b3f6c4a82502f6e186a402ecd9d00" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref>[]</type>
+        <definition>static Credit [] JMovies.IMDb.Helpers.Movies.SummaryCastHelper.GetCreditInfo</definition>
+        <argsstring>(HtmlNode creditSummaryNode)</argsstring>
+        <name>GetCreditInfo</name>
+        <param>
+          <type>HtmlNode</type>
+          <declname>creditSummaryNode</declname>
+        </param>
+        <briefdescription>
+<para>Internal Method responsible to parse cast summary from related HTML Node </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>creditSummaryNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTML Node that contains the credits summary section</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Parsed credits array</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/SummaryCastHelper.cs" line="21" column="32" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryCastHelper.cs" bodystart="21" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for parsing Cast Summary Section </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/Movies/SummaryCastHelper.cs" line="15" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryCastHelper.cs" bodystart="14" bodyend="70"/>
+    <listofallmembers>
+      <member refid="d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper_1a8a7b3f6c4a82502f6e186a402ecd9d00" prot="package" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::SummaryCastHelper</scope><name>GetCreditInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

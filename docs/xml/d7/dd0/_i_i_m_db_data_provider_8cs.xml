@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d7/dd0/_i_i_m_db_data_provider_8cs" kind="file" language="C#">
+    <compoundname>IIMDbDataProvider.cs</compoundname>
+    <innerclass refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" prot="public">JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
+    <innernamespace refid="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces">JMovies::IMDb::Entities::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d5/d13/namespace_j_movies" kindref="compound">JMovies</ref>.<ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>.<ref refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kindref="compound">Entities</ref>.<ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kindref="compound">Movies</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d5/d13/namespace_j_movies" kindref="compound">JMovies</ref>.<ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>.<ref refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kindref="compound">Entities</ref>.<ref refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people" kindref="compound">People</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces" kindref="compound">JMovies.IMDb.Entities.Interfaces</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" kindref="compound">IIMDbDataProvider</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref><sp/><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1aae4cd09ea14daf3314b16b6631009adc" kindref="member">GetProduction</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fetchDetailedCast);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref><sp/><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a83125ca432322e75387965372654b9eb" kindref="member">GetMovie</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fetchDetailedCast);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref><sp/><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1aa2e3d29f847f1d564f1a18caef3ac4d4" kindref="member">GetTvSeries</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fetchDetailedCast);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref><sp/><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ae9b66fb6976629d483e77c17d1da95c4" kindref="member">GetPerson</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fetchAdditionalDetails);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="da/d7f/_t_v_series_8cs" kind="file" language="C#">
+    <compoundname>TVSeries.cs</compoundname>
+    <innerclass refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" prot="public">JMovies::IMDb::Entities::Movies::TVSeries</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
+    <innernamespace refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies">JMovies::IMDb::Entities::Movies</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kindref="compound">JMovies.IMDb.Entities.Movies</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref>:<sp/><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1ac6694636b8724c578ab3b27e5d6147df" kindref="member">EndYear</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" kindref="member">ProductionTypeEnum</ref><sp/><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1a5226aa8762520e1241a1c33490bd5e8d" kindref="member">ProductionType</ref><sp/>=&gt;<sp/><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" kindref="member">ProductionTypeEnum</ref>.TVSeries;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs"/>
+  </compounddef>
+</doxygen>

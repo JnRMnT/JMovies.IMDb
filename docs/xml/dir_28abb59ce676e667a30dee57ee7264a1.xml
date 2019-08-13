@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_28abb59ce676e667a30dee57ee7264a1" kind="dir">
+    <compoundname>JMovies.IMDb.Entities/Movies</compoundname>
+    <innerfile refid="dc/d78/_acting_credit_8cs">ActingCredit.cs</innerfile>
+    <innerfile refid="d4/deb/_a_k_a_8cs">AKA.cs</innerfile>
+    <innerfile refid="d7/d07/_budget_8cs">Budget.cs</innerfile>
+    <innerfile refid="d7/d8a/_character_8cs">Character.cs</innerfile>
+    <innerfile refid="d5/d84/_company_8cs">Company.cs</innerfile>
+    <innerfile refid="d5/dac/_country_8cs">Country.cs</innerfile>
+    <innerfile refid="d7/d74/_credit_8cs">Credit.cs</innerfile>
+    <innerfile refid="dd/df6/_credit_role_type_8cs">CreditRoleType.cs</innerfile>
+    <innerfile refid="d8/dbd/_genre_8cs">Genre.cs</innerfile>
+    <innerfile refid="df/d5e/_keyword_8cs">Keyword.cs</innerfile>
+    <innerfile refid="d8/d82/_language_8cs">Language.cs</innerfile>
+    <innerfile refid="d9/d7b/_movie_8cs">Movie.cs</innerfile>
+    <innerfile refid="d9/d27/_official_site_8cs">OfficialSite.cs</innerfile>
+    <innerfile refid="db/d4a/_production_8cs">Production.cs</innerfile>
+    <innerfile refid="d3/d30/_production_type_enum_8cs">ProductionTypeEnum.cs</innerfile>
+    <innerfile refid="d4/d22/_rating_8cs">Rating.cs</innerfile>
+    <innerfile refid="de/dc4/_release_date_8cs">ReleaseDate.cs</innerfile>
+    <innerfile refid="d9/ded/_t_v_character_8cs">TVCharacter.cs</innerfile>
+    <innerfile refid="da/d7f/_t_v_series_8cs">TVSeries.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/"/>
+  </compounddef>
+</doxygen>

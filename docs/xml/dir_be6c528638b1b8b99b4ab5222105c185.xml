@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_be6c528638b1b8b99b4ab5222105c185" kind="dir">
+    <compoundname>JMovies.IMDb.Common/Constants</compoundname>
+    <innerfile refid="dd/d50/_general_regex_constants_8cs">GeneralRegexConstants.cs</innerfile>
+    <innerfile refid="d2/df6/_i_m_db_constants_8cs">IMDbConstants.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Common/Constants/"/>
+  </compounddef>
+</doxygen>

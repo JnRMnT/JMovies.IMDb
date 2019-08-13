@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_10a45dbcab0fdd0cfc3430660b4cb967" kind="dir">
+    <compoundname>JMovies.IMDb/Helpers</compoundname>
+    <innerdir refid="dir_0aabda6c481e63b04d4a96874fac18b8">JMovies.IMDb/Helpers/Movies</innerdir>
+    <innerdir refid="dir_d230fc66120e842b75ee9069459fcb33">JMovies.IMDb/Helpers/People</innerdir>
+    <innerfile refid="d5/db2/_html_helper_8cs">HtmlHelper.cs</innerfile>
+    <innerfile refid="d2/d1e/_http_helper_8cs">HttpHelper.cs</innerfile>
+    <innerfile refid="dc/dec/_i_m_db_i_d_helper_8cs">IMDbIDHelper.cs</innerfile>
+    <innerfile refid="d1/d3b/_i_m_d_b_image_helper_8cs">IMDBImageHelper.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/"/>
+  </compounddef>
+</doxygen>

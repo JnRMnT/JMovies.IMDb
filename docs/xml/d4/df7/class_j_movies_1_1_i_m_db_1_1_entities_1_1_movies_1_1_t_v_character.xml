@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::TVCharacter</compoundname>
+    <basecompoundref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Character</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character_1ac2d256cbe38340e539089cfb2fd81495" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int JMovies.IMDb.Entities.Movies.TVCharacter.EpisodeCount</definition>
+        <argsstring></argsstring>
+        <name>EpisodeCount</name>
+        <briefdescription>
+<para>Count of episodes the character was in </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/TVCharacter.cs" line="17" column="20" bodyfile="JMovies.IMDb.Entities/Movies/TVCharacter.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character_1a13924a13a67e7e99fae64362477e7f5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? JMovies.IMDb.Entities.Movies.TVCharacter.StartYear</definition>
+        <argsstring></argsstring>
+        <name>StartYear</name>
+        <briefdescription>
+<para><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> first appereance year </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/TVCharacter.cs" line="22" column="20" bodyfile="JMovies.IMDb.Entities/Movies/TVCharacter.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character_1adc19ed125ebd63414935d36a742832e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? JMovies.IMDb.Entities.Movies.TVCharacter.EndYear</definition>
+        <argsstring></argsstring>
+        <name>EndYear</name>
+        <briefdescription>
+<para><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> last appereance year </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/TVCharacter.cs" line="27" column="20" bodyfile="JMovies.IMDb.Entities/Movies/TVCharacter.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of a TV <ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.TVCharacter</label>
+        <link refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Character</label>
+        <link refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.TVCharacter</label>
+        <link refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Character</label>
+        <link refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character"/>
+      </node>
+    </collaborationgraph>
+    <location file="JMovies.IMDb.Entities/Movies/TVCharacter.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/TVCharacter.cs" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character_1adc19ed125ebd63414935d36a742832e2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVCharacter</scope><name>EndYear</name></member>
+      <member refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character_1ac2d256cbe38340e539089cfb2fd81495" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVCharacter</scope><name>EpisodeCount</name></member>
+      <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a12d30e39588d5b76fe12c91d5a78f09c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVCharacter</scope><name>IMDbID</name></member>
+      <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a8c63b7ea053d02a5ce9c356b6fb53208" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVCharacter</scope><name>Name</name></member>
+      <member refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character_1a13924a13a67e7e99fae64362477e7f5b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVCharacter</scope><name>StartYear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

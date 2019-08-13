@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::Keyword</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1accb94f2e0ec3e1f3256e0fc691d0f5a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Keyword.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para><ref refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kindref="compound">Keyword</ref> name </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Keyword.cs" line="17" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Keyword.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1afd95dad2dab9943f8dd10b90da0c18d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Keyword.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <briefdescription>
+<para>Unique Identifier of a keyword </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Keyword.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Keyword.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of a keyword related to a title </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/Keyword.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Keyword.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1afd95dad2dab9943f8dd10b90da0c18d3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Keyword</scope><name>Identifier</name></member>
+      <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1accb94f2e0ec3e1f3256e0fc691d0f5a7" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Keyword</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

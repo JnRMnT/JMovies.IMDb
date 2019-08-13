@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people" kind="namespace" language="C#">
+    <compoundname>JMovies::IMDb::Entities::People</compoundname>
+    <innerclass refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" prot="public">JMovies::IMDb::Entities::People::Actor</innerclass>
+    <innerclass refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" prot="public">JMovies::IMDb::Entities::People::Person</innerclass>
+    <innerclass refid="dc/d41/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_production_credit" prot="public">JMovies::IMDb::Entities::People::ProductionCredit</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1a7e23b2821f39ce7bc88694cdf96affb4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GenderEnum</name>
+        <enumvalue id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1a7e23b2821f39ce7bc88694cdf96affb4aec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
+          <name>Undefined</name>
+          <briefdescription>
+<para>Default Gender </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1a7e23b2821f39ce7bc88694cdf96affb4a63889cfb9d3cbe05d1bd2be5cc9953fd" prot="public">
+          <name>Male</name>
+          <briefdescription>
+<para>Male </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1a7e23b2821f39ce7bc88694cdf96affb4ab719ce180ec7bd9641fece2f920f4817" prot="public">
+          <name>Female</name>
+          <briefdescription>
+<para>Female </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration of genders </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/People/GenderEnum.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/People/GenderEnum.cs" bodystart="10" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/People/Actor.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="db/d62/class_time_span_extensions" kind="class" language="C#" prot="public">
+    <compoundname>TimeSpanExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d62/class_time_span_extensions_1a36600123636a2d9bd2e46a346129b2ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TimeSpan</type>
+        <definition>static TimeSpan TimeSpanExtensions.ToHtmlTimeSpan</definition>
+        <argsstring>(this string dateTimeString)</argsstring>
+        <name>ToHtmlTimeSpan</name>
+        <param>
+          <type>this string</type>
+          <declname>dateTimeString</declname>
+        </param>
+        <briefdescription>
+<para>Extension that converts HTML DateTime string into C# TimeSpan </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateTimeString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTML DateTime String</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>C# TimeSpan equivalent</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" line="19" column="28" bodyfile="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" bodystart="19" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for providing Extenions for TimeSpans </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" line="13" column="1" bodyfile="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" bodystart="12" bodyend="62"/>
+    <listofallmembers>
+      <member refid="db/d62/class_time_span_extensions_1a36600123636a2d9bd2e46a346129b2ce" prot="public" virt="non-virtual"><scope>TimeSpanExtensions</scope><name>ToHtmlTimeSpan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

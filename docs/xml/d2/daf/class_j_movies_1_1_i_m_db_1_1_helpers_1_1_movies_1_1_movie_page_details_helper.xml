@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a753aed390694ef2b72d809e6fc7981cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.Parse</definition>
+        <argsstring>(IMDbScraperDataProvider providerInstance, Movie movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type><ref refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider" kindref="compound">IMDbScraperDataProvider</ref></type>
+          <declname>providerInstance</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+          <declname>movie</declname>
+        </param>
+        <param>
+          <type>HtmlNode</type>
+          <declname>documentNode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>moviePageUrl</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fetchDetailedCast</declname>
+        </param>
+        <briefdescription>
+<para>Main Parse method of the Movie Page </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerInstance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Instance reference of the IMDbScraperDataProvider</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>movie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Movie instance that is populated</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>documentNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Document Node of the movie page</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>moviePageUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL of the movie page</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fetchDetailedCast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag that indicates if the detailed cast should be fetched or not</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>If scraping was successful or not</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="32" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="32" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1aed72d778ca23380466662eb44b979d1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseDetailsSection</definition>
+        <argsstring>(Movie movie, HtmlNode detailsSection)</argsstring>
+        <name>ParseDetailsSection</name>
+        <param>
+          <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+          <declname>movie</declname>
+        </param>
+        <param>
+          <type>HtmlNode</type>
+          <declname>detailsSection</declname>
+        </param>
+        <briefdescription>
+<para>Method responsible for parsing the details section of the movie page </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Movie instance to be populated</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>detailsSection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTML Node containing the Details section</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="263" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="263" bodyend="407"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a0bec389341c30854187f746885d5a612" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseCastList</definition>
+        <argsstring>(Movie movie, List&lt; Credit &gt; credits, HtmlNode castListNode)</argsstring>
+        <name>ParseCastList</name>
+        <param>
+          <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+          <declname>movie</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref> &gt;</type>
+          <declname>credits</declname>
+        </param>
+        <param>
+          <type>HtmlNode</type>
+          <declname>castListNode</declname>
+        </param>
+        <briefdescription>
+<para>Method responsible for parsing the cast list of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Movie instance to be populated</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>credits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Credits list to be filled</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>castListNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Html node that holds the cast list</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="160" column="29" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="160" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1affbb0caba7efbfcc2d47cd4eca7fa943" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref></type>
+        <definition>static Character JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.GetCharacter</definition>
+        <argsstring>(HtmlNode characterNode, Movie movie)</argsstring>
+        <name>GetCharacter</name>
+        <param>
+          <type>HtmlNode</type>
+          <declname>characterNode</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+          <declname>movie</declname>
+        </param>
+        <briefdescription>
+<para>Method responsible for parsing a single character information </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>characterNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTML Node that holds the character information</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>movie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Movie instance that is populated</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Parsed character instance</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="212" column="34" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="212" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for parsing the Movie Page Details </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="22" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="21" bodyend="409"/>
+    <listofallmembers>
+      <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1affbb0caba7efbfcc2d47cd4eca7fa943" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>GetCharacter</name></member>
+      <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a753aed390694ef2b72d809e6fc7981cd" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>Parse</name></member>
+      <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a0bec389341c30854187f746885d5a612" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>ParseCastList</name></member>
+      <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1aed72d778ca23380466662eb44b979d1b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>ParseDetailsSection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

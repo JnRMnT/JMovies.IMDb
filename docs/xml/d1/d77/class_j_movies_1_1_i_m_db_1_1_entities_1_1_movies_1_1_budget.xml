@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::Budget</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget_1aef390608d1ea78789da9bfc2b00ced24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Budget.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>Description related to the budget information </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Budget.cs" line="18" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Budget.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget_1af16503be577fce69616f94353913c97c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/d0f/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_amount" kindref="compound">Amount</ref></type>
+        <definition>Amount JMovies.IMDb.Entities.Movies.Budget.Amount</definition>
+        <argsstring></argsstring>
+        <name>Amount</name>
+        <briefdescription>
+<para>Amount of the budget of the title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Budget.cs" line="23" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Budget.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of <ref refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" kindref="compound">Budget</ref> of a Title </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/Budget.cs" line="14" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Budget.cs" bodystart="13" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget_1af16503be577fce69616f94353913c97c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Budget</scope><name>Amount</name></member>
+      <member refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget_1aef390608d1ea78789da9bfc2b00ced24" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Budget</scope><name>Description</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

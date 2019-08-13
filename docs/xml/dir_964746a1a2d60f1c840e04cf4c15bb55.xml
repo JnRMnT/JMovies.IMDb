@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_964746a1a2d60f1c840e04cf4c15bb55" kind="dir">
+    <compoundname>JMovies.IMDb.Entities/People</compoundname>
+    <innerfile refid="d7/d68/_actor_8cs">Actor.cs</innerfile>
+    <innerfile refid="de/dbc/_gender_enum_8cs">GenderEnum.cs</innerfile>
+    <innerfile refid="d9/d2d/_person_8cs">Person.cs</innerfile>
+    <innerfile refid="d1/db7/_production_credit_8cs">ProductionCredit.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/People/"/>
+  </compounddef>
+</doxygen>

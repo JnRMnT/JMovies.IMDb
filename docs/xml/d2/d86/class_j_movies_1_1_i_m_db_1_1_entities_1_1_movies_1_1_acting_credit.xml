@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::ActingCredit</compoundname>
+    <basecompoundref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Credit</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a289691f53e77f6daa1532a730e09ef6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref>[]</type>
+        <definition>Character [] JMovies.IMDb.Entities.Movies.ActingCredit.Characters</definition>
+        <argsstring></argsstring>
+        <name>Characters</name>
+        <briefdescription>
+<para>Characters played by the actor/actress </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="17" column="26" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a9f883450f802f80e26273e2dfa4a9c31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JMovies.IMDb.Entities.Movies.ActingCredit.ActingCredit</definition>
+        <argsstring>()</argsstring>
+        <name>ActingCredit</name>
+        <briefdescription>
+<para>Default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="22" column="16" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of an Acting <ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Credit</label>
+        <link refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit"/>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.ActingCredit</label>
+        <link refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Credit</label>
+        <link refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit"/>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.ActingCredit</label>
+        <link refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="12" bodyend="26"/>
+    <listofallmembers>
+      <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a9f883450f802f80e26273e2dfa4a9c31" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>ActingCredit</name></member>
+      <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a289691f53e77f6daa1532a730e09ef6e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>Characters</name></member>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a9ad00989c14ce94c21d0e4ccbff1d8d9" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>Person</name></member>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a42c787bc714850fe3f8fa84d0f74c5d7" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>RoleType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

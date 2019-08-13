@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_174e4599bf237e9456eaff49dd922478" kind="dir">
+    <compoundname>JMovies.IMDb</compoundname>
+    <innerdir refid="dir_cb7e08139b9e367945a2893258fe6ec9">JMovies.IMDb/Extensions</innerdir>
+    <innerdir refid="dir_def71d5e474a731af83de87dcf56c3c6">JMovies.IMDb/Factories</innerdir>
+    <innerdir refid="dir_10a45dbcab0fdd0cfc3430660b4cb967">JMovies.IMDb/Helpers</innerdir>
+    <innerdir refid="dir_5541365f15bb774709235e562f5fa300">JMovies.IMDb/obj</innerdir>
+    <innerdir refid="dir_6d114fc9d918c13ee802027270c3f406">JMovies.IMDb/Providers</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_def71d5e474a731af83de87dcf56c3c6" kind="dir">
+    <compoundname>JMovies.IMDb/Factories</compoundname>
+    <innerfile refid="d8/de6/_credit_factory_8cs">CreditFactory.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Factories/"/>
+  </compounddef>
+</doxygen>

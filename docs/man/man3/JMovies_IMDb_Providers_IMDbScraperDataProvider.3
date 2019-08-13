@@ -1,0 +1,146 @@
+.TH "JMovies.IMDb.Providers.IMDbScraperDataProvider" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+JMovies.IMDb.Providers.IMDbScraperDataProvider \- Data provider that fetches the data real-time on \fBIMDb\fP website using Screen Scraping and returns it as per defined in IIMDbDataProvider\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBProduction\fP \fBGetProduction\fP (long id, bool fetchDetailedCast)"
+.br
+.RI "Gets Production Information iresspective of type "
+.ti -1c
+.RI "\fBPerson\fP \fBGetPerson\fP (long id, bool fetchAdditionalDetails)"
+.br
+.RI "Gets Person information "
+.ti -1c
+.RI "\fBPerson\fP \fBGetPerson\fP (long id, \fBPerson\fP person, bool fetchAdditionalDetails)"
+.br
+.RI "Gets Person information "
+.ti -1c
+.RI "\fBMovie\fP \fBGetMovie\fP (long id, bool fetchDetailedCast)"
+.br
+.RI "Gets Movie information "
+.ti -1c
+.RI "\fBTVSeries\fP \fBGetTvSeries\fP (long id, bool fetchDetailedCast)"
+.br
+.RI "Gets TV Series information "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Data provider that fetches the data real-time on \fBIMDb\fP website using Screen Scraping and returns it as per defined in IIMDbDataProvider\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBMovie\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetMovie (long id, bool fetchDetailedCast)"
+
+.PP
+Gets Movie information 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the movie
+.br
+\fIfetchDetailedCast\fP Should the detailed cast info be fetched? This effects the response time\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Movie instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "\fBPerson\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetPerson (long id, bool fetchAdditionalDetails)"
+
+.PP
+Gets Person information 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the Person
+.br
+\fIfetchAdditionalDetails\fP Should the additional details be also fetched? This effects the response time\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Person instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "\fBPerson\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetPerson (long id, \fBPerson\fP person, bool fetchAdditionalDetails)"
+
+.PP
+Gets Person information 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the Person
+.br
+\fIperson\fP Person instance to be populated
+.br
+\fIfetchAdditionalDetails\fP Should the additional details be also fetched? This effects the response time\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Person instance containing retreived information
+.RE
+.PP
+
+.SS "\fBProduction\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetProduction (long id, bool fetchDetailedCast)"
+
+.PP
+Gets Production Information iresspective of type 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the production
+.br
+\fIfetchDetailedCast\fP Should the detailed cast info be fetched? This effects the response time\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Production instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "\fBTVSeries\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetTvSeries (long id, bool fetchDetailedCast)"
+
+.PP
+Gets TV Series information 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the TV Series
+.br
+\fIfetchDetailedCast\fP Should the detailed cast info be fetched? This effects the response time\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+TV Series instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for JMovies\&.IMDb from the source code\&.

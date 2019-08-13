@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Factories::CreditFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IFactory&lt; Credit, CreditRoleType &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory_1a6e561017cd0ca523c39e080211900f07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref></type>
+        <definition>Credit JMovies.IMDb.Factories.CreditFactory.Build</definition>
+        <argsstring>(CreditRoleType type)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" kindref="member">CreditRoleType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Build method of Credit Factory that produces the given type of credits </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of credits to be produced</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>New credit instance</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Factories/CreditFactory.cs" line="17" column="23" bodyfile="JMovies.IMDb/Factories/CreditFactory.cs" bodystart="17" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Factory class that is responsible for building credits based on the role type </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IFactory&lt; Credit, CreditRoleType &gt;</label>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Factories.CreditFactory</label>
+        <link refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IFactory&lt; Credit, CreditRoleType &gt;</label>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Factories.CreditFactory</label>
+        <link refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="JMovies.IMDb/Factories/CreditFactory.cs" line="11" column="1" bodyfile="JMovies.IMDb/Factories/CreditFactory.cs" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory_1a6e561017cd0ca523c39e080211900f07" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Factories::CreditFactory</scope><name>Build</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

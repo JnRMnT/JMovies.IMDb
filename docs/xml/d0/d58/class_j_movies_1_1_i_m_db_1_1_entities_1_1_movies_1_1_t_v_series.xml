@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::TVSeries</compoundname>
+    <basecompoundref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Movie</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1ac6694636b8724c578ab3b27e5d6147df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int JMovies.IMDb.Entities.Movies.TVSeries.EndYear</definition>
+        <argsstring></argsstring>
+        <name>EndYear</name>
+        <briefdescription>
+<para>End Year of the series </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="17" column="20" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1a5226aa8762520e1241a1c33490bd5e8d" prot="public" static="no" mutable="no">
+        <type>override <ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" kindref="member">ProductionTypeEnum</ref></type>
+        <definition>override ProductionTypeEnum JMovies.IMDb.Entities.Movies.TVSeries.ProductionType</definition>
+        <argsstring></argsstring>
+        <name>ProductionType</name>
+        <initializer>=&gt; <ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286a1e7eff20317ac0bfef8d4284e72a4052" kindref="member">ProductionTypeEnum.TVSeries</ref></initializer>
+        <briefdescription>
+<para>Type of the production </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="22" column="44" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of TV Series </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.TVSeries</label>
+        <link refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Production</label>
+        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
+      </node>
+      <node id="2">
+        <label>Movie</label>
+        <link refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.TVSeries</label>
+        <link refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Production</label>
+        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
+      </node>
+      <node id="2">
+        <label>Movie</label>
+        <link refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a02d036535ff292672e9ef71f7e689eac" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>AKAs</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0b87740ba35603e24813b4c80e393e8" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Budget</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a35846cbbb7f893fbc75b042e9be9210c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Countries</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a78ad182e341125dd784649a1e72367c4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Credits</name></member>
+      <member refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1ac6694636b8724c578ab3b27e5d6147df" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>EndYear</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1abe329ff62f44c96725cd1b504b44e0fe" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>FilmingLocations</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a44ad3956022f5494d97b31b6c7adcb32" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Genres</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1aa04f94022c7e169342ea787f84272e34" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>IMDbID</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1af10d29757cfa3abe6a8974874e7aecba" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Keywords</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ab2de4bbf1a459261936ca614aa4d6811" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Languages</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a026110a3d4b44812866fcc29817326e3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>OfficialSites</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ad4d1831e8ecf0925cf4733b159f34c22" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>OriginalTitle</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0d06f351189eaafea36c22693d56567" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>PlotSummary</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ae901e5f256782afe81522752887a1e22" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>ProductionCompanies</name></member>
+      <member refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1a5226aa8762520e1241a1c33490bd5e8d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>ProductionType</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a57a25320d774f89f642e0c50b42c1bb4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Rating</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a8ac0465e6975ffe189edd693ab8ac026" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>ReleaseDates</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aefb6d14a0e3782aa0be0fd83028dedb5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Runtime</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a167e02c30a3ade86f943f102b9dcefee" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>StoryLine</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a6a6e7a32fe4cb3265d26f1833c5dad6b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>TagLines</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1afa3af33baf66d1c1a09d728e51ac4d0a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Title</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a377805e78db8065c6717a80e1d1170bc" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

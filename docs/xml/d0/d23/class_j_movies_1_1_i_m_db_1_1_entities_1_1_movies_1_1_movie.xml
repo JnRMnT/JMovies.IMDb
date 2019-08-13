@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::Movie</compoundname>
+    <basecompoundref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Production</basecompoundref>
+    <derivedcompoundref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.TVSeries</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ad4d1831e8ecf0925cf4733b159f34c22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Movie.OriginalTitle</definition>
+        <argsstring></argsstring>
+        <name>OriginalTitle</name>
+        <briefdescription>
+<para>Original Title of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="13" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0d06f351189eaafea36c22693d56567" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Movie.PlotSummary</definition>
+        <argsstring></argsstring>
+        <name>PlotSummary</name>
+        <briefdescription>
+<para>Plot Summary of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="18" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a167e02c30a3ade86f943f102b9dcefee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Movie.StoryLine</definition>
+        <argsstring></argsstring>
+        <name>StoryLine</name>
+        <briefdescription>
+<para>Story Line of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="23" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a78ad182e341125dd784649a1e72367c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref>[]</type>
+        <definition>Credit [] JMovies.IMDb.Entities.Movies.Movie.Credits</definition>
+        <argsstring></argsstring>
+        <name>Credits</name>
+        <briefdescription>
+<para>Credits of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="28" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a6a6e7a32fe4cb3265d26f1833c5dad6b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] JMovies.IMDb.Entities.Movies.Movie.TagLines</definition>
+        <argsstring></argsstring>
+        <name>TagLines</name>
+        <briefdescription>
+<para>Tag Lines of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="33" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1af10d29757cfa3abe6a8974874e7aecba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kindref="compound">Keyword</ref>[]</type>
+        <definition>Keyword [] JMovies.IMDb.Entities.Movies.Movie.Keywords</definition>
+        <argsstring></argsstring>
+        <name>Keywords</name>
+        <briefdescription>
+<para>Keywords of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="38" column="24" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a44ad3956022f5494d97b31b6c7adcb32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/d98/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_genre" kindref="compound">Genre</ref>[]</type>
+        <definition>Genre [] JMovies.IMDb.Entities.Movies.Movie.Genres</definition>
+        <argsstring></argsstring>
+        <name>Genres</name>
+        <briefdescription>
+<para>Genres of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="43" column="22" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a026110a3d4b44812866fcc29817326e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site" kindref="compound">OfficialSite</ref>[]</type>
+        <definition>OfficialSite [] JMovies.IMDb.Entities.Movies.Movie.OfficialSites</definition>
+        <argsstring></argsstring>
+        <name>OfficialSites</name>
+        <briefdescription>
+<para>Official Sites of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="48" column="29" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a35846cbbb7f893fbc75b042e9be9210c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kindref="compound">Country</ref>[]</type>
+        <definition>Country [] JMovies.IMDb.Entities.Movies.Movie.Countries</definition>
+        <argsstring></argsstring>
+        <name>Countries</name>
+        <briefdescription>
+<para>Countries of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="53" column="24" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ab2de4bbf1a459261936ca614aa4d6811" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language" kindref="compound">Language</ref>[]</type>
+        <definition>Language [] JMovies.IMDb.Entities.Movies.Movie.Languages</definition>
+        <argsstring></argsstring>
+        <name>Languages</name>
+        <briefdescription>
+<para>Languages of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="58" column="25" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a8ac0465e6975ffe189edd693ab8ac026" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date" kindref="compound">ReleaseDate</ref>[]</type>
+        <definition>ReleaseDate [] JMovies.IMDb.Entities.Movies.Movie.ReleaseDates</definition>
+        <argsstring></argsstring>
+        <name>ReleaseDates</name>
+        <briefdescription>
+<para>Release dates of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="63" column="28" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a02d036535ff292672e9ef71f7e689eac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a" kindref="compound">AKA</ref>[]</type>
+        <definition>AKA [] JMovies.IMDb.Entities.Movies.Movie.AKAs</definition>
+        <argsstring></argsstring>
+        <name>AKAs</name>
+        <briefdescription>
+<para>Alternative names of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="68" column="20" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1abe329ff62f44c96725cd1b504b44e0fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] JMovies.IMDb.Entities.Movies.Movie.FilmingLocations</definition>
+        <argsstring></argsstring>
+        <name>FilmingLocations</name>
+        <briefdescription>
+<para>Filming Locations of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="73" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0b87740ba35603e24813b4c80e393e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" kindref="compound">Budget</ref></type>
+        <definition>Budget JMovies.IMDb.Entities.Movies.Movie.Budget</definition>
+        <argsstring></argsstring>
+        <name>Budget</name>
+        <briefdescription>
+<para><ref refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" kindref="compound">Budget</ref> of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="78" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ae901e5f256782afe81522752887a1e22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company" kindref="compound">Company</ref>[]</type>
+        <definition>Company [] JMovies.IMDb.Entities.Movies.Movie.ProductionCompanies</definition>
+        <argsstring></argsstring>
+        <name>ProductionCompanies</name>
+        <briefdescription>
+<para><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> Companies of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="83" column="24" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aefb6d14a0e3782aa0be0fd83028dedb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan JMovies.IMDb.Entities.Movies.Movie.Runtime</definition>
+        <argsstring></argsstring>
+        <name>Runtime</name>
+        <briefdescription>
+<para>Length of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="88" column="25" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ab7c01e98b49eb393adb7893d38864f50" prot="public" static="no" mutable="no">
+        <type>override <ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" kindref="member">ProductionTypeEnum</ref></type>
+        <definition>override ProductionTypeEnum JMovies.IMDb.Entities.Movies.Movie.ProductionType</definition>
+        <argsstring></argsstring>
+        <name>ProductionType</name>
+        <initializer>=&gt; <ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286a1526e0ac850c241ee1631d9ad5664475" kindref="member">ProductionTypeEnum.Movie</ref></initializer>
+        <briefdescription>
+<para>Type of the production </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="93" column="44" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of a movie </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>JMovies.IMDb.Entities.Movies.TVSeries</label>
+        <link refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Production</label>
+        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.Movie</label>
+        <link refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Production</label>
+        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.Movie</label>
+        <link refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="JMovies.IMDb.Entities/Movies/Movie.cs" line="9" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Movie.cs" bodystart="8" bodyend="94"/>
+    <listofallmembers>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a02d036535ff292672e9ef71f7e689eac" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>AKAs</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0b87740ba35603e24813b4c80e393e8" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Budget</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a35846cbbb7f893fbc75b042e9be9210c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Countries</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a78ad182e341125dd784649a1e72367c4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Credits</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1abe329ff62f44c96725cd1b504b44e0fe" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>FilmingLocations</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a44ad3956022f5494d97b31b6c7adcb32" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Genres</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1aa04f94022c7e169342ea787f84272e34" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>IMDbID</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1af10d29757cfa3abe6a8974874e7aecba" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Keywords</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ab2de4bbf1a459261936ca614aa4d6811" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Languages</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a026110a3d4b44812866fcc29817326e3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>OfficialSites</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ad4d1831e8ecf0925cf4733b159f34c22" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>OriginalTitle</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0d06f351189eaafea36c22693d56567" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>PlotSummary</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ae901e5f256782afe81522752887a1e22" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>ProductionCompanies</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ab7c01e98b49eb393adb7893d38864f50" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>ProductionType</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a57a25320d774f89f642e0c50b42c1bb4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Rating</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a8ac0465e6975ffe189edd693ab8ac026" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>ReleaseDates</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aefb6d14a0e3782aa0be0fd83028dedb5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Runtime</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a167e02c30a3ade86f943f102b9dcefee" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>StoryLine</name></member>
+      <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a6a6e7a32fe4cb3265d26f1833c5dad6b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>TagLines</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1afa3af33baf66d1c1a09d728e51ac4d0a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Title</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a377805e78db8065c6717a80e1d1170bc" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Movie</scope><name>Year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

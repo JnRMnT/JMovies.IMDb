@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_115683dd4a36cd7bcb8da0289f36c1fb" kind="dir">
+    <compoundname>JMovies.IMDb.Tests/obj/Release</compoundname>
+    <innerdir refid="dir_6ed5c7c5c6370c8b74ea2d5666c38cf1">JMovies.IMDb.Tests/obj/Release/netcoreapp2.0</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Tests/obj/Release/"/>
+  </compounddef>
+</doxygen>

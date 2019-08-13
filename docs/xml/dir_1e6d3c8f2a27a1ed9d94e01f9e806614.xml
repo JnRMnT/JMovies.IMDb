@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_1e6d3c8f2a27a1ed9d94e01f9e806614" kind="dir">
+    <compoundname>JMovies.IMDb.Common/obj/Debug/netstandard1.4</compoundname>
+    <innerfile refid="d7/d9b/netstandard1_84_2_j_movies_8_common_8_assembly_info_8cs">JMovies.Common.AssemblyInfo.cs</innerfile>
+    <innerfile refid="d3/d52/_debug_2netstandard1_84_2_j_movies_8_i_m_db_8_common_8_assembly_info_8cs">JMovies.IMDb.Common.AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Common/obj/Debug/netstandard1.4/"/>
+  </compounddef>
+</doxygen>

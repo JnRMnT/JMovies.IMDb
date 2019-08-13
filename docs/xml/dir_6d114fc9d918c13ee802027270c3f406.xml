@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_6d114fc9d918c13ee802027270c3f406" kind="dir">
+    <compoundname>JMovies.IMDb/Providers</compoundname>
+    <innerfile refid="db/daf/_i_m_db_scraper_data_provider_8cs">IMDbScraperDataProvider.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Providers/"/>
+  </compounddef>
+</doxygen>

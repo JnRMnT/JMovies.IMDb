@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::AKA</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1aa67af45fc9bd047d796d31c221c3d125" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.AKA.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>Description of the alternative name </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="17" column="23" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1ad397b70e8ed7f390e68d8d4e8dfe52cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.AKA.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Alternative name of the Title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition for other names of the title </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1aa67af45fc9bd047d796d31c221c3d125" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::AKA</scope><name>Description</name></member>
+      <member refid="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1ad397b70e8ed7f390e68d8d4e8dfe52cd" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::AKA</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

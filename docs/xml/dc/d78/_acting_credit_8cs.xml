@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dc/d78/_acting_credit_8cs" kind="file" language="C#">
+    <compoundname>ActingCredit.cs</compoundname>
+    <innerclass refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" prot="public">JMovies::IMDb::Entities::Movies::ActingCredit</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
+    <innernamespace refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies">JMovies::IMDb::Entities::Movies</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kindref="compound">JMovies.IMDb.Entities.Movies</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" kindref="compound">ActingCredit</ref>:<sp/><ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref>[]<sp/><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a289691f53e77f6daa1532a730e09ef6e" kindref="member">Characters</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a9f883450f802f80e26273e2dfa4a9c31" kindref="member">ActingCredit</ref>()<sp/>:<sp/>base()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.<ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a42c787bc714850fe3f8fa84d0f74c5d7" kindref="member">RoleType</ref><sp/>=<sp/><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" kindref="member">CreditRoleType</ref>.Acting;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs"/>
+  </compounddef>
+</doxygen>

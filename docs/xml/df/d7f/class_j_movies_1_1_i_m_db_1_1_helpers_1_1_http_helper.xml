@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="df/d7f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_http_helper" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Helpers::HttpHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/d7f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_http_helper_1ac2e573532333ebc7c8881cbe7dff21ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WebRequest</type>
+        <definition>static WebRequest JMovies.IMDb.Helpers.HttpHelper.InitializeWebRequest</definition>
+        <argsstring>(string url)</argsstring>
+        <name>InitializeWebRequest</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL of the Request</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Configured Web Request</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/HttpHelper.cs" line="23" column="34" bodyfile="JMovies.IMDb/Helpers/HttpHelper.cs" bodystart="23" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d7f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_http_helper_1a5ca0449c637028f3bcbdba32af851e6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Stream</type>
+        <definition>static Stream JMovies.IMDb.Helpers.HttpHelper.GetResponseStream</definition>
+        <argsstring>(WebRequest webRequest, int retryCount=0)</argsstring>
+        <name>GetResponseStream</name>
+        <param>
+          <type>WebRequest</type>
+          <declname>webRequest</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>retryCount</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Retry mechanism for sending Web Request that is required to avoid Connectivity issues </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>webRequest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Request to be sent</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>retryCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current Retry Count</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Successful Response Stream</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/HttpHelper.cs" line="42" column="30" bodyfile="JMovies.IMDb/Helpers/HttpHelper.cs" bodystart="42" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for providing utility methods for HTTP Operations </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/HttpHelper.cs" line="17" column="1" bodyfile="JMovies.IMDb/Helpers/HttpHelper.cs" bodystart="16" bodyend="68"/>
+    <listofallmembers>
+      <member refid="df/d7f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_http_helper_1a5ca0449c637028f3bcbdba32af851e6b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::HttpHelper</scope><name>GetResponseStream</name></member>
+      <member refid="df/d7f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_http_helper_1ac2e573532333ebc7c8881cbe7dff21ba" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::HttpHelper</scope><name>InitializeWebRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

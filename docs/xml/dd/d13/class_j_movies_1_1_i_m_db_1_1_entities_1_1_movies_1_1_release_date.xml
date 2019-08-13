@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::ReleaseDate</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1aa4e93f65f0f8e718017510be4f25576e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime JMovies.IMDb.Entities.Movies.ReleaseDate.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+<para>Date of the release </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="17" column="25" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a6e8fe353e4c2ca3df21168390ec203c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kindref="compound">Country</ref></type>
+        <definition>Country JMovies.IMDb.Entities.Movies.ReleaseDate.Country</definition>
+        <argsstring></argsstring>
+        <name>Country</name>
+        <briefdescription>
+<para><ref refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kindref="compound">Country</ref> of release date </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="22" column="24" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of release dates </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a6e8fe353e4c2ca3df21168390ec203c5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>Country</name></member>
+      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1aa4e93f65f0f8e718017510be4f25576e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>Date</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

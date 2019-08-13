@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d4/d22/_rating_8cs" kind="file" language="C#">
+    <compoundname>Rating.cs</compoundname>
+    <innerclass refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating" prot="public">JMovies::IMDb::Entities::Movies::Rating</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
+    <innernamespace refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies">JMovies::IMDb::Entities::Movies</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kindref="compound">JMovies.IMDb.Entities.Movies</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating" kindref="compound">Rating</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a1d48c89ac98ae5f8dfe62f48d8c53720" kindref="member">Value</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a34e2ef0cd128ad99f8bde9144de3b55d" kindref="member">RateCount</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Entities/Movies/Rating.cs"/>
+  </compounddef>
+</doxygen>

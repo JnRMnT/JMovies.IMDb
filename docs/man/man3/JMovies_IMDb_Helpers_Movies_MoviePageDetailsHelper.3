@@ -1,0 +1,69 @@
+.TH "JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper \- Class responsible for parsing the Movie Page Details  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBParse\fP (\fBIMDbScraperDataProvider\fP providerInstance, \fBMovie\fP movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)"
+.br
+.RI "Main Parse method of the Movie Page "
+.ti -1c
+.RI "static void \fBParseDetailsSection\fP (\fBMovie\fP movie, HtmlNode detailsSection)"
+.br
+.RI "Method responsible for parsing the details section of the movie page "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class responsible for parsing the Movie Page Details 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool JMovies\&.IMDb\&.Helpers\&.Movies\&.MoviePageDetailsHelper\&.Parse (\fBIMDbScraperDataProvider\fP providerInstance, \fBMovie\fP movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)\fC [static]\fP"
+
+.PP
+Main Parse method of the Movie Page 
+.PP
+\fBParameters\fP
+.RS 4
+\fIproviderInstance\fP Instance reference of the IMDbScraperDataProvider
+.br
+\fImovie\fP Movie instance that is populated
+.br
+\fIdocumentNode\fP Document Node of the movie page
+.br
+\fImoviePageUrl\fP URL of the movie page
+.br
+\fIfetchDetailedCast\fP Flag that indicates if the detailed cast should be fetched or not
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+If scraping was successful or not
+.RE
+.PP
+
+.SS "static void JMovies\&.IMDb\&.Helpers\&.Movies\&.MoviePageDetailsHelper\&.ParseDetailsSection (\fBMovie\fP movie, HtmlNode detailsSection)\fC [static]\fP"
+
+.PP
+Method responsible for parsing the details section of the movie page 
+.PP
+\fBParameters\fP
+.RS 4
+\fImovie\fP Movie instance to be populated
+.br
+\fIdetailsSection\fP HTML Node containing the Details section
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for JMovies\&.IMDb from the source code\&.

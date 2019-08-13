@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d8/d37/namespace_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies" kind="namespace" language="C#">
+    <compoundname>JMovies::IMDb::Helpers::Movies</compoundname>
+    <innerclass refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper" prot="public">JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</innerclass>
+    <innerclass refid="d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper" prot="public">JMovies::IMDb::Helpers::Movies::SummaryCastHelper</innerclass>
+    <innerclass refid="d0/df5/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_storyline_helper" prot="public">JMovies::IMDb::Helpers::Movies::SummaryStorylineHelper</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="17" column="1"/>
+  </compounddef>
+</doxygen>

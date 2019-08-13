@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces" kind="namespace" language="C#">
+    <compoundname>JMovies::IMDb::Entities::Interfaces</compoundname>
+    <innerclass refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" prot="public">JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

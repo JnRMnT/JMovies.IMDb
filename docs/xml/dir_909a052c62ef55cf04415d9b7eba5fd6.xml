@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_909a052c62ef55cf04415d9b7eba5fd6" kind="dir">
+    <compoundname>JMovies.IMDb.Tests/obj</compoundname>
+    <innerdir refid="dir_d0eeca1ac6c2f7639a332465ae50c376">JMovies.IMDb.Tests/obj/Debug</innerdir>
+    <innerdir refid="dir_115683dd4a36cd7bcb8da0289f36c1fb">JMovies.IMDb.Tests/obj/Release</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Tests/obj/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::Language</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1a5617f89b7e0a575e26e7771c8d2755bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Language.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Name of the language </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="17" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1acc3c7dac8f2e0f6db484cc656f29b165" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.Language.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <briefdescription>
+<para>Unique Identifier of the language </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of a language </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1acc3c7dac8f2e0f6db484cc656f29b165" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Language</scope><name>Identifier</name></member>
+      <member refid="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1a5617f89b7e0a575e26e7771c8d2755bb" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Language</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d9/d9b/class_amount_extensions" kind="class" language="C#" prot="public">
+    <compoundname>AmountExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d9b/class_amount_extensions_1a86395978d93d57855b408d0520d89efc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/d0f/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_amount" kindref="compound">Amount</ref></type>
+        <definition>static Amount AmountExtensions.ToAmount</definition>
+        <argsstring>(this string amountString)</argsstring>
+        <name>ToAmount</name>
+        <param>
+          <type>this string</type>
+          <declname>amountString</declname>
+        </param>
+        <briefdescription>
+<para>Parses a string into Amount object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>amountString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String representation of the amount</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Parsed Amount object instance</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" line="19" column="26" bodyfile="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" bodystart="19" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for providing Extensions related to Amounts </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" line="13" column="1" bodyfile="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" bodystart="12" bodyend="34"/>
+    <listofallmembers>
+      <member refid="d9/d9b/class_amount_extensions_1a86395978d93d57855b408d0520d89efc" prot="public" virt="non-virtual"><scope>AmountExtensions</scope><name>ToAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

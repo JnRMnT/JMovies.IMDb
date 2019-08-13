@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d3/dcc/md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>JMovies.IMDb</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect3 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md1">
+<title>JMovies IMDb Data Provider Library</title>
+<para><ulink url="https://dev.azure.com/jnrmnt/JMovies.IMDb/_build/latest?definitionId=9&amp;branchName=master"><image type="html" name="JnRMnT.JMovies.IMDb?branchName=master" inline="yes"></image>
+</ulink> <image type="html" name="JMovies.IMDb" inline="yes"></image>
+ <image type="html" name="JMovies.IMDb" inline="yes"></image>
+</para>
+<para>A IMDb data provider library written for .NET Standart platform that uses screen scraping to gather the data from IMDb on demand.</para>
+</sect3>
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md2">
+<title>Under the hood</title>
+<para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">JMovies.IMDb</ref> uses .NET standart Http Web Requests to fetch the IMDB pages and parse them using HtmlAgilityPack+Fizzler.</para>
+</sect1>
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md3">
+<title>Maintenance</title>
+<para>I will personaly maintain the project as much as i can but as it uses Screen Scraping it is possible that it will require some changes along the way, so every issue report and pull request is welcome!</para>
+</sect1>
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md4">
+<title>Warning</title>
+<para>Please know that this library is not intended for bulk data scraping from IMDb and it is restricted by them. Also note that this library is not affliated with IMDB and you need to use it at your own risk/responsibility. </para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

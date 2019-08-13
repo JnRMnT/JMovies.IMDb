@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kind="namespace" language="C#">
+    <compoundname>JMovies::IMDb::Entities</compoundname>
+    <innernamespace refid="d0/d15/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_common">JMovies::IMDb::Entities::Common</innernamespace>
+    <innernamespace refid="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces">JMovies::IMDb::Entities::Interfaces</innernamespace>
+    <innernamespace refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies">JMovies::IMDb::Entities::Movies</innernamespace>
+    <innernamespace refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people">JMovies::IMDb::Entities::People</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Common/Amount.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

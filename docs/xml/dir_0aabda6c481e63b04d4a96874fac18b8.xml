@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_0aabda6c481e63b04d4a96874fac18b8" kind="dir">
+    <compoundname>JMovies.IMDb/Helpers/Movies</compoundname>
+    <innerfile refid="d8/d02/_movie_page_details_helper_8cs">MoviePageDetailsHelper.cs</innerfile>
+    <innerfile refid="dc/d3b/_summary_cast_helper_8cs">SummaryCastHelper.cs</innerfile>
+    <innerfile refid="df/d36/_summary_storyline_helper_8cs">SummaryStorylineHelper.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/Movies/"/>
+  </compounddef>
+</doxygen>

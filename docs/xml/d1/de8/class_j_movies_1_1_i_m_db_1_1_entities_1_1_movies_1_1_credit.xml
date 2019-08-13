@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::Credit</compoundname>
+    <derivedcompoundref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.ActingCredit</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a9ad00989c14ce94c21d0e4ccbff1d8d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
+        <definition>Person JMovies.IMDb.Entities.Movies.Credit.Person</definition>
+        <argsstring></argsstring>
+        <name>Person</name>
+        <briefdescription>
+<para>Person related to the credit </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Credit.cs" line="13" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Credit.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a42c787bc714850fe3f8fa84d0f74c5d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" kindref="member">CreditRoleType</ref></type>
+        <definition>CreditRoleType JMovies.IMDb.Entities.Movies.Credit.RoleType</definition>
+        <argsstring></argsstring>
+        <name>RoleType</name>
+        <briefdescription>
+<para>Role of the person in the title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Credit.cs" line="18" column="31" bodyfile="JMovies.IMDb.Entities/Movies/Credit.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition of a credit in a title </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JMovies.IMDb.Entities.Movies.ActingCredit</label>
+        <link refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.Credit</label>
+        <link refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit"/>
+      </node>
+    </inheritancegraph>
+    <location file="JMovies.IMDb.Entities/Movies/Credit.cs" line="9" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Credit.cs" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a9ad00989c14ce94c21d0e4ccbff1d8d9" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Credit</scope><name>Person</name></member>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a42c787bc714850fe3f8fa84d0f74c5d7" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Credit</scope><name>RoleType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

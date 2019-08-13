@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="db/da7/class_screen_scraping_extensions" kind="class" language="C#" prot="public">
+    <compoundname>ScreenScrapingExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/da7/class_screen_scraping_extensions_1a11f6bb1f44ab5fe8a63c48d0c6fc1d16" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ScreenScrapingExtensions.Prepare</definition>
+        <argsstring>(this string text)</argsstring>
+        <name>Prepare</name>
+        <param>
+          <type>this string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Prepares the screen text to be safely used by performing Html Decode and Trimming </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Text that was gathered using screen scraping</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Clean Text</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Extensions/ScreenScrapingExtensions.cs" line="18" column="26" bodyfile="JMovies.IMDb/Extensions/ScreenScrapingExtensions.cs" bodystart="18" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class providing the extensions that are used on screen scraping operations </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Extensions/ScreenScrapingExtensions.cs" line="12" column="1" bodyfile="JMovies.IMDb/Extensions/ScreenScrapingExtensions.cs" bodystart="11" bodyend="29"/>
+    <listofallmembers>
+      <member refid="db/da7/class_screen_scraping_extensions_1a11f6bb1f44ab5fe8a63c48d0c6fc1d16" prot="public" virt="non-virtual"><scope>ScreenScrapingExtensions</scope><name>Prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

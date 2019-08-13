@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d9/dd6/_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>JMovies.IMDb</highlight></codeline>
+<codeline><highlight class="normal">####<sp/>JMovies<sp/>IMDb<sp/>Data<sp/>Provider<sp/>Library</highlight></codeline>
+<codeline><highlight class="normal">[![Build<sp/>Status](https://dev.azure.com/jnrmnt/JMovies.IMDb/_apis/build/status/JnRMnT.JMovies.IMDb?branchName=master)](https://dev.azure.com/jnrmnt/JMovies.IMDb/_build/latest?definitionId=9&amp;branchName=master)<sp/>![NuGet<sp/>Downloads](https://img.shields.io/nuget/dt/JMovies.IMDb)<sp/>![NuGet<sp/>Version](https://img.shields.io/nuget/v/JMovies.IMDb)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>IMDb<sp/>data<sp/>provider<sp/>library<sp/>written<sp/>for<sp/>.NET<sp/>Standart<sp/>platform<sp/>that<sp/>uses<sp/>screen<sp/>scraping<sp/>to<sp/>gather<sp/>the<sp/>data<sp/>from<sp/>IMDb<sp/>on<sp/>demand.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Under<sp/>the<sp/>hood</highlight></codeline>
+<codeline><highlight class="normal">JMovies.IMDb<sp/>uses<sp/>.NET<sp/>standart<sp/>Http<sp/>Web<sp/>Requests<sp/>to<sp/>fetch<sp/>the<sp/>IMDB<sp/>pages<sp/>and<sp/>parse<sp/>them<sp/>using<sp/>HtmlAgilityPack+Fizzler.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Maintenance</highlight></codeline>
+<codeline><highlight class="normal">I<sp/>will<sp/>personaly<sp/>maintain<sp/>the<sp/>project<sp/>as<sp/>much<sp/>as<sp/>i<sp/>can<sp/>but<sp/>as<sp/>it<sp/>uses<sp/>Screen<sp/>Scraping<sp/>it<sp/>is<sp/>possible<sp/>that<sp/>it<sp/>will<sp/>require<sp/>some<sp/>changes<sp/>along<sp/>the<sp/>way,<sp/>so<sp/>every<sp/>issue<sp/>report<sp/>and<sp/>pull<sp/>request<sp/>is<sp/>welcome!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Warning</highlight></codeline>
+<codeline><highlight class="normal">Please<sp/>know<sp/>that<sp/>this<sp/>library<sp/>is<sp/>not<sp/>intended<sp/>for<sp/>bulk<sp/>data<sp/>scraping<sp/>from<sp/>IMDb<sp/>and<sp/>it<sp/>is<sp/>restricted<sp/>by<sp/>them.<sp/>Also<sp/>note<sp/>that<sp/>this<sp/>library<sp/>is<sp/>not<sp/>affliated<sp/>with<sp/>IMDB<sp/>and<sp/>you<sp/>need<sp/>to<sp/>use<sp/>it<sp/>at<sp/>your<sp/>own<sp/>risk/responsibility.</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

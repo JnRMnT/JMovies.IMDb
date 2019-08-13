@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Helpers::IMDBIDHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a21d626b4353f5b005f86eb298c3b2150" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>? long</type>
+        <definition>static ? long JMovies.IMDb.Helpers.IMDBIDHelper.GetIDFromUrl</definition>
+        <argsstring>(string url)</argsstring>
+        <name>GetIDFromUrl</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Method responsible for getting <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID from a URL </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL to be parsed</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Detected <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="19" column="28" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="19" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for providing utility methods related to IMDB ID related operations </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="13" column="1" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a21d626b4353f5b005f86eb298c3b2150" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBIDHelper</scope><name>GetIDFromUrl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

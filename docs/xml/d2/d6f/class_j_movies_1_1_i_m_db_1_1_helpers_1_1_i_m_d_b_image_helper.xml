@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Helpers::IMDBImageHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1a4832f5acf7f7742be3789d2ba486c822" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string JMovies.IMDb.Helpers.IMDBImageHelper.NormalizeImageUrl</definition>
+        <argsstring>(string url)</argsstring>
+        <name>NormalizeImageUrl</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Class responsible for normalizing image urls within <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>. By default <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> uses a handler to return cropped versions of the images. This method ensures it returns the raw image. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL of the image</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Normalized URL of the image</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/IMDBImageHelper.cs" line="20" column="30" bodyfile="JMovies.IMDb/Helpers/IMDBImageHelper.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class responsible for providing utility methods related to Image related operations for <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/IMDBImageHelper.cs" line="14" column="1" bodyfile="JMovies.IMDb/Helpers/IMDBImageHelper.cs" bodystart="13" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1a4832f5acf7f7742be3789d2ba486c822" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBImageHelper</scope><name>NormalizeImageUrl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

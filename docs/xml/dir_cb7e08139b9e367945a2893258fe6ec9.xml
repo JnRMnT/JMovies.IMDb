@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_cb7e08139b9e367945a2893258fe6ec9" kind="dir">
+    <compoundname>JMovies.IMDb/Extensions</compoundname>
+    <innerfile refid="dd/d6d/_screen_scraping_extensions_8cs">ScreenScrapingExtensions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Extensions/"/>
+  </compounddef>
+</doxygen>

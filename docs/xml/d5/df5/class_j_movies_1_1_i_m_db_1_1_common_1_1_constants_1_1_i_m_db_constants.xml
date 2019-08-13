@@ -1,0 +1,1152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Common::Constants::IMDbConstants</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acb18dbfa8c474197be39953d818d7a4e" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int JMovies.IMDb.Common.Constants.IMDbConstants.HttpMaxRetryCount</definition>
+        <argsstring></argsstring>
+        <name>HttpMaxRetryCount</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>Max Retry Count for HTTP Calls </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="18" column="36" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa4d8e96a201a708134194cc8200fa317" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int JMovies.IMDb.Common.Constants.IMDbConstants.HttpRetrySleepTime</definition>
+        <argsstring></argsstring>
+        <name>HttpRetrySleepTime</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+<para>Sleep duration in ms to be waited if an exception occurs during Http calls </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="23" column="36" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae5e149ad5ffa070f7c02430a81feed99" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int JMovies.IMDb.Common.Constants.IMDbConstants.IMDbIDLength</definition>
+        <argsstring></argsstring>
+        <name>IMDbIDLength</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+<para>Length of the <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="28" column="36" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab4ed6705200c70ea922664655c244d75" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.DefaultScrapingCulture</definition>
+        <argsstring></argsstring>
+        <name>DefaultScrapingCulture</name>
+        <initializer>= &quot;en-US&quot;</initializer>
+        <briefdescription>
+<para>Default culture to be used while screen scraping </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="33" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ac44dd316c36c4b3731e473682f6071b5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.BaseURL</definition>
+        <argsstring></argsstring>
+        <name>BaseURL</name>
+        <initializer>= &quot;https://www.imdb.com/&quot;</initializer>
+        <briefdescription>
+<para>Base URL of the <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> website </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="38" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad4aa9b10eb89d088b5c47628478a7c37" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.MoviesPath</definition>
+        <argsstring></argsstring>
+        <name>MoviesPath</name>
+        <initializer>= &quot;title/&quot;</initializer>
+        <briefdescription>
+<para>Path of the movies page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="43" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a05f7687de21a8f096ed6f86394b636ee" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.MovieIDPrefix</definition>
+        <argsstring></argsstring>
+        <name>MovieIDPrefix</name>
+        <initializer>= &quot;tt&quot;</initializer>
+        <briefdescription>
+<para>Prefix of the movie IDs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="48" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a571c5bef29134c3a97f2110c1b699d93" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PersonsPath</definition>
+        <argsstring></argsstring>
+        <name>PersonsPath</name>
+        <initializer>= &quot;name/&quot;</initializer>
+        <briefdescription>
+<para>Path of the person page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="53" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PersonIDPrefix</definition>
+        <argsstring></argsstring>
+        <name>PersonIDPrefix</name>
+        <initializer>= &quot;nm&quot;</initializer>
+        <briefdescription>
+<para>Prefix of the person IDs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="58" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a76c14b5c585fd65d37ed4fe88945e6be" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CharactersPath</definition>
+        <argsstring></argsstring>
+        <name>CharactersPath</name>
+        <initializer>= &quot;characters/&quot;</initializer>
+        <briefdescription>
+<para>Path of the characters page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="63" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7157aebc4ecf7d208b8b3d09b1ac1b30" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.KeywordsPath</definition>
+        <argsstring></argsstring>
+        <name>KeywordsPath</name>
+        <initializer>= &quot;keyword/&quot;</initializer>
+        <briefdescription>
+<para>Path of the keywords page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="68" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a25f7c3186797bc1c09c9a360bc65cd1a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CompanyIDPrefix</definition>
+        <argsstring></argsstring>
+        <name>CompanyIDPrefix</name>
+        <initializer>= &quot;co&quot;</initializer>
+        <briefdescription>
+<para>Prefix of Company IDs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="73" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad28251768c24dc5b32906dc74a73c42e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CompaniesPath</definition>
+        <argsstring></argsstring>
+        <name>CompaniesPath</name>
+        <initializer>= &quot;company/&quot;</initializer>
+        <briefdescription>
+<para>Path of the companies page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="78" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1af9aa407dd011f5ff02b10d7b28ffb06a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.FullCreditsPath</definition>
+        <argsstring></argsstring>
+        <name>FullCreditsPath</name>
+        <initializer>= &quot;fullcredits/&quot;</initializer>
+        <briefdescription>
+<para>Path of the Full Credits page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="83" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1d338dc4e7ab64ecd0e217b8955452f3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.TVSeriesOgType</definition>
+        <argsstring></argsstring>
+        <name>TVSeriesOgType</name>
+        <initializer>= &quot;video.tv_show&quot;</initializer>
+        <briefdescription>
+<para>Type indicator for TV Series </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="88" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a95144f5c9e256de0881cd46aabf39561" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.BioPagePath</definition>
+        <argsstring></argsstring>
+        <name>BioPagePath</name>
+        <initializer>= &quot;bio/&quot;</initializer>
+        <briefdescription>
+<para>Path of Bio page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="93" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab55548c6c0d7ca7fbeb0a9685a069b5f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Star</definition>
+        <argsstring></argsstring>
+        <name>Star</name>
+        <initializer>= &quot;Star&quot;</initializer>
+        <briefdescription>
+<para>Text of Star title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="98" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a349d2a05053d0251e3214fa502288c7d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Director</definition>
+        <argsstring></argsstring>
+        <name>Director</name>
+        <initializer>= &quot;Director&quot;</initializer>
+        <briefdescription>
+<para>Text of Director title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="103" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a9004154e872641c1a934609884016a39" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.DirectedBy</definition>
+        <argsstring></argsstring>
+        <name>DirectedBy</name>
+        <initializer>= &quot;Directed By&quot;</initializer>
+        <briefdescription>
+<para>Text of Directed by title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="108" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9898534ad033913d0ca370766322619" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Writer</definition>
+        <argsstring></argsstring>
+        <name>Writer</name>
+        <initializer>= &quot;Writer&quot;</initializer>
+        <briefdescription>
+<para>Text of Writer title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="113" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acc8ef2ea57281852c421097a84b8f2ca" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Creator</definition>
+        <argsstring></argsstring>
+        <name>Creator</name>
+        <initializer>= &quot;Creator&quot;</initializer>
+        <briefdescription>
+<para>Text of Creator title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="118" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a456ab3add55e286aea7b31c01f351447" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Tagline</definition>
+        <argsstring></argsstring>
+        <name>Tagline</name>
+        <initializer>= &quot;Tagline&quot;</initializer>
+        <briefdescription>
+<para>Text of Taglines title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="123" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5cba2e257fdd6ea2cfbb7d36a5150d7a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PlotKeyword</definition>
+        <argsstring></argsstring>
+        <name>PlotKeyword</name>
+        <initializer>= &quot;Plot Keyword&quot;</initializer>
+        <briefdescription>
+<para>Text of Plot Keyword title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="128" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1b4531e31aa06c27b4995d844d853816" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Genre</definition>
+        <argsstring></argsstring>
+        <name>Genre</name>
+        <initializer>= &quot;Genre&quot;</initializer>
+        <briefdescription>
+<para>Text of Genre title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="133" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5d74ead77d9d7a46a7d0eec7d8ea5f7e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.OfficialSite</definition>
+        <argsstring></argsstring>
+        <name>OfficialSite</name>
+        <initializer>= &quot;Official Site&quot;</initializer>
+        <briefdescription>
+<para>Text of Official Site title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="138" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa38a8fb904edca8a726ce2102869b2de" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CountryOfOriginFilterName</definition>
+        <argsstring></argsstring>
+        <name>CountryOfOriginFilterName</name>
+        <initializer>= &quot;country_of_origin&quot;</initializer>
+        <briefdescription>
+<para>Filter name of &quot;Country Of Origin&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="143" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a8e41642791e8a7af1f1b714ec25efee4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Language</definition>
+        <argsstring></argsstring>
+        <name>Language</name>
+        <initializer>= &quot;Language&quot;</initializer>
+        <briefdescription>
+<para>Text of Language title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="148" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1adb661157cc4debe3bfe798e030a5d5d4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PrimaryLanguageFilterName</definition>
+        <argsstring></argsstring>
+        <name>PrimaryLanguageFilterName</name>
+        <initializer>= &quot;primary_language&quot;</initializer>
+        <briefdescription>
+<para>Filter name of &quot;Primary Language&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="153" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2011b52b90491939c1d49bbe14b986fe" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDate</definition>
+        <argsstring></argsstring>
+        <name>ReleaseDate</name>
+        <initializer>= &quot;Release Date&quot;</initializer>
+        <briefdescription>
+<para>Text of Release Date title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="158" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a6a21ea5731e558c755074a13817c7de0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.AKA</definition>
+        <argsstring></argsstring>
+        <name>AKA</name>
+        <initializer>= &quot;Also Known As&quot;</initializer>
+        <briefdescription>
+<para>Text of AKAs title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="163" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa51a4c3f2fda5834aed6c49f52db998d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.FilmingLocation</definition>
+        <argsstring></argsstring>
+        <name>FilmingLocation</name>
+        <initializer>= &quot;Filming Location&quot;</initializer>
+        <briefdescription>
+<para>Text of Filming Location title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="168" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a47cb12537ce0e67b6306424a7e63ecfe" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.LocationsFilterName</definition>
+        <argsstring></argsstring>
+        <name>LocationsFilterName</name>
+        <initializer>= &quot;locations&quot;</initializer>
+        <briefdescription>
+<para>Filter name of &quot;Locations&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="173" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a678839747d5b2557282245537947630e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Budget</definition>
+        <argsstring></argsstring>
+        <name>Budget</name>
+        <initializer>= &quot;Budget&quot;</initializer>
+        <briefdescription>
+<para>Text of Budget title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="178" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2672266e34102daa7ff87241d6ccf7f4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompany</definition>
+        <argsstring></argsstring>
+        <name>ProductionCompany</name>
+        <initializer>= &quot;Production Co&quot;</initializer>
+        <briefdescription>
+<para>Text of Production Company title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="183" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a44b39f1819fd284f0c818230dec973a6" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Runtime</definition>
+        <argsstring></argsstring>
+        <name>Runtime</name>
+        <initializer>= &quot;Runtime&quot;</initializer>
+        <briefdescription>
+<para>Text of Runtime title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="188" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abedb459f8c458ea74c5eea9bf4de9da2" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewBirthName</definition>
+        <argsstring></argsstring>
+        <name>BioOverviewBirthName</name>
+        <initializer>= &quot;Birth Name&quot;</initializer>
+        <briefdescription>
+<para>Bio Page - Overview Section - Birth Name Title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="194" column="29" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a92eefadbac458e9a7a7044d237accb9f" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewBirthInfo</definition>
+        <argsstring></argsstring>
+        <name>BioOverviewBirthInfo</name>
+        <initializer>= &quot;Born&quot;</initializer>
+        <briefdescription>
+<para>Bio Page - Overview Section - Birth Information Title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="199" column="29" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a99293173428bba77d396355cf3a2c8b0" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewHeight</definition>
+        <argsstring></argsstring>
+        <name>BioOverviewHeight</name>
+        <initializer>= &quot;Height&quot;</initializer>
+        <briefdescription>
+<para>Bio Page - Overview Section - Height Title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="204" column="29" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa4521299cf2cc73c9c0282bebcfc4584" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewNickName</definition>
+        <argsstring></argsstring>
+        <name>BioOverviewNickName</name>
+        <initializer>= &quot;Nickname&quot;</initializer>
+        <briefdescription>
+<para>Bio Page - Overview Section - NickName Title </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="209" column="29" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a279c10c495d13090da73a4eb0a3f8869" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ActorCategoryName</definition>
+        <argsstring></argsstring>
+        <name>ActorCategoryName</name>
+        <initializer>= &quot;actor&quot;</initializer>
+        <briefdescription>
+<para>Actor Filmography Category Name </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="215" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abda4dace3f89f3dfd5f57dfad9f037ad" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ActressCategoryName</definition>
+        <argsstring></argsstring>
+        <name>ActressCategoryName</name>
+        <initializer>= &quot;actress&quot;</initializer>
+        <briefdescription>
+<para>Actress Filmography Category Name </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="219" column="39" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a24c185ee6926daeee3e40ca954470465" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.StarsSummaryRegex</definition>
+        <argsstring></argsstring>
+        <name>StarsSummaryRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab55548c6c0d7ca7fbeb0a9685a069b5f" kindref="member">Star</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the stars section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="225" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a438b01012c24a36664292739aa56f574" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.DirectorsSummaryRegex</definition>
+        <argsstring></argsstring>
+        <name>DirectorsSummaryRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a349d2a05053d0251e3214fa502288c7d" kindref="member">Director</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the directors section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="229" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a03d339b38ed954afb550f23f68c05a1e" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.WritersSummaryRegex</definition>
+        <argsstring></argsstring>
+        <name>WritersSummaryRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9898534ad033913d0ca370766322619" kindref="member">Writer</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the writers section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="233" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad13fd2dc05fb06c11cf54f8754afe86f" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CreatorsSummaryRegex</definition>
+        <argsstring></argsstring>
+        <name>CreatorsSummaryRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acc8ef2ea57281852c421097a84b8f2ca" kindref="member">Creator</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the creators section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="237" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a232f1b0313cc7989760d0179987a7c80" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.PersonIDURLMatcher</definition>
+        <argsstring></argsstring>
+        <name>PersonIDURLMatcher</name>
+        <initializer>= new Regex(Regex.Escape(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a571c5bef29134c3a97f2110c1b699d93" kindref="member">PersonsPath</ref>) + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" kindref="member">PersonIDPrefix</ref> + @&quot;(\d+)&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the Person ID from URL </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="241" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a788c9151a5a2133517329fa7dac5cbec" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.MovieYearRegex</definition>
+        <argsstring></argsstring>
+        <name>MovieYearRegex</name>
+        <initializer>= new Regex(@&quot;(.+)\((\d{4})[–-]?(\d{4})?\)\s*&quot;)</initializer>
+        <briefdescription>
+<para>Regex that matches the movie year in the Movie page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="245" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acd3436f4b701694810481a02cb45940b" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CharacterRegex</definition>
+        <argsstring></argsstring>
+        <name>CharacterRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a76c14b5c585fd65d37ed4fe88945e6be" kindref="member">CharactersPath</ref> + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" kindref="member">PersonIDPrefix</ref> + @&quot;(\d+).*?&quot;)</initializer>
+        <briefdescription>
+<para>Regex that matches the character <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="249" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abe418c5f5e3186e1419d4a4cc09e1ce3" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.TaglinesSummaryRegex</definition>
+        <argsstring></argsstring>
+        <name>TaglinesSummaryRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a456ab3add55e286aea7b31c01f351447" kindref="member">Tagline</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the tag lines section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="253" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9601b87409cec659fd536b69c8fc958" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.PlotKeywordsSummaryRegex</definition>
+        <argsstring></argsstring>
+        <name>PlotKeywordsSummaryRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5cba2e257fdd6ea2cfbb7d36a5150d7a" kindref="member">PlotKeyword</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the plot keywords section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="257" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a147b941712a1f469f77461007d00aba7" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.KeywordLinkRegex</definition>
+        <argsstring></argsstring>
+        <name>KeywordLinkRegex</name>
+        <initializer>= new Regex(Regex.Escape(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7157aebc4ecf7d208b8b3d09b1ac1b30" kindref="member">KeywordsPath</ref>) + @&quot;(.+)\?&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the keywords section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="261" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5650b51e18dab404a4ed301202c16823" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.GenresSummaryRegex</definition>
+        <argsstring></argsstring>
+        <name>GenresSummaryRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1b4531e31aa06c27b4995d844d853816" kindref="member">Genre</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the genres section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="265" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a168aea3167731457e9716ec04e2af0e4" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.GenreLinkRegex</definition>
+        <argsstring></argsstring>
+        <name>GenreLinkRegex</name>
+        <initializer>= new Regex(&quot;title\\?genres=(.+?)[&amp;\&quot;]&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches a specific Genre Link </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="269" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad35a7a67b835bf33aa790c6479071a44" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.OfficialSitesHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>OfficialSitesHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5d74ead77d9d7a46a7d0eec7d8ea5f7e" kindref="member">OfficialSite</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the Official Sites section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="273" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa839eaf2e3c781aa83b05e26a31f0b70" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CountriesHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>CountriesHeaderRegex</name>
+        <initializer>= new Regex(&quot;Countr[y]?(ies)?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the countries section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="277" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1b09daf4009c5efc5a92e3611f3a1bbf" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CountryOfOriginRegex</definition>
+        <argsstring></argsstring>
+        <name>CountryOfOriginRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa38a8fb904edca8a726ce2102869b2de" kindref="member">CountryOfOriginFilterName</ref> + &quot;=(.+?)[&amp;\&quot;]&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the Country Of Origin section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="281" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa33411b35a12bb8a4f6149edc018f112" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.LanguagesHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>LanguagesHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a8e41642791e8a7af1f1b714ec25efee4" kindref="member">Language</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the Languages section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="285" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a46424a591ba95b810a242e250b375943" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.PrimaryLanguageRegex</definition>
+        <argsstring></argsstring>
+        <name>PrimaryLanguageRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1adb661157cc4debe3bfe798e030a5d5d4" kindref="member">PrimaryLanguageFilterName</ref> + &quot;=(.+?)[&amp;\&quot;]&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the Primary Language section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="289" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7f147bdb53b6e5f5aa68ea9ba4bfdee1" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>ReleaseDateHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2011b52b90491939c1d49bbe14b986fe" kindref="member">ReleaseDate</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the Release Date section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="293" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ac028c5ffa843120aab6d25bc8b6cf5af" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateRegex</definition>
+        <argsstring></argsstring>
+        <name>ReleaseDateRegex</name>
+        <initializer>= new Regex(@&quot;\s*(.+)\s*\((.+)\)&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the Release Date </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="297" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acfdf212e7f61459ada0fb97d32fab85f" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.AKAHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>AKAHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a6a21ea5731e558c755074a13817c7de0" kindref="member">AKA</ref> + &quot;:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the AKAs section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="301" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7affeb09e6f51ef2d12bee9bf6912a42" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.FilmingLocationsHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>FilmingLocationsHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa51a4c3f2fda5834aed6c49f52db998d" kindref="member">FilmingLocation</ref> + &quot;[s]?:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the filming locations section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="305" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a97ca4ca623db19576b2eba575e92c7ac" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.LocationsLinkRegex</definition>
+        <argsstring></argsstring>
+        <name>LocationsLinkRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a47cb12537ce0e67b6306424a7e63ecfe" kindref="member">LocationsFilterName</ref> + &quot;=.+\&quot;&gt;(.+)&lt;\\/a&gt;&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the locations section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="309" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a05024f479eee81dfc867db6398d31426" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.BudgetHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>BudgetHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a678839747d5b2557282245537947630e" kindref="member">Budget</ref> + &quot;:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the budget section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="313" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab909704b44de3e20303813fd44a4b948" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompanyHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>ProductionCompanyHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2672266e34102daa7ff87241d6ccf7f4" kindref="member">ProductionCompany</ref> + &quot;:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the production company section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="317" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1af87484a43213a203d7f83c50f1b2f98d" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompanyLinkRegex</definition>
+        <argsstring></argsstring>
+        <name>ProductionCompanyLinkRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad28251768c24dc5b32906dc74a73c42e" kindref="member">CompaniesPath</ref> + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a25f7c3186797bc1c09c9a360bc65cd1a" kindref="member">CompanyIDPrefix</ref> + @&quot;(\d+).*?&quot;)</initializer>
+        <briefdescription>
+<para>Regex that matches the production company link </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="321" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5cdba0773527afb7461415501a4449e3" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.RuntimeHeaderRegex</definition>
+        <argsstring></argsstring>
+        <name>RuntimeHeaderRegex</name>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a44b39f1819fd284f0c818230dec973a6" kindref="member">Runtime</ref> + &quot;:&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the runtime length section in Movie Summary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="325" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a088abe94663e4b4d352f8a831543325b" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CharacterEpisodeInfoRegex</definition>
+        <argsstring></argsstring>
+        <name>CharacterEpisodeInfoRegex</name>
+        <initializer>= new Regex(@&quot;\n*\s*\(?(\d+)\s+episodes?,\s+(\d+)-?(\d*)\)?\s*\n*&quot;, RegexOptions.IgnoreCase)</initializer>
+        <briefdescription>
+<para>Regex that matches the epsidoe info of a character </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="329" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aeb532c0be346429400216c1cd2a930a5" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.BioHeightRegex</definition>
+        <argsstring></argsstring>
+        <name>BioHeightRegex</name>
+        <initializer>= new Regex(@&quot;\((\d\.\d{1,2}).*m\)&quot;)</initializer>
+        <briefdescription>
+<para>Regex that matches the height of a person in Bio page </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="333" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a59d1dece57a8484fecba422029745739" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.IMDBIDRegex</definition>
+        <argsstring></argsstring>
+        <name>IMDBIDRegex</name>
+        <initializer>= new Regex(&quot;(&quot; + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a05f7687de21a8f096ed6f86394b636ee" kindref="member">MovieIDPrefix</ref> + &quot;|&quot; + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" kindref="member">PersonIDPrefix</ref> + &quot;|&quot; + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a25f7c3186797bc1c09c9a360bc65cd1a" kindref="member">CompanyIDPrefix</ref> + @&quot;)(\d+)&quot;)</initializer>
+        <briefdescription>
+<para>Resource indipendent <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID matcher regex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="337" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aac5e19ba32590ab6596fbdd456c5140f" prot="public" static="yes" mutable="no">
+        <type>readonly Regex</type>
+        <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CreditYearRegex</definition>
+        <argsstring></argsstring>
+        <name>CreditYearRegex</name>
+        <initializer>= new Regex(@&quot;(\d{4})(\/\w)?[–-]?(\d{4})?(\/\w)?&quot;)</initializer>
+        <briefdescription>
+<para>Regex that matches the credit year </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="341" column="38" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that holds constant definitions that are related to <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="14" column="1" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="13" bodyend="343"/>
+    <listofallmembers>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a279c10c495d13090da73a4eb0a3f8869" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ActorCategoryName</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abda4dace3f89f3dfd5f57dfad9f037ad" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ActressCategoryName</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a6a21ea5731e558c755074a13817c7de0" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>AKA</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acfdf212e7f61459ada0fb97d32fab85f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>AKAHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ac44dd316c36c4b3731e473682f6071b5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BaseURL</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aeb532c0be346429400216c1cd2a930a5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BioHeightRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a92eefadbac458e9a7a7044d237accb9f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BioOverviewBirthInfo</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abedb459f8c458ea74c5eea9bf4de9da2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BioOverviewBirthName</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a99293173428bba77d396355cf3a2c8b0" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BioOverviewHeight</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa4521299cf2cc73c9c0282bebcfc4584" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BioOverviewNickName</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a95144f5c9e256de0881cd46aabf39561" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BioPagePath</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a678839747d5b2557282245537947630e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Budget</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a05024f479eee81dfc867db6398d31426" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>BudgetHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a088abe94663e4b4d352f8a831543325b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CharacterEpisodeInfoRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acd3436f4b701694810481a02cb45940b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CharacterRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a76c14b5c585fd65d37ed4fe88945e6be" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CharactersPath</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad28251768c24dc5b32906dc74a73c42e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CompaniesPath</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a25f7c3186797bc1c09c9a360bc65cd1a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CompanyIDPrefix</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa839eaf2e3c781aa83b05e26a31f0b70" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CountriesHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa38a8fb904edca8a726ce2102869b2de" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CountryOfOriginFilterName</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1b09daf4009c5efc5a92e3611f3a1bbf" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CountryOfOriginRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acc8ef2ea57281852c421097a84b8f2ca" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Creator</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad13fd2dc05fb06c11cf54f8754afe86f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CreatorsSummaryRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aac5e19ba32590ab6596fbdd456c5140f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>CreditYearRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab4ed6705200c70ea922664655c244d75" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>DefaultScrapingCulture</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a9004154e872641c1a934609884016a39" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>DirectedBy</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a349d2a05053d0251e3214fa502288c7d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Director</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a438b01012c24a36664292739aa56f574" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>DirectorsSummaryRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa51a4c3f2fda5834aed6c49f52db998d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>FilmingLocation</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7affeb09e6f51ef2d12bee9bf6912a42" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>FilmingLocationsHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1af9aa407dd011f5ff02b10d7b28ffb06a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>FullCreditsPath</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1b4531e31aa06c27b4995d844d853816" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Genre</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a168aea3167731457e9716ec04e2af0e4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>GenreLinkRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5650b51e18dab404a4ed301202c16823" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>GenresSummaryRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acb18dbfa8c474197be39953d818d7a4e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>HttpMaxRetryCount</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa4d8e96a201a708134194cc8200fa317" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>HttpRetrySleepTime</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae5e149ad5ffa070f7c02430a81feed99" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>IMDbIDLength</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a59d1dece57a8484fecba422029745739" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>IMDBIDRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a147b941712a1f469f77461007d00aba7" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>KeywordLinkRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7157aebc4ecf7d208b8b3d09b1ac1b30" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>KeywordsPath</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a8e41642791e8a7af1f1b714ec25efee4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Language</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa33411b35a12bb8a4f6149edc018f112" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>LanguagesHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a47cb12537ce0e67b6306424a7e63ecfe" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>LocationsFilterName</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a97ca4ca623db19576b2eba575e92c7ac" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>LocationsLinkRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a05f7687de21a8f096ed6f86394b636ee" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>MovieIDPrefix</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad4aa9b10eb89d088b5c47628478a7c37" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>MoviesPath</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a788c9151a5a2133517329fa7dac5cbec" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>MovieYearRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5d74ead77d9d7a46a7d0eec7d8ea5f7e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>OfficialSite</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad35a7a67b835bf33aa790c6479071a44" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>OfficialSitesHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>PersonIDPrefix</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a232f1b0313cc7989760d0179987a7c80" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>PersonIDURLMatcher</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a571c5bef29134c3a97f2110c1b699d93" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>PersonsPath</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5cba2e257fdd6ea2cfbb7d36a5150d7a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>PlotKeyword</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9601b87409cec659fd536b69c8fc958" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>PlotKeywordsSummaryRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1adb661157cc4debe3bfe798e030a5d5d4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>PrimaryLanguageFilterName</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a46424a591ba95b810a242e250b375943" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>PrimaryLanguageRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2672266e34102daa7ff87241d6ccf7f4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ProductionCompany</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab909704b44de3e20303813fd44a4b948" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ProductionCompanyHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1af87484a43213a203d7f83c50f1b2f98d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ProductionCompanyLinkRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2011b52b90491939c1d49bbe14b986fe" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ReleaseDate</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7f147bdb53b6e5f5aa68ea9ba4bfdee1" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ReleaseDateHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ac028c5ffa843120aab6d25bc8b6cf5af" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ReleaseDateRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a44b39f1819fd284f0c818230dec973a6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Runtime</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5cdba0773527afb7461415501a4449e3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>RuntimeHeaderRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab55548c6c0d7ca7fbeb0a9685a069b5f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Star</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a24c185ee6926daeee3e40ca954470465" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>StarsSummaryRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a456ab3add55e286aea7b31c01f351447" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Tagline</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abe418c5f5e3186e1419d4a4cc09e1ce3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>TaglinesSummaryRegex</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1d338dc4e7ab64ecd0e217b8955452f3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>TVSeriesOgType</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9898534ad033913d0ca370766322619" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>Writer</name></member>
+      <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a03d339b38ed954afb550f23f68c05a1e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>WritersSummaryRegex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
