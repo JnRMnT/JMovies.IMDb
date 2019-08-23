@@ -10,6 +10,14 @@ namespace JMovies.IMDb.Entities.Common
     public class Length
     {
         /// <summary>
+        /// Default empty constructor
+        /// </summary>
+        public Length()
+        {
+
+        }
+
+        /// <summary>
         /// Metric based Length constructor
         /// </summary>
         /// <param name="metricLength">Metric length</param>

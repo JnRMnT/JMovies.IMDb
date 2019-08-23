@@ -12,6 +12,7 @@ using System.IO;
 using System.Text;
 using JMovies.IMDb.Providers;
 using System.Linq;
+using JMovies.IMDb.Entities.Misc;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
@@ -144,7 +145,7 @@ namespace JMovies.IMDb.Helpers.Movies
             HtmlNode ratingsWrapper = documentNode.QuerySelector(".imdbRating");
             HtmlNode ratingNode = ratingsWrapper.QuerySelector("span[itemprop='ratingValue']");
             HtmlNode ratingCountNode = ratingsWrapper.QuerySelector("span[itemprop='ratingCount']");
-            movie.Rating = new Rating();
+            movie.Rating = new Rating(DataSourceTypeEnum.IMDb);
             movie.Rating.Value = double.Parse(ratingNode.InnerText.Prepare().Replace('.',','));
             movie.Rating.RateCount = ratingCountNode.InnerText.Prepare().Replace(",", string.Empty).ToLong();
             #endregion

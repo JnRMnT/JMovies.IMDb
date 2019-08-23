@@ -11,6 +11,6 @@ namespace JMovies.IMDb.Entities.People
     /// </summary>
     public class Actor: Person
     {
-
+        public override PersonTypeEnum PersonType { get => PersonTypeEnum.Actor; set => base.PersonType = value; }
     }
 }

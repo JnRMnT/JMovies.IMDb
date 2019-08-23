@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,7 @@ namespace JMovies.IMDb.Entities.Common
         /// <summary>
         /// Currency of the amount
         /// </summary>
+        [MaxLength(3)]
         public string Currency { get; set; }
     }
 }
