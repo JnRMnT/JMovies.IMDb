@@ -47,11 +47,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// </summary>
         public virtual ProductionTypeEnum ProductionType
         {
-            get
-            {
-                return ProductionTypeEnum.Undefined;
-            }
-            set { }
+            get; set;
         }
     }
 }
