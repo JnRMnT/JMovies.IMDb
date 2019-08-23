@@ -51,6 +51,7 @@ namespace JMovies.IMDb.Entities.Movies
             {
                 return ProductionTypeEnum.Undefined;
             }
+            set { }
         }
     }
 }
