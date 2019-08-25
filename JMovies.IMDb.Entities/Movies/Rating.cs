@@ -57,6 +57,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// Related production
         /// </summary>
         [Required]
+        [ForeignKey("ProductionID")]
         public virtual Production Production { get; set; }
     }
 }
