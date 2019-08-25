@@ -39,7 +39,19 @@ namespace JMovies.IMDb.Helpers.Movies
                     {
                         releaseDate.Country.Identifier = countryMatch.Groups[1].Value;
                     }
-                    releaseDate.Date = DateTime.Parse(releaseDateColumns[1].InnerText.Prepare());
+
+                    string releaseDateString = releaseDateColumns[1].InnerText.Prepare();
+                    Match allNumericReleaseDateMatch = GeneralRegexConstants.AllNumericRegex.Match(releaseDateString);
+                    if (allNumericReleaseDateMatch.Success)
+                    {
+                        releaseDate.Date = new DateTime(allNumericReleaseDateMatch.Groups[1].Value.ToInteger(), 1, 1);
+                    }
+                    else
+                    {
+                        releaseDate.Date = DateTime.Parse(releaseDateString);
+                    }
+
+
                     if (releaseDateColumns.Length > 2)
                     {
                         releaseDate.Description = releaseDateColumns[2].InnerText.Prepare();

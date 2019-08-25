@@ -19,7 +19,7 @@ namespace JMovies.IMDb.Tests
         [TestMethod]
         public void MovieScraping()
         {
-            long[] movieIDs = new long[] { 1477834, 397442, 6412452, 0944947 };
+            long[] movieIDs = new long[] { 1477834, 397442, 6412452, 0944947, 2139881 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long movieID in movieIDs)
             {
@@ -35,7 +35,7 @@ namespace JMovies.IMDb.Tests
         [TestMethod]
         public void DetailedMovieScraping()
         {
-            long[] movieIDs = new long[] { 1477834, 397442, 6412452, 0944947 };
+            long[] movieIDs = new long[] { 1477834, 397442, 6412452, 0944947, 2139881 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long movieID in movieIDs)
             {

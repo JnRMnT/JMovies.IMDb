@@ -26,5 +26,10 @@ namespace JMovies.IMDb.Common.Constants
         /// Regex that captures and groups the HTML Datetime attribute details
         /// </summary>
         public static readonly Regex HtmlDatetimeTagRegex = new Regex(@"PT(\d*D)?(\d*H)?(\d*M)?(\d*S)?");
+
+        /// <summary>
+        /// Regex that captures all numeric strings
+        /// </summary>
+        public static readonly Regex AllNumericRegex = new Regex(@"^(\d+)$");
     }
 }

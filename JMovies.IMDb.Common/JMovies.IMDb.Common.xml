@@ -24,6 +24,11 @@
             Regex that captures and groups the HTML Datetime attribute details
             </summary>
         </member>
+        <member name="F:JMovies.IMDb.Common.Constants.GeneralRegexConstants.AllNumericRegex">
+            <summary>
+            Regex that captures all numeric strings
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Common.Constants.IMDbConstants">
             <summary>
             Class that holds constant definitions that are related to IMDb
