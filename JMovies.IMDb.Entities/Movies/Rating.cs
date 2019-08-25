@@ -13,12 +13,21 @@ namespace JMovies.IMDb.Entities.Movies
     [Table("Rating")]
     public class Rating
     {
-        public Rating(DataSourceTypeEnum dataSourceType)
+        /// <summary>
+        /// Constructor by type of the datasource
+        /// </summary>
+        /// <param name="dataSourceType">Type of the data source</param>
+        /// <param name="production">Related Production instance</param>
+        public Rating(DataSourceTypeEnum dataSourceType, Production production)
         {
             this.DataSource = new DataSource(dataSourceType);
+            this.Production = production;
         }
 
-        public Rating() : this(DataSourceTypeEnum.Undefined)
+        /// <summary>
+        /// Default constructor
+        /// </summary>
+        public Rating() : this(DataSourceTypeEnum.Undefined, null)
         {
 
         }
@@ -43,5 +52,11 @@ namespace JMovies.IMDb.Entities.Movies
         /// Source of the rating data
         /// </summary>
         public virtual DataSource DataSource { get; set; }
+
+        /// <summary>
+        /// Related production
+        /// </summary>
+        [Required]
+        public virtual Production Production { get; set; }
     }
 }

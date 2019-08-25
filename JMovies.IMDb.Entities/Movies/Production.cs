@@ -39,7 +39,6 @@ namespace JMovies.IMDb.Entities.Movies
         /// Current Rating of the production
         /// </summary>
         [Required]
-        [ForeignKey("ProductionID")]
         public virtual Rating Rating { get; set; }
 
         /// <summary>

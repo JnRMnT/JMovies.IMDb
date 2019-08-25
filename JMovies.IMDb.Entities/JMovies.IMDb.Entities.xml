@@ -592,6 +592,18 @@
             Class definition of Ratings
             </summary>
         </member>
+        <member name="M:JMovies.IMDb.Entities.Movies.Rating.#ctor(JMovies.IMDb.Entities.Misc.DataSourceTypeEnum,JMovies.IMDb.Entities.Movies.Production)">
+            <summary>
+            Constructor by type of the datasource
+            </summary>
+            <param name="dataSourceType">Type of the data source</param>
+            <param name="production">Related Production instance</param>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Movies.Rating.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Movies.Rating.ID">
             <summary>
             Primary key
@@ -610,6 +622,11 @@
         <member name="P:JMovies.IMDb.Entities.Movies.Rating.DataSource">
             <summary>
             Source of the rating data
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Rating.Production">
+            <summary>
+            Related production
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Movies.ReleaseDate">
