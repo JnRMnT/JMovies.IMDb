@@ -527,6 +527,26 @@
             Type of the Production
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.ProductionCountry">
+            <summary>
+            Class definition that handles country to production mapping
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionCountry.ID">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionCountry.Country">
+            <summary>
+            Country of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionCountry.Production">
+            <summary>
+            Related Production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.ProductionTypeEnum">
             <summary>
             Enumeration of Production Types

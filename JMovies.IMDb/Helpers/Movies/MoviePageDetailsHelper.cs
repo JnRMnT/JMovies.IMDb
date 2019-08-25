@@ -308,7 +308,7 @@ namespace JMovies.IMDb.Helpers.Movies
                     }
                     else if (IMDbConstants.CountriesHeaderRegex.IsMatch(headerContent))
                     {
-                        List<Country> countries = new List<Country>();
+                        List<ProductionCountry> countries = new List<ProductionCountry>();
                         foreach (HtmlNode countryLink in detailBox.QuerySelectorAll("a"))
                         {
                             Match countryMatch = IMDbConstants.CountryOfOriginRegex.Match(countryLink.OuterHtml);
@@ -319,7 +319,11 @@ namespace JMovies.IMDb.Helpers.Movies
                                     Identifier = countryMatch.Groups[1].Value,
                                     Name = countryLink.InnerText.Prepare()
                                 };
-                                countries.Add(country);
+                                countries.Add(new ProductionCountry
+                                {
+                                    Country = country,
+                                    Production = movie
+                                });
                             }
                         }
                         movie.Countries = countries.ToArray();

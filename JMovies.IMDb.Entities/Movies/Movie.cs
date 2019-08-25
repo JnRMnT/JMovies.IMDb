@@ -62,7 +62,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// Countries of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public virtual ICollection<Country> Countries { get; set; }
+        public virtual ICollection<ProductionCountry> Countries { get; set; }
 
         /// <summary>
         /// Languages of the movie
