@@ -547,6 +547,26 @@
             Related Production
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.ProductionLanguage">
+            <summary>
+            Class definition that handles language to production mapping
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionLanguage.ID">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionLanguage.Language">
+            <summary>
+            Language of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionLanguage.Production">
+            <summary>
+            Related Production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.ProductionTypeEnum">
             <summary>
             Enumeration of Production Types

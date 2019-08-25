@@ -156,7 +156,7 @@ namespace JMovies.IMDb.Helpers.Movies
             HtmlNode ratingNode = ratingsWrapper.QuerySelector("span[itemprop='ratingValue']");
             HtmlNode ratingCountNode = ratingsWrapper.QuerySelector("span[itemprop='ratingCount']");
             movie.Rating = new Rating(DataSourceTypeEnum.IMDb);
-            movie.Rating.Value = double.Parse(ratingNode.InnerText.Prepare().Replace('.',','));
+            movie.Rating.Value = double.Parse(ratingNode.InnerText.Prepare().Replace('.', ','));
             movie.Rating.RateCount = ratingCountNode.InnerText.Prepare().Replace(",", string.Empty).ToLong();
             #endregion
             return true;
@@ -213,7 +213,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 movie.Credits = credits.ToArray();
             }
         }
-        
+
         /// <summary>
         /// Method responsible for parsing a single character information
         /// </summary>
@@ -330,7 +330,7 @@ namespace JMovies.IMDb.Helpers.Movies
                     }
                     else if (IMDbConstants.LanguagesHeaderRegex.IsMatch(headerContent))
                     {
-                        List<Language> languages = new List<Language>();
+                        List<ProductionLanguage> languages = new List<ProductionLanguage>();
                         foreach (HtmlNode languageLink in detailBox.QuerySelectorAll("a"))
                         {
                             Match languageMatch = IMDbConstants.PrimaryLanguageRegex.Match(languageLink.OuterHtml);
@@ -341,7 +341,11 @@ namespace JMovies.IMDb.Helpers.Movies
                                     Identifier = languageMatch.Groups[1].Value,
                                     Name = languageLink.InnerText.Prepare()
                                 };
-                                languages.Add(language);
+                                languages.Add(new ProductionLanguage()
+                                {
+                                    Language = language,
+                                    Production = movie
+                                });
                             }
                         }
                         movie.Languages = languages.ToArray();

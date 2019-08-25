@@ -6,9 +6,9 @@ using System.Text;
 namespace JMovies.IMDb.Entities.Movies
 {
     /// <summary>
-    /// Class definition that handles country to production mapping
+    /// Class definition that handles language to production mapping
     /// </summary>
-    public class ProductionCountry
+    public class ProductionLanguage
     {
         /// <summary>
         /// Primary Key
@@ -17,10 +17,10 @@ namespace JMovies.IMDb.Entities.Movies
         public long ID { get; set; }
 
         /// <summary>
-        /// Country of the production
+        /// Language of the production
         /// </summary>
         [Required]
-        public virtual Country Country { get; set; }
+        public virtual Language Language { get; set; }
 
         /// <summary>
         /// Related Production

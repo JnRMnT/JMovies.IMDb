@@ -68,7 +68,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// Languages of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public virtual ICollection<Language> Languages { get; set; }
+        public virtual ICollection<ProductionLanguage> Languages { get; set; }
 
         /// <summary>
         /// Release dates of the movie
