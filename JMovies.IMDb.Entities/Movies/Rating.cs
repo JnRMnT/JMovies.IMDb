@@ -39,6 +39,9 @@ namespace JMovies.IMDb.Entities.Movies
         /// </summary>
         public long RateCount { get; set; }
 
-        public DataSource DataSource { get; set; }
+        /// <summary>
+        /// Source of the rating data
+        /// </summary>
+        public virtual DataSource DataSource { get; set; }
     }
 }

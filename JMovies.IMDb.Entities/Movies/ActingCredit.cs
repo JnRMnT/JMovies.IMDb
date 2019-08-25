@@ -14,7 +14,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Characters played by the actor/actress
         /// </summary>
-        public Character[] Characters { get; set; }
+        public virtual ICollection<Character> Characters { get; set; }
 
         /// <summary>
         /// Default constructor

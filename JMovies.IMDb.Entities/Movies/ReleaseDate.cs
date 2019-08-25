@@ -28,7 +28,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Country of release date
         /// </summary>
-        public Country Country { get; set; }
+        public virtual Country Country { get; set; }
 
         /// <summary>
         /// Description related to the release date

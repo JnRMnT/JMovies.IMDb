@@ -20,7 +20,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Person related to the credit
         /// </summary>
-        public Person Person { get; set; }
+        public virtual Person Person { get; set; }
 
         /// <summary>
         /// Role of the person in the title

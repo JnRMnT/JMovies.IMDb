@@ -32,25 +32,25 @@ namespace JMovies.IMDb.Entities.Movies
         /// Credits of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<Credit> Credits { get; set; }
+        public virtual ICollection<Credit> Credits { get; set; }
 
         /// <summary>
         /// Tag Lines of the movie
         /// </summary>
         [MaxLength(128)]
-        public ICollection<string> TagLines { get; set; }
+        public virtual ICollection<string> TagLines { get; set; }
 
         /// <summary>
         /// Keywords of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<Keyword> Keywords { get; set; }
+        public virtual ICollection<Keyword> Keywords { get; set; }
 
         /// <summary>
         /// Genres of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<Genre> Genres { get; set; }
+        public virtual ICollection<Genre> Genres { get; set; }
 
         /// <summary>
         /// Official Sites of the movie
@@ -62,32 +62,32 @@ namespace JMovies.IMDb.Entities.Movies
         /// Countries of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<Country> Countries { get; set; }
+        public virtual ICollection<Country> Countries { get; set; }
 
         /// <summary>
         /// Languages of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<Language> Languages { get; set; }
+        public virtual ICollection<Language> Languages { get; set; }
 
         /// <summary>
         /// Release dates of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<ReleaseDate> ReleaseDates { get; set; }
+        public virtual ICollection<ReleaseDate> ReleaseDates { get; set; }
 
         /// <summary>
         /// Alternative names of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<AKA> AKAs { get; set; }
+        public virtual ICollection<AKA> AKAs { get; set; }
 
         /// <summary>
         /// Filming Locations of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
         [MaxLength(256)]
-        public ICollection<string> FilmingLocations { get; set; }
+        public virtual ICollection<string> FilmingLocations { get; set; }
 
         /// <summary>
         /// Budget of the movie
@@ -99,7 +99,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// Production Companies of the movie
         /// </summary>
         [ForeignKey("ProductionID")]
-        public ICollection<Company> ProductionCompanies { get; set; }
+        public virtual ICollection<Company> ProductionCompanies { get; set; }
 
         /// <summary>
         /// Length of the movie

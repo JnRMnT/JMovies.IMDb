@@ -21,11 +21,11 @@ namespace JMovies.IMDb.Entities.People
         /// <summary>
         /// Credit
         /// </summary>
-        public Credit Credit { get; set; }
+        public virtual Credit Credit { get; set; }
 
         /// <summary>
         /// The production that person is credited in
         /// </summary>
-        public Production Production { get; set; }
+        public virtual Production Production { get; set; }
     }
 }

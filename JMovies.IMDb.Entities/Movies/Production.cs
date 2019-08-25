@@ -40,7 +40,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// </summary>
         [Required]
         [ForeignKey("ProductionID")]
-        public Rating Rating { get; set; }
+        public virtual Rating Rating { get; set; }
 
         /// <summary>
         /// Type of the Production

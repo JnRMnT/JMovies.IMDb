@@ -88,13 +88,13 @@ namespace JMovies.IMDb.Entities.People
         /// <summary>
         /// Available Photos of the person
         /// </summary>
-        public Image[] Photos { get; set; }
+        public virtual ICollection<Image> Photos { get; set; }
 
         /// <summary>
         /// Known credits of the person
         /// </summary>
         [ForeignKey("PersonID")]
-        public ICollection<ProductionCredit> KnownFor { get; set; }
+        public virtual ICollection<ProductionCredit> KnownFor { get; set; }
 
         /// <summary>
         /// Gender of the person

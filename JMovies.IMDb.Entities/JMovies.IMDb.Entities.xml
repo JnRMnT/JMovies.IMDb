@@ -567,6 +567,11 @@
             Count of rates
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Rating.DataSource">
+            <summary>
+            Source of the rating data
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.ReleaseDate">
             <summary>
             Class definition of release dates
@@ -630,6 +635,11 @@
         <member name="T:JMovies.IMDb.Entities.People.Actor">
             <summary>
             Class definition of an actor
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Actor.PersonType">
+            <summary>
+            Overriden property of PersonType that returns Actor always
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.People.GenderEnum">
