@@ -49,7 +49,7 @@ namespace JMovies.IMDb.Helpers.Movies
                             });
                         }
                     }
-                    movie.Keywords = keywords.ToArray();
+                    movie.Keywords = keywords;
                 }
                 else if (IMDbConstants.GenresSummaryRegex.IsMatch(headerContent))
                 {
@@ -66,7 +66,7 @@ namespace JMovies.IMDb.Helpers.Movies
                             });
                         }
                     }
-                    movie.Genres = genres.ToArray();
+                    movie.Genres = genres;
                 }
             }
         }

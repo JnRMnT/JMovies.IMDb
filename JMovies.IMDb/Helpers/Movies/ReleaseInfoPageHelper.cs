@@ -63,7 +63,7 @@ namespace JMovies.IMDb.Helpers.Movies
                     releaseDates.Add(releaseDate);
                 }
             }
-            movie.ReleaseDates = releaseDates.ToArray();
+            movie.ReleaseDates = releaseDates;
         }
     }
 }

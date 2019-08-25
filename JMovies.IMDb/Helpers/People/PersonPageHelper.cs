@@ -57,7 +57,7 @@ namespace JMovies.IMDb.Helpers.People
                             roles.Add(role);
                         }
 
-                        person.Roles = roles.ToArray();
+                        person.Roles = roles;
                     }
 
                     List<Image> photos = new List<Image>();
@@ -74,7 +74,7 @@ namespace JMovies.IMDb.Helpers.People
                             });
                         }
                     }
-                    person.Photos = photos.ToArray();
+                    person.Photos = photos;
                 }
 
             }
@@ -173,7 +173,7 @@ namespace JMovies.IMDb.Helpers.People
 
                     knowForCredits.Add(knownFor);
                 }
-                person.KnownFor = knowForCredits.ToArray();
+                person.KnownFor = knowForCredits;
             }
             #endregion
         }

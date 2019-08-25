@@ -93,8 +93,8 @@ namespace JMovies.IMDb.Helpers.Movies
 
                 foreach (HtmlNode creditSummaryNode in summaryWrapper.QuerySelectorAll(".credit_summary_item"))
                 {
-                    Credit[] summaryCredits = SummaryCastHelper.GetCreditInfo(creditSummaryNode);
-                    if (summaryCredits != null && summaryCredits.Length > 0)
+                    List<Credit> summaryCredits = SummaryCastHelper.GetCreditInfo(creditSummaryNode);
+                    if (summaryCredits != null && summaryCredits.Count > 0)
                     {
                         credits.AddRange(summaryCredits);
                     }
@@ -138,7 +138,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 HtmlNode fullCreditsPageDocumentNode = creditsPageDocument.DocumentNode;
                 HtmlNode fullCreditsPageCastListNode = fullCreditsPageDocumentNode.QuerySelector(".cast_list");
                 ParseCastList(movie, credits, fullCreditsPageCastListNode);
-                movie.Credits = credits.ToArray();
+                movie.Credits = credits;
             }
 
             //Parse Relase Info Page
@@ -206,11 +206,11 @@ namespace JMovies.IMDb.Helpers.Movies
                                 characters.Add(character);
                             }
                         }
-                        actingCredit.Characters = characters.ToArray();
+                        actingCredit.Characters = characters;
                         credits.Add(actingCredit);
                     }
                 }
-                movie.Credits = credits.ToArray();
+                movie.Credits = credits;
             }
         }
 
@@ -304,7 +304,7 @@ namespace JMovies.IMDb.Helpers.Movies
                                 //simply ignore official site errors
                             }
                         });
-                        movie.OfficialSites = officialSites.ToArray();
+                        movie.OfficialSites = officialSites;
                     }
                     else if (IMDbConstants.CountriesHeaderRegex.IsMatch(headerContent))
                     {
@@ -326,7 +326,7 @@ namespace JMovies.IMDb.Helpers.Movies
                                 });
                             }
                         }
-                        movie.Countries = countries.ToArray();
+                        movie.Countries = countries;
                     }
                     else if (IMDbConstants.LanguagesHeaderRegex.IsMatch(headerContent))
                     {
@@ -348,7 +348,7 @@ namespace JMovies.IMDb.Helpers.Movies
                                 });
                             }
                         }
-                        movie.Languages = languages.ToArray();
+                        movie.Languages = languages;
                     }
                     else if (IMDbConstants.ReleaseDateHeaderRegex.IsMatch(headerContent))
                     {
@@ -360,7 +360,7 @@ namespace JMovies.IMDb.Helpers.Movies
                         {
                             Name = headerNode.NextSibling.InnerText.Prepare()
                         };
-                        movie.AKAs = new AKA[] { aka };
+                        movie.AKAs = new List<AKA>() { aka };
                     }
                     else if (IMDbConstants.FilmingLocationsHeaderRegex.IsMatch(headerContent))
                     {
@@ -373,7 +373,7 @@ namespace JMovies.IMDb.Helpers.Movies
                                 filmingLocations.Add(locationLinkMatch.Groups[1].Value.Prepare());
                             }
                         }
-                        movie.FilmingLocations = filmingLocations.ToArray();
+                        movie.FilmingLocations = filmingLocations;
                     }
                     else if (IMDbConstants.BudgetHeaderRegex.IsMatch(headerContent))
                     {
@@ -407,7 +407,7 @@ namespace JMovies.IMDb.Helpers.Movies
                                 productionCompanies.Add(productionCompany);
                             }
                         }
-                        movie.ProductionCompanies = productionCompanies.ToArray();
+                        movie.ProductionCompanies = productionCompanies;
                     }
                     else if (IMDbConstants.RuntimeHeaderRegex.IsMatch(headerContent))
                     {

@@ -18,7 +18,7 @@ namespace JMovies.IMDb.Helpers.Movies
         /// </summary>
         /// <param name="creditSummaryNode">HTML Node that contains the credits summary section</param>
         /// <returns>Parsed credits array</returns>
-        internal static Credit[] GetCreditInfo(HtmlNode creditSummaryNode)
+        internal static List<Credit> GetCreditInfo(HtmlNode creditSummaryNode)
         {
             List<Credit> credits = new List<Credit>();
             string role = creditSummaryNode.QuerySelector("h4").InnerText.Prepare();
@@ -65,7 +65,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 }
             }
 
-            return credits.ToArray();
+            return credits;
         }
     }
 }
