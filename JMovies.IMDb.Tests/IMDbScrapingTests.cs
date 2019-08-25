@@ -19,11 +19,11 @@ namespace JMovies.IMDb.Tests
         [TestMethod]
         public void MovieScraping()
         {
-            long[] movieIDs = new long[] { 1477834, 397442, 6412452 };
+            long[] movieIDs = new long[] { 1477834, 397442, 6412452, 0944947 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long movieID in movieIDs)
             {
-                Movie movie = imdbDataProvider.GetMovie(movieID, false);
+                Production movie = imdbDataProvider.GetProduction(movieID, false);
                 Assert.IsNotNull(movie);
                 Assert.AreEqual(movieID, movie.IMDbID);
             }
@@ -35,11 +35,11 @@ namespace JMovies.IMDb.Tests
         [TestMethod]
         public void DetailedMovieScraping()
         {
-            long[] movieIDs = new long[] { 1477834, 397442, 6412452 };
+            long[] movieIDs = new long[] { 1477834, 397442, 6412452, 0944947 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long movieID in movieIDs)
             {
-                Movie movie = imdbDataProvider.GetMovie(movieID, true);
+                Production movie = imdbDataProvider.GetProduction(movieID, true);
                 Assert.IsNotNull(movie);
                 Assert.AreEqual(movieID, movie.IMDbID);
             }

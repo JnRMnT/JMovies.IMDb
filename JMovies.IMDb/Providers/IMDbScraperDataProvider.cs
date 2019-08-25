@@ -54,7 +54,7 @@ namespace JMovies.IMDb.Providers
                 return null;
             }
 
-            MoviePageDetailsHelper.Parse(this, movie, documentNode, url, fetchDetailedCast);
+            MoviePageDetailsHelper.Parse(this, ref movie, documentNode, url, fetchDetailedCast);
 
             return movie;
         }

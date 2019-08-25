@@ -88,7 +88,7 @@
             Class responsible for parsing the Movie Page Details
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.Parse(JMovies.IMDb.Providers.IMDbScraperDataProvider,JMovies.IMDb.Entities.Movies.Movie,HtmlAgilityPack.HtmlNode,System.String,System.Boolean)">
+        <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.Parse(JMovies.IMDb.Providers.IMDbScraperDataProvider,JMovies.IMDb.Entities.Movies.Movie@,HtmlAgilityPack.HtmlNode,System.String,System.Boolean)">
             <summary>
             Main Parse method of the Movie Page
             </summary>
@@ -121,6 +121,18 @@
             </summary>
             <param name="movie">Movie instance to be populated</param>
             <param name="detailsSection">HTML Node containing the Details section</param>
+        </member>
+        <member name="T:JMovies.IMDb.Helpers.Movies.ReleaseInfoPageHelper">
+            <summary>
+            Helper Class responsible for parsing the Release Info Page
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Helpers.Movies.ReleaseInfoPageHelper.Parse(JMovies.IMDb.Entities.Movies.Movie,HtmlAgilityPack.HtmlDocument)">
+            <summary>
+            Parses the Release Info Page and persists the data on Movie instance
+            </summary>
+            <param name="movie">Movie object to be populated</param>
+            <param name="releaseInfoPageDocument">HTML Document of the Release Info Page</param>
         </member>
         <member name="T:JMovies.IMDb.Helpers.Movies.SummaryCastHelper">
             <summary>

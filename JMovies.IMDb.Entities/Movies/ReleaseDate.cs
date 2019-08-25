@@ -29,5 +29,11 @@ namespace JMovies.IMDb.Entities.Movies
         /// Country of release date
         /// </summary>
         public Country Country { get; set; }
+
+        /// <summary>
+        /// Description related to the release date
+        /// </summary>
+        [MaxLength(64)]
+        public string Description { get; set; }
     }
 }

@@ -83,6 +83,12 @@ namespace JMovies.IMDb.Common.Constants
         public static readonly string FullCreditsPath = "fullcredits/";
 
         /// <summary>
+        /// Path of the Release Info page
+        /// </summary>
+        public static readonly string ReleaseInfoPath = "releaseinfo/";
+
+
+        /// <summary>
         /// Type indicator for TV Series
         /// </summary>
         public static readonly string TVSeriesOgType = "video.tv_show";
@@ -292,9 +298,9 @@ namespace JMovies.IMDb.Common.Constants
         /// </summary>
         public static readonly Regex ReleaseDateHeaderRegex = new Regex(ReleaseDate + "[s]?:", RegexOptions.IgnoreCase);
         /// <summary>
-        /// Regex that matches the Release Date
+        /// Regex that matches the Country Identifier of a Release Date
         /// </summary>
-        public static readonly Regex ReleaseDateRegex = new Regex(@"\s*(.+)\s*\((.+)\)", RegexOptions.IgnoreCase);
+        public static readonly Regex ReleaseDateCountryIdentifierRegex = new Regex(@"region=(.+?)&", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the AKAs section in Movie Summary
         /// </summary>

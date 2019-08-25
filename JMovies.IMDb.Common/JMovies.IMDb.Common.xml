@@ -99,6 +99,11 @@
             Path of the Full Credits page
             </summary>
         </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseInfoPath">
+            <summary>
+            Path of the Release Info page
+            </summary>
+        </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.TVSeriesOgType">
             <summary>
             Type indicator for TV Series
@@ -324,9 +329,9 @@
             Regex that matches the Release Date section in Movie Summary
             </summary>
         </member>
-        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateRegex">
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateCountryIdentifierRegex">
             <summary>
-            Regex that matches the Release Date
+            Regex that matches the Country Identifier of a Release Date
             </summary>
         </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.AKAHeaderRegex">

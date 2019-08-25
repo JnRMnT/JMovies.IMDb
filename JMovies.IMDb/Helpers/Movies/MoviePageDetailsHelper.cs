@@ -30,7 +30,7 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <param name="moviePageUrl">URL of the movie page</param>
         /// <param name="fetchDetailedCast">Flag that indicates if the detailed cast should be fetched or not</param>
         /// <returns>If scraping was successful or not</returns>
-        public static bool Parse(IMDbScraperDataProvider providerInstance, Movie movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)
+        public static bool Parse(IMDbScraperDataProvider providerInstance, ref Movie movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)
         {
             HtmlNode titleTypeTag = documentNode.QuerySelector("meta[property='og:type']");
             if (titleTypeTag != null && titleTypeTag.Attributes["content"].Value == IMDbConstants.TVSeriesOgType)
@@ -140,6 +140,16 @@ namespace JMovies.IMDb.Helpers.Movies
                 ParseCastList(movie, credits, fullCreditsPageCastListNode);
                 movie.Credits = credits.ToArray();
             }
+
+            //Parse Relase Info Page
+            string releaseInfoURL = moviePageUrl + "/" + IMDbConstants.ReleaseInfoPath;
+            WebRequest releaseInfoPageRequest = HttpHelper.InitializeWebRequest(releaseInfoURL);
+            HtmlDocument releaseInfoPageDocument = HtmlHelper.GetNewHtmlDocument();
+            using (Stream stream = HttpHelper.GetResponseStream(releaseInfoPageRequest))
+            {
+                releaseInfoPageDocument.Load(stream, Encoding.UTF8);
+            }
+            ReleaseInfoPageHelper.Parse(movie, releaseInfoPageDocument);
 
             #region Parse Ratings
             HtmlNode ratingsWrapper = documentNode.QuerySelector(".imdbRating");
@@ -334,15 +344,7 @@ namespace JMovies.IMDb.Helpers.Movies
                     }
                     else if (IMDbConstants.ReleaseDateHeaderRegex.IsMatch(headerContent))
                     {
-                        Match releaseDateMatch = IMDbConstants.ReleaseDateRegex.Match(headerNode.NextSibling.InnerText.Prepare());
-                        if (releaseDateMatch.Success)
-                        {
-                            ReleaseDate releaseDate = new ReleaseDate();
-                            releaseDate.Country = new Country();
-                            releaseDate.Country.Name = releaseDateMatch.Groups[2].Value;
-                            releaseDate.Date = DateTime.Parse(releaseDateMatch.Groups[1].Value);
-                            movie.ReleaseDates = new ReleaseDate[] { releaseDate };
-                        }
+                        //Release Dates are fetched from release info page seperately
                     }
                     else if (IMDbConstants.AKAHeaderRegex.IsMatch(headerContent))
                     {
