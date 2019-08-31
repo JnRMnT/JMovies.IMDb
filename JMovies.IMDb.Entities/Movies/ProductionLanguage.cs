@@ -27,5 +27,15 @@ namespace JMovies.IMDb.Entities.Movies
         /// </summary>
         [Required]
         public virtual Production Production { get; set; }
+
+        /// <summary>
+        /// Reference id of the production
+        /// </summary>
+        public long ProductionID { get; set; }
+
+        /// <summary>
+        /// Reference id of the language
+        /// </summary>
+        public long LanguageID { get; set; }
     }
 }

@@ -547,6 +547,16 @@
             Related Production
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionCountry.ProductionID">
+            <summary>
+            Reference id of the Production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionCountry.CountryID">
+            <summary>
+            Reference id of the Country
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.ProductionLanguage">
             <summary>
             Class definition that handles language to production mapping
@@ -565,6 +575,16 @@
         <member name="P:JMovies.IMDb.Entities.Movies.ProductionLanguage.Production">
             <summary>
             Related Production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionLanguage.ProductionID">
+            <summary>
+            Reference id of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ProductionLanguage.LanguageID">
+            <summary>
+            Reference id of the language
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Movies.ProductionTypeEnum">
@@ -737,6 +757,11 @@
         <member name="P:JMovies.IMDb.Entities.People.Person.IMDbID">
             <summary>
             IMDb ID of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.FullName">
+            <summary>
+            Full Name of the person
             </summary>
         </member>
         <member name="P:JMovies.IMDb.Entities.People.Person.PrimaryImage">

@@ -32,11 +32,11 @@ namespace JMovies.IMDb.Entities.People
         /// </summary>
         public long IMDbID { get; set; }
 
-        [Required]
-        [MaxLength(128)]
         /// <summary>
         /// Full Name of the person
         /// </summary>
+        [Required]
+        [MaxLength(128)]
         public string FullName { get; set; }
 
         /// <summary>
