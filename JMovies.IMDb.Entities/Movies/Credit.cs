@@ -20,7 +20,13 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Person related to the credit
         /// </summary>
+        [ForeignKey("PersonID")]
         public virtual Person Person { get; set; }
+
+        /// <summary>
+        /// Reference id for Person
+        /// </summary>
+        public long PersonID { get; set; }
 
         /// <summary>
         /// Role of the person in the title

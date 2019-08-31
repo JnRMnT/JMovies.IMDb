@@ -288,6 +288,11 @@
             Person related to the credit
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Credit.PersonID">
+            <summary>
+            Reference id for Person
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Movies.Credit.RoleType">
             <summary>
             Role of the person in the title
@@ -660,9 +665,19 @@
             Source of the rating data
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Rating.DataSourceID">
+            <summary>
+            Reference field for DataSource
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Movies.Rating.Production">
             <summary>
             Related production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Rating.ProductionID">
+            <summary>
+            Reference field for Production
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Movies.ReleaseDate">
@@ -683,6 +698,11 @@
         <member name="P:JMovies.IMDb.Entities.Movies.ReleaseDate.Country">
             <summary>
             Country of release date
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ReleaseDate.CountryID">
+            <summary>
+            Reference field for country
             </summary>
         </member>
         <member name="P:JMovies.IMDb.Entities.Movies.ReleaseDate.Description">

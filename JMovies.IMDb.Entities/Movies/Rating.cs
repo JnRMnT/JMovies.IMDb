@@ -51,7 +51,13 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Source of the rating data
         /// </summary>
+        [ForeignKey("DataSourceID")]
         public virtual DataSource DataSource { get; set; }
+
+        /// <summary>
+        /// Reference field for DataSource
+        /// </summary>
+        public long DataSourceID { get; set; }
 
         /// <summary>
         /// Related production
@@ -59,5 +65,10 @@ namespace JMovies.IMDb.Entities.Movies
         [Required]
         [ForeignKey("ProductionID")]
         public virtual Production Production { get; set; }
+
+        /// <summary>
+        /// Reference field for Production
+        /// </summary>
+        public long ProductionID { get; set; }
     }
 }

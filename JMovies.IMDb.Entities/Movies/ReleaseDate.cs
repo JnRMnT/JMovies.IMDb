@@ -28,7 +28,13 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Country of release date
         /// </summary>
+        [ForeignKey("CountryID")]
         public virtual Country Country { get; set; }
+
+        /// <summary>
+        /// Reference field for country
+        /// </summary>
+        public long CountryID { get; set; }
 
         /// <summary>
         /// Description related to the release date
