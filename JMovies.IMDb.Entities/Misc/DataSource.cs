@@ -12,11 +12,18 @@ namespace JMovies.IMDb.Entities.Misc
     /// </summary>
     public class DataSource
     {
+        /// <summary>
+        /// Default constructor of data source
+        /// </summary>
         public DataSource()
         {
 
         }
 
+        /// <summary>
+        /// Datasource constructor by type
+        /// </summary>
+        /// <param name="dataSourceType"></param>
         public DataSource(DataSourceTypeEnum dataSourceType)
         {
             this.DataSourceType = dataSourceType;
@@ -26,7 +33,12 @@ namespace JMovies.IMDb.Entities.Misc
         /// Primary key
         /// </summary>
         [Key]
-        public int ID
+        public int ID { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public int Identifier
         {
             get
             {

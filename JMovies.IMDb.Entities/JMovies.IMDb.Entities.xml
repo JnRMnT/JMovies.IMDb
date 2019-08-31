@@ -102,9 +102,25 @@
             Class Definition of a data source
             </summary>
         </member>
+        <member name="M:JMovies.IMDb.Entities.Misc.DataSource.#ctor">
+            <summary>
+            Default constructor of data source
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Misc.DataSource.#ctor(JMovies.IMDb.Entities.Misc.DataSourceTypeEnum)">
+            <summary>
+            Datasource constructor by type
+            </summary>
+            <param name="dataSourceType"></param>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Misc.DataSource.ID">
             <summary>
             Primary key
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Misc.DataSource.Identifier">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:JMovies.IMDb.Entities.Misc.DataSource.Name">
