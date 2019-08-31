@@ -57,7 +57,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Reference field for DataSource
         /// </summary>
-        public long DataSourceID { get; set; }
+        public int DataSourceID { get; set; }
 
         /// <summary>
         /// Related production
