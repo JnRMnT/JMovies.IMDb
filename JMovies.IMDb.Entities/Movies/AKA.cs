@@ -34,5 +34,10 @@ namespace JMovies.IMDb.Entities.Movies
         [Column(Order = 2)]
         [Required]
         public string Name { get; set; }
+
+        /// <summary>
+        /// Reference field for Production
+        /// </summary>
+        public long ProductionID { get; set; }
     }
 }

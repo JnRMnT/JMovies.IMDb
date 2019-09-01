@@ -25,5 +25,10 @@ namespace JMovies.IMDb.Entities.Movies
         /// </summary>
         [MaxLength(128)]
         public string Name { get; set; }
+
+        /// <summary>
+        /// Reference field for Production
+        /// </summary>
+        public long ProductionID { get; set; }
     }
 }

@@ -183,6 +183,11 @@
             Alternative name of the Title
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.AKA.ProductionID">
+            <summary>
+            Reference field for Production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.Budget">
             <summary>
             Class definition of Budget of a Title
@@ -253,6 +258,11 @@
             Name of the company
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Company.ProductionID">
+            <summary>
+            Reference field for Production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.Country">
             <summary>
             Class definition of a country
@@ -296,6 +306,11 @@
         <member name="P:JMovies.IMDb.Entities.Movies.Credit.RoleType">
             <summary>
             Role of the person in the title
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Credit.ProductionID">
+            <summary>
+            Reference field for Production
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Movies.CreditRoleType">
@@ -373,6 +388,11 @@
             Unique identifier of the Genre
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Genre.ProductionID">
+            <summary>
+            Reference field for Production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.Keyword">
             <summary>
             Class definition of a keyword related to a title
@@ -391,6 +411,11 @@
         <member name="P:JMovies.IMDb.Entities.Movies.Keyword.Identifier">
             <summary>
             Unique Identifier of a keyword
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Keyword.ProductionID">
+            <summary>
+            Reference field for Production
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Movies.Language">
