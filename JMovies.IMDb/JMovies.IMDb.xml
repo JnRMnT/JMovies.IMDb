@@ -28,6 +28,18 @@
             <param name="type">Type of credits to be produced</param>
             <returns>New credit instance</returns>
         </member>
+        <member name="T:JMovies.IMDb.Factories.ProductionFactory">
+            <summary>
+            Factory class that is responsible for building productions based on the type
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Factories.ProductionFactory.Build(JMovies.IMDb.Entities.Movies.ProductionTypeEnum)">
+            <summary>
+             Build method of Production Factory that produces the given type of productions
+            </summary>
+            <param name="type">Type of production to be produced</param>
+            <returns>New production instance</returns>
+        </member>
         <member name="T:JMovies.IMDb.Helpers.HtmlHelper">
             <summary>
             Class responsible for providing utility methods related to HTML related operations
