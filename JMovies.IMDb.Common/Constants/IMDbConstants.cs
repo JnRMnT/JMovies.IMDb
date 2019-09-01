@@ -223,6 +223,11 @@ namespace JMovies.IMDb.Common.Constants
         /// Actress Filmography Category Name
         /// </summary>
         public static readonly string ActressCategoryName = "actress";
+
+        /// <summary>
+        /// Empty text to be checked to determine if there is no plot
+        /// </summary>
+        public static readonly string EmptyPlotText = "Add a Plot";
         #endregion
         #region IMDB specific Regexes
         /// <summary>

@@ -89,6 +89,10 @@ namespace JMovies.IMDb.Helpers.Movies
                 if (summaryText != null)
                 {
                     movie.PlotSummary = summaryText.InnerText.Prepare();
+                    if (movie.PlotSummary.StartsWith(IMDbConstants.EmptyPlotText))
+                    {
+                        movie.PlotSummary = string.Empty;
+                    }
                 }
 
                 foreach (HtmlNode creditSummaryNode in summaryWrapper.QuerySelectorAll(".credit_summary_item"))
@@ -153,11 +157,14 @@ namespace JMovies.IMDb.Helpers.Movies
 
             #region Parse Ratings
             HtmlNode ratingsWrapper = documentNode.QuerySelector(".imdbRating");
-            HtmlNode ratingNode = ratingsWrapper.QuerySelector("span[itemprop='ratingValue']");
-            HtmlNode ratingCountNode = ratingsWrapper.QuerySelector("span[itemprop='ratingCount']");
-            movie.Rating = new Rating(DataSourceTypeEnum.IMDb, movie);
-            movie.Rating.Value = double.Parse(ratingNode.InnerText.Prepare().Replace('.', ','));
-            movie.Rating.RateCount = ratingCountNode.InnerText.Prepare().Replace(",", string.Empty).ToLong();
+            if (ratingsWrapper != null)
+            {
+                HtmlNode ratingNode = ratingsWrapper.QuerySelector("span[itemprop='ratingValue']");
+                HtmlNode ratingCountNode = ratingsWrapper.QuerySelector("span[itemprop='ratingCount']");
+                movie.Rating = new Rating(DataSourceTypeEnum.IMDb, movie);
+                movie.Rating.Value = double.Parse(ratingNode.InnerText.Prepare().Replace('.', ','));
+                movie.Rating.RateCount = ratingCountNode.InnerText.Prepare().Replace(",", string.Empty).ToLong();
+            }
             #endregion
             return true;
         }

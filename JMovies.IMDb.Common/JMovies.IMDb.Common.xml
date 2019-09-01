@@ -244,6 +244,11 @@
             Actress Filmography Category Name
             </summary>
         </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.EmptyPlotText">
+            <summary>
+            Empty text to be checked to determine if there is no plot
+            </summary>
+        </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.StarsSummaryRegex">
             <summary>
             Regex that matches the stars section in Movie Summary
