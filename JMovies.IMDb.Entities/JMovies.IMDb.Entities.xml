@@ -228,6 +228,11 @@
             Name of the character
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Character.CreditID">
+            <summary>
+            Reference ID of related credit
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.CharacterTypeEnum">
             <summary>
             Class definition of a character type
@@ -738,6 +743,11 @@
         <member name="P:JMovies.IMDb.Entities.Movies.ReleaseDate.Description">
             <summary>
             Description related to the release date
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.ReleaseDate.ProductionID">
+            <summary>
+            Reference field for related Production
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Movies.TVCharacter">

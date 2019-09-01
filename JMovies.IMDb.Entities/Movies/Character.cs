@@ -43,5 +43,10 @@ namespace JMovies.IMDb.Entities.Movies
         [MaxLength(128)]
         [Column(Order = 3)]
         public string Name { get; set; }
+
+        /// <summary>
+        /// Reference ID of related credit
+        /// </summary>
+        public long CreditID { get; set; }
     }
 }

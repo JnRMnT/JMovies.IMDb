@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Characters played by the actor/actress
         /// </summary>
+        [ForeignKey("CreditID")]
         public virtual ICollection<Character> Characters { get; set; }
 
         /// <summary>

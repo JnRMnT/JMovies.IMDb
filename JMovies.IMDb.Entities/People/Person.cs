@@ -26,6 +26,7 @@ namespace JMovies.IMDb.Entities.People
         /// </summary>
         [Required]
         [MaxLength(4)]
+        [NotMapped]
         public virtual PersonTypeEnum PersonType { get; set; }
         /// <summary>
         /// IMDb ID of the person
