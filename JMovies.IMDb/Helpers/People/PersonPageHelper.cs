@@ -10,6 +10,7 @@ using System.Globalization;
 using JMovies.IMDb.Common.Constants;
 using JMovies.IMDb.Factories;
 using System.Text.RegularExpressions;
+using JMovies.IMDb.Entities.Settings;
 
 namespace JMovies.IMDb.Helpers.People
 {
@@ -23,8 +24,8 @@ namespace JMovies.IMDb.Helpers.People
         /// </summary>
         /// <param name="person">Person to be populated</param>
         /// <param name="documentNode">HTML Node containing the person page</param>
-        /// <param name="fetchAdditionalDetails">Boolean flag indicating if additional details should be fetched</param>
-        public static void Parse(Person person, HtmlNode documentNode, bool fetchAdditionalDetails)
+        /// <param name="settings">Object containing Data Fetch settings</param>
+        public static void Parse(Person person, HtmlNode documentNode, PersonDataFetchSettings settings)
         {
             #region Main Details Parsing
             HtmlNode mainDetailsElement = documentNode.QuerySelector(".maindetails_center");
@@ -67,11 +68,16 @@ namespace JMovies.IMDb.Helpers.People
                         foreach (HtmlNode imageLink in mediaStripContainer.QuerySelectorAll(".mediastrip a"))
                         {
                             HtmlNode imageNode = imageLink.Element("img");
-                            photos.Add(new Image
+                            Image image = new Image
                             {
                                 Title = imageNode.Attributes["title"].Value.Prepare(),
                                 URL = IMDBImageHelper.NormalizeImageUrl(imageNode.Attributes["loadlate"].Value)
-                            });
+                            };
+                            if (settings.FetchImageContents)
+                            {
+                                image.Content = IMDBImageHelper.GetImageContent(image.URL);
+                            }
+                            photos.Add(image);
                         }
                     }
                     person.Photos = photos;
@@ -80,7 +86,7 @@ namespace JMovies.IMDb.Helpers.People
             }
             #endregion
             #region Bio Page Parsing
-            if (fetchAdditionalDetails)
+            if (settings.FetchBioPage)
             {
                 BioPageHelper.ParseBioPage(person);
             }

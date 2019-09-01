@@ -95,12 +95,19 @@
             <param name="url">URL of the image</param>
             <returns>Normalized URL of the image</returns>
         </member>
+        <member name="M:JMovies.IMDb.Helpers.IMDBImageHelper.GetImageContent(System.String)">
+            <summary>
+            Fetches the content of an image using its URL
+            </summary>
+            <param name="url">URL of the image to be fetched</param>
+            <returns>Byte array content of the image</returns>
+        </member>
         <member name="T:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper">
             <summary>
             Class responsible for parsing the Movie Page Details
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.Parse(JMovies.IMDb.Providers.IMDbScraperDataProvider,JMovies.IMDb.Entities.Movies.Movie@,HtmlAgilityPack.HtmlNode,System.String,System.Boolean)">
+        <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.Parse(JMovies.IMDb.Providers.IMDbScraperDataProvider,JMovies.IMDb.Entities.Movies.Movie@,HtmlAgilityPack.HtmlNode,System.String,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Main Parse method of the Movie Page
             </summary>
@@ -108,7 +115,7 @@
             <param name="movie">Movie instance that is populated</param>
             <param name="documentNode">Document Node of the movie page</param>
             <param name="moviePageUrl">URL of the movie page</param>
-            <param name="fetchDetailedCast">Flag that indicates if the detailed cast should be fetched or not</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>If scraping was successful or not</returns>
         </member>
         <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseCastList(JMovies.IMDb.Entities.Movies.Movie,System.Collections.Generic.List{JMovies.IMDb.Entities.Movies.Credit},HtmlAgilityPack.HtmlNode)">
@@ -186,13 +193,13 @@
             Class responsible for parsing the person page
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.People.PersonPageHelper.Parse(JMovies.IMDb.Entities.People.Person,HtmlAgilityPack.HtmlNode,System.Boolean)">
+        <member name="M:JMovies.IMDb.Helpers.People.PersonPageHelper.Parse(JMovies.IMDb.Entities.People.Person,HtmlAgilityPack.HtmlNode,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
             <summary>
             Method responsible for parsing the person page
             </summary>
             <param name="person">Person to be populated</param>
             <param name="documentNode">HTML Node containing the person page</param>
-            <param name="fetchAdditionalDetails">Boolean flag indicating if additional details should be fetched</param>
+            <param name="settings">Object containing Data Fetch settings</param>
         </member>
         <member name="M:JMovies.IMDb.Helpers.People.PersonPageHelper.DetectGender(JMovies.IMDb.Entities.People.Person,HtmlAgilityPack.HtmlNode[])">
             <summary>
@@ -206,46 +213,74 @@
             Data provider that fetches the data real-time on IMDb website using Screen Scraping and returns it as per defined in IIMDbDataProvider.
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Gets Production Information iresspective of type
             </summary>
             <param name="id">ID of the production</param>
-            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>Production instance containing retreived information</returns>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
             <summary>
             Gets Person information
             </summary>
             <param name="id">ID of the Person</param>
-            <param name="fetchAdditionalDetails">Should the additional details be also fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>Person instance containing retreived information</returns>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64,JMovies.IMDb.Entities.People.Person,System.Boolean)">
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64,JMovies.IMDb.Entities.People.Person,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
             <summary>
             Gets Person information
             </summary>
             <param name="id">ID of the Person</param>
             <param name="person">Person instance to be populated</param>
-            <param name="fetchAdditionalDetails">Should the additional details be also fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>Person instance containing retreived information</returns>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Gets Movie information
             </summary>
             <param name="id">ID of the movie</param>
-            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>Movie instance containing retreived information</returns>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Gets TV Series information
             </summary>
             <param name="id">ID of the TV Series</param>
-            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>TV Series instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction(System.Int64)">
+            <summary>
+            Gets Production Information iresspective of type using the default settings
+            </summary>
+            <param name="id">ID of the production</param>
+            <returns>Production instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64)">
+            <summary>
+            Gets Movie information using the default settings
+            </summary>
+            <param name="id">ID of the movie</param>
+            <returns>Movie instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries(System.Int64)">
+            <summary>
+            Gets TV Series information using the default settings
+            </summary>
+            <param name="id">ID of the TV Series</param>
+            <returns>TV Series instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64)">
+            <summary>
+            Gets Person information using the default settings
+            </summary>
+            <param name="id">ID of the Person</param>
+            <returns>Person instance containing retreived information</returns>
         </member>
     </members>
 </doc>

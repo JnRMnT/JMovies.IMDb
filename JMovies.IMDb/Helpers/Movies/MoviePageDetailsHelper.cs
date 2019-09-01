@@ -13,6 +13,8 @@ using System.Text;
 using JMovies.IMDb.Providers;
 using System.Linq;
 using JMovies.IMDb.Entities.Misc;
+using JMovies.IMDb.Entities.Common;
+using JMovies.IMDb.Entities.Settings;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
@@ -28,9 +30,9 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <param name="movie">Movie instance that is populated</param>
         /// <param name="documentNode">Document Node of the movie page</param>
         /// <param name="moviePageUrl">URL of the movie page</param>
-        /// <param name="fetchDetailedCast">Flag that indicates if the detailed cast should be fetched or not</param>
+        /// <param name="settings">Object containing Data Fetch settings</param>
         /// <returns>If scraping was successful or not</returns>
-        public static bool Parse(IMDbScraperDataProvider providerInstance, ref Movie movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)
+        public static bool Parse(IMDbScraperDataProvider providerInstance, ref Movie movie, HtmlNode documentNode, string moviePageUrl, ProductionDataFetchSettings settings)
         {
             HtmlNode titleTypeTag = documentNode.QuerySelector("meta[property='og:type']");
             if (titleTypeTag != null && titleTypeTag.Attributes["content"].Value == IMDbConstants.TVSeriesOgType)
@@ -80,6 +82,20 @@ namespace JMovies.IMDb.Helpers.Movies
                 return false;
             }
 
+            HtmlNode posterNode = documentNode.QuerySelector(".poster img");
+            if (posterNode != null)
+            {
+                movie.Poster = new Image
+                {
+                    Title = posterNode.GetAttributeValue("title", string.Empty),
+                    URL = IMDBImageHelper.NormalizeImageUrl(posterNode.GetAttributeValue("src", string.Empty))
+                };
+                if (settings.FetchImageContents)
+                {
+                    movie.Poster.Content = IMDBImageHelper.GetImageContent(movie.Poster.URL);
+                }
+            }
+
             //Parse Summary
             HtmlNode summaryWrapper = documentNode.QuerySelector(".plot_summary_wrapper");
             List<Credit> credits = new List<Credit>();
@@ -123,7 +139,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 MoviePageDetailsHelper.ParseDetailsSection(movie, detailsSection);
             }
 
-            if (!fetchDetailedCast)
+            if (!settings.FetchDetailedCast)
             {
                 //Parse Cast Table
                 HtmlNode castListNode = documentNode.QuerySelector(".cast_list");

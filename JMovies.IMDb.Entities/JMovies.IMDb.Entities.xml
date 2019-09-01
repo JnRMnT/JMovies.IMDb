@@ -24,6 +24,11 @@
             Class definition for basic online image
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Image.ID">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Common.Image.Title">
             <summary>
             Title of the image
@@ -32,6 +37,11 @@
         <member name="P:JMovies.IMDb.Entities.Common.Image.URL">
             <summary>
             URL of the image
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Image.Content">
+            <summary>
+            Content of the image
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Common.Length">
@@ -65,36 +75,64 @@
             Data provider interface that Scraper implements. This interface can be safely used for Dependency Injection.
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetProduction(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetProduction(System.Int64)">
+            <summary>
+            Gets Production Information iresspective of type using the default settings
+            </summary>
+            <param name="id">ID of the production</param>
+            <returns>Production instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetMovie(System.Int64)">
+            <summary>
+            Gets Movie information using the default settings
+            </summary>
+            <param name="id">ID of the movie</param>
+            <returns>Movie instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetTvSeries(System.Int64)">
+            <summary>
+            Gets TV Series information using the default settings
+            </summary>
+            <param name="id">ID of the TV Series</param>
+            <returns>TV Series instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetProduction(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Gets Production Information iresspective of type
             </summary>
             <param name="id">ID of the production</param>
-            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>Production instance containing retreived information</returns>
         </member>
-        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetMovie(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetMovie(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Gets Movie information
             </summary>
             <param name="id">ID of the movie</param>
-            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>Movie instance containing retreived information</returns>
         </member>
-        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetTvSeries(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetTvSeries(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Gets TV Series information
             </summary>
             <param name="id">ID of the TV Series</param>
-            <param name="fetchDetailedCast">Should the detailed cast info be fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
             <returns>TV Series instance containing retreived information</returns>
         </member>
-        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetPerson(System.Int64,System.Boolean)">
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetPerson(System.Int64,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
             <summary>
             Gets Person information
             </summary>
             <param name="id">ID of the Person</param>
-            <param name="fetchAdditionalDetails">Should the additional details be also fetched? This effects the response time.</param>
+            <param name="settings">Object containing Data Fetch settings</param>
+            <returns>Person instance containing retreived information</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetPerson(System.Int64)">
+            <summary>
+            Gets Person information using the default settings
+            </summary>
+            <param name="id">ID of the Person</param>
             <returns>Person instance containing retreived information</returns>
         </member>
         <member name="T:JMovies.IMDb.Entities.Misc.DataSource">
@@ -578,6 +616,11 @@
             Current Rating of the production
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.Poster">
+            <summary>
+            Poster of the production
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Movies.Production.ProductionType">
             <summary>
             Type of the Production
@@ -928,6 +971,36 @@
         <member name="P:JMovies.IMDb.Entities.People.ProductionCredit.Production">
             <summary>
             The production that person is credited in
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.PersonDataFetchSettings">
+            <summary>
+            Class that is responsible for holding settings for Person data fetching
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.PersonDataFetchSettings.FetchBioPage">
+            <summary>
+            Should the Bio Page details be also fetched? This effects the response time
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.PersonDataFetchSettings.FetchImageContents">
+            <summary>
+            Should the byte array content of the images be fetched along with URLs
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings">
+            <summary>
+            Class that is responsible for holding settings for Production data fetching
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings.FetchDetailedCast">
+            <summary>
+            Should the detailed cast info be fetched? This effects the response time.
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings.FetchImageContents">
+            <summary>
+            Should the byte array content of the images be fetched along with URLs
             </summary>
         </member>
     </members>

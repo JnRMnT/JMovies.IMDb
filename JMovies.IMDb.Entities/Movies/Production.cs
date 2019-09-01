@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JMovies.IMDb.Entities.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -40,6 +41,11 @@ namespace JMovies.IMDb.Entities.Movies
         /// </summary>
         [Required]
         public virtual Rating Rating { get; set; }
+
+        /// <summary>
+        /// Poster of the production
+        /// </summary>
+        public virtual Image Poster { get; set; }
 
         /// <summary>
         /// Type of the Production

@@ -4,6 +4,7 @@ using JMovies.IMDb.Entities.People;
 using JMovies.IMDb.Entities.Interfaces;
 using JMovies.IMDb.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using JMovies.IMDb.Entities.Settings;
 
 namespace JMovies.IMDb.Tests
 {
@@ -23,7 +24,7 @@ namespace JMovies.IMDb.Tests
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long movieID in movieIDs)
             {
-                Production movie = imdbDataProvider.GetProduction(movieID, false);
+                Production movie = imdbDataProvider.GetProduction(movieID);
                 Assert.IsNotNull(movie);
                 Assert.AreEqual(movieID, movie.IMDbID);
             }
@@ -39,7 +40,7 @@ namespace JMovies.IMDb.Tests
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long movieID in movieIDs)
             {
-                Production movie = imdbDataProvider.GetProduction(movieID, true);
+                Production movie = imdbDataProvider.GetProduction(movieID, new ProductionDataFetchSettings { FetchDetailedCast = true, FetchImageContents = true });
                 Assert.IsNotNull(movie);
                 Assert.AreEqual(movieID, movie.IMDbID);
             }
@@ -55,7 +56,7 @@ namespace JMovies.IMDb.Tests
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long personID in personIDs)
             {
-                Person person = imdbDataProvider.GetPerson(personID, true);
+                Person person = imdbDataProvider.GetPerson(personID, new PersonDataFetchSettings { FetchBioPage = true });
                 Assert.IsNotNull(person);
                 Assert.AreEqual(personID, person.IMDbID);
             }

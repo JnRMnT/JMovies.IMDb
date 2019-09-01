@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace JMovies.IMDb.Entities.Common
@@ -11,6 +12,12 @@ namespace JMovies.IMDb.Entities.Common
     public class Image
     {
         /// <summary>
+        /// Primary Key
+        /// </summary>
+        [Key]
+        public long ID { get; set; }
+
+        /// <summary>
         /// Title of the image
         /// </summary>
         [MaxLength(255)]
@@ -19,6 +26,13 @@ namespace JMovies.IMDb.Entities.Common
         /// URL of the image
         /// </summary>
         [MaxLength(255)]
+        [Column("SourceURL")]
         public string URL { get; set; }
+
+        /// <summary>
+        /// Content of the image
+        /// </summary>
+        [MaxLength(65535)]
+        public byte[] Content { get; set; }
     }
 }
