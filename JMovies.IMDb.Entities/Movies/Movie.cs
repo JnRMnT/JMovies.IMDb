@@ -105,5 +105,10 @@ namespace JMovies.IMDb.Entities.Movies
         /// Length of the movie
         /// </summary>
         public TimeSpan Runtime { get; set; }
+
+        /// <summary>
+        /// Type of the production
+        /// </summary>
+        public override ProductionTypeEnum ProductionType => ProductionTypeEnum.Movie;
     }
 }

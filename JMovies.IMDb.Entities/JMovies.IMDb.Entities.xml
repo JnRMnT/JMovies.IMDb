@@ -498,6 +498,11 @@
             Length of the movie
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Movie.ProductionType">
+            <summary>
+            Type of the production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.OfficialSite">
             <summary>
             Class definition of an Official Site
