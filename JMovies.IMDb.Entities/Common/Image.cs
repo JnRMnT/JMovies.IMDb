@@ -32,7 +32,6 @@ namespace JMovies.IMDb.Entities.Common
         /// <summary>
         /// Content of the image
         /// </summary>
-        [MaxLength(65535)]
         public byte[] Content { get; set; }
     }
 }

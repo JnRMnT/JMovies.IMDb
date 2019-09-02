@@ -141,6 +141,19 @@
             <param name="movie">Movie instance to be populated</param>
             <param name="detailsSection">HTML Node containing the Details section</param>
         </member>
+        <member name="T:JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper">
+            <summary>
+            Class responsible for parsing the Media Images
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper.Parse(JMovies.IMDb.Entities.Movies.Movie,HtmlAgilityPack.HtmlNode,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
+            <summary>
+            Main Parse method of the Photo Gallery Page
+            </summary>
+            <param name="movie">Movie instance that is populated</param>
+            <param name="documentNode">Document Node of the photo gallery page</param>
+            <param name="settings">Object containing Data Fetch settings</param>
+        </member>
         <member name="T:JMovies.IMDb.Helpers.Movies.ReleaseInfoPageHelper">
             <summary>
             Helper Class responsible for parsing the Release Info Page

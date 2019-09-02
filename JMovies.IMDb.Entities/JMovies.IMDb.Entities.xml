@@ -621,6 +621,11 @@
             Poster of the production
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.MediaImages">
+            <summary>
+            Media images related with the production
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Movies.Production.ProductionType">
             <summary>
             Type of the Production
@@ -988,6 +993,46 @@
             Should the byte array content of the images be fetched along with URLs
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings">
+            <summary>
+            A preset of settings to fetch only basic production data
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchDetailedCast">
+            <summary>
+            Do not fetch detailed cast
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchImageContents">
+            <summary>
+            Do not fetch image contents
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.MediaImagesFetchCount">
+            <summary>
+            Do not fetch media images
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings">
+            <summary>
+            A preset of data fetch settings that fetches all the data available for productions
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings.FetchDetailedCast">
+            <summary>
+            Fetch the detailed cast
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings.FetchImageContents">
+            <summary>
+            Fetch the image contents
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings.MediaImagesFetchCount">
+            <summary>
+            Fetch 25 media images
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings">
             <summary>
             Class that is responsible for holding settings for Production data fetching
@@ -1001,6 +1046,11 @@
         <member name="P:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings.FetchImageContents">
             <summary>
             Should the byte array content of the images be fetched along with URLs
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings.MediaImagesFetchCount">
+            <summary>
+            Number of media images to be fetched along with the production
             </summary>
         </member>
     </members>

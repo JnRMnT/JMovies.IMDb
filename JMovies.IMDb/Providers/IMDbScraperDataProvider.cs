@@ -33,6 +33,10 @@ namespace JMovies.IMDb.Providers
             {
                 throw new JMException("IMDbIDEmpty");
             }
+            else if (settings == null)
+            {
+                throw new JMException("SettingsEmpty");
+            }
 
             Movie movie = new Movie();
             string url = IMDbConstants.BaseURL + IMDbConstants.MoviesPath + IMDbConstants.MovieIDPrefix + id.ToString().PadLeft(IMDbConstants.IMDbIDLength, '0');

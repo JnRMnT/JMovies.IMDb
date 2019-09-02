@@ -48,6 +48,12 @@ namespace JMovies.IMDb.Entities.Movies
         public virtual Image Poster { get; set; }
 
         /// <summary>
+        /// Media images related with the production
+        /// </summary>
+        [ForeignKey("ProductionID")]
+        public virtual ICollection<Image> MediaImages { get; set; }
+
+        /// <summary>
         /// Type of the Production
         /// </summary>
         public virtual ProductionTypeEnum ProductionType

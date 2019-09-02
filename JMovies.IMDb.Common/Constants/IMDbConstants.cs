@@ -87,6 +87,10 @@ namespace JMovies.IMDb.Common.Constants
         /// </summary>
         public static readonly string ReleaseInfoPath = "releaseinfo/";
 
+        /// <summary>
+        /// Path of the Photo Gallery Page
+        /// </summary>
+        public static readonly string PhotoGalleryPath = "mediaindex/";
 
         /// <summary>
         /// Type indicator for TV Series

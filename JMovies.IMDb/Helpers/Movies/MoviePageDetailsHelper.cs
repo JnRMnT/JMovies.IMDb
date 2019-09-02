@@ -161,7 +161,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 movie.Credits = credits;
             }
 
-            //Parse Relase Info Page
+            #region  Parse Relase Info Page
             string releaseInfoURL = moviePageUrl + "/" + IMDbConstants.ReleaseInfoPath;
             WebRequest releaseInfoPageRequest = HttpHelper.InitializeWebRequest(releaseInfoURL);
             HtmlDocument releaseInfoPageDocument = HtmlHelper.GetNewHtmlDocument();
@@ -170,7 +170,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 releaseInfoPageDocument.Load(stream, Encoding.UTF8);
             }
             ReleaseInfoPageHelper.Parse(movie, releaseInfoPageDocument);
-
+            #endregion
             #region Parse Ratings
             HtmlNode ratingsWrapper = documentNode.QuerySelector(".imdbRating");
             if (ratingsWrapper != null)
@@ -180,6 +180,20 @@ namespace JMovies.IMDb.Helpers.Movies
                 movie.Rating = new Rating(DataSourceTypeEnum.IMDb, movie);
                 movie.Rating.Value = double.Parse(ratingNode.InnerText.Prepare().Replace('.', ','));
                 movie.Rating.RateCount = ratingCountNode.InnerText.Prepare().Replace(",", string.Empty).ToLong();
+            }
+            #endregion
+
+            #region Parse Photo Gallery Page
+            if (settings.MediaImagesFetchCount > 0)
+            {
+                string photoGalleryURL = moviePageUrl + "/" + IMDbConstants.PhotoGalleryPath;
+                WebRequest photoGalleryPageRequest = HttpHelper.InitializeWebRequest(photoGalleryURL);
+                HtmlDocument photoGalleryPageDocument = HtmlHelper.GetNewHtmlDocument();
+                using (Stream stream = HttpHelper.GetResponseStream(photoGalleryPageRequest))
+                {
+                    photoGalleryPageDocument.Load(stream, Encoding.UTF8);
+                }
+                PhotoGalleryPageHelper.Parse(movie, photoGalleryPageDocument?.DocumentNode, settings);
             }
             #endregion
             return true;

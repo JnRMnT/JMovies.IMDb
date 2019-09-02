@@ -5,6 +5,7 @@ using JMovies.IMDb.Entities.Interfaces;
 using JMovies.IMDb.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using JMovies.IMDb.Entities.Settings;
+using JMovies.IMDb.Entities.Settings.Presets;
 
 namespace JMovies.IMDb.Tests
 {
@@ -40,7 +41,7 @@ namespace JMovies.IMDb.Tests
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long movieID in movieIDs)
             {
-                Production movie = imdbDataProvider.GetProduction(movieID, new ProductionDataFetchSettings { FetchDetailedCast = true, FetchImageContents = true });
+                Production movie = imdbDataProvider.GetProduction(movieID, new FullProductionDataFetchSettings());
                 Assert.IsNotNull(movie);
                 Assert.AreEqual(movieID, movie.IMDbID);
             }

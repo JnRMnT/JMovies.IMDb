@@ -109,6 +109,11 @@
             Path of the Release Info page
             </summary>
         </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.PhotoGalleryPath">
+            <summary>
+            Path of the Photo Gallery Page
+            </summary>
+        </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.TVSeriesOgType">
             <summary>
             Type indicator for TV Series
