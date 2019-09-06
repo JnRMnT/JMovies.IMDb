@@ -38,6 +38,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// Tag Lines of the movie
         /// </summary>
         [MaxLength(128)]
+        [ForeignKey("ProductionID")]
         public virtual ICollection<TagLine> TagLines { get; set; }
 
         /// <summary>

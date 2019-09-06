@@ -5,6 +5,9 @@ using System.Text;
 
 namespace JMovies.IMDb.Entities.Movies
 {
+    /// <summary>
+    /// Tag line of the production
+    /// </summary>
     public class TagLine
     {
         /// <summary>
