@@ -38,7 +38,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// Tag Lines of the movie
         /// </summary>
         [MaxLength(128)]
-        public virtual ICollection<string> TagLines { get; set; }
+        public virtual ICollection<TagLine> TagLines { get; set; }
 
         /// <summary>
         /// Keywords of the movie

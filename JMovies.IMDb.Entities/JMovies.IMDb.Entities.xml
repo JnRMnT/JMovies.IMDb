@@ -798,6 +798,16 @@
             Reference field for related Production
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TagLine.ID">
+            <summary>
+            Primary identifier of a tag line
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TagLine.Content">
+            <summary>
+            Content of the tag line
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.TVCharacter">
             <summary>
             Class definition of a TV Character

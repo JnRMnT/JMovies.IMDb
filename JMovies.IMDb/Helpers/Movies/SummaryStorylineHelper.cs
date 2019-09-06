@@ -32,7 +32,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 string headerContent = storyLineSectionHeader.InnerText.Prepare();
                 if (IMDbConstants.TaglinesSummaryRegex.IsMatch(headerContent))
                 {
-                    movie.TagLines = new string[] { storyLineSectionHeader.NextSibling.InnerText.Prepare() };
+                    movie.TagLines = new List<TagLine>() { new TagLine { Content = storyLineSectionHeader.NextSibling.InnerText.Prepare() } };
                 }
                 else if (IMDbConstants.PlotKeywordsSummaryRegex.IsMatch(headerContent))
                 {
