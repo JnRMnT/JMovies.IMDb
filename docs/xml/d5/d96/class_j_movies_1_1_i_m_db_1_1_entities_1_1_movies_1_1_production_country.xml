@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::ProductionCountry</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1ad75f82daa403698b43bc06bc1e18721e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.ProductionCountry.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Primary Key </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" line="18" column="21" bodyfile="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1a90a22e13dc4c0008d6e9ceba7978a78b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kindref="compound">Country</ref></type>
+        <definition>virtual Country JMovies.IMDb.Entities.Movies.ProductionCountry.Country</definition>
+        <argsstring></argsstring>
+        <name>Country</name>
+        <briefdescription>
+<para><ref refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kindref="compound">Country</ref> of the production </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" line="25" column="32" bodyfile="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1a403c207dcc94b4644e65889e45755725" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
+        <definition>virtual Production JMovies.IMDb.Entities.Movies.ProductionCountry.Production</definition>
+        <argsstring></argsstring>
+        <name>Production</name>
+        <briefdescription>
+<para>Related <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" line="32" column="35" bodyfile="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1a843492aa801666072726a966623320f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.ProductionCountry.ProductionID</definition>
+        <argsstring></argsstring>
+        <name>ProductionID</name>
+        <briefdescription>
+<para>Reference id of the <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" line="37" column="21" bodyfile="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1ae66542e0e67c61e2144ca63c4fe2221d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.ProductionCountry.CountryID</definition>
+        <argsstring></argsstring>
+        <name>CountryID</name>
+        <briefdescription>
+<para>Reference id of the <ref refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kindref="compound">Country</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" line="43" column="21" bodyfile="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition that handles country to production mapping </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ProductionCountry.cs" bodystart="12" bodyend="44"/>
+    <listofallmembers>
+      <member refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1a90a22e13dc4c0008d6e9ceba7978a78b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ProductionCountry</scope><name>Country</name></member>
+      <member refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1ae66542e0e67c61e2144ca63c4fe2221d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ProductionCountry</scope><name>CountryID</name></member>
+      <member refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1ad75f82daa403698b43bc06bc1e18721e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ProductionCountry</scope><name>ID</name></member>
+      <member refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1a403c207dcc94b4644e65889e45755725" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ProductionCountry</scope><name>Production</name></member>
+      <member refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1a843492aa801666072726a966623320f2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ProductionCountry</scope><name>ProductionID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

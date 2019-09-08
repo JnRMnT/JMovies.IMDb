@@ -3,6 +3,7 @@
   <compounddef id="dir_def71d5e474a731af83de87dcf56c3c6" kind="dir">
     <compoundname>JMovies.IMDb/Factories</compoundname>
     <innerfile refid="d8/de6/_credit_factory_8cs">CreditFactory.cs</innerfile>
+    <innerfile refid="d0/d13/_production_factory_8cs">ProductionFactory.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

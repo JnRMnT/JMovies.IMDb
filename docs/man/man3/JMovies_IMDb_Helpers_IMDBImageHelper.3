@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Helpers.IMDBImageHelper" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Helpers.IMDBImageHelper" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -14,6 +14,10 @@ JMovies.IMDb.Helpers.IMDBImageHelper \- Class responsible for providing utility 
 .RI "static string \fBNormalizeImageUrl\fP (string url)"
 .br
 .RI "Class responsible for normalizing image urls within \fBIMDb\fP\&. By default \fBIMDb\fP uses a handler to return cropped versions of the images\&. This method ensures it returns the raw image\&. "
+.ti -1c
+.RI "static byte[] \fBGetImageContent\fP (string url)"
+.br
+.RI "Fetches the content of an image using its URL "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -22,6 +26,22 @@ Class responsible for providing utility methods related to Image related operati
 
 .SH "Member Function Documentation"
 .PP 
+.SS "static byte [] JMovies\&.IMDb\&.Helpers\&.IMDBImageHelper\&.GetImageContent (string url)\fC [static]\fP"
+
+.PP
+Fetches the content of an image using its URL 
+.PP
+\fBParameters\fP
+.RS 4
+\fIurl\fP URL of the image to be fetched
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Byte array content of the image
+.RE
+.PP
+
 .SS "static string JMovies\&.IMDb\&.Helpers\&.IMDBImageHelper\&.NormalizeImageUrl (string url)\fC [static]\fP"
 
 .PP

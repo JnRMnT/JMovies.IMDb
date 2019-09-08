@@ -4,9 +4,9 @@
     <compoundname>JMovies::IMDb::Entities::Movies::ActingCredit</compoundname>
     <basecompoundref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Credit</basecompoundref>
       <sectiondef kind="property">
-      <memberdef kind="property" id="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a289691f53e77f6daa1532a730e09ef6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref>[]</type>
-        <definition>Character [] JMovies.IMDb.Entities.Movies.ActingCredit.Characters</definition>
+      <memberdef kind="property" id="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a1a9f42130829627e3c4885455d22be4e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Character&gt; JMovies.IMDb.Entities.Movies.ActingCredit.Characters</definition>
         <argsstring></argsstring>
         <name>Characters</name>
         <briefdescription>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="17" column="26" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="17" bodyend="17"/>
+        <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="19" column="36" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="19" bodyend="19"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="22" column="16" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="22" bodyend="25"/>
+        <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="24" column="16" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="24" bodyend="27"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -64,11 +64,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="12" bodyend="26"/>
+    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="14" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="13" bodyend="28"/>
     <listofallmembers>
       <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a9f883450f802f80e26273e2dfa4a9c31" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>ActingCredit</name></member>
-      <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a289691f53e77f6daa1532a730e09ef6e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>Characters</name></member>
-      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a9ad00989c14ce94c21d0e4ccbff1d8d9" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>Person</name></member>
+      <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a1a9f42130829627e3c4885455d22be4e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>Characters</name></member>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1aca0e56e4c0f137af8f372f144b7c6faa" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>ID</name></member>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a3d44aa9e9b0a3b2c4f362626831ac068" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>Person</name></member>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a399b2615cd116b016ab3b4f77bb8072b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>PersonID</name></member>
+      <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a1378facdee13a8af4c50df53bb72af39" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>ProductionID</name></member>
       <member refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit_1a42c787bc714850fe3f8fa84d0f74c5d7" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>RoleType</name></member>
     </listofallmembers>
   </compounddef>

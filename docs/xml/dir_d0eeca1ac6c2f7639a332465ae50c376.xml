@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dir_d0eeca1ac6c2f7639a332465ae50c376" kind="dir">
     <compoundname>JMovies.IMDb.Tests/obj/Debug</compoundname>
+    <innerdir refid="dir_94b3c5d5622e92204fc76436e999ad98">JMovies.IMDb.Tests/obj/Debug/netcoreapp2.0</innerdir>
     <innerdir refid="dir_5dab1a35cdbc0d7e8cce793d040834ee">JMovies.IMDb.Tests/obj/Debug/netcoreapp2.1</innerdir>
     <briefdescription>
     </briefdescription>

@@ -4,12 +4,14 @@
     <compoundname>JMovies::IMDb::Entities</compoundname>
     <innernamespace refid="d0/d15/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_common">JMovies::IMDb::Entities::Common</innernamespace>
     <innernamespace refid="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces">JMovies::IMDb::Entities::Interfaces</innernamespace>
+    <innernamespace refid="db/df9/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_misc">JMovies::IMDb::Entities::Misc</innernamespace>
     <innernamespace refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies">JMovies::IMDb::Entities::Movies</innernamespace>
     <innernamespace refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people">JMovies::IMDb::Entities::People</innernamespace>
+    <innernamespace refid="d9/ddb/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_settings">JMovies::IMDb::Entities::Settings</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Common/Amount.cs" line="8" column="1"/>
+    <location file="JMovies.IMDb.Entities/Common/Amount.cs" line="9" column="1"/>
   </compounddef>
 </doxygen>

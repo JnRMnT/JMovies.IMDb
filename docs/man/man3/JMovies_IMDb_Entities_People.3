@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.People" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.People" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -29,6 +29,10 @@ JMovies.IMDb.Entities.People
 .RI "enum \fBGenderEnum\fP { \fBGenderEnum\&.Undefined\fP, \fBGenderEnum\&.Male\fP, \fBGenderEnum\&.Female\fP }"
 .br
 .RI "Enumeration of genders "
+.ti -1c
+.RI "enum \fBPersonTypeEnum\fP { \fBPersonTypeEnum\&.Undefined\fP, \fBPersonTypeEnum\&.Actor\fP }"
+.br
+.RI "Class definition of person types "
 .in -1c
 .SH "Enumeration Type Documentation"
 .PP 
@@ -48,6 +52,19 @@ Male
 .TP
 \fB\fIFemale \fP\fP
 Female 
+.SS "enum \fBJMovies\&.IMDb\&.Entities\&.People\&.PersonTypeEnum\fP\fC [strong]\fP"
+
+.PP
+Class definition of person types 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIUndefined \fP\fP
+Default \fBPerson\fP Type 
+.TP
+\fB\fIActor \fP\fP
+\fBActor\fP type of \fBPerson\fP 
 .SH "Author"
 .PP 
 Generated automatically by Doxygen for JMovies\&.IMDb from the source code\&.

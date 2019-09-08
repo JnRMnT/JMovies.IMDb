@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['tvcharacter_230',['TVCharacter',['../d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character.html',1,'JMovies::IMDb::Entities::Movies']]],
-  ['tvseries_231',['TVSeries',['../d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series.html',1,'JMovies::IMDb::Entities::Movies']]]
+  ['rating_278',['Rating',['../dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating.html',1,'JMovies::IMDb::Entities::Movies']]],
+  ['releasedate_279',['ReleaseDate',['../dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date.html',1,'JMovies::IMDb::Entities::Movies']]],
+  ['releaseinfopagehelper_280',['ReleaseInfoPageHelper',['../de/dde/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_release_info_page_helper.html',1,'JMovies::IMDb::Helpers::Movies']]]
 ];

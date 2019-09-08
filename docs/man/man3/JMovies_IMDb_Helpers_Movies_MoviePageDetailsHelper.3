@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,7 +11,7 @@ JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper \- Class responsible for pars
 
 .in +1c
 .ti -1c
-.RI "static bool \fBParse\fP (\fBIMDbScraperDataProvider\fP providerInstance, \fBMovie\fP movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)"
+.RI "static bool \fBParse\fP (\fBIMDbScraperDataProvider\fP providerInstance, ref \fBMovie\fP movie, HtmlNode documentNode, string moviePageUrl, \fBProductionDataFetchSettings\fP settings)"
 .br
 .RI "Main Parse method of the Movie Page "
 .ti -1c
@@ -26,7 +26,7 @@ Class responsible for parsing the Movie Page Details
 
 .SH "Member Function Documentation"
 .PP 
-.SS "static bool JMovies\&.IMDb\&.Helpers\&.Movies\&.MoviePageDetailsHelper\&.Parse (\fBIMDbScraperDataProvider\fP providerInstance, \fBMovie\fP movie, HtmlNode documentNode, string moviePageUrl, bool fetchDetailedCast)\fC [static]\fP"
+.SS "static bool JMovies\&.IMDb\&.Helpers\&.Movies\&.MoviePageDetailsHelper\&.Parse (\fBIMDbScraperDataProvider\fP providerInstance, ref \fBMovie\fP movie, HtmlNode documentNode, string moviePageUrl, \fBProductionDataFetchSettings\fP settings)\fC [static]\fP"
 
 .PP
 Main Parse method of the Movie Page 
@@ -41,7 +41,7 @@ Main Parse method of the Movie Page
 .br
 \fImoviePageUrl\fP URL of the movie page
 .br
-\fIfetchDetailedCast\fP Flag that indicates if the detailed cast should be fetched or not
+\fIsettings\fP Object containing Data Fetch settings
 .RE
 .PP
 \fBReturns\fP

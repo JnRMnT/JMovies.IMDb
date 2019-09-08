@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Misc::DataSource</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1aff7d31f7613e00a9df68823d6839ceef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int JMovies.IMDb.Entities.Misc.DataSource.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Primary key </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="36" column="20" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1a2355eca7d56ff3c40a16ad12e0124a1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int JMovies.IMDb.Entities.Misc.DataSource.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="41" column="20" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1aba42c4912d3f13c7b50ec494ae025645" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Misc.DataSource.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Name of the source </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="57" column="23" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1a6f43664aa40a02d12ec1e992f250325f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/df9/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1a681ceb59a358b43c4de0cc1ea653b921" kindref="member">DataSourceTypeEnum</ref></type>
+        <definition>DataSourceTypeEnum JMovies.IMDb.Entities.Misc.DataSource.DataSourceType</definition>
+        <argsstring></argsstring>
+        <name>DataSourceType</name>
+        <briefdescription>
+<para>Type of the data source </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="70" column="35" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1a590d5e148095e426ee7a94377be79069" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JMovies.IMDb.Entities.Misc.DataSource.DataSource</definition>
+        <argsstring>()</argsstring>
+        <name>DataSource</name>
+        <briefdescription>
+<para>Default constructor of data source </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="18" column="16" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1ab94ad5d90ee4f8905bca7e3fd3443e3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JMovies.IMDb.Entities.Misc.DataSource.DataSource</definition>
+        <argsstring>(DataSourceTypeEnum dataSourceType)</argsstring>
+        <name>DataSource</name>
+        <param>
+          <type><ref refid="db/df9/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1a681ceb59a358b43c4de0cc1ea653b921" kindref="member">DataSourceTypeEnum</ref></type>
+          <declname>dataSourceType</declname>
+        </param>
+        <briefdescription>
+<para>Datasource constructor by type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataSourceType</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="27" column="16" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class Definition of a data source </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="14" column="1" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="13" bodyend="71"/>
+    <listofallmembers>
+      <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1a590d5e148095e426ee7a94377be79069" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>DataSource</name></member>
+      <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1ab94ad5d90ee4f8905bca7e3fd3443e3a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>DataSource</name></member>
+      <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1a6f43664aa40a02d12ec1e992f250325f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>DataSourceType</name></member>
+      <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1aff7d31f7613e00a9df68823d6839ceef" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>ID</name></member>
+      <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1a2355eca7d56ff3c40a16ad12e0124a1c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>Identifier</name></member>
+      <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1aba42c4912d3f13c7b50ec494ae025645" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

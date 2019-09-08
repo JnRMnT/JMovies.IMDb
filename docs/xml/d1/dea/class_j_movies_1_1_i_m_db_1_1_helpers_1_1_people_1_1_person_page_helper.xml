@@ -3,10 +3,10 @@
   <compounddef id="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::People::PersonPageHelper</compoundname>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1aad8aba1d9749b635167b2a5db6a86a39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1ab30c13d632ce59f43cd8ee55f61f0d9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>static void JMovies.IMDb.Helpers.People.PersonPageHelper.Parse</definition>
-        <argsstring>(Person person, HtmlNode documentNode, bool fetchAdditionalDetails)</argsstring>
+        <argsstring>(Person person, HtmlNode documentNode, PersonDataFetchSettings settings)</argsstring>
         <name>Parse</name>
         <param>
           <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
@@ -17,8 +17,8 @@
           <declname>documentNode</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>fetchAdditionalDetails</declname>
+          <type><ref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kindref="compound">PersonDataFetchSettings</ref></type>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Method responsible for parsing the person page </para>
@@ -42,10 +42,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>fetchAdditionalDetails</parametername>
+<parametername>settings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Boolean flag indicating if additional details should be fetched</para>
+<para>Object containing Data Fetch settings</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="27" column="28" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="27" bodyend="179"/>
+        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="28" column="28" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="28" bodyend="202"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="186" column="29" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="186" bodyend="205"/>
+        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="209" column="29" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="209" bodyend="228"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -103,10 +103,10 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="20" column="1" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="19" bodyend="206"/>
+    <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="21" column="1" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="20" bodyend="229"/>
     <listofallmembers>
       <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1aef14ac2a0c87f6d48ff6ed2cc44df72d" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::PersonPageHelper</scope><name>DetectGender</name></member>
-      <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1aad8aba1d9749b635167b2a5db6a86a39" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::PersonPageHelper</scope><name>Parse</name></member>
+      <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1ab30c13d632ce59f43cd8ee55f61f0d9a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::PersonPageHelper</scope><name>Parse</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

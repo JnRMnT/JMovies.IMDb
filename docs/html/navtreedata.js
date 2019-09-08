@@ -26,7 +26,8 @@ var NAVTREE =
     [ "JMovies.IMDb", "d3/dcc/md__r_e_a_d_m_e.html", [
       [ "Under the hood", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md2", null ],
       [ "Maintenance", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md3", null ],
-      [ "Warning", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md4", null ]
+      [ "Code Documentation", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md4", null ],
+      [ "Warning", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md5", null ]
     ] ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
@@ -40,7 +41,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Properties", "functions_prop.html", null ]
@@ -51,7 +52,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language.html#acc3c7dac8f2e0f6db484cc656f29b165"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

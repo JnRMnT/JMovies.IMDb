@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.People.ProductionCredit" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.People.ProductionCredit" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,11 +11,15 @@ JMovies.IMDb.Entities.People.ProductionCredit \- Credit of a person in a specifi
 
 .in +1c
 .ti -1c
-.RI "\fBCredit\fP \fBCredit\fP\fC [get, set]\fP"
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary Key "
+.ti -1c
+.RI "virtual \fBCredit\fP \fBCredit\fP\fC [get, set]\fP"
 .br
 .RI "Credit "
 .ti -1c
-.RI "\fBProduction\fP \fBProduction\fP\fC [get, set]\fP"
+.RI "virtual \fBProduction\fP \fBProduction\fP\fC [get, set]\fP"
 .br
 .RI "The production that person is credited in "
 .in -1c
@@ -26,11 +30,15 @@ Credit of a person in a specific production
 
 .SH "Property Documentation"
 .PP 
-.SS "\fBCredit\fP JMovies\&.IMDb\&.Entities\&.People\&.ProductionCredit\&.Credit\fC [get]\fP, \fC [set]\fP"
+.SS "virtual \fBCredit\fP JMovies\&.IMDb\&.Entities\&.People\&.ProductionCredit\&.Credit\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Credit 
-.SS "\fBProduction\fP JMovies\&.IMDb\&.Entities\&.People\&.ProductionCredit\&.Production\fC [get]\fP, \fC [set]\fP"
+.SS "long JMovies\&.IMDb\&.Entities\&.People\&.ProductionCredit\&.ID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Primary Key 
+.SS "virtual \fBProduction\fP JMovies\&.IMDb\&.Entities\&.People\&.ProductionCredit\&.Production\fC [get]\fP, \fC [set]\fP"
 
 .PP
 The production that person is credited in 

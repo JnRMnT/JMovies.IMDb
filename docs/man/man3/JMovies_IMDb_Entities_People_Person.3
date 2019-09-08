@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.People.Person" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.People.Person" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -13,6 +13,14 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.People\&.Actor\fP\&.
 
 .in +1c
 .ti -1c
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary Key "
+.ti -1c
+.RI "virtual \fBPersonTypeEnum\fP \fBPersonType\fP\fC [get, set]\fP"
+.br
+.RI "Type of the underlining person "
+.ti -1c
 .RI "long \fBIMDbID\fP\fC [get, set]\fP"
 .br
 .RI "\fBIMDb\fP ID of the person "
@@ -21,11 +29,11 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.People\&.Actor\fP\&.
 .br
 .RI "Full Name of the person "
 .ti -1c
-.RI "string \fBPrimaryImage\fP\fC [get, set]\fP"
+.RI "virtual \fBImage\fP \fBPrimaryImage\fP\fC [get, set]\fP"
 .br
 .RI "Main image of the person "
 .ti -1c
-.RI "\fBCreditRoleType\fP[] \fBRoles\fP\fC [get, set]\fP"
+.RI "ICollection< \fBCreditRoleType\fP > \fBRoles\fP\fC [get, set]\fP"
 .br
 .RI "Roles of the person "
 .ti -1c
@@ -53,11 +61,11 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.People\&.Actor\fP\&.
 .br
 .RI "Mini Biography of the person "
 .ti -1c
-.RI "\fBImage\fP[] \fBPhotos\fP\fC [get, set]\fP"
+.RI "virtual ICollection< \fBImage\fP > \fBPhotos\fP\fC [get, set]\fP"
 .br
 .RI "Available Photos of the person "
 .ti -1c
-.RI "\fBProductionCredit\fP[] \fBKnownFor\fP\fC [get, set]\fP"
+.RI "virtual ICollection< \fBProductionCredit\fP > \fBKnownFor\fP\fC [get, set]\fP"
 .br
 .RI "Known credits of the person "
 .ti -1c
@@ -96,11 +104,15 @@ Gender of the person
 
 .PP
 Height of the person 
+.SS "long JMovies\&.IMDb\&.Entities\&.People\&.Person\&.ID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Primary Key 
 .SS "long JMovies\&.IMDb\&.Entities\&.People\&.Person\&.IMDbID\fC [get]\fP, \fC [set]\fP"
 
 .PP
 \fBIMDb\fP ID of the person 
-.SS "\fBProductionCredit\fP [] JMovies\&.IMDb\&.Entities\&.People\&.Person\&.KnownFor\fC [get]\fP, \fC [set]\fP"
+.SS "virtual ICollection<\fBProductionCredit\fP> JMovies\&.IMDb\&.Entities\&.People\&.Person\&.KnownFor\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Known credits of the person 
@@ -112,15 +124,19 @@ Mini Biography of the person
 
 .PP
 NickName of the person 
-.SS "\fBImage\fP [] JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Photos\fC [get]\fP, \fC [set]\fP"
+.SS "virtual \fBPersonTypeEnum\fP JMovies\&.IMDb\&.Entities\&.People\&.Person\&.PersonType\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Type of the underlining person 
+.SS "virtual ICollection<\fBImage\fP> JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Photos\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Available Photos of the person 
-.SS "string JMovies\&.IMDb\&.Entities\&.People\&.Person\&.PrimaryImage\fC [get]\fP, \fC [set]\fP"
+.SS "virtual \fBImage\fP JMovies\&.IMDb\&.Entities\&.People\&.Person\&.PrimaryImage\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Main image of the person 
-.SS "\fBCreditRoleType\fP [] JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Roles\fC [get]\fP, \fC [set]\fP"
+.SS "ICollection<\fBCreditRoleType\fP> JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Roles\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Roles of the person 

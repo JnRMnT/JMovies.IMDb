@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="17" column="23" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="17" bodyend="17"/>
+        <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="19" column="23" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="19" bodyend="19"/>
       </memberdef>
       <memberdef kind="property" id="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site_1ae26703c2d9d9dd41352b0900fad90f23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="22" bodyend="22"/>
+        <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="25" column="23" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="25" bodyend="25"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,7 +37,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="12" bodyend="23"/>
+    <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="14" column="1" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="13" bodyend="26"/>
     <listofallmembers>
       <member refid="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site_1ad7423696e29bd4fa0b58f6cb5a6afb44" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::OfficialSite</scope><name>Title</name></member>
       <member refid="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site_1ae26703c2d9d9dd41352b0900fad90f23" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::OfficialSite</scope><name>URL</name></member>

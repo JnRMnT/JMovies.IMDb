@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['htmldatetimetagregex_297',['HtmlDatetimeTagRegex',['../d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants.html#a95b7dbd63c1c8e83afe50f7314122610',1,'JMovies::IMDb::Common::Constants::GeneralRegexConstants']]],
-  ['httpmaxretrycount_298',['HttpMaxRetryCount',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#acb18dbfa8c474197be39953d818d7a4e',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]],
-  ['httpretrysleeptime_299',['HttpRetrySleepTime',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#aa4d8e96a201a708134194cc8200fa317',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]]
+  ['genre_357',['Genre',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#a1b4531e31aa06c27b4995d844d853816',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]],
+  ['genrelinkregex_358',['GenreLinkRegex',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#a168aea3167731457e9716ec04e2af0e4',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]],
+  ['genressummaryregex_359',['GenresSummaryRegex',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#a5650b51e18dab404a4ed301202c16823',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]]
 ];

@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Helpers.People.PersonPageHelper" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Helpers.People.PersonPageHelper" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,7 +11,7 @@ JMovies.IMDb.Helpers.People.PersonPageHelper \- Class responsible for parsing th
 
 .in +1c
 .ti -1c
-.RI "static void \fBParse\fP (\fBPerson\fP person, HtmlNode documentNode, bool fetchAdditionalDetails)"
+.RI "static void \fBParse\fP (\fBPerson\fP person, HtmlNode documentNode, \fBPersonDataFetchSettings\fP settings)"
 .br
 .RI "Method responsible for parsing the person page "
 .in -1c
@@ -22,7 +22,7 @@ Class responsible for parsing the person page
 
 .SH "Member Function Documentation"
 .PP 
-.SS "static void JMovies\&.IMDb\&.Helpers\&.People\&.PersonPageHelper\&.Parse (\fBPerson\fP person, HtmlNode documentNode, bool fetchAdditionalDetails)\fC [static]\fP"
+.SS "static void JMovies\&.IMDb\&.Helpers\&.People\&.PersonPageHelper\&.Parse (\fBPerson\fP person, HtmlNode documentNode, \fBPersonDataFetchSettings\fP settings)\fC [static]\fP"
 
 .PP
 Method responsible for parsing the person page 
@@ -33,7 +33,7 @@ Method responsible for parsing the person page
 .br
 \fIdocumentNode\fP HTML Node containing the person page
 .br
-\fIfetchAdditionalDetails\fP Boolean flag indicating if additional details should be fetched
+\fIsettings\fP Object containing Data Fetch settings
 .RE
 .PP
 

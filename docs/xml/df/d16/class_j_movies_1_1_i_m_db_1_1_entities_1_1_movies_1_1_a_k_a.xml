@@ -3,6 +3,20 @@
   <compounddef id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::AKA</compoundname>
       <sectiondef kind="property">
+      <memberdef kind="property" id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1a8696e5fcc84f1a7177a1cb3c6d3062f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.AKA.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Primary key </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="22" column="21" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
       <memberdef kind="property" id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1aa67af45fc9bd047d796d31c221c3d125" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
         <definition>string JMovies.IMDb.Entities.Movies.AKA.Description</definition>
@@ -15,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="17" column="23" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="17" bodyend="17"/>
+        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="28" column="23" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="property" id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1ad397b70e8ed7f390e68d8d4e8dfe52cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -29,7 +43,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="22" bodyend="22"/>
+        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="36" column="23" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1a484674d5e79f9e8496ec95f1fe9cacb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.AKA.ProductionID</definition>
+        <argsstring></argsstring>
+        <name>ProductionID</name>
+        <briefdescription>
+<para>Reference field for <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="41" column="21" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="41" bodyend="41"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,10 +65,12 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="12" bodyend="23"/>
+    <location file="JMovies.IMDb.Entities/Movies/AKA.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/AKA.cs" bodystart="15" bodyend="42"/>
     <listofallmembers>
       <member refid="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1aa67af45fc9bd047d796d31c221c3d125" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::AKA</scope><name>Description</name></member>
+      <member refid="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1a8696e5fcc84f1a7177a1cb3c6d3062f3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::AKA</scope><name>ID</name></member>
       <member refid="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1ad397b70e8ed7f390e68d8d4e8dfe52cd" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::AKA</scope><name>Name</name></member>
+      <member refid="df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a_1a484674d5e79f9e8496ec95f1fe9cacb1" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::AKA</scope><name>ProductionID</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

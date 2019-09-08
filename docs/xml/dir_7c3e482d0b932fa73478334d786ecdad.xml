@@ -3,6 +3,7 @@
   <compounddef id="dir_7c3e482d0b932fa73478334d786ecdad" kind="dir">
     <compoundname>JMovies.IMDb.Common/obj/Debug/netstandard2.0</compoundname>
     <innerfile refid="d5/d41/netstandard2_80_2_j_movies_8_common_8_assembly_info_8cs">JMovies.Common.AssemblyInfo.cs</innerfile>
+    <innerfile refid="d4/d15/_debug_2netstandard2_80_2_j_movies_8_i_m_db_8_common_8_assembly_info_8cs">JMovies.IMDb.Common.AssemblyInfo.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

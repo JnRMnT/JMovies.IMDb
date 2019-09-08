@@ -3,6 +3,22 @@
   <compounddef id="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::People::Actor</compoundname>
     <basecompoundref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" prot="public" virt="non-virtual">JMovies.IMDb.Entities.People.Person</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor_1ad0a68175b3bbff4bbbed6f7c44bf1bb2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1ae76df969ca3d166e30b7839a3e046389" kindref="member">PersonTypeEnum</ref></type>
+        <definition>override PersonTypeEnum JMovies.IMDb.Entities.People.Actor.PersonType</definition>
+        <argsstring></argsstring>
+        <name>PersonType</name>
+        <briefdescription>
+<para>Overriden property of PersonType that returns <ref refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" kindref="compound">Actor</ref> always </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/People/Actor.cs" line="17" column="40" bodyfile="JMovies.IMDb.Entities/People/Actor.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
 <para>Class definition of an actor </para>
     </briefdescription>
@@ -32,7 +48,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/People/Actor.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/People/Actor.cs" bodystart="12" bodyend="15"/>
+    <location file="JMovies.IMDb.Entities/People/Actor.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/People/Actor.cs" bodystart="12" bodyend="18"/>
     <listofallmembers>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a9fb64a2bfa647bdfb293ae06e9056708" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>BirthDate</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a7ebe473f5a42c1b20fd49b001a4159b4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>BirthName</name></member>
@@ -40,13 +56,15 @@
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1aca33ca161e107b7f5f492db6ede258ce" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>FullName</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ab3802249b1ec38a5ae0dee7aeb72304b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Gender</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a43a5471d4cabd723f97f09de3fd1f717" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Height</name></member>
+      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a9cbb78897f2c92afba28746775d35c78" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>ID</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a747eb8529b5756ad93d2bf85b5771098" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>IMDbID</name></member>
-      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1abd82703176a8f4169a840ba42d3a6161" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>KnownFor</name></member>
+      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ac4314b2463e8f300bf4cca4737d9619d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>KnownFor</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1adbdc641a26137a24a6b722e35c281918" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>MiniBiography</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ab1d0320a2a6e9966b20b1ac75f7579a4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>NickName</name></member>
-      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1af757cfc3889b70a81019e9cd8cbca95f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Photos</name></member>
-      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a36c3fea5c9fcd108f07cacb8358d7628" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>PrimaryImage</name></member>
-      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a90305c07491a55dc6a5b708bad0374c1" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Roles</name></member>
+      <member refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor_1ad0a68175b3bbff4bbbed6f7c44bf1bb2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>PersonType</name></member>
+      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ab5040c7e31b30d70e5577373e6f6fe1f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Photos</name></member>
+      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a40add992aa6316de87d7596e38ec12d2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>PrimaryImage</name></member>
+      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a46ced074bfa3021beacfe378aa2ca7fa" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Roles</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

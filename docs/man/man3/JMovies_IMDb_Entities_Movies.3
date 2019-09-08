@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.Movies" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -62,6 +62,14 @@ JMovies.IMDb.Entities.Movies
 .br
 .RI "Base class of any production "
 .ti -1c
+.RI "class \fBProductionCountry\fP"
+.br
+.RI "Class definition that handles country to production mapping "
+.ti -1c
+.RI "class \fBProductionLanguage\fP"
+.br
+.RI "Class definition that handles language to production mapping "
+.ti -1c
 .RI "class \fBRating\fP"
 .br
 .RI "Class definition of Ratings "
@@ -69,6 +77,10 @@ JMovies.IMDb.Entities.Movies
 .RI "class \fBReleaseDate\fP"
 .br
 .RI "Class definition of release dates "
+.ti -1c
+.RI "class \fBTagLine\fP"
+.br
+.RI "Tag line of the production "
 .ti -1c
 .RI "class \fBTVCharacter\fP"
 .br
@@ -82,6 +94,10 @@ JMovies.IMDb.Entities.Movies
 
 .in +1c
 .ti -1c
+.RI "enum \fBCharacterTypeEnum\fP { \fBCharacterTypeEnum\&.Character\fP, \fBCharacterTypeEnum\&.TVCharacter\fP }"
+.br
+.RI "Class definition of a character type "
+.ti -1c
 .RI "enum \fBCreditRoleType\fP { \fBCreditRoleType\&.Undefined\fP, \fBCreditRoleType\&.Director\fP, \fBCreditRoleType\&.Acting\fP, \fBCreditRoleType\&.Writer\fP, \fBCreditRoleType\&.Creator\fP, \fBCreditRoleType\&.Producer\fP, \fBCreditRoleType\&.Composer\fP, \fBCreditRoleType\&.MusicDepartment\fP, \fBCreditRoleType\&.Actor\fP, \fBCreditRoleType\&.Actress\fP }"
 .br
 .RI "Enumeration of Role Types in a credit "
@@ -92,6 +108,19 @@ JMovies.IMDb.Entities.Movies
 .in -1c
 .SH "Enumeration Type Documentation"
 .PP 
+.SS "enum \fBJMovies\&.IMDb\&.Entities\&.Movies\&.CharacterTypeEnum\fP\fC [strong]\fP"
+
+.PP
+Class definition of a character type 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fICharacter \fP\fP
+A generic character 
+.TP
+\fB\fITVCharacter \fP\fP
+A TV \fBCharacter\fP 
 .SS "enum \fBJMovies\&.IMDb\&.Entities\&.Movies\&.CreditRoleType\fP\fC [strong]\fP"
 
 .PP

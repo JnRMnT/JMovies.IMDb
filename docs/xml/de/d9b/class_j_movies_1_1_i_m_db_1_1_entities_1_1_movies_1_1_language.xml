@@ -3,6 +3,20 @@
   <compounddef id="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Language</compoundname>
       <sectiondef kind="property">
+      <memberdef kind="property" id="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1acf666a214588528fa39764cef411f8a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.Language.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Primary Key </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="22" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
       <memberdef kind="property" id="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1a5617f89b7e0a575e26e7771c8d2755bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
         <definition>string JMovies.IMDb.Entities.Movies.Language.Name</definition>
@@ -15,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="17" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="17" bodyend="17"/>
+        <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="30" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="property" id="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1acc3c7dac8f2e0f6db484cc656f29b165" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -29,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="22" bodyend="22"/>
+        <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="37" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="37" bodyend="37"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,8 +51,9 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="12" bodyend="23"/>
+    <location file="JMovies.IMDb.Entities/Movies/Language.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Language.cs" bodystart="15" bodyend="38"/>
     <listofallmembers>
+      <member refid="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1acf666a214588528fa39764cef411f8a4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Language</scope><name>ID</name></member>
       <member refid="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1acc3c7dac8f2e0f6db484cc656f29b165" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Language</scope><name>Identifier</name></member>
       <member refid="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language_1a5617f89b7e0a575e26e7771c8d2755bb" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Language</scope><name>Name</name></member>
     </listofallmembers>

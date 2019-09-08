@@ -5,6 +5,7 @@
     <innerfile refid="d7/d68/_actor_8cs">Actor.cs</innerfile>
     <innerfile refid="de/dbc/_gender_enum_8cs">GenderEnum.cs</innerfile>
     <innerfile refid="d9/d2d/_person_8cs">Person.cs</innerfile>
+    <innerfile refid="dc/d6a/_person_type_enum_8cs">PersonTypeEnum.cs</innerfile>
     <innerfile refid="d1/db7/_production_credit_8cs">ProductionCredit.cs</innerfile>
     <briefdescription>
     </briefdescription>

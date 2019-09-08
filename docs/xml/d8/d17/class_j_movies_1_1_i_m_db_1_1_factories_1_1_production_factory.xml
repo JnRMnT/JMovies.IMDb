@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Factories::ProductionFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IFactory&lt; Production, ProductionTypeEnum &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory_1adb85893b5129a9e1c89201932ba64fce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
+        <definition>Production JMovies.IMDb.Factories.ProductionFactory.Build</definition>
+        <argsstring>(ProductionTypeEnum type)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" kindref="member">ProductionTypeEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Build method of Production Factory that produces the given type of productions </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of production to be produced</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>New production instance</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Factories/ProductionFactory.cs" line="16" column="27" bodyfile="JMovies.IMDb/Factories/ProductionFactory.cs" bodystart="16" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Factory class that is responsible for building productions based on the type </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>JMovies.IMDb.Factories.ProductionFactory</label>
+        <link refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFactory&lt; Production, ProductionTypeEnum &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>JMovies.IMDb.Factories.ProductionFactory</label>
+        <link refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IFactory&lt; Production, ProductionTypeEnum &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="JMovies.IMDb/Factories/ProductionFactory.cs" line="10" column="1" bodyfile="JMovies.IMDb/Factories/ProductionFactory.cs" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory_1adb85893b5129a9e1c89201932ba64fce" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Factories::ProductionFactory</scope><name>Build</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

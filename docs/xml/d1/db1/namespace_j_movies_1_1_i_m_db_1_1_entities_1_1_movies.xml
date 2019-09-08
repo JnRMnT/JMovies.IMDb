@@ -15,11 +15,42 @@
     <innerclass refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" prot="public">JMovies::IMDb::Entities::Movies::Movie</innerclass>
     <innerclass refid="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site" prot="public">JMovies::IMDb::Entities::Movies::OfficialSite</innerclass>
     <innerclass refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" prot="public">JMovies::IMDb::Entities::Movies::Production</innerclass>
+    <innerclass refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country" prot="public">JMovies::IMDb::Entities::Movies::ProductionCountry</innerclass>
+    <innerclass refid="db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language" prot="public">JMovies::IMDb::Entities::Movies::ProductionLanguage</innerclass>
     <innerclass refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating" prot="public">JMovies::IMDb::Entities::Movies::Rating</innerclass>
     <innerclass refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date" prot="public">JMovies::IMDb::Entities::Movies::ReleaseDate</innerclass>
+    <innerclass refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line" prot="public">JMovies::IMDb::Entities::Movies::TagLine</innerclass>
     <innerclass refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character" prot="public">JMovies::IMDb::Entities::Movies::TVCharacter</innerclass>
     <innerclass refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" prot="public">JMovies::IMDb::Entities::Movies::TVSeries</innerclass>
       <sectiondef kind="enum">
+      <memberdef kind="enum" id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CharacterTypeEnum</name>
+        <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983a76a40e4f974fd895a0a2598c1cee28b4" prot="public">
+          <name>Character</name>
+          <briefdescription>
+<para>A generic character </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983a204218120eae5e7d0324e95489547cc3" prot="public">
+          <name>TVCharacter</name>
+          <briefdescription>
+<para>A TV <ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Class definition of a character type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/CharacterTypeEnum.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Movies/CharacterTypeEnum.cs" bodystart="10" bodyend="20"/>
+      </memberdef>
       <memberdef kind="enum" id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" prot="public" static="no" strong="yes">
         <type></type>
         <name>CreditRoleType</name>
@@ -153,6 +184,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="8" column="1"/>
+    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="9" column="1"/>
   </compounddef>
 </doxygen>

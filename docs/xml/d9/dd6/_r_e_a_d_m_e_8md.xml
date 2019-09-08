@@ -20,6 +20,9 @@
 <codeline><highlight class="normal">##<sp/>Maintenance</highlight></codeline>
 <codeline><highlight class="normal">I<sp/>will<sp/>personaly<sp/>maintain<sp/>the<sp/>project<sp/>as<sp/>much<sp/>as<sp/>i<sp/>can<sp/>but<sp/>as<sp/>it<sp/>uses<sp/>Screen<sp/>Scraping<sp/>it<sp/>is<sp/>possible<sp/>that<sp/>it<sp/>will<sp/>require<sp/>some<sp/>changes<sp/>along<sp/>the<sp/>way,<sp/>so<sp/>every<sp/>issue<sp/>report<sp/>and<sp/>pull<sp/>request<sp/>is<sp/>welcome!</highlight></codeline>
 <codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Code<sp/>Documentation</highlight></codeline>
+<codeline><highlight class="normal">Documentation<sp/>website<sp/>can<sp/>be<sp/>found<sp/>under<sp/>[JMovies.IMDb<sp/>GitHub<sp/>Pages](https://jnrmnt.github.io/JMovies.IMDb/html/index.html).</highlight></codeline>
+<codeline></codeline>
 <codeline><highlight class="normal">##<sp/>Warning</highlight></codeline>
 <codeline><highlight class="normal">Please<sp/>know<sp/>that<sp/>this<sp/>library<sp/>is<sp/>not<sp/>intended<sp/>for<sp/>bulk<sp/>data<sp/>scraping<sp/>from<sp/>IMDb<sp/>and<sp/>it<sp/>is<sp/>restricted<sp/>by<sp/>them.<sp/>Also<sp/>note<sp/>that<sp/>this<sp/>library<sp/>is<sp/>not<sp/>affliated<sp/>with<sp/>IMDB<sp/>and<sp/>you<sp/>need<sp/>to<sp/>use<sp/>it<sp/>at<sp/>your<sp/>own<sp/>risk/responsibility.</highlight></codeline>
     </programlisting>

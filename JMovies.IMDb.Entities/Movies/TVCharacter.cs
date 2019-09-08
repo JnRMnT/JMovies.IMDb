@@ -31,6 +31,9 @@ namespace JMovies.IMDb.Entities.Movies
         [MaxLength(4)]
         public int? EndYear { get; set; }
 
-        public override CharacterTypeEnum CharacterType { get => CharacterTypeEnum.TVCharacter; set => base.CharacterType = value; }
+        /// <summary>
+        /// Overridden character type property to return always TVCharacter
+        /// </summary>
+        public override CharacterTypeEnum CharacterType { get => CharacterTypeEnum.TVCharacter; }
     }
 }

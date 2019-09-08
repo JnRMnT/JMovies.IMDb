@@ -43,7 +43,16 @@ namespace JMovies.IMDb.Helpers.People
                     HtmlNode primaryImageElement = nameOverviewWidget.QuerySelector("#img_primary .image a img");
                     if (primaryImageElement != null)
                     {
-                        person.PrimaryImage = IMDBImageHelper.NormalizeImageUrl(primaryImageElement.Attributes["src"].Value);
+                        Image image = new Image
+                        {
+                            Title = primaryImageElement.Attributes["title"].Value.Prepare(),
+                            URL = IMDBImageHelper.NormalizeImageUrl(primaryImageElement.Attributes["src"].Value)
+                        };
+                        if (settings.FetchImageContents)
+                        {
+                            image.Content = IMDBImageHelper.GetImageContent(image.URL);
+                        }
+                        person.PrimaryImage = image;
                     }
 
                     HtmlNode jobCategoriesContainer = nameOverviewWidget.QuerySelector("div#name-job-categories");
@@ -65,8 +74,16 @@ namespace JMovies.IMDb.Helpers.People
                     HtmlNode mediaStripContainer = nameOverviewWidget.QuerySelector(".mediastrip_container");
                     if (mediaStripContainer != null)
                     {
-                        foreach (HtmlNode imageLink in mediaStripContainer.QuerySelectorAll(".mediastrip a"))
+                        HtmlNode[] allImageNodes = mediaStripContainer.QuerySelectorAll(".mediastrip a").ToArray();
+                        int endIndex = allImageNodes.Length;
+                        if (settings.MediaImagesFetchCount < endIndex)
                         {
+                            endIndex = settings.MediaImagesFetchCount;
+                        }
+
+                        for (int i = 0; i < endIndex; i++)
+                        {
+                            HtmlNode imageLink = allImageNodes[i];
                             HtmlNode imageNode = imageLink.Element("img");
                             Image image = new Image
                             {

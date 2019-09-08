@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.Movies.Production" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies.Production" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -13,6 +13,10 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Movie\fP\&.
 
 .in +1c
 .ti -1c
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary key of a production "
+.ti -1c
 .RI "long \fBIMDbID\fP\fC [get, set]\fP"
 .br
 .RI "\fBIMDb\fP ID of the production "
@@ -25,11 +29,19 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Movie\fP\&.
 .br
 .RI "\fBProduction\fP Year "
 .ti -1c
-.RI "\fBRating\fP \fBRating\fP\fC [get, set]\fP"
+.RI "virtual \fBRating\fP \fBRating\fP\fC [get, set]\fP"
 .br
 .RI "Current \fBRating\fP of the production "
 .ti -1c
-.RI "virtual \fBProductionTypeEnum\fP \fBProductionType\fP\fC [get]\fP"
+.RI "virtual \fBImage\fP \fBPoster\fP\fC [get, set]\fP"
+.br
+.RI "Poster of the production "
+.ti -1c
+.RI "virtual ICollection< \fBImage\fP > \fBMediaImages\fP\fC [get, set]\fP"
+.br
+.RI "Media images related with the production "
+.ti -1c
+.RI "virtual \fBProductionTypeEnum\fP \fBProductionType\fP\fC [get, set]\fP"
 .br
 .RI "Type of the \fBProduction\fP "
 .in -1c
@@ -40,15 +52,27 @@ Base class of any production
 
 .SH "Property Documentation"
 .PP 
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.ID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Primary key of a production 
 .SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.IMDbID\fC [get]\fP, \fC [set]\fP"
 
 .PP
 \fBIMDb\fP ID of the production 
-.SS "virtual \fBProductionTypeEnum\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.ProductionType\fC [get]\fP"
+.SS "virtual ICollection<\fBImage\fP> JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.MediaImages\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Media images related with the production 
+.SS "virtual \fBImage\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.Poster\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Poster of the production 
+.SS "virtual \fBProductionTypeEnum\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.ProductionType\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Type of the \fBProduction\fP 
-.SS "\fBRating\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.Rating\fC [get]\fP, \fC [set]\fP"
+.SS "virtual \fBRating\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Production\&.Rating\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Current \fBRating\fP of the production 

@@ -798,6 +798,11 @@
             Reference field for related Production
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.TagLine">
+            <summary>
+            Tag line of the production
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Movies.TagLine.ID">
             <summary>
             Primary identifier of a tag line
@@ -826,6 +831,11 @@
         <member name="P:JMovies.IMDb.Entities.Movies.TVCharacter.EndYear">
             <summary>
             Character last appereance year
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TVCharacter.CharacterType">
+            <summary>
+            Overridden character type property to return always TVCharacter
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Movies.TVSeries">
@@ -1003,6 +1013,26 @@
             Should the byte array content of the images be fetched along with URLs
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.PersonDataFetchSettings.MediaImagesFetchCount">
+            <summary>
+            Number of media images to be fetched along with the person
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings">
+            <summary>
+            A preset of settings to fetch only basic person data
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings.FetchBioPage">
+            <summary>
+            Do not fetch the bio page
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings.FetchImageContents">
+            <summary>
+            Do not fetch image contents
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings">
             <summary>
             A preset of settings to fetch only basic production data
@@ -1021,6 +1051,26 @@
         <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.MediaImagesFetchCount">
             <summary>
             Do not fetch media images
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings">
+            <summary>
+            A preset of data fetch settings that fetches all the data available for persons
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchBioPage">
+            <summary>
+            Fetch the bio page
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchImageContents">
+            <summary>
+            Fetch the image contents
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.MediaImagesFetchCount">
+            <summary>
+            Fetch 25 media images
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings">

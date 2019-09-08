@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="17" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="17" bodyend="17"/>
+        <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="21" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="21" bodyend="21"/>
       </memberdef>
       <memberdef kind="property" id="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company_1a0feda98307f0713655075e305b7f7d6b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -29,7 +29,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="22" bodyend="22"/>
+        <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="27" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company_1a6884c132270703b11e742d8e7249ddd0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.Company.ProductionID</definition>
+        <argsstring></argsstring>
+        <name>ProductionID</name>
+        <briefdescription>
+<para>Reference field for <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="32" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="32" bodyend="32"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,10 +51,11 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="12" bodyend="23"/>
+    <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="15" bodyend="33"/>
     <listofallmembers>
       <member refid="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company_1a05f68879961ec42b3bd17825cf393705" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Company</scope><name>ID</name></member>
       <member refid="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company_1a0feda98307f0713655075e305b7f7d6b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Company</scope><name>Name</name></member>
+      <member refid="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company_1a6884c132270703b11e742d8e7249ddd0" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Company</scope><name>ProductionID</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

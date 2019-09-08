@@ -8,11 +8,13 @@
     <Copyright>JnRMnT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>JMovies IMDb Data Provider Library - Currently supports on-demand screen scraping from IMDb to receive movie and person details.</Description>
-    <Version>1.4.2</Version>
+    <Version>1.4.3</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>JMovies.IMDb.xml</DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,5 +30,9 @@
     <ProjectReference Include="..\JMovies.IMDb.Common\JMovies.IMDb.Common.csproj" />
     <ProjectReference Include="..\JMovies.IMDb.Entities\JMovies.IMDb.Entities.csproj" />
   </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if $(ConfigurationName) == Debug  cd ../ &amp;&amp; doxygen Doxyfile" />
+  </Target>
 
 </Project>

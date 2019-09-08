@@ -4,19 +4,19 @@
     <compoundname>JMovies::IMDb::Providers::IMDbScraperDataProvider</compoundname>
     <basecompoundref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider</basecompoundref>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a7cc19e8eb23957679a4e1ff98819af69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a0d8fd0f4a0b613a7db19af22f841414d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
         <definition>Production JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction</definition>
-        <argsstring>(long id, bool fetchDetailedCast)</argsstring>
+        <argsstring>(long id, ProductionDataFetchSettings settings)</argsstring>
         <name>GetProduction</name>
-        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1aae4cd09ea14daf3314b16b6631009adc">GetProduction</reimplements>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab6c8eadf6df4f65617b3ebfa8e48e36d">GetProduction</reimplements>
         <param>
           <type>long</type>
           <declname>id</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>fetchDetailedCast</declname>
+          <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Gets Production Information iresspective of type </para>
@@ -32,10 +32,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>fetchDetailedCast</parametername>
+<parametername>settings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Should the detailed cast info be fetched? This effects the response time.</para>
+<para>Object containing Data Fetch settings</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -45,21 +45,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="29" column="27" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="29" bodyend="60"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="30" column="27" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="30" bodyend="65"/>
       </memberdef>
-      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1aa386d83e858a5040633a74acecbd7c03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a992126d5d0e1c5be85b3e981ad601eba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
         <definition>Person JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson</definition>
-        <argsstring>(long id, bool fetchAdditionalDetails)</argsstring>
+        <argsstring>(long id, PersonDataFetchSettings settings)</argsstring>
         <name>GetPerson</name>
-        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ae9b66fb6976629d483e77c17d1da95c4">GetPerson</reimplements>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a106d4aedbfb974ecaee9b47686bd70fa">GetPerson</reimplements>
         <param>
           <type>long</type>
           <declname>id</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>fetchAdditionalDetails</declname>
+          <type><ref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kindref="compound">PersonDataFetchSettings</ref></type>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Gets Person information </para>
@@ -75,10 +75,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>fetchAdditionalDetails</parametername>
+<parametername>settings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Should the additional details be also fetched? This effects the response time.</para>
+<para>Object containing Data Fetch settings</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -88,12 +88,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="68" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="68" bodyend="72"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="73" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="73" bodyend="77"/>
       </memberdef>
-      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ab6d0ad92ad71f433b9b4719bbb39fb8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acee682edf36e188c344a54945ea318fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
         <definition>Person JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson</definition>
-        <argsstring>(long id, Person person, bool fetchAdditionalDetails)</argsstring>
+        <argsstring>(long id, Person person, PersonDataFetchSettings settings)</argsstring>
         <name>GetPerson</name>
         <param>
           <type>long</type>
@@ -104,8 +104,8 @@
           <declname>person</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>fetchAdditionalDetails</declname>
+          <type><ref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kindref="compound">PersonDataFetchSettings</ref></type>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Gets Person information </para>
@@ -129,10 +129,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>fetchAdditionalDetails</parametername>
+<parametername>settings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Should the additional details be also fetched? This effects the response time.</para>
+<para>Object containing Data Fetch settings</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -142,21 +142,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="81" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="81" bodyend="112"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="86" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="86" bodyend="117"/>
       </memberdef>
-      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a135fa5c1fae0ea4c259e2db56685e59a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a5748daa2f474b5d531098d4285b0774a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
         <definition>Movie JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie</definition>
-        <argsstring>(long id, bool fetchDetailedCast)</argsstring>
+        <argsstring>(long id, ProductionDataFetchSettings settings)</argsstring>
         <name>GetMovie</name>
-        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a83125ca432322e75387965372654b9eb">GetMovie</reimplements>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a4faea5a906ded347fcdf91b38ddff96c">GetMovie</reimplements>
         <param>
           <type>long</type>
           <declname>id</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>fetchDetailedCast</declname>
+          <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Gets Movie information </para>
@@ -172,10 +172,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>fetchDetailedCast</parametername>
+<parametername>settings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Should the detailed cast info be fetched? This effects the response time.</para>
+<para>Object containing Data Fetch settings</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -185,21 +185,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="120" column="22" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="120" bodyend="123"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="125" column="22" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="125" bodyend="128"/>
       </memberdef>
-      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1afa9ebddda755a38a9f948fed0b47e971" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acbcd6885db34798b96c968e9b804e267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref></type>
         <definition>TVSeries JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries</definition>
-        <argsstring>(long id, bool fetchDetailedCast)</argsstring>
+        <argsstring>(long id, ProductionDataFetchSettings settings)</argsstring>
         <name>GetTvSeries</name>
-        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1aa2e3d29f847f1d564f1a18caef3ac4d4">GetTvSeries</reimplements>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a864582a776afa95e781364f4d2266067">GetTvSeries</reimplements>
         <param>
           <type>long</type>
           <declname>id</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>fetchDetailedCast</declname>
+          <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Gets TV Series information </para>
@@ -215,10 +215,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>fetchDetailedCast</parametername>
+<parametername>settings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Should the detailed cast info be fetched? This effects the response time.</para>
+<para>Object containing Data Fetch settings</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -228,7 +228,131 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="131" column="25" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="131" bodyend="134"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="136" column="25" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1adee371f09187f5d157bfc1390d43badc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
+        <definition>Production JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetProduction</name>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1abecfdbc184066ab4a1cc644b08c709d9">GetProduction</reimplements>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets Production Information iresspective of type using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the production</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Production instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="146" column="27" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ad26f0b3ac75c285466312d51627d1ea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+        <definition>Movie JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetMovie</name>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a32ab2adcb7e1427bf2a6343f4255a2c4">GetMovie</reimplements>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets Movie information using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the movie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Movie instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="156" column="22" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a1603c213131dc67f98eb4ac3d481b252" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref></type>
+        <definition>TVSeries JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetTvSeries</name>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab35ce4c949414516ecac284cf60fd008">GetTvSeries</reimplements>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets TV Series information using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the TV Series</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TV Series instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="166" column="25" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a3e892fc886f3226138c5e13e134436b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
+        <definition>Person JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetPerson</name>
+        <reimplements refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ac5a6c99e010a7bf3a127ef4c2aebe902">GetPerson</reimplements>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets Person information using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the Person</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Person instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="176" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="176" bodyend="179"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -260,13 +384,17 @@
         <link refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider"/>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="22" column="1" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="21" bodyend="135"/>
+    <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="23" column="1" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="22" bodyend="180"/>
     <listofallmembers>
-      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a135fa5c1fae0ea4c259e2db56685e59a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetMovie</name></member>
-      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1aa386d83e858a5040633a74acecbd7c03" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetPerson</name></member>
-      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ab6d0ad92ad71f433b9b4719bbb39fb8e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetPerson</name></member>
-      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a7cc19e8eb23957679a4e1ff98819af69" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetProduction</name></member>
-      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1afa9ebddda755a38a9f948fed0b47e971" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetTvSeries</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a5748daa2f474b5d531098d4285b0774a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetMovie</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ad26f0b3ac75c285466312d51627d1ea7" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetMovie</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a992126d5d0e1c5be85b3e981ad601eba" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetPerson</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acee682edf36e188c344a54945ea318fe" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetPerson</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a3e892fc886f3226138c5e13e134436b0" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetPerson</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a0d8fd0f4a0b613a7db19af22f841414d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetProduction</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1adee371f09187f5d157bfc1390d43badc" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetProduction</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acbcd6885db34798b96c968e9b804e267" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetTvSeries</name></member>
+      <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a1603c213131dc67f98eb4ac3d481b252" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetTvSeries</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

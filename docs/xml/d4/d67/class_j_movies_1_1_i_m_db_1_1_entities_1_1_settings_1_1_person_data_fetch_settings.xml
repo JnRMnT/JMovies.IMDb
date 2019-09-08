@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Settings::PersonDataFetchSettings</compoundname>
+    <derivedcompoundref refid="d4/d1c/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_person_data_fetch_settings" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings</derivedcompoundref>
+    <derivedcompoundref refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1a12bfa3f5e7e259f41725664fc8cb3c56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>virtual bool JMovies.IMDb.Entities.Settings.PersonDataFetchSettings.FetchBioPage</definition>
+        <argsstring></argsstring>
+        <name>FetchBioPage</name>
+        <briefdescription>
+<para>Should the Bio Page details be also fetched? This effects the response time </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" line="15" column="29" bodyfile="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1a7578a119b627e9b8f8f86d5efaa3ad92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>virtual bool JMovies.IMDb.Entities.Settings.PersonDataFetchSettings.FetchImageContents</definition>
+        <argsstring></argsstring>
+        <name>FetchImageContents</name>
+        <briefdescription>
+<para>Should the byte array content of the images be fetched along with URLs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" line="20" column="29" bodyfile="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1af76f6bd0f2e79ca82b30ff52f4ee1f76" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>virtual int JMovies.IMDb.Entities.Settings.PersonDataFetchSettings.MediaImagesFetchCount</definition>
+        <argsstring></argsstring>
+        <name>MediaImagesFetchCount</name>
+        <briefdescription>
+<para>Number of media images to be fetched along with the person </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" line="25" column="28" bodyfile="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that is responsible for holding settings for Person data fetching </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings</label>
+        <link refid="d4/d1c/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_person_data_fetch_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Settings.PersonDataFetchSettings</label>
+        <link refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings"/>
+      </node>
+      <node id="3">
+        <label>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings</label>
+        <link refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Settings/PersonDataFetchSettings.cs" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1a12bfa3f5e7e259f41725664fc8cb3c56" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonDataFetchSettings</scope><name>FetchBioPage</name></member>
+      <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1a7578a119b627e9b8f8f86d5efaa3ad92" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonDataFetchSettings</scope><name>FetchImageContents</name></member>
+      <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1af76f6bd0f2e79ca82b30ff52f4ee1f76" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonDataFetchSettings</scope><name>MediaImagesFetchCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

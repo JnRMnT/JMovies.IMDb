@@ -3,6 +3,7 @@
   <compounddef id="dc/d9d/namespace_j_movies_1_1_i_m_db_1_1_factories" kind="namespace" language="C#">
     <compoundname>JMovies::IMDb::Factories</compoundname>
     <innerclass refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory" prot="public">JMovies::IMDb::Factories::CreditFactory</innerclass>
+    <innerclass refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory" prot="public">JMovies::IMDb::Factories::ProductionFactory</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

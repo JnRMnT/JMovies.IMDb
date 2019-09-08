@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Providers.IMDbScraperDataProvider" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Providers.IMDbScraperDataProvider" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -13,25 +13,41 @@ Inherits \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
 
 .in +1c
 .ti -1c
-.RI "\fBProduction\fP \fBGetProduction\fP (long id, bool fetchDetailedCast)"
+.RI "\fBProduction\fP \fBGetProduction\fP (long id, \fBProductionDataFetchSettings\fP settings)"
 .br
 .RI "Gets Production Information iresspective of type "
 .ti -1c
-.RI "\fBPerson\fP \fBGetPerson\fP (long id, bool fetchAdditionalDetails)"
+.RI "\fBPerson\fP \fBGetPerson\fP (long id, \fBPersonDataFetchSettings\fP settings)"
 .br
 .RI "Gets Person information "
 .ti -1c
-.RI "\fBPerson\fP \fBGetPerson\fP (long id, \fBPerson\fP person, bool fetchAdditionalDetails)"
+.RI "\fBPerson\fP \fBGetPerson\fP (long id, \fBPerson\fP person, \fBPersonDataFetchSettings\fP settings)"
 .br
 .RI "Gets Person information "
 .ti -1c
-.RI "\fBMovie\fP \fBGetMovie\fP (long id, bool fetchDetailedCast)"
+.RI "\fBMovie\fP \fBGetMovie\fP (long id, \fBProductionDataFetchSettings\fP settings)"
 .br
 .RI "Gets Movie information "
 .ti -1c
-.RI "\fBTVSeries\fP \fBGetTvSeries\fP (long id, bool fetchDetailedCast)"
+.RI "\fBTVSeries\fP \fBGetTvSeries\fP (long id, \fBProductionDataFetchSettings\fP settings)"
 .br
 .RI "Gets TV Series information "
+.ti -1c
+.RI "\fBProduction\fP \fBGetProduction\fP (long id)"
+.br
+.RI "Gets Production Information iresspective of type using the default settings "
+.ti -1c
+.RI "\fBMovie\fP \fBGetMovie\fP (long id)"
+.br
+.RI "Gets Movie information using the default settings "
+.ti -1c
+.RI "\fBTVSeries\fP \fBGetTvSeries\fP (long id)"
+.br
+.RI "Gets TV Series information using the default settings "
+.ti -1c
+.RI "\fBPerson\fP \fBGetPerson\fP (long id)"
+.br
+.RI "Gets Person information using the default settings "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -40,16 +56,14 @@ Data provider that fetches the data real-time on \fBIMDb\fP website using Screen
 
 .SH "Member Function Documentation"
 .PP 
-.SS "\fBMovie\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetMovie (long id, bool fetchDetailedCast)"
+.SS "\fBMovie\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetMovie (long id)"
 
 .PP
-Gets Movie information 
+Gets Movie information using the default settings 
 .PP
 \fBParameters\fP
 .RS 4
 \fIid\fP ID of the movie
-.br
-\fIfetchDetailedCast\fP Should the detailed cast info be fetched? This effects the response time\&.
 .RE
 .PP
 \fBReturns\fP
@@ -60,16 +74,34 @@ Movie instance containing retreived information
 
 .PP
 Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
-.SS "\fBPerson\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetPerson (long id, bool fetchAdditionalDetails)"
+.SS "\fBMovie\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetMovie (long id, \fBProductionDataFetchSettings\fP settings)"
 
 .PP
-Gets Person information 
+Gets Movie information 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the movie
+.br
+\fIsettings\fP Object containing Data Fetch settings
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Movie instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "\fBPerson\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetPerson (long id)"
+
+.PP
+Gets Person information using the default settings 
 .PP
 \fBParameters\fP
 .RS 4
 \fIid\fP ID of the Person
-.br
-\fIfetchAdditionalDetails\fP Should the additional details be also fetched? This effects the response time\&.
 .RE
 .PP
 \fBReturns\fP
@@ -80,7 +112,7 @@ Person instance containing retreived information
 
 .PP
 Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
-.SS "\fBPerson\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetPerson (long id, \fBPerson\fP person, bool fetchAdditionalDetails)"
+.SS "\fBPerson\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetPerson (long id, \fBPerson\fP person, \fBPersonDataFetchSettings\fP settings)"
 
 .PP
 Gets Person information 
@@ -91,7 +123,7 @@ Gets Person information
 .br
 \fIperson\fP Person instance to be populated
 .br
-\fIfetchAdditionalDetails\fP Should the additional details be also fetched? This effects the response time\&.
+\fIsettings\fP Object containing Data Fetch settings
 .RE
 .PP
 \fBReturns\fP
@@ -100,16 +132,34 @@ Person instance containing retreived information
 .RE
 .PP
 
-.SS "\fBProduction\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetProduction (long id, bool fetchDetailedCast)"
+.SS "\fBPerson\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetPerson (long id, \fBPersonDataFetchSettings\fP settings)"
 
 .PP
-Gets Production Information iresspective of type 
+Gets Person information 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the Person
+.br
+\fIsettings\fP Object containing Data Fetch settings
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Person instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "\fBProduction\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetProduction (long id)"
+
+.PP
+Gets Production Information iresspective of type using the default settings 
 .PP
 \fBParameters\fP
 .RS 4
 \fIid\fP ID of the production
-.br
-\fIfetchDetailedCast\fP Should the detailed cast info be fetched? This effects the response time\&.
 .RE
 .PP
 \fBReturns\fP
@@ -120,7 +170,45 @@ Production instance containing retreived information
 
 .PP
 Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
-.SS "\fBTVSeries\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetTvSeries (long id, bool fetchDetailedCast)"
+.SS "\fBProduction\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetProduction (long id, \fBProductionDataFetchSettings\fP settings)"
+
+.PP
+Gets Production Information iresspective of type 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the production
+.br
+\fIsettings\fP Object containing Data Fetch settings
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Production instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "\fBTVSeries\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetTvSeries (long id)"
+
+.PP
+Gets TV Series information using the default settings 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the TV Series
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+TV Series instance containing retreived information
+.RE
+.PP
+
+.PP
+Implements \fBJMovies\&.IMDb\&.Entities\&.Interfaces\&.IIMDbDataProvider\fP\&.
+.SS "\fBTVSeries\fP JMovies\&.IMDb\&.Providers\&.IMDbScraperDataProvider\&.GetTvSeries (long id, \fBProductionDataFetchSettings\fP settings)"
 
 .PP
 Gets TV Series information 
@@ -129,7 +217,7 @@ Gets TV Series information
 .RS 4
 \fIid\fP ID of the TV Series
 .br
-\fIfetchDetailedCast\fP Should the detailed cast info be fetched? This effects the response time\&.
+\fIsettings\fP Object containing Data Fetch settings
 .RE
 .PP
 \fBReturns\fP

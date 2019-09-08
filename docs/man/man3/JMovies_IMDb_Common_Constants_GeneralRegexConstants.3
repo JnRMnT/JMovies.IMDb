@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Common.Constants.GeneralRegexConstants" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Common.Constants.GeneralRegexConstants" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -22,6 +22,10 @@ JMovies.IMDb.Common.Constants.GeneralRegexConstants \- Class responsible for hol
 .RI "static readonly Regex \fBHtmlDatetimeTagRegex\fP = new Regex(@'PT(\\d*D)?(\\d*H)?(\\d*M)?(\\d*S)?')"
 .br
 .RI "Regex that captures and groups the HTML Datetime attribute details "
+.ti -1c
+.RI "static readonly Regex \fBAllNumericRegex\fP = new Regex(@'^(\\d+)$')"
+.br
+.RI "Regex that captures all numeric strings "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -30,6 +34,10 @@ Class responsible for holding the Regex definitions that are commonly used
 
 .SH "Member Data Documentation"
 .PP 
+.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.GeneralRegexConstants\&.AllNumericRegex = new Regex(@'^(\\d+)$')\fC [static]\fP"
+
+.PP
+Regex that captures all numeric strings 
 .SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.GeneralRegexConstants\&.AmountStringRegex = new Regex(@'^([^a\-zA\-Z0\-9_\\s\\n]*\\s?|[a\-zA\-Z]{2,3}\\s?)([\\d\\\&.,]+)(\\s?[^a\-zA\-Z0\-9_\\s\\n]*|\\s?[a\-zA\-Z]{2,3})$', RegexOptions\&.Multiline)\fC [static]\fP"
 
 .PP

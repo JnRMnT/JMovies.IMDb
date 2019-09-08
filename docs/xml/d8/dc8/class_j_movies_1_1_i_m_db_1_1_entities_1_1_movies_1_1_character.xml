@@ -4,6 +4,34 @@
     <compoundname>JMovies::IMDb::Entities::Movies::Character</compoundname>
     <derivedcompoundref refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.TVCharacter</derivedcompoundref>
       <sectiondef kind="property">
+      <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a427da896dc7e6aa4e9907aca68164ee2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.Character.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Primary key of a character </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="21" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a3dd651a7e23822b8258a7b716fe3772e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983" kindref="member">CharacterTypeEnum</ref></type>
+        <definition>virtual CharacterTypeEnum JMovies.IMDb.Entities.Movies.Character.CharacterType</definition>
+        <argsstring></argsstring>
+        <name>CharacterType</name>
+        <briefdescription>
+<para>Underlining <ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> Type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="30" column="42" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
       <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a12d30e39588d5b76fe12c91d5a78f09c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>long?</type>
         <definition>long? JMovies.IMDb.Entities.Movies.Character.IMDbID</definition>
@@ -16,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="17" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="17" bodyend="17"/>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="36" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="36" bodyend="36"/>
       </memberdef>
       <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a8c63b7ea053d02a5ce9c356b6fb53208" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -30,7 +58,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="22" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="22" bodyend="22"/>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="45" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a6b64d9edfd4df35f5824e2ca14012b6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.Character.CreditID</definition>
+        <argsstring></argsstring>
+        <name>CreditID</name>
+        <briefdescription>
+<para>Reference ID of related credit </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="50" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="50" bodyend="50"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -50,8 +92,11 @@
         <link refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character"/>
       </node>
     </inheritancegraph>
-    <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="12" bodyend="23"/>
+    <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="15" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="14" bodyend="51"/>
     <listofallmembers>
+      <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a3dd651a7e23822b8258a7b716fe3772e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>CharacterType</name></member>
+      <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a6b64d9edfd4df35f5824e2ca14012b6c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>CreditID</name></member>
+      <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a427da896dc7e6aa4e9907aca68164ee2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>ID</name></member>
       <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a12d30e39588d5b76fe12c91d5a78f09c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>IMDbID</name></member>
       <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a8c63b7ea053d02a5ce9c356b6fb53208" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>Name</name></member>
     </listofallmembers>

@@ -23,6 +23,10 @@
 <para>I will personaly maintain the project as much as i can but as it uses Screen Scraping it is possible that it will require some changes along the way, so every issue report and pull request is welcome!</para>
 </sect1>
 <sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md4">
+<title>Code Documentation</title>
+<para>Documentation website can be found under <ulink url="https://jnrmnt.github.io/JMovies.IMDb/html/index.html">JMovies.IMDb GitHub Pages</ulink>.</para>
+</sect1>
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md5">
 <title>Warning</title>
 <para>Please know that this library is not intended for bulk data scraping from IMDb and it is restricted by them. Also note that this library is not affliated with IMDB and you need to use it at your own risk/responsibility. </para>
 </sect1>

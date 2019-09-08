@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['tagline_332',['Tagline',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#a456ab3add55e286aea7b31c01f351447',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]],
-  ['taglinessummaryregex_333',['TaglinesSummaryRegex',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#abe418c5f5e3186e1419d4a4cc09e1ce3',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]],
-  ['tvseriesogtype_334',['TVSeriesOgType',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#a1d338dc4e7ab64ecd0e217b8955452f3',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]]
+  ['star_395',['Star',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#ab55548c6c0d7ca7fbeb0a9685a069b5f',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]],
+  ['starssummaryregex_396',['StarsSummaryRegex',['../d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants.html#a24c185ee6926daeee3e40ca954470465',1,'JMovies::IMDb::Common::Constants::IMDbConstants']]]
 ];

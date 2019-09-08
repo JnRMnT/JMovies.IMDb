@@ -3,6 +3,7 @@
   <compounddef id="dir_8302d3691b256d58585368fddefcc0e4" kind="dir">
     <compoundname>JMovies.IMDb/obj/Debug</compoundname>
     <innerdir refid="dir_6ddcbfa04393aea3a010fb4e28b985ea">JMovies.IMDb/obj/Debug/netstandard1.4</innerdir>
+    <innerdir refid="dir_a7f5a338d0e42301945a91be57e4690a">JMovies.IMDb/obj/Debug/netstandard2.0</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

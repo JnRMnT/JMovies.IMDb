@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.Movies.Character" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies.Character" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -13,6 +13,14 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\fP\&.
 
 .in +1c
 .ti -1c
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary key of a character "
+.ti -1c
+.RI "virtual \fBCharacterTypeEnum\fP \fBCharacterType\fP\fC [get, set]\fP"
+.br
+.RI "Underlining \fBCharacter\fP Type "
+.ti -1c
 .RI "long? \fBIMDbID\fP\fC [get, set]\fP"
 .br
 .RI "\fBIMDb\fP ID "
@@ -20,6 +28,10 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\fP\&.
 .RI "string \fBName\fP\fC [get, set]\fP"
 .br
 .RI "Name of the character "
+.ti -1c
+.RI "long \fBCreditID\fP\fC [get, set]\fP"
+.br
+.RI "Reference ID of related credit "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -28,6 +40,18 @@ Class definition of a character in a title
 
 .SH "Property Documentation"
 .PP 
+.SS "virtual \fBCharacterTypeEnum\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Character\&.CharacterType\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Underlining \fBCharacter\fP Type 
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.Character\&.CreditID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Reference ID of related credit 
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.Character\&.ID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Primary key of a character 
 .SS "long? JMovies\&.IMDb\&.Entities\&.Movies\&.Character\&.IMDbID\fC [get]\fP, \fC [set]\fP"
 
 .PP

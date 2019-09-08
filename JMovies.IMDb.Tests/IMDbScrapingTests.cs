@@ -16,34 +16,42 @@ namespace JMovies.IMDb.Tests
     public class IMDbScrapingTests
     {
         /// <summary>
-        /// Method that tests scraping of different Movie Details for basic details
+        /// Static list of IMDb IDs of some productions to be tested
+        /// </summary>
+        private static readonly long[] productionIDsTotest = new long[] { 173, 212, 1477834, 397442, 6412452, 0944947, 2139881 };
+
+        /// <summary>
+        /// Static list of IMDb IDs of some persons to be tested
+        /// </summary>
+        private static readonly long[] personIDsToTest = new long[] { 3614913, 5253, 1297015, 3614913, 1877 };
+
+        /// <summary>
+        /// Method that tests scraping of different Production Details for basic details
         /// </summary>
         [TestMethod]
-        public void MovieScraping()
+        public void ProductionScraping()
         {
-            long[] movieIDs = new long[] { 1477834, 397442, 6412452, 0944947, 2139881 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            foreach (long movieID in movieIDs)
+            foreach (long productionID in productionIDsTotest)
             {
-                Production movie = imdbDataProvider.GetProduction(movieID);
-                Assert.IsNotNull(movie);
-                Assert.AreEqual(movieID, movie.IMDbID);
+                Production production = imdbDataProvider.GetProduction(productionID);
+                Assert.IsNotNull(production);
+                Assert.AreEqual(productionID, production.IMDbID);
             }
         }
 
         /// <summary>
-        /// Method that tests scraping of different Movie Details for extended details
+        /// Method that tests scraping of different Production Details for extended details
         /// </summary>
         [TestMethod]
-        public void DetailedMovieScraping()
+        public void DetailedProductionScraping()
         {
-            long[] movieIDs = new long[] { 173, 212, 1477834, 397442, 6412452, 0944947, 2139881 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            foreach (long movieID in movieIDs)
+            foreach (long productionID in productionIDsTotest)
             {
-                Production movie = imdbDataProvider.GetProduction(movieID, new FullProductionDataFetchSettings());
-                Assert.IsNotNull(movie);
-                Assert.AreEqual(movieID, movie.IMDbID);
+                Production production = imdbDataProvider.GetProduction(productionID, new FullProductionDataFetchSettings());
+                Assert.IsNotNull(production);
+                Assert.AreEqual(productionID, production.IMDbID);
             }
         }
 
@@ -53,11 +61,26 @@ namespace JMovies.IMDb.Tests
         [TestMethod]
         public void PersonScraping()
         {
-            long[] personIDs = new long[] { 3614913, 5253, 1297015, 3614913, 1877 };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            foreach (long personID in personIDs)
+            foreach (long personID in personIDsToTest)
             {
-                Person person = imdbDataProvider.GetPerson(personID, new PersonDataFetchSettings { FetchBioPage = true });
+                Person person = imdbDataProvider.GetPerson(personID, new BasicPersonDataFetchSettings());
+                Assert.IsNotNull(person);
+                Assert.AreEqual(personID, person.IMDbID);
+            }
+        }
+
+
+        /// <summary>
+        /// Method that tests detailed scraping of person pages
+        /// </summary>
+        [TestMethod]
+        public void DetailedPersonScraping()
+        {
+            IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
+            foreach (long personID in personIDsToTest)
+            {
+                Person person = imdbDataProvider.GetPerson(personID, new FullPersonDataFetchSettings());
                 Assert.IsNotNull(person);
                 Assert.AreEqual(personID, person.IMDbID);
             }

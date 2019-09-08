@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.Movies.AKA" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies.AKA" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -11,6 +11,10 @@ JMovies.IMDb.Entities.Movies.AKA \- Class definition for other names of the titl
 
 .in +1c
 .ti -1c
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary key "
+.ti -1c
 .RI "string \fBDescription\fP\fC [get, set]\fP"
 .br
 .RI "Description of the alternative name "
@@ -18,6 +22,10 @@ JMovies.IMDb.Entities.Movies.AKA \- Class definition for other names of the titl
 .RI "string \fBName\fP\fC [get, set]\fP"
 .br
 .RI "Alternative name of the Title "
+.ti -1c
+.RI "long \fBProductionID\fP\fC [get, set]\fP"
+.br
+.RI "Reference field for \fBProduction\fP "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -30,10 +38,18 @@ Class definition for other names of the title
 
 .PP
 Description of the alternative name 
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.AKA\&.ID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Primary key 
 .SS "string JMovies\&.IMDb\&.Entities\&.Movies\&.AKA\&.Name\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Alternative name of the Title 
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.AKA\&.ProductionID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Reference field for \fBProduction\fP 
 
 .SH "Author"
 .PP 

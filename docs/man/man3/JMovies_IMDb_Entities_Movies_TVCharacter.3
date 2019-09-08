@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.Movies.TVCharacter" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies.TVCharacter" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -24,6 +24,10 @@ Inherits \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Character\fP\&.
 .RI "int? \fBEndYear\fP\fC [get, set]\fP"
 .br
 .RI "\fBCharacter\fP last appereance year "
+.ti -1c
+.RI "override \fBCharacterTypeEnum\fP \fBCharacterType\fP\fC [get]\fP"
+.br
+.RI "Overridden character type property to return always \fBTVCharacter\fP "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -32,6 +36,10 @@ Class definition of a TV \fBCharacter\fP
 
 .SH "Property Documentation"
 .PP 
+.SS "override \fBCharacterTypeEnum\fP JMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\&.CharacterType\fC [get]\fP"
+
+.PP
+Overridden character type property to return always \fBTVCharacter\fP 
 .SS "int? JMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\&.EndYear\fC [get]\fP, \fC [set]\fP"
 
 .PP

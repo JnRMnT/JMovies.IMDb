@@ -3,6 +3,20 @@
   <compounddef id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Rating</compoundname>
       <sectiondef kind="property">
+      <memberdef kind="property" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a8541e452926515ac34168a2ab7f52d5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.Rating.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Primary key </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="39" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
       <memberdef kind="property" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a1d48c89ac98ae5f8dfe62f48d8c53720" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>double</type>
         <definition>double JMovies.IMDb.Entities.Movies.Rating.Value</definition>
@@ -15,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="15" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="15" bodyend="15"/>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="44" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="property" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a34e2ef0cd128ad99f8bde9144de3b55d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>long</type>
@@ -29,7 +43,119 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="20" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="20" bodyend="20"/>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="49" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a03229a77525ee850ed84540f7f54a34d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source" kindref="compound">DataSource</ref></type>
+        <definition>virtual DataSource JMovies.IMDb.Entities.Movies.Rating.DataSource</definition>
+        <argsstring></argsstring>
+        <name>DataSource</name>
+        <briefdescription>
+<para>Source of the rating data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="55" column="35" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a8133c9a1cbd6973af999d290010b938d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int JMovies.IMDb.Entities.Movies.Rating.DataSourceID</definition>
+        <argsstring></argsstring>
+        <name>DataSourceID</name>
+        <briefdescription>
+<para>Reference field for DataSource </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="60" column="20" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a9f51ceb190cac3e5f5b6835e76b38e12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
+        <definition>virtual Production JMovies.IMDb.Entities.Movies.Rating.Production</definition>
+        <argsstring></argsstring>
+        <name>Production</name>
+        <briefdescription>
+<para>Related production </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="67" column="35" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a0f27baad3a50441554328b825e025c91" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.Rating.ProductionID</definition>
+        <argsstring></argsstring>
+        <name>ProductionID</name>
+        <briefdescription>
+<para>Reference field for <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="72" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1ac21ba5881f79ddfb285502820e1bf49d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JMovies.IMDb.Entities.Movies.Rating.Rating</definition>
+        <argsstring>(DataSourceTypeEnum dataSourceType, Production production)</argsstring>
+        <name>Rating</name>
+        <param>
+          <type><ref refid="db/df9/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1a681ceb59a358b43c4de0cc1ea653b921" kindref="member">DataSourceTypeEnum</ref></type>
+          <declname>dataSourceType</declname>
+        </param>
+        <param>
+          <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
+          <declname>production</declname>
+        </param>
+        <briefdescription>
+<para>Constructor by type of the datasource </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataSourceType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the data source</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>production</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Related <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> instance</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="21" column="16" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a14965c69a10dca18add77af9c56f5e08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JMovies.IMDb.Entities.Movies.Rating.Rating</definition>
+        <argsstring>()</argsstring>
+        <name>Rating</name>
+        <briefdescription>
+<para>Default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="30" column="16" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="30" bodyend="33"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,9 +163,16 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="10" bodyend="21"/>
+    <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="15" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="14" bodyend="73"/>
     <listofallmembers>
+      <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a03229a77525ee850ed84540f7f54a34d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>DataSource</name></member>
+      <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a8133c9a1cbd6973af999d290010b938d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>DataSourceID</name></member>
+      <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a8541e452926515ac34168a2ab7f52d5e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>ID</name></member>
+      <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a9f51ceb190cac3e5f5b6835e76b38e12" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>Production</name></member>
+      <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a0f27baad3a50441554328b825e025c91" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>ProductionID</name></member>
       <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a34e2ef0cd128ad99f8bde9144de3b55d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>RateCount</name></member>
+      <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1ac21ba5881f79ddfb285502820e1bf49d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>Rating</name></member>
+      <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a14965c69a10dca18add77af9c56f5e08" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>Rating</name></member>
       <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a1d48c89ac98ae5f8dfe62f48d8c53720" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>Value</name></member>
     </listofallmembers>
   </compounddef>

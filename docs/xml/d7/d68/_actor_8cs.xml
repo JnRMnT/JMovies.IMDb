@@ -22,9 +22,9 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12" refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" kindref="compound">Actor</ref>:<sp/><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/><ref refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1ae76df969ca3d166e30b7839a3e046389" kindref="member">PersonTypeEnum</ref><sp/><ref refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor_1ad0a68175b3bbff4bbbed6f7c44bf1bb2" kindref="member">PersonType</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/><ref refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1ae76df969ca3d166e30b7839a3e046389" kindref="member">PersonTypeEnum</ref>.Actor;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>=&gt;<sp/>base.PersonType<sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="JMovies.IMDb.Entities/People/Actor.cs"/>
   </compounddef>

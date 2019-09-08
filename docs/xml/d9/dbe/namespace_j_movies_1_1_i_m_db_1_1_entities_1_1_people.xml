@@ -42,6 +42,34 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/People/GenderEnum.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/People/GenderEnum.cs" bodystart="10" bodyend="24"/>
       </memberdef>
+      <memberdef kind="enum" id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1ae76df969ca3d166e30b7839a3e046389" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>PersonTypeEnum</name>
+        <enumvalue id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1ae76df969ca3d166e30b7839a3e046389aec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
+          <name>Undefined</name>
+          <briefdescription>
+<para>Default <ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref> Type </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1ae76df969ca3d166e30b7839a3e046389a1cc84619677de81ee6e44149845270a3" prot="public">
+          <name>Actor</name>
+          <briefdescription>
+<para><ref refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" kindref="compound">Actor</ref> type of <ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref> </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Class definition of person types </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/People/PersonTypeEnum.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/People/PersonTypeEnum.cs" bodystart="10" bodyend="20"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>

@@ -44,7 +44,7 @@ namespace JMovies.IMDb.Entities.People
         /// Main image of the person
         /// </summary>
         [MaxLength(255)]
-        public string PrimaryImage { get; set; }
+        public virtual Image PrimaryImage { get; set; }
 
         /// <summary>
         /// Roles of the person

@@ -3,6 +3,20 @@
   <compounddef id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::ReleaseDate</compoundname>
       <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a6a7649253f0009e6e4f0b40fe81dcacf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.ReleaseDate.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Primary Key </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="21" column="21" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
       <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1aa4e93f65f0f8e718017510be4f25576e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>DateTime</type>
         <definition>DateTime JMovies.IMDb.Entities.Movies.ReleaseDate.Date</definition>
@@ -15,11 +29,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="17" column="25" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="17" bodyend="17"/>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="26" column="25" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="26" bodyend="26"/>
       </memberdef>
-      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a6e8fe353e4c2ca3df21168390ec203c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a25c3bf4d605f6ea624106231ef9ac6c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kindref="compound">Country</ref></type>
-        <definition>Country JMovies.IMDb.Entities.Movies.ReleaseDate.Country</definition>
+        <definition>virtual Country JMovies.IMDb.Entities.Movies.ReleaseDate.Country</definition>
         <argsstring></argsstring>
         <name>Country</name>
         <briefdescription>
@@ -29,7 +43,49 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="22" column="24" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="22" bodyend="22"/>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="32" column="32" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a76957ac09696e0edfe856a8785bd0b93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.ReleaseDate.CountryID</definition>
+        <argsstring></argsstring>
+        <name>CountryID</name>
+        <briefdescription>
+<para>Reference field for country </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="37" column="21" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a72004f4609dee5bd14d156af44c5d899" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.ReleaseDate.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>Description related to the release date </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="43" column="23" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1ac3a188f4b7fe06746b703bc5b6425c72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Movies.ReleaseDate.ProductionID</definition>
+        <argsstring></argsstring>
+        <name>ProductionID</name>
+        <briefdescription>
+<para>Reference field for related <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="48" column="21" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="48" bodyend="48"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,10 +93,14 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="12" bodyend="23"/>
+    <location file="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ReleaseDate.cs" bodystart="15" bodyend="49"/>
     <listofallmembers>
-      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a6e8fe353e4c2ca3df21168390ec203c5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>Country</name></member>
+      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a25c3bf4d605f6ea624106231ef9ac6c6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>Country</name></member>
+      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a76957ac09696e0edfe856a8785bd0b93" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>CountryID</name></member>
       <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1aa4e93f65f0f8e718017510be4f25576e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>Date</name></member>
+      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a72004f4609dee5bd14d156af44c5d899" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>Description</name></member>
+      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1a6a7649253f0009e6e4f0b40fe81dcacf" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>ID</name></member>
+      <member refid="dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date_1ac3a188f4b7fe06746b703bc5b6425c72" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ReleaseDate</scope><name>ProductionID</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

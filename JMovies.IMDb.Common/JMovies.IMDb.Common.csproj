@@ -9,12 +9,14 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>JnRMnT</Authors>
     <Company>JnRMnT</Company>
-    <Version>1.4.1</Version>
+    <Version>1.4.2</Version>
     <Description>JMovies IMDb Common Library - A .Net Standart class library that provides constant definitions and Extension methods for IMDb scraping.</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>JMovies.IMDb.Common.xml</DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
   </PropertyGroup>
 
   <ItemGroup>

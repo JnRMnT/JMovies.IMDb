@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_49285a1343200a3e5c09cd69c0303fe4" kind="dir">
+    <compoundname>JMovies.IMDb.Entities/Settings/Presets</compoundname>
+    <innerfile refid="d7/d31/_basic_person_data_fetch_settings_8cs">BasicPersonDataFetchSettings.cs</innerfile>
+    <innerfile refid="d0/da0/_basic_production_data_fetch_settings_8cs">BasicProductionDataFetchSettings.cs</innerfile>
+    <innerfile refid="da/d71/_full_person_data_fetch_settings_8cs">FullPersonDataFetchSettings.cs</innerfile>
+    <innerfile refid="d5/d22/_full_production_data_fetch_settings_8cs">FullProductionDataFetchSettings.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Settings/Presets/"/>
+  </compounddef>
+</doxygen>

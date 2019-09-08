@@ -9,19 +9,34 @@
             Test class that provides different test scenarios of IMDb Screen Scraping
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.MovieScraping">
+        <member name="F:JMovies.IMDb.Tests.IMDbScrapingTests.productionIDsTotest">
             <summary>
-            Method that tests scraping of different Movie Details for basic details
+            Static list of IMDb IDs of some productions to be tested
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.DetailedMovieScraping">
+        <member name="F:JMovies.IMDb.Tests.IMDbScrapingTests.personIDsToTest">
             <summary>
-            Method that tests scraping of different Movie Details for extended details
+            Static list of IMDb IDs of some persons to be tested
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.ProductionScraping">
+            <summary>
+            Method that tests scraping of different Production Details for basic details
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.DetailedProductionScraping">
+            <summary>
+            Method that tests scraping of different Production Details for extended details
             </summary>
         </member>
         <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.PersonScraping">
             <summary>
             Method that tests scraping of person pages
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.DetailedPersonScraping">
+            <summary>
+            Method that tests detailed scraping of person pages
             </summary>
         </member>
     </members>

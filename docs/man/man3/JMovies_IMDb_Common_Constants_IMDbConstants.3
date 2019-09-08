@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -66,6 +66,14 @@ JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definit
 .RI "static readonly string \fBFullCreditsPath\fP = 'fullcredits/'"
 .br
 .RI "Path of the Full Credits page "
+.ti -1c
+.RI "static readonly string \fBReleaseInfoPath\fP = 'releaseinfo/'"
+.br
+.RI "Path of the Release Info page "
+.ti -1c
+.RI "static readonly string \fBPhotoGalleryPath\fP = 'mediaindex/'"
+.br
+.RI "Path of the Photo Gallery Page "
 .ti -1c
 .RI "static readonly string \fBTVSeriesOgType\fP = 'video\&.tv_show'"
 .br
@@ -175,6 +183,10 @@ JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definit
 .br
 .RI "Actress Filmography Category Name "
 .ti -1c
+.RI "static readonly string \fBEmptyPlotText\fP = 'Add a Plot'"
+.br
+.RI "Empty text to be checked to determine if there is no plot "
+.ti -1c
 .RI "static readonly Regex \fBStarsSummaryRegex\fP = new Regex(\fBStar\fP + '[s]?:', RegexOptions\&.IgnoreCase)"
 .br
 .RI "Regex that matches the stars section in Movie Summary "
@@ -247,9 +259,9 @@ JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definit
 .br
 .RI "Regex that matches the Release Date section in Movie Summary "
 .ti -1c
-.RI "static readonly Regex \fBReleaseDateRegex\fP = new Regex(@'\\s*(\&.+)\\s*\\((\&.+)\\)', RegexOptions\&.IgnoreCase)"
+.RI "static readonly Regex \fBReleaseDateCountryIdentifierRegex\fP = new Regex(@'region=(\&.+?)&', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Release Date "
+.RI "Regex that matches the Country Identifier of a Release Date "
 .ti -1c
 .RI "static readonly Regex \fBAKAHeaderRegex\fP = new Regex(\fBAKA\fP + ':', RegexOptions\&.IgnoreCase)"
 .br
@@ -414,6 +426,10 @@ Text of Director title
 
 .PP
 Regex that matches the directors section in Movie Summary 
+.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.EmptyPlotText = 'Add a Plot'\fC [static]\fP"
+
+.PP
+Empty text to be checked to determine if there is no plot 
 .SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.FilmingLocation = 'Filming Location'\fC [static]\fP"
 
 .PP
@@ -510,6 +526,10 @@ Regex that matches the Person ID from URL
 
 .PP
 Path of the person page 
+.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PhotoGalleryPath = 'mediaindex/'\fC [static]\fP"
+
+.PP
+Path of the Photo Gallery Page 
 .SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PlotKeyword = 'Plot Keyword'\fC [static]\fP"
 
 .PP
@@ -542,14 +562,18 @@ Regex that matches the production company link
 
 .PP
 Text of Release Date title 
+.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseDateCountryIdentifierRegex = new Regex(@'region=(\&.+?)&', RegexOptions\&.IgnoreCase)\fC [static]\fP"
+
+.PP
+Regex that matches the Country Identifier of a Release Date 
 .SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseDateHeaderRegex = new Regex(\fBReleaseDate\fP + '[s]?:', RegexOptions\&.IgnoreCase)\fC [static]\fP"
 
 .PP
 Regex that matches the Release Date section in Movie Summary 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseDateRegex = new Regex(@'\\s*(\&.+)\\s*\\((\&.+)\\)', RegexOptions\&.IgnoreCase)\fC [static]\fP"
+.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseInfoPath = 'releaseinfo/'\fC [static]\fP"
 
 .PP
-Regex that matches the Release Date 
+Path of the Release Info page 
 .SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Runtime = 'Runtime'\fC [static]\fP"
 
 .PP

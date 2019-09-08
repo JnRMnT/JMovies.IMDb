@@ -13,12 +13,14 @@ var hierarchy =
     [ "JMovies.IMDb.Entities.Movies.Credit", "d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit.html", [
       [ "JMovies.IMDb.Entities.Movies.ActingCredit", "d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit.html", null ]
     ] ],
+    [ "JMovies.IMDb.Entities.Misc.DataSource", "d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source.html", null ],
     [ "JMovies.IMDb.Common.Constants.GeneralRegexConstants", "d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants.html", null ],
     [ "JMovies.IMDb.Entities.Movies.Genre", "d7/d98/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_genre.html", null ],
     [ "JMovies.IMDb.Helpers.HtmlHelper", "d1/d23/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_html_helper.html", null ],
     [ "JMovies.IMDb.Helpers.HttpHelper", "df/d7f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_http_helper.html", null ],
     [ "IFactory", null, [
-      [ "JMovies.IMDb.Factories.CreditFactory", "d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory.html", null ]
+      [ "JMovies.IMDb.Factories.CreditFactory", "d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory.html", null ],
+      [ "JMovies.IMDb.Factories.ProductionFactory", "d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory.html", null ]
     ] ],
     [ "JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider", "d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider.html", [
       [ "JMovies.IMDb.Providers.IMDbScraperDataProvider", "d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider.html", null ]
@@ -36,15 +38,28 @@ var hierarchy =
     [ "JMovies.IMDb.Entities.People.Person", "d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person.html", [
       [ "JMovies.IMDb.Entities.People.Actor", "de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor.html", null ]
     ] ],
+    [ "JMovies.IMDb.Entities.Settings.PersonDataFetchSettings", "d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings.html", [
+      [ "JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings", "d4/d1c/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_person_data_fetch_settings.html", null ],
+      [ "JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings", "d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings.html", null ]
+    ] ],
     [ "JMovies.IMDb.Helpers.People.PersonPageHelper", "d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper.html", null ],
+    [ "JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper", "d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper.html", null ],
     [ "JMovies.IMDb.Entities.Movies.Production", "d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production.html", [
       [ "JMovies.IMDb.Entities.Movies.Movie", "d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie.html", [
         [ "JMovies.IMDb.Entities.Movies.TVSeries", "d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series.html", null ]
       ] ]
     ] ],
+    [ "JMovies.IMDb.Entities.Movies.ProductionCountry", "d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country.html", null ],
     [ "JMovies.IMDb.Entities.People.ProductionCredit", "dc/d41/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_production_credit.html", null ],
+    [ "JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings", "da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings.html", [
+      [ "JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings", "d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings.html", null ],
+      [ "JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings", "da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings.html", null ]
+    ] ],
+    [ "JMovies.IMDb.Entities.Movies.ProductionLanguage", "db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language.html", null ],
     [ "JMovies.IMDb.Entities.Movies.Rating", "dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating.html", null ],
     [ "JMovies.IMDb.Entities.Movies.ReleaseDate", "dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date.html", null ],
+    [ "JMovies.IMDb.Helpers.Movies.ReleaseInfoPageHelper", "de/dde/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_release_info_page_helper.html", null ],
     [ "JMovies.IMDb.Helpers.Movies.SummaryCastHelper", "d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper.html", null ],
-    [ "JMovies.IMDb.Helpers.Movies.SummaryStorylineHelper", "d0/df5/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_storyline_helper.html", null ]
+    [ "JMovies.IMDb.Helpers.Movies.SummaryStorylineHelper", "d0/df5/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_storyline_helper.html", null ],
+    [ "JMovies.IMDb.Entities.Movies.TagLine", "db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line.html", null ]
 ];

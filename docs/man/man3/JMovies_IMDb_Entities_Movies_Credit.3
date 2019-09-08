@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.Movies.Credit" 3 "Tue Aug 13 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies.Credit" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -13,13 +13,25 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.Movies\&.ActingCredit\fP\&.
 
 .in +1c
 .ti -1c
-.RI "\fBPerson\fP \fBPerson\fP\fC [get, set]\fP"
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary key "
+.ti -1c
+.RI "virtual \fBPerson\fP \fBPerson\fP\fC [get, set]\fP"
 .br
 .RI "Person related to the credit "
+.ti -1c
+.RI "long \fBPersonID\fP\fC [get, set]\fP"
+.br
+.RI "Reference id for Person "
 .ti -1c
 .RI "\fBCreditRoleType\fP \fBRoleType\fP\fC [get, set]\fP"
 .br
 .RI "Role of the person in the title "
+.ti -1c
+.RI "long \fBProductionID\fP\fC [get, set]\fP"
+.br
+.RI "Reference field for \fBProduction\fP "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -28,10 +40,22 @@ Class definition of a credit in a title
 
 .SH "Property Documentation"
 .PP 
-.SS "\fBPerson\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Credit\&.Person\fC [get]\fP, \fC [set]\fP"
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.Credit\&.ID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Primary key 
+.SS "virtual \fBPerson\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Credit\&.Person\fC [get]\fP, \fC [set]\fP"
 
 .PP
 Person related to the credit 
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.Credit\&.PersonID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Reference id for Person 
+.SS "long JMovies\&.IMDb\&.Entities\&.Movies\&.Credit\&.ProductionID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Reference field for \fBProduction\fP 
 .SS "\fBCreditRoleType\fP JMovies\&.IMDb\&.Entities\&.Movies\&.Credit\&.RoleType\fC [get]\fP, \fC [set]\fP"
 
 .PP
