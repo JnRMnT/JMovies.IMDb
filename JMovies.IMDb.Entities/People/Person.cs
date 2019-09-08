@@ -89,6 +89,7 @@ namespace JMovies.IMDb.Entities.People
         /// <summary>
         /// Available Photos of the person
         /// </summary>
+        [ForeignKey("PersonID")]
         public virtual ICollection<Image> Photos { get; set; }
 
         /// <summary>
