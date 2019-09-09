@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Sun Sep 8 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Mon Sep 9 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -51,7 +51,7 @@ JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definit
 .br
 .RI "Path of the characters page "
 .ti -1c
-.RI "static readonly string \fBKeywordsPath\fP = 'keyword/'"
+.RI "static readonly string \fBKeywordsPath\fP = 'keyword'"
 .br
 .RI "Path of the keywords page "
 .ti -1c
@@ -223,7 +223,7 @@ JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definit
 .br
 .RI "Regex that matches the plot keywords section in Movie Summary "
 .ti -1c
-.RI "static readonly Regex \fBKeywordLinkRegex\fP = new Regex(Regex\&.Escape(\fBKeywordsPath\fP) + @'(\&.+)\\?', RegexOptions\&.IgnoreCase)"
+.RI "static readonly Regex \fBKeywordLinkRegex\fP = new Regex(\fBKeywordsPath\fP + @'[\\/?]keywords=(\&.+)&', RegexOptions\&.IgnoreCase)"
 .br
 .RI "Regex that matches the keywords section in Movie Summary "
 .ti -1c
@@ -470,11 +470,11 @@ Length of the \fBIMDb\fP IDs
 
 .PP
 Resource indipendent \fBIMDb\fP ID matcher regex 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.KeywordLinkRegex = new Regex(Regex\&.Escape(\fBKeywordsPath\fP) + @'(\&.+)\\?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
+.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.KeywordLinkRegex = new Regex(\fBKeywordsPath\fP + @'[\\/?]keywords=(\&.+)&', RegexOptions\&.IgnoreCase)\fC [static]\fP"
 
 .PP
 Regex that matches the keywords section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.KeywordsPath = 'keyword/'\fC [static]\fP"
+.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.KeywordsPath = 'keyword'\fC [static]\fP"
 
 .PP
 Path of the keywords page 

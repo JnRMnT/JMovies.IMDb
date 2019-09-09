@@ -158,7 +158,7 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.KeywordsPath</definition>
         <argsstring></argsstring>
         <name>KeywordsPath</name>
-        <initializer>= &quot;keyword/&quot;</initializer>
+        <initializer>= &quot;keyword&quot;</initializer>
         <briefdescription>
 <para>Path of the keywords page </para>
         </briefdescription>
@@ -803,7 +803,7 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.KeywordLinkRegex</definition>
         <argsstring></argsstring>
         <name>KeywordLinkRegex</name>
-        <initializer>= new Regex(Regex.Escape(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7157aebc4ecf7d208b8b3d09b1ac1b30" kindref="member">KeywordsPath</ref>) + @&quot;(.+)\?&quot;, RegexOptions.IgnoreCase)</initializer>
+        <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7157aebc4ecf7d208b8b3d09b1ac1b30" kindref="member">KeywordsPath</ref> + @&quot;[\/?]keywords=(.+)&amp;&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
 <para>Regex that matches the keywords section in Movie Summary </para>
         </briefdescription>

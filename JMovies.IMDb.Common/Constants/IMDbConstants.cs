@@ -65,7 +65,7 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Path of the keywords page
         /// </summary>
-        public static readonly string KeywordsPath = "keyword/";
+        public static readonly string KeywordsPath = "keyword";
 
         /// <summary>
         /// Prefix of Company IDs
@@ -273,7 +273,7 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the keywords section in Movie Summary
         /// </summary>
-        public static readonly Regex KeywordLinkRegex = new Regex(Regex.Escape(KeywordsPath) + @"(.+)\?", RegexOptions.IgnoreCase);
+        public static readonly Regex KeywordLinkRegex = new Regex(KeywordsPath + @"[\/?]keywords=(.+)&", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the genres section in Movie Summary
         /// </summary>
