@@ -23,7 +23,7 @@ namespace JMovies.IMDb.Tests
         /// <summary>
         /// Static list of IMDb IDs of some persons to be tested
         /// </summary>
-        private static readonly long[] personIDsToTest = new long[] { 3614913, 5253, 1297015, 3614913, 1877 };
+        private static readonly long[] personIDsToTest = new long[] { 18652, 3614913, 5253, 1297015, 3614913, 1877 };
 
         /// <summary>
         /// Method that tests scraping of different Production Details for basic details
@@ -66,6 +66,7 @@ namespace JMovies.IMDb.Tests
             {
                 Person person = imdbDataProvider.GetPerson(personID, new BasicPersonDataFetchSettings());
                 Assert.IsNotNull(person);
+                Assert.IsFalse(string.IsNullOrEmpty(person.FullName));
                 Assert.AreEqual(personID, person.IMDbID);
             }
         }
@@ -82,6 +83,7 @@ namespace JMovies.IMDb.Tests
             {
                 Person person = imdbDataProvider.GetPerson(personID, new FullPersonDataFetchSettings());
                 Assert.IsNotNull(person);
+                Assert.IsFalse(string.IsNullOrEmpty(person.FullName));
                 Assert.AreEqual(personID, person.IMDbID);
             }
         }

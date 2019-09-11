@@ -8,7 +8,7 @@
     <Copyright>JnRMnT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>JMovies IMDb Data Provider Library - Currently supports on-demand screen scraping from IMDb to receive movie and person details.</Description>
-    <Version>1.4.4</Version>
+    <Version>1.4.5</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

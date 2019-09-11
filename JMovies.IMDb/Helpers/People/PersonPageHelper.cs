@@ -99,7 +99,14 @@ namespace JMovies.IMDb.Helpers.People
                     }
                     person.Photos = photos;
                 }
-
+                else
+                {
+                    HtmlNode nameHeader = documentNode.QuerySelector(".header");
+                    if (nameHeader != null)
+                    {
+                        person.FullName = nameHeader.InnerText.Prepare();
+                    }
+                }
             }
             #endregion
             #region Bio Page Parsing
