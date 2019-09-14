@@ -37,11 +37,13 @@ namespace JMovies.IMDb.Entities.Common
         /// <summary>
         /// Related Person ID
         /// </summary>
+        [Column("PersonID")]
         public long PersonID { get; set; }
 
         /// <summary>
         /// Related Production ID
         /// </summary>
+        [Column("ProductionID")]
         public long ProductionID { get; set; }
     }
 }
