@@ -44,6 +44,16 @@
             Content of the image
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Image.PersonID">
+            <summary>
+            Related Person ID
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Common.Image.ProductionID">
+            <summary>
+            Related Production ID
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Common.Length">
             <summary>
             Class definition of Length that contains both Imperial and Metric length information

@@ -8,7 +8,7 @@
         <definition>readonly long [] JMovies.IMDb.Tests.IMDbScrapingTests.productionIDsTotest</definition>
         <argsstring></argsstring>
         <name>productionIDsTotest</name>
-        <initializer>= new long[] { 173, 212, 1477834, 397442, 6412452, 0944947, 2139881 }</initializer>
+        <initializer>= new long[] { 1477834, 173, 212, 397442, 6412452, 0944947, 2139881 }</initializer>
         <briefdescription>
 <para>Static list of <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs of some productions to be tested </para>
         </briefdescription>

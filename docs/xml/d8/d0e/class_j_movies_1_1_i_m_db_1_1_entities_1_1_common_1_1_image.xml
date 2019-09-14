@@ -59,16 +59,46 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/Common/Image.cs" line="35" column="21" bodyfile="JMovies.IMDb.Entities/Common/Image.cs" bodystart="35" bodyend="35"/>
       </memberdef>
+      <memberdef kind="property" id="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a1511727f001f10c37b628c5aafae5cf1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Common.Image.PersonID</definition>
+        <argsstring></argsstring>
+        <name>PersonID</name>
+        <briefdescription>
+<para>Related Person ID </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Common/Image.cs" line="40" column="21" bodyfile="JMovies.IMDb.Entities/Common/Image.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a0e8a63e6b2b2f17941cd3fd38accb7de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long JMovies.IMDb.Entities.Common.Image.ProductionID</definition>
+        <argsstring></argsstring>
+        <name>ProductionID</name>
+        <briefdescription>
+<para>Related Production ID </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Common/Image.cs" line="45" column="21" bodyfile="JMovies.IMDb.Entities/Common/Image.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Class definition for basic online image </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Common/Image.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Common/Image.cs" bodystart="12" bodyend="36"/>
+    <location file="JMovies.IMDb.Entities/Common/Image.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Common/Image.cs" bodystart="12" bodyend="46"/>
     <listofallmembers>
       <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1aa4f2bc1cc1d0b78c5ac33375e7682a2c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Image</scope><name>Content</name></member>
       <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a1bdaf503063b893b8f76fe8b87f7ca16" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Image</scope><name>ID</name></member>
+      <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a1511727f001f10c37b628c5aafae5cf1" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Image</scope><name>PersonID</name></member>
+      <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a0e8a63e6b2b2f17941cd3fd38accb7de" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Image</scope><name>ProductionID</name></member>
       <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a4235a5e801eddac6bbbc2c7e7859ddf0" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Image</scope><name>Title</name></member>
       <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a37aa8548852f930f7e63659ba26724f6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Image</scope><name>URL</name></member>
     </listofallmembers>

@@ -118,6 +118,8 @@
     <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a4235a5e801eddac6bbbc2c7e7859ddf0" kind="property"><name>Title</name></member>
     <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a37aa8548852f930f7e63659ba26724f6" kind="property"><name>URL</name></member>
     <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1aa4f2bc1cc1d0b78c5ac33375e7682a2c" kind="property"><name>Content</name></member>
+    <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a1511727f001f10c37b628c5aafae5cf1" kind="property"><name>PersonID</name></member>
+    <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a0e8a63e6b2b2f17941cd3fd38accb7de" kind="property"><name>ProductionID</name></member>
   </compound>
   <compound refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants" kind="class"><name>JMovies::IMDb::Common::Constants::IMDbConstants</name>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acb18dbfa8c474197be39953d818d7a4e" kind="variable"><name>HttpMaxRetryCount</name></member>

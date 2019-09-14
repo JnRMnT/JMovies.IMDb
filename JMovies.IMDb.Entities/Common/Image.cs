@@ -33,5 +33,15 @@ namespace JMovies.IMDb.Entities.Common
         /// Content of the image
         /// </summary>
         public byte[] Content { get; set; }
+
+        /// <summary>
+        /// Related Person ID
+        /// </summary>
+        public long PersonID { get; set; }
+
+        /// <summary>
+        /// Related Production ID
+        /// </summary>
+        public long ProductionID { get; set; }
     }
 }
