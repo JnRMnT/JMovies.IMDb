@@ -45,6 +45,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Poster of the production
         /// </summary>
+        [ForeignKey("PosterID")]
         public virtual Image Poster { get; set; }
 
         /// <summary>

@@ -7,7 +7,7 @@
     <Company>JnRMnT</Company>
     <Copyright>JnRMnT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.4.7</Version>
+    <Version>1.4.8</Version>
     <Description>JMovies IMDb Entities Library - A .Net Standart class library that provides class definitions for IMDb.</Description>
   </PropertyGroup>
 
