@@ -1078,6 +1078,11 @@
             Do not fetch media images
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.CastFetchCount">
+            <summary>
+            Do not fetch the cast
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings">
             <summary>
             A preset of data fetch settings that fetches all the data available for persons
@@ -1115,7 +1120,12 @@
         </member>
         <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings.MediaImagesFetchCount">
             <summary>
-            Fetch 25 media images
+            Fetch all media images
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings.CastFetchCount">
+            <summary>
+            Fetch all cast
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings">
@@ -1136,6 +1146,11 @@
         <member name="P:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings.MediaImagesFetchCount">
             <summary>
             Number of media images to be fetched along with the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings.CastFetchCount">
+            <summary>
+            Number of cast to be fetched along with the production
             </summary>
         </member>
     </members>

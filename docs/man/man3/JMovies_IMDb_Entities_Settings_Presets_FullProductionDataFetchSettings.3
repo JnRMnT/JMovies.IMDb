@@ -23,7 +23,11 @@ Inherits \fBJMovies\&.IMDb\&.Entities\&.Settings\&.ProductionDataFetchSettings\f
 .ti -1c
 .RI "override int \fBMediaImagesFetchCount\fP\fC [get]\fP"
 .br
-.RI "Fetch 25 media images "
+.RI "Fetch all media images "
+.ti -1c
+.RI "override int \fBCastFetchCount\fP\fC [get]\fP"
+.br
+.RI "Fetch all cast "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -32,6 +36,10 @@ A preset of data fetch settings that fetches all the data available for producti
 
 .SH "Property Documentation"
 .PP 
+.SS "override int JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.FullProductionDataFetchSettings\&.CastFetchCount\fC [get]\fP"
+
+.PP
+Fetch all cast 
 .SS "override bool JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.FullProductionDataFetchSettings\&.FetchDetailedCast\fC [get]\fP"
 
 .PP
@@ -43,7 +51,7 @@ Fetch the image contents
 .SS "override int JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.FullProductionDataFetchSettings\&.MediaImagesFetchCount\fC [get]\fP"
 
 .PP
-Fetch 25 media images 
+Fetch all media images 
 
 .SH "Author"
 .PP 

@@ -20,8 +20,13 @@ namespace JMovies.IMDb.Entities.Settings.Presets
         public override bool FetchImageContents { get => true; }
 
         /// <summary>
-        /// Fetch 25 media images
+        /// Fetch all media images
         /// </summary>
-        public override int MediaImagesFetchCount { get => 25; }
+        public override int MediaImagesFetchCount { get => int.MaxValue; }
+
+        /// <summary>
+        /// Fetch all cast
+        /// </summary>
+        public override int CastFetchCount { get => int.MaxValue; }
     }
 }

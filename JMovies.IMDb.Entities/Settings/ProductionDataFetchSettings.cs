@@ -23,5 +23,11 @@ namespace JMovies.IMDb.Entities.Settings
         /// Number of media images to be fetched along with the production
         /// </summary>
         public virtual int MediaImagesFetchCount { get; set; }
+
+
+        /// <summary>
+        /// Number of cast to be fetched along with the production
+        /// </summary>
+        public virtual int CastFetchCount { get; set; }
     }
 }

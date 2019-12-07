@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating.html#a8133c9a1cbd6973af999d290010b938d":[2,0,0,0,1,3,15,3],
+"dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating.html#a8541e452926515ac34168a2ab7f52d5e":[2,0,0,0,1,3,15,4],
+"dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating.html#a9f51ceb190cac3e5f5b6835e76b38e12":[2,0,0,0,1,3,15,5],
 "dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating.html#ac21ba5881f79ddfb285502820e1bf49d":[2,0,0,0,1,3,15,0],
 "de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor.html":[2,0,0,0,1,4,0],
 "de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor.html#ad0a68175b3bbff4bbbed6f7c44bf1bb2":[2,0,0,0,1,4,0,0],
@@ -13,8 +16,8 @@ var NAVTREEINDEX1 =
 "df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a.html#a8696e5fcc84f1a7177a1cb3c6d3062f3":[2,0,0,0,1,3,1,1],
 "df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a.html#aa67af45fc9bd047d796d31c221c3d125":[2,0,0,0,1,3,1,0],
 "df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a.html#ad397b70e8ed7f390e68d8d4e8dfe52cd":[2,0,0,0,1,3,1,2],
-"df/d60/namespace_j_movies_1_1_i_m_db_1_1_providers.html":[2,0,0,0,4],
 "df/d60/namespace_j_movies_1_1_i_m_db_1_1_providers.html":[1,0,0,1,4],
+"df/d60/namespace_j_movies_1_1_i_m_db_1_1_providers.html":[2,0,0,0,4],
 "df/d7f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_http_helper.html":[2,0,0,0,3,3],
 "df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length.html":[2,0,0,0,1,0,2],
 "df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length.html#acf922d881cab55ef34fe92790ab7ef9b":[2,0,0,0,1,0,2,0],

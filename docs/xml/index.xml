@@ -31,6 +31,7 @@
     <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1a7e0c1ef42b84e2f8035ee2caf8b7aa52" kind="property"><name>FetchDetailedCast</name></member>
     <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1a32e703b19f613c0bdf3064ec81696fd9" kind="property"><name>FetchImageContents</name></member>
     <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1ab274284418c863d0b23e608255f8cd16" kind="property"><name>MediaImagesFetchCount</name></member>
+    <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1aba4b875dc23f812426c1d290201887e9" kind="property"><name>CastFetchCount</name></member>
   </compound>
   <compound refid="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper" kind="class"><name>JMovies::IMDb::Helpers::People::BioPageHelper</name>
     <member refid="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper_1af364cf710d23064484d48dc24efa3c5c" kind="function"><name>ParseBioPage</name></member>
@@ -83,6 +84,7 @@
     <member refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings_1a58513abad2c17a0c9ca61789a190a3e6" kind="property"><name>FetchDetailedCast</name></member>
     <member refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings_1a8130c02a285316413506973bcc078f8e" kind="property"><name>FetchImageContents</name></member>
     <member refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings_1aa104b21966d9b91d683db9319f345593" kind="property"><name>MediaImagesFetchCount</name></member>
+    <member refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings_1a01a0e3155bd53abb579cf1bbf0a4222e" kind="property"><name>CastFetchCount</name></member>
   </compound>
   <compound refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants" kind="class"><name>JMovies::IMDb::Common::Constants::GeneralRegexConstants</name>
     <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants_1a830416d195596d5e8bb870ed88fd6cab" kind="variable"><name>AmountStringRegex</name></member>
@@ -326,6 +328,7 @@
     <member refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a41cf38adda1540d6f86c86bad2ab172c" kind="property"><name>FetchDetailedCast</name></member>
     <member refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a729edda2d6427b225d06c042733b0436" kind="property"><name>FetchImageContents</name></member>
     <member refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a0d69a900413382a5e573d55bbfa39029" kind="property"><name>MediaImagesFetchCount</name></member>
+    <member refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a932e6696a7d28d0dfc9d6ce5090e38fa" kind="property"><name>CastFetchCount</name></member>
   </compound>
   <compound refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory" kind="class"><name>JMovies::IMDb::Factories::ProductionFactory</name>
     <member refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory_1adb85893b5129a9e1c89201932ba64fce" kind="function"><name>Build</name></member>

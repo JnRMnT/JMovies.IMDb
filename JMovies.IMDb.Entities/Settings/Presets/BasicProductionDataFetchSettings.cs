@@ -23,5 +23,10 @@ namespace JMovies.IMDb.Entities.Settings.Presets
         /// Do not fetch media images
         /// </summary>
         public override int MediaImagesFetchCount { get => 0; }
+
+        /// <summary>
+        /// Do not fetch the cast
+        /// </summary>
+        public override int CastFetchCount { get => 0; }
     }
 }
