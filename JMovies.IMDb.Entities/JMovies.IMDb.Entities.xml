@@ -631,6 +631,11 @@
             Poster of the production
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.Production.PosterID">
+            <summary>
+            Reference field for the Poster
+            </summary>
+        </member>
         <member name="P:JMovies.IMDb.Entities.Movies.Production.MediaImages">
             <summary>
             Media images related with the production
@@ -823,6 +828,11 @@
             Content of the tag line
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.TagLine.ProductionID">
+            <summary>
+            Reference field for Production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.TVCharacter">
             <summary>
             Class definition of a TV Character
@@ -921,6 +931,11 @@
         <member name="P:JMovies.IMDb.Entities.People.Person.PrimaryImage">
             <summary>
             Main image of the person
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.People.Person.PrimaryImageID">
+            <summary>
+            Reference field for the Primary Image
             </summary>
         </member>
         <member name="P:JMovies.IMDb.Entities.People.Person.Roles">

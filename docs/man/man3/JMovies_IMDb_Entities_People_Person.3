@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Entities.People.Person" 3 "Sun Nov 3 2019" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.People.Person" 3 "Sat Dec 7 2019" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -32,6 +32,10 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.People\&.Actor\fP\&.
 .RI "virtual \fBImage\fP \fBPrimaryImage\fP\fC [get, set]\fP"
 .br
 .RI "Main image of the person "
+.ti -1c
+.RI "long \fBPrimaryImageID\fP\fC [get, set]\fP"
+.br
+.RI "Reference field for the Primary Image "
 .ti -1c
 .RI "ICollection< \fBCreditRoleType\fP > \fBRoles\fP\fC [get, set]\fP"
 .br
@@ -136,6 +140,10 @@ Available Photos of the person
 
 .PP
 Main image of the person 
+.SS "long JMovies\&.IMDb\&.Entities\&.People\&.Person\&.PrimaryImageID\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Reference field for the Primary Image 
 .SS "ICollection<\fBCreditRoleType\fP> JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Roles\fC [get]\fP, \fC [set]\fP"
 
 .PP

@@ -48,6 +48,11 @@ namespace JMovies.IMDb.Entities.People
         public virtual Image PrimaryImage { get; set; }
 
         /// <summary>
+        /// Reference field for the Primary Image
+        /// </summary>
+        public long PrimaryImageID { get; set; }
+
+        /// <summary>
         /// Roles of the person
         /// </summary>
         [MaxLength(128)]

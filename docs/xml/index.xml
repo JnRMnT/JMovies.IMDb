@@ -118,8 +118,8 @@
     <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a4235a5e801eddac6bbbc2c7e7859ddf0" kind="property"><name>Title</name></member>
     <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a37aa8548852f930f7e63659ba26724f6" kind="property"><name>URL</name></member>
     <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1aa4f2bc1cc1d0b78c5ac33375e7682a2c" kind="property"><name>Content</name></member>
-    <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a1511727f001f10c37b628c5aafae5cf1" kind="property"><name>PersonID</name></member>
-    <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a0e8a63e6b2b2f17941cd3fd38accb7de" kind="property"><name>ProductionID</name></member>
+    <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a29cad94ab5ca428c9ab10759b52752d3" kind="property"><name>PersonID</name></member>
+    <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a82d20d3882c8a0a8b9568f9f5fea24d3" kind="property"><name>ProductionID</name></member>
   </compound>
   <compound refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants" kind="class"><name>JMovies::IMDb::Common::Constants::IMDbConstants</name>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acb18dbfa8c474197be39953d818d7a4e" kind="variable"><name>HttpMaxRetryCount</name></member>
@@ -275,6 +275,7 @@
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a747eb8529b5756ad93d2bf85b5771098" kind="property"><name>IMDbID</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1aca33ca161e107b7f5f492db6ede258ce" kind="property"><name>FullName</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a40add992aa6316de87d7596e38ec12d2" kind="property"><name>PrimaryImage</name></member>
+    <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ac38af98406238086975089eac641d918" kind="property"><name>PrimaryImageID</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a46ced074bfa3021beacfe378aa2ca7fa" kind="property"><name>Roles</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a9fb64a2bfa647bdfb293ae06e9056708" kind="property"><name>BirthDate</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a34777a4074c9958ae48e4b857d8ed9e1" kind="property"><name>BirthPlace</name></member>
@@ -305,6 +306,7 @@
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a377805e78db8065c6717a80e1d1170bc" kind="property"><name>Year</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ac8bc4ac1cf77aff9382dba1b892b8342" kind="property"><name>Rating</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae6d41fc76c971096dae919adb96e1060" kind="property"><name>Poster</name></member>
+    <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a57f6ef063f1ab42b6e641736a1333f3f" kind="property"><name>PosterID</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a11d2c7269317d77a4b7379d5fac5d38c" kind="property"><name>MediaImages</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae7790593a04eb1e4519f2dadb562214d" kind="property"><name>ProductionType</name></member>
   </compound>
@@ -369,6 +371,7 @@
   <compound refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line" kind="class"><name>JMovies::IMDb::Entities::Movies::TagLine</name>
     <member refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line_1a706f1af044354bae53291e3f139a5045" kind="property"><name>ID</name></member>
     <member refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line_1ae490010b913fe444a173cfb7ed5e53ad" kind="property"><name>Content</name></member>
+    <member refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line_1a39f043b226f703fb4e415286ad566eaa" kind="property"><name>ProductionID</name></member>
   </compound>
   <compound refid="db/d62/class_time_span_extensions" kind="class"><name>TimeSpanExtensions</name>
     <member refid="db/d62/class_time_span_extensions_1a36600123636a2d9bd2e46a346129b2ce" kind="function"><name>ToHtmlTimeSpan</name></member>
