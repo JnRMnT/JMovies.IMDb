@@ -64,7 +64,7 @@
       <member refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor_1ad0a68175b3bbff4bbbed6f7c44bf1bb2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>PersonType</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ab5040c7e31b30d70e5577373e6f6fe1f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Photos</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a40add992aa6316de87d7596e38ec12d2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>PrimaryImage</name></member>
-      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ac38af98406238086975089eac641d918" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>PrimaryImageID</name></member>
+      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a49d52fdcc1e8390d44fee21e7b32172c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>PrimaryImageID</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a46ced074bfa3021beacfe378aa2ca7fa" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>Roles</name></member>
     </listofallmembers>
   </compounddef>

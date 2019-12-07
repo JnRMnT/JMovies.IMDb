@@ -74,9 +74,9 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/People/Person.cs" line="48" column="30" bodyfile="JMovies.IMDb.Entities/People/Person.cs" bodystart="48" bodyend="48"/>
       </memberdef>
-      <memberdef kind="property" id="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ac38af98406238086975089eac641d918" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>long</type>
-        <definition>long JMovies.IMDb.Entities.People.Person.PrimaryImageID</definition>
+      <memberdef kind="property" id="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a49d52fdcc1e8390d44fee21e7b32172c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long?</type>
+        <definition>long? JMovies.IMDb.Entities.People.Person.PrimaryImageID</definition>
         <argsstring></argsstring>
         <name>PrimaryImageID</name>
         <briefdescription>
@@ -262,7 +262,7 @@
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a6cc77806ac5d552824d621b74a7b1af3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>PersonType</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ab5040c7e31b30d70e5577373e6f6fe1f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>Photos</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a40add992aa6316de87d7596e38ec12d2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>PrimaryImage</name></member>
-      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ac38af98406238086975089eac641d918" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>PrimaryImageID</name></member>
+      <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a49d52fdcc1e8390d44fee21e7b32172c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>PrimaryImageID</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a46ced074bfa3021beacfe378aa2ca7fa" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>Roles</name></member>
     </listofallmembers>
   </compounddef>

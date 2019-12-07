@@ -88,9 +88,9 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/Movies/Production.cs" line="49" column="30" bodyfile="JMovies.IMDb.Entities/Movies/Production.cs" bodystart="49" bodyend="49"/>
       </memberdef>
-      <memberdef kind="property" id="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a57f6ef063f1ab42b6e641736a1333f3f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>long</type>
-        <definition>long JMovies.IMDb.Entities.Movies.Production.PosterID</definition>
+      <memberdef kind="property" id="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a2b8830e196af869b07ae6901e3be7659" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long?</type>
+        <definition>long? JMovies.IMDb.Entities.Movies.Production.PosterID</definition>
         <argsstring></argsstring>
         <name>PosterID</name>
         <briefdescription>
@@ -160,7 +160,7 @@
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1aa04f94022c7e169342ea787f84272e34" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>IMDbID</name></member>
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a11d2c7269317d77a4b7379d5fac5d38c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>MediaImages</name></member>
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae6d41fc76c971096dae919adb96e1060" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>Poster</name></member>
-      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a57f6ef063f1ab42b6e641736a1333f3f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>PosterID</name></member>
+      <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a2b8830e196af869b07ae6901e3be7659" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>PosterID</name></member>
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae7790593a04eb1e4519f2dadb562214d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>ProductionType</name></member>
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ac8bc4ac1cf77aff9382dba1b892b8342" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>Rating</name></member>
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1afa3af33baf66d1c1a09d728e51ac4d0a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>Title</name></member>

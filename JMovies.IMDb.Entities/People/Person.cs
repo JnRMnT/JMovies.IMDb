@@ -50,7 +50,7 @@ namespace JMovies.IMDb.Entities.People
         /// <summary>
         /// Reference field for the Primary Image
         /// </summary>
-        public long PrimaryImageID { get; set; }
+        public long? PrimaryImageID { get; set; }
 
         /// <summary>
         /// Roles of the person

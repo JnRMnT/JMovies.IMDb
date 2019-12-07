@@ -51,7 +51,7 @@ namespace JMovies.IMDb.Entities.Movies
         /// <summary>
         /// Reference field for the Poster
         /// </summary>
-        public long PosterID { get; set; }
+        public long? PosterID { get; set; }
 
         /// <summary>
         /// Media images related with the production

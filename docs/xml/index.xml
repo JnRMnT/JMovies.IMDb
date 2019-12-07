@@ -275,7 +275,7 @@
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a747eb8529b5756ad93d2bf85b5771098" kind="property"><name>IMDbID</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1aca33ca161e107b7f5f492db6ede258ce" kind="property"><name>FullName</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a40add992aa6316de87d7596e38ec12d2" kind="property"><name>PrimaryImage</name></member>
-    <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ac38af98406238086975089eac641d918" kind="property"><name>PrimaryImageID</name></member>
+    <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a49d52fdcc1e8390d44fee21e7b32172c" kind="property"><name>PrimaryImageID</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a46ced074bfa3021beacfe378aa2ca7fa" kind="property"><name>Roles</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a9fb64a2bfa647bdfb293ae06e9056708" kind="property"><name>BirthDate</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a34777a4074c9958ae48e4b857d8ed9e1" kind="property"><name>BirthPlace</name></member>
@@ -306,7 +306,7 @@
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a377805e78db8065c6717a80e1d1170bc" kind="property"><name>Year</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ac8bc4ac1cf77aff9382dba1b892b8342" kind="property"><name>Rating</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae6d41fc76c971096dae919adb96e1060" kind="property"><name>Poster</name></member>
-    <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a57f6ef063f1ab42b6e641736a1333f3f" kind="property"><name>PosterID</name></member>
+    <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a2b8830e196af869b07ae6901e3be7659" kind="property"><name>PosterID</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a11d2c7269317d77a4b7379d5fac5d38c" kind="property"><name>MediaImages</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae7790593a04eb1e4519f2dadb562214d" kind="property"><name>ProductionType</name></member>
   </compound>
@@ -596,6 +596,8 @@
   </compound>
   <compound refid="db/de2/_debug_2netcoreapp2_81_2_j_movies_8_i_m_db_8_tests_8_assembly_info_8cs" kind="file"><name>JMovies.IMDb.Tests.AssemblyInfo.cs</name>
   </compound>
+  <compound refid="dc/d35/_debug_2netcoreapp3_81_2_j_movies_8_i_m_db_8_tests_8_assembly_info_8cs" kind="file"><name>JMovies.IMDb.Tests.AssemblyInfo.cs</name>
+  </compound>
   <compound refid="d4/d30/_release_2netcoreapp2_80_2_j_movies_8_i_m_db_8_tests_8_assembly_info_8cs" kind="file"><name>JMovies.IMDb.Tests.AssemblyInfo.cs</name>
   </compound>
   <compound refid="d1/d5f/_j_movies_8_i_m_db_8_tests_8_program_8cs" kind="file"><name>JMovies.IMDb.Tests.Program.cs</name>
@@ -652,9 +654,9 @@
   </compound>
   <compound refid="dir_d0eeca1ac6c2f7639a332465ae50c376" kind="dir"><name>JMovies.IMDb.Tests/obj/Debug</name>
   </compound>
-  <compound refid="dir_8f46183906bd892b1c521aafa3cd94f5" kind="dir"><name>JMovies.IMDb.Common/Extensions</name>
-  </compound>
   <compound refid="dir_cb7e08139b9e367945a2893258fe6ec9" kind="dir"><name>JMovies.IMDb/Extensions</name>
+  </compound>
+  <compound refid="dir_8f46183906bd892b1c521aafa3cd94f5" kind="dir"><name>JMovies.IMDb.Common/Extensions</name>
   </compound>
   <compound refid="dir_def71d5e474a731af83de87dcf56c3c6" kind="dir"><name>JMovies.IMDb/Factories</name>
   </compound>
@@ -682,29 +684,31 @@
   </compound>
   <compound refid="dir_5dab1a35cdbc0d7e8cce793d040834ee" kind="dir"><name>JMovies.IMDb.Tests/obj/Debug/netcoreapp2.1</name>
   </compound>
+  <compound refid="dir_8d54aec6892e20d6955954d50415464e" kind="dir"><name>JMovies.IMDb.Tests/obj/Debug/netcoreapp3.1</name>
+  </compound>
   <compound refid="dir_6ddcbfa04393aea3a010fb4e28b985ea" kind="dir"><name>JMovies.IMDb/obj/Debug/netstandard1.4</name>
   </compound>
   <compound refid="dir_1e6d3c8f2a27a1ed9d94e01f9e806614" kind="dir"><name>JMovies.IMDb.Common/obj/Debug/netstandard1.4</name>
   </compound>
-  <compound refid="dir_ca418c9c41608aa464f0aa7214797eb1" kind="dir"><name>JMovies.IMDb.Common/obj/Release/netstandard2.0</name>
+  <compound refid="dir_7c3e482d0b932fa73478334d786ecdad" kind="dir"><name>JMovies.IMDb.Common/obj/Debug/netstandard2.0</name>
   </compound>
-  <compound refid="dir_a7f5a338d0e42301945a91be57e4690a" kind="dir"><name>JMovies.IMDb/obj/Debug/netstandard2.0</name>
+  <compound refid="dir_ca418c9c41608aa464f0aa7214797eb1" kind="dir"><name>JMovies.IMDb.Common/obj/Release/netstandard2.0</name>
   </compound>
   <compound refid="dir_7da3f93c1d021a691657b570ea43b792" kind="dir"><name>JMovies.IMDb.Entities/obj/Debug/netstandard2.0</name>
   </compound>
-  <compound refid="dir_7c3e482d0b932fa73478334d786ecdad" kind="dir"><name>JMovies.IMDb.Common/obj/Debug/netstandard2.0</name>
-  </compound>
   <compound refid="dir_f46e684c8b593fb76ef4022bfd45346c" kind="dir"><name>JMovies.IMDb.Entities/obj/Release/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_a7f5a338d0e42301945a91be57e4690a" kind="dir"><name>JMovies.IMDb/obj/Debug/netstandard2.0</name>
   </compound>
   <compound refid="dir_d5fcee89b3d023476aacb3ad51b82957" kind="dir"><name>JMovies.IMDb/obj/Release/netstandard2.0</name>
   </compound>
-  <compound refid="dir_aa4252ba76727ceb40ff9d3cd4ad35dd" kind="dir"><name>JMovies.IMDb.Entities/obj</name>
-  </compound>
   <compound refid="dir_5541365f15bb774709235e562f5fa300" kind="dir"><name>JMovies.IMDb/obj</name>
   </compound>
-  <compound refid="dir_909a052c62ef55cf04415d9b7eba5fd6" kind="dir"><name>JMovies.IMDb.Tests/obj</name>
+  <compound refid="dir_aa4252ba76727ceb40ff9d3cd4ad35dd" kind="dir"><name>JMovies.IMDb.Entities/obj</name>
   </compound>
   <compound refid="dir_345e197ceffc95b9e5460ec2428f0f7a" kind="dir"><name>JMovies.IMDb.Common/obj</name>
+  </compound>
+  <compound refid="dir_909a052c62ef55cf04415d9b7eba5fd6" kind="dir"><name>JMovies.IMDb.Tests/obj</name>
   </compound>
   <compound refid="dir_d230fc66120e842b75ee9069459fcb33" kind="dir"><name>JMovies.IMDb/Helpers/People</name>
   </compound>
@@ -714,13 +718,13 @@
   </compound>
   <compound refid="dir_6d114fc9d918c13ee802027270c3f406" kind="dir"><name>JMovies.IMDb/Providers</name>
   </compound>
-  <compound refid="dir_f719de6a4448db7779e4d70bf483f605" kind="dir"><name>JMovies.IMDb.Common/obj/Release</name>
+  <compound refid="dir_24966a62453017c829ed4f8559016590" kind="dir"><name>JMovies.IMDb/obj/Release</name>
   </compound>
   <compound refid="dir_115683dd4a36cd7bcb8da0289f36c1fb" kind="dir"><name>JMovies.IMDb.Tests/obj/Release</name>
   </compound>
-  <compound refid="dir_fd928fd29ae2ce5b10ca71540e9144d6" kind="dir"><name>JMovies.IMDb.Entities/obj/Release</name>
+  <compound refid="dir_f719de6a4448db7779e4d70bf483f605" kind="dir"><name>JMovies.IMDb.Common/obj/Release</name>
   </compound>
-  <compound refid="dir_24966a62453017c829ed4f8559016590" kind="dir"><name>JMovies.IMDb/obj/Release</name>
+  <compound refid="dir_fd928fd29ae2ce5b10ca71540e9144d6" kind="dir"><name>JMovies.IMDb.Entities/obj/Release</name>
   </compound>
   <compound refid="dir_c405d6b0dfba2521a25a8884a2b27874" kind="dir"><name>JMovies.IMDb.Entities/Settings</name>
   </compound>
