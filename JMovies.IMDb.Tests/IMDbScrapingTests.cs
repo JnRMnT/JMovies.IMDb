@@ -18,7 +18,7 @@ namespace JMovies.IMDb.Tests
         /// <summary>
         /// Static list of IMDb IDs of some productions to be tested
         /// </summary>
-        private static readonly long[] productionIDsTotest = new long[] { 1477834, 173, 212, 397442, 6412452, 0944947, 2139881 };
+        private static readonly long[] productionIDsTotest = new long[] { 3636, 1477834, 173, 212, 397442, 6412452, 0944947, 2139881 };
 
         /// <summary>
         /// Static list of IMDb IDs of some persons to be tested

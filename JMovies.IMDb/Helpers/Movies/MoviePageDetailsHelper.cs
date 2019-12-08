@@ -104,7 +104,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 HtmlNode summaryText = summaryWrapper.QuerySelector(".summary_text");
                 if (summaryText != null)
                 {
-                    movie.PlotSummary = summaryText.InnerText.Prepare();
+                    movie.PlotSummary = summaryText.FirstChild.InnerText.Prepare();
                     if (movie.PlotSummary.StartsWith(IMDbConstants.EmptyPlotText))
                     {
                         movie.PlotSummary = string.Empty;
