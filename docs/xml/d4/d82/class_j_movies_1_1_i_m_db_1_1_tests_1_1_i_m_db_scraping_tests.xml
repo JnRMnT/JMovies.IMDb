@@ -23,7 +23,7 @@
         <definition>readonly long [] JMovies.IMDb.Tests.IMDbScrapingTests.personIDsToTest</definition>
         <argsstring></argsstring>
         <name>personIDsToTest</name>
-        <initializer>= new long[] { 18652, 3614913, 5253, 1297015, 3614913, 1877 }</initializer>
+        <initializer>= new long[] { 86816, 18652, 3614913, 5253, 1297015, 3614913, 1877 }</initializer>
         <briefdescription>
 <para>Static list of <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs of some persons to be tested </para>
         </briefdescription>

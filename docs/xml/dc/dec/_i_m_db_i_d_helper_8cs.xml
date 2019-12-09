@@ -6,7 +6,6 @@
     <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
     <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
     <innernamespace refid="d0/dd8/namespace_j_movies_1_1_i_m_db_1_1_helpers">JMovies::IMDb::Helpers</innernamespace>
-    <innernamespace refid="d5/db7/namespace_system_1_1_text_1_1_regular_expressions">System::Text::RegularExpressions</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
 
@@ -19,7 +20,7 @@ public static class ScreenScrapingExtensions
     {
         if (!string.IsNullOrEmpty(text))
         {
-            return HttpUtility.HtmlDecode(text.Trim());
+            return HttpUtility.HtmlDecode(Regex.Replace(Regex.Replace(text, "\\n", " "), @"\s+", " ").Trim());
         }
         else
         {
