@@ -20,7 +20,7 @@ public static class ScreenScrapingExtensions
     {
         if (!string.IsNullOrEmpty(text))
         {
-            return HttpUtility.HtmlDecode(Regex.Replace(Regex.Replace(text, "\\n", " "), @"\s+", " ").Trim());
+            return HttpUtility.HtmlDecode(Regex.Replace(Regex.Replace(text.Replace("&nbsp;"," "), "\\n", " "), @"\s+", " ").Trim());
         }
         else
         {
