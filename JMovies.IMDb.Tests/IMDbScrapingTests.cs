@@ -87,5 +87,20 @@ namespace JMovies.IMDb.Tests
                 Assert.AreEqual(personID, person.IMDbID);
             }
         }
+
+        /// <summary>
+        /// Test Method that tests a production with start date but no end date
+        /// </summary>
+        [TestMethod]
+        public void TVShowWithNoEndTest()
+        {
+            IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
+            Production production = imdbDataProvider.GetProduction(48861, new FullProductionDataFetchSettings());
+            Assert.IsNotNull(production);
+            Assert.AreEqual(48861, production.IMDbID);
+            Assert.IsTrue(production.ProductionType == ProductionTypeEnum.TVSeries);
+            Assert.IsTrue((production as TVSeries).Year != default(int));
+            Assert.IsFalse((production as TVSeries).EndYear.HasValue);
+        }
     }
 }

@@ -743,7 +743,7 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.MovieYearRegex</definition>
         <argsstring></argsstring>
         <name>MovieYearRegex</name>
-        <initializer>= new Regex(@&quot;(.+)\((\d{4})[–-]?(\d{4})?\)\s*&quot;)</initializer>
+        <initializer>= new Regex(@&quot;(.+)\((\d{4})[–-]?(\d{4})?\s*\)\s*&quot;)</initializer>
         <briefdescription>
 <para>Regex that matches the movie year in the Movie page </para>
         </briefdescription>

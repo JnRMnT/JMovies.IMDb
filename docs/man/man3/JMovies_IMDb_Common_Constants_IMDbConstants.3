@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Fri Feb 14 2020" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Sun Feb 7 2021" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -207,7 +207,7 @@ JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definit
 .br
 .RI "Regex that matches the Person ID from URL "
 .ti -1c
-.RI "static readonly Regex \fBMovieYearRegex\fP = new Regex(@'(\&.+)\\((\\d{4})[–\-]?(\\d{4})?\\)\\s*')"
+.RI "static readonly Regex \fBMovieYearRegex\fP = new Regex(@'(\&.+)\\((\\d{4})[–\-]?(\\d{4})?\\s*\\)\\s*')"
 .br
 .RI "Regex that matches the movie year in the Movie page "
 .ti -1c
@@ -502,7 +502,7 @@ Prefix of the movie IDs
 
 .PP
 Path of the movies page 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.MovieYearRegex = new Regex(@'(\&.+)\\((\\d{4})[–\-]?(\\d{4})?\\)\\s*')\fC [static]\fP"
+.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.MovieYearRegex = new Regex(@'(\&.+)\\((\\d{4})[–\-]?(\\d{4})?\\s*\\)\\s*')\fC [static]\fP"
 
 .PP
 Regex that matches the movie year in the Movie page 

@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="dir_8d54aec6892e20d6955954d50415464e" kind="dir">
     <compoundname>JMovies.IMDb.Tests/obj/Debug/netcoreapp3.1</compoundname>
+    <innerfile refid="d1/d33/_8_n_e_t_core_app_00_version_0av3_81_8_assembly_attributes_8cs">.NETCoreApp,Version=v3.1.AssemblyAttributes.cs</innerfile>
     <innerfile refid="dc/d35/_debug_2netcoreapp3_81_2_j_movies_8_i_m_db_8_tests_8_assembly_info_8cs">JMovies.IMDb.Tests.AssemblyInfo.cs</innerfile>
     <briefdescription>
     </briefdescription>

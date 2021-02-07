@@ -71,7 +71,11 @@ namespace JMovies.IMDb.Helpers.Movies
                             movie.Year = yearMatch.Groups[2].Value.Trim().ToInteger();
                             if (yearMatch.Groups.Count > 3)
                             {
-                                (movie as TVSeries).EndYear = yearMatch.Groups[3].Value.Trim().ToInteger();
+                                string endYearString = yearMatch.Groups[3].Value.Trim();
+                                if (!string.IsNullOrEmpty(endYearString))
+                                {
+                                    (movie as TVSeries).EndYear = yearMatch.Groups[3].Value.Trim().ToInteger();
+                                }
                             }
                         }
                     }

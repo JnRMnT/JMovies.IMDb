@@ -257,7 +257,7 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the movie year in the Movie page
         /// </summary>
-        public static readonly Regex MovieYearRegex = new Regex(@"(.+)\((\d{4})[–-]?(\d{4})?\)\s*");
+        public static readonly Regex MovieYearRegex = new Regex(@"(.+)\((\d{4})[–-]?(\d{4})?\s*\)\s*");
         /// <summary>
         /// Regex that matches the character IMDb ID
         /// </summary>

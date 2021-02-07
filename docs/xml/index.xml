@@ -224,6 +224,7 @@
     <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1a5e29753656e94047d0b4103b22b1461c" kind="function"><name>DetailedProductionScraping</name></member>
     <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1a51c3e899a78e439760393774a1a385eb" kind="function"><name>PersonScraping</name></member>
     <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1ac1be77838db4ec7c211cfbdd277ee542" kind="function"><name>DetailedPersonScraping</name></member>
+    <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1a87ae3ecf683d6fb12561438e25c482ed" kind="function"><name>TVShowWithNoEndTest</name></member>
   </compound>
   <compound refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kind="class"><name>JMovies::IMDb::Entities::Movies::Keyword</name>
     <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1aed938b38a746bc88e826ea2c1e4456d6" kind="property"><name>ID</name></member>
@@ -605,6 +606,8 @@
   </compound>
   <compound refid="d1/d5f/_j_movies_8_i_m_db_8_tests_8_program_8cs" kind="file"><name>JMovies.IMDb.Tests.Program.cs</name>
   </compound>
+  <compound refid="d1/d33/_8_n_e_t_core_app_00_version_0av3_81_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v3.1.AssemblyAttributes.cs</name>
+  </compound>
   <compound refid="dd/d6d/_screen_scraping_extensions_8cs" kind="file"><name>ScreenScrapingExtensions.cs</name>
   </compound>
   <compound refid="d8/de6/_credit_factory_8cs" kind="file"><name>CreditFactory.cs</name>
@@ -638,6 +641,12 @@
   <compound refid="df/d76/_debug_2netstandard2_80_2_j_movies_8_i_m_db_8_assembly_info_8cs" kind="file"><name>JMovies.IMDb.AssemblyInfo.cs</name>
   </compound>
   <compound refid="d0/d94/_release_2netstandard2_80_2_j_movies_8_i_m_db_8_assembly_info_8cs" kind="file"><name>JMovies.IMDb.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d2/db6/obj_2_debug_2netstandard2_80_2_8_n_e_t_standard_00_version_0av2_80_8_assembly_attributes_8cs" kind="file"><name>.NETStandard,Version=v2.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="d0/dce/_common_2obj_2_debug_2netstandard2_80_2_8_n_e_t_standard_00_version_0av2_80_8_assembly_attributes_8cs" kind="file"><name>.NETStandard,Version=v2.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="dd/d07/_entities_2obj_2_debug_2netstandard2_80_2_8_n_e_t_standard_00_version_0av2_80_8_assembly_attributes_8cs" kind="file"><name>.NETStandard,Version=v2.0.AssemblyAttributes.cs</name>
   </compound>
   <compound refid="db/daf/_i_m_db_scraper_data_provider_8cs" kind="file"><name>IMDbScraperDataProvider.cs</name>
   </compound>

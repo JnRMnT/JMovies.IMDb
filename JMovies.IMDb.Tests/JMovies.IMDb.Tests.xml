@@ -39,5 +39,10 @@
             Method that tests detailed scraping of person pages
             </summary>
         </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TVShowWithNoEndTest">
+            <summary>
+            Test Method that tests a production with start date but no end date
+            </summary>
+        </member>
     </members>
 </doc>
