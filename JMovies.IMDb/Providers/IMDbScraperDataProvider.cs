@@ -39,7 +39,7 @@ namespace JMovies.IMDb.Providers
             }
 
             Movie movie = new Movie();
-            string url = IMDbConstants.BaseURL + IMDbConstants.MoviesPath + IMDbConstants.MovieIDPrefix + id.ToString().PadLeft(IMDbConstants.IMDbIDLength, '0');
+            string url = IMDbConstants.BaseURL + IMDbConstants.MoviesPath + IMDbConstants.MovieIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
             HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
             WebRequest webRequest = HttpHelper.InitializeWebRequest(url);
             using (Stream stream = HttpHelper.GetResponseStream(webRequest))
@@ -49,10 +49,10 @@ namespace JMovies.IMDb.Providers
             HtmlNode documentNode = htmlDocument.DocumentNode;
 
             //Parse and verify IMDb ID Meta Tag
-            HtmlNode idMetaTag = documentNode.QuerySelector("meta[property='pageId']");
-            if (idMetaTag != null)
+            string foundID = IMDbConstants.ProductionTitleMatcherRegex.Match(documentNode.InnerHtml)?.Groups?[1]?.Value;
+            if (!string.IsNullOrEmpty(foundID))
             {
-                movie.IMDbID = Regex.Replace(idMetaTag.Attributes["content"].Value, IMDbConstants.MovieIDPrefix, string.Empty).ToLong();
+                movie.IMDbID = foundID.ToLong();
             }
             else
             {
@@ -90,7 +90,7 @@ namespace JMovies.IMDb.Providers
                 throw new JMException("IMDbIDEmpty");
             }
 
-            string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + id.ToString().PadLeft(IMDbConstants.IMDbIDLength, '0');
+            string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
             HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
 
             WebRequest webRequest = HttpHelper.InitializeWebRequest(url);

@@ -21,7 +21,7 @@ namespace JMovies.IMDb.Helpers.Movies
         internal static List<Credit> GetCreditInfo(HtmlNode creditSummaryNode)
         {
             List<Credit> credits = new List<Credit>();
-            string role = creditSummaryNode.QuerySelector("h4").InnerText.Prepare();
+            string role = creditSummaryNode.FirstChild.InnerText.Prepare();
             CreditRoleType roleType = CreditRoleType.Undefined;
             if (IMDbConstants.DirectorsSummaryRegex.IsMatch(role))
             {

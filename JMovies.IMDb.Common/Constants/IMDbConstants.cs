@@ -23,9 +23,14 @@ namespace JMovies.IMDb.Common.Constants
         public static readonly int HttpRetrySleepTime = 1000;
 
         /// <summary>
+        /// Length of the Extended IMDb IDs
+        /// </summary>
+        public static readonly int IMDbIDExtendedLength = 8;
+
+        /// <summary>
         /// Length of the IMDb IDs
         /// </summary>
-        public static readonly int IMDbIDLength = 8;
+        public static readonly int IMDbIDLength = 7;
 
         /// <summary>
         /// Default culture to be used while screen scraping
@@ -133,11 +138,6 @@ namespace JMovies.IMDb.Common.Constants
         public static readonly string Tagline = "Tagline";
 
         /// <summary>
-        /// Text of Plot Keyword title
-        /// </summary>
-        public static readonly string PlotKeyword = "Plot Keyword";
-
-        /// <summary>
         /// Text of Genre title
         /// </summary>
         public static readonly string Genre = "Genre";
@@ -231,25 +231,29 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Empty text to be checked to determine if there is no plot
         /// </summary>
-        public static readonly string EmptyPlotText = "Add a Plot";
+        public static readonly string EmptyPlotText = "Add a plot";
         #endregion
         #region IMDB specific Regexes
         /// <summary>
+        /// Regex that matches the title
+        /// </summary>
+        public static readonly Regex ProductionTitleMatcherRegex = new Regex(@"\/title\/tt(\d+)\/");
+        /// <summary>
         /// Regex that matches the stars section in Movie Summary
         /// </summary>
-        public static readonly Regex StarsSummaryRegex = new Regex(Star + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex StarsSummaryRegex = new Regex(Star + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the directors section in Movie Summary
         /// </summary>
-        public static readonly Regex DirectorsSummaryRegex = new Regex(Director + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex DirectorsSummaryRegex = new Regex(Director + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the writers section in Movie Summary
         /// </summary>
-        public static readonly Regex WritersSummaryRegex = new Regex(Writer + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex WritersSummaryRegex = new Regex(Writer + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the creators section in Movie Summary
         /// </summary>
-        public static readonly Regex CreatorsSummaryRegex = new Regex(Creator + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex CreatorsSummaryRegex = new Regex(Creator + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the Person ID from URL
         /// </summary>
@@ -257,7 +261,7 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the movie year in the Movie page
         /// </summary>
-        public static readonly Regex MovieYearRegex = new Regex(@"(.+)\((\d{4})[–-]?(\d{4})?\s*\)\s*");
+        public static readonly Regex MovieYearRegex = new Regex(@"\s*(\d{4})[–-]?(\d{4})?\s*");
         /// <summary>
         /// Regex that matches the character IMDb ID
         /// </summary>
@@ -265,31 +269,27 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the tag lines section in Movie Summary
         /// </summary>
-        public static readonly Regex TaglinesSummaryRegex = new Regex(Tagline + "[s]?:", RegexOptions.IgnoreCase);
-        /// <summary>
-        /// Regex that matches the plot keywords section in Movie Summary
-        /// </summary>
-        public static readonly Regex PlotKeywordsSummaryRegex = new Regex(PlotKeyword + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex TaglinesSummaryRegex = new Regex(Tagline + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the keywords section in Movie Summary
         /// </summary>
-        public static readonly Regex KeywordLinkRegex = new Regex(KeywordsPath + @"[\/?]keywords=(.+)&", RegexOptions.IgnoreCase);
+        public static readonly Regex KeywordLinkRegex = new Regex(KeywordsPath + @"[\/?]{1,2}keywords=(.+)&", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the genres section in Movie Summary
         /// </summary>
-        public static readonly Regex GenresSummaryRegex = new Regex(Genre + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex GenresSummaryRegex = new Regex(Genre + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches a specific Genre Link
         /// </summary>
-        public static readonly Regex GenreLinkRegex = new Regex("title\\?genres=(.+?)[&\"]", RegexOptions.IgnoreCase);
+        public static readonly Regex GenreLinkRegex = new Regex(@"title[/\\]\?genres=(.+?)[&\\""]", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the Official Sites section in Movie Summary
         /// </summary>
-        public static readonly Regex OfficialSitesHeaderRegex = new Regex(OfficialSite + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex OfficialSitesHeaderRegex = new Regex(OfficialSite + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the countries section in Movie Summary
         /// </summary>
-        public static readonly Regex CountriesHeaderRegex = new Regex("Countr[y]?(ies)?:", RegexOptions.IgnoreCase);
+        public static readonly Regex CountriesHeaderRegex = new Regex("Countr[y]?(ies)?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the Country Of Origin section in Movie Summary
         /// </summary>
@@ -297,7 +297,7 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the Languages section in Movie Summary
         /// </summary>
-        public static readonly Regex LanguagesHeaderRegex = new Regex(Language + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex LanguagesHeaderRegex = new Regex(Language + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the Primary Language section in Movie Summary
         /// </summary>
@@ -305,7 +305,7 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the Release Date section in Movie Summary
         /// </summary>
-        public static readonly Regex ReleaseDateHeaderRegex = new Regex(ReleaseDate + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex ReleaseDateHeaderRegex = new Regex(ReleaseDate + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the Country Identifier of a Release Date
         /// </summary>
@@ -313,11 +313,11 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the AKAs section in Movie Summary
         /// </summary>
-        public static readonly Regex AKAHeaderRegex = new Regex(AKA + ":", RegexOptions.IgnoreCase);
+        public static readonly Regex AKAHeaderRegex = new Regex(AKA + ":?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the filming locations section in Movie Summary
         /// </summary>
-        public static readonly Regex FilmingLocationsHeaderRegex = new Regex(FilmingLocation + "[s]?:", RegexOptions.IgnoreCase);
+        public static readonly Regex FilmingLocationsHeaderRegex = new Regex(FilmingLocation + "[s]?:?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the locations section in Movie Summary
         /// </summary>
@@ -325,11 +325,11 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the budget section in Movie Summary
         /// </summary>
-        public static readonly Regex BudgetHeaderRegex = new Regex(Budget + ":", RegexOptions.IgnoreCase);
+        public static readonly Regex BudgetHeaderRegex = new Regex(Budget + ":?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the production company section in Movie Summary
         /// </summary>
-        public static readonly Regex ProductionCompanyHeaderRegex = new Regex(ProductionCompany + ":", RegexOptions.IgnoreCase);
+        public static readonly Regex ProductionCompanyHeaderRegex = new Regex(ProductionCompany + ":?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the production company link
         /// </summary>
@@ -337,11 +337,11 @@ namespace JMovies.IMDb.Common.Constants
         /// <summary>
         /// Regex that matches the runtime length section in Movie Summary
         /// </summary>
-        public static readonly Regex RuntimeHeaderRegex = new Regex(Runtime + ":", RegexOptions.IgnoreCase);
+        public static readonly Regex RuntimeHeaderRegex = new Regex(Runtime + ":?", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the epsidoe info of a character
         /// </summary>
-        public static readonly Regex CharacterEpisodeInfoRegex = new Regex(@"\n*\s*\(?(\d+)\s+episodes?,\s+(\d+)-?(\d*)\)?\s*\n*", RegexOptions.IgnoreCase);
+        public static readonly Regex CharacterEpisodeInfoRegex = new Regex(@"\n*\s*\(?(\d+)\s+eps\s+•\s+(\d+)[\-–]?(\d*)", RegexOptions.IgnoreCase);
         /// <summary>
         /// Regex that matches the height of a person in Bio page
         /// </summary>
@@ -354,6 +354,21 @@ namespace JMovies.IMDb.Common.Constants
         /// Regex that matches the credit year
         /// </summary>
         public static readonly Regex CreditYearRegex = new Regex(@"(\d{4})(\/\w)?[–-]?(\d{4})?(\/\w)?");
+
+        /// <summary>
+        /// Regex that matches the rating out of context JSON
+        /// </summary>
+        public static readonly Regex RatingJSONLDMatcher = new Regex(@"{""@type"":""AggregateRating"".+?}");
+
+        /// <summary>
+        /// Regex that matches the rating count out of rating JSON
+        /// </summary>
+        public static readonly Regex RatingCountMatcher = new Regex(@"""ratingCount""\s*:\s*(\d+)");
+
+        /// <summary>
+        /// Regex that matches the rating value out of rating JSON
+        /// </summary>
+        public static readonly Regex RatingValueMatcher = new Regex(@"""ratingValue"":([\d\.,]*)");
         #endregion
     }
 }

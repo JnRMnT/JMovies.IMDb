@@ -102,5 +102,19 @@ namespace JMovies.IMDb.Tests
             Assert.IsTrue((production as TVSeries).Year != default(int));
             Assert.IsFalse((production as TVSeries).EndYear.HasValue);
         }
+
+
+        /// <summary>
+        /// Test Method that tests a TV Show with the summary fetch settings
+        /// </summary>
+        [TestMethod]
+        public void SummaryTVShowTest()
+        {
+            IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
+            Production production = imdbDataProvider.GetProduction(397442);
+            Assert.IsNotNull(production);
+            Assert.AreEqual(397442, production.IMDbID);
+            Assert.IsTrue(production.ProductionType == ProductionTypeEnum.TVSeries);
+        }
     }
 }

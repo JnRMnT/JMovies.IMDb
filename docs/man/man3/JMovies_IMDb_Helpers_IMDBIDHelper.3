@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Helpers.IMDBIDHelper" 3 "Sun Feb 7 2021" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Helpers.IMDBIDHelper" 3 "Wed Dec 15 2021" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -14,6 +14,10 @@ JMovies.IMDb.Helpers.IMDBIDHelper \- Class responsible for providing utility met
 .RI "static ? long \fBGetIDFromUrl\fP (string url)"
 .br
 .RI "Method responsible for getting \fBIMDb\fP ID from a URL "
+.ti -1c
+.RI "static string \fBGetPaddedIMDBId\fP (long id)"
+.br
+.RI "Returns 7 or 8 digit padded IMDB ID "
 .in -1c
 .SH "Detailed Description"
 .PP 
@@ -35,6 +39,22 @@ Method responsible for getting \fBIMDb\fP ID from a URL
 \fBReturns\fP
 .RS 4
 Detected \fBIMDb\fP ID
+.RE
+.PP
+
+.SS "static string JMovies\&.IMDb\&.Helpers\&.IMDBIDHelper\&.GetPaddedIMDBId (long id)\fC [static]\fP"
+
+.PP
+Returns 7 or 8 digit padded IMDB ID 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP The numeric ID
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 padded ID
 .RE
 .PP
 

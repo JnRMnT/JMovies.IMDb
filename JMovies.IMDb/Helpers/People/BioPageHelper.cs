@@ -24,7 +24,7 @@ namespace JMovies.IMDb.Helpers.People
         /// <param name="person">Person to be populated</param>
         public static void ParseBioPage(Person person)
         {
-            string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + person.IMDbID.ToString().PadLeft(IMDbConstants.IMDbIDLength, '0') + "/" + IMDbConstants.BioPagePath;
+            string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + IMDBIDHelper.GetPaddedIMDBId(person.IMDbID) + "/" + IMDbConstants.BioPagePath;
             HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
             WebRequest webRequest = HttpHelper.InitializeWebRequest(url);
             using (Stream stream = HttpHelper.GetResponseStream(webRequest))

@@ -51,7 +51,7 @@ namespace JMovies.IMDb.Helpers.Movies
                             HtmlNode imageNode = allImageNodes[i];
                             Image image = new Image
                             {
-                                Title = imageNode.GetAttributeValue("title", string.Empty),
+                                Title = imageNode.GetAttributeValue("alt", string.Empty).Prepare(),
                                 URL = IMDBImageHelper.NormalizeImageUrl(imageNode.GetAttributeValue("src", string.Empty))
                             };
                             if (settings.FetchImageContents)

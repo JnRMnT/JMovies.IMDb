@@ -1,7 +1,4 @@
 ﻿using JMovies.IMDb.Common.Constants;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers
@@ -28,6 +25,16 @@ namespace JMovies.IMDb.Helpers
             {
                 return null;
             }
+        }
+
+        /// <summary>
+        /// Returns 7 or 8 digit padded IMDB ID
+        /// </summary>
+        /// <param name="id">The numeric ID</param>
+        /// <returns>0 padded ID</returns>
+        public static string GetPaddedIMDBId(long id)
+        {
+            return id.ToString().PadLeft(IMDbConstants.IMDbIDLength, '0');
         }
     }
 }

@@ -31,7 +31,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="19" column="28" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="19" bodyend="31"/>
+        <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="16" column="28" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="16" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a18e61f2a11a3f09218d0c154234c9b02" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string JMovies.IMDb.Helpers.IMDBIDHelper.GetPaddedIMDBId</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetPaddedIMDBId</name>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Returns 7 or 8 digit padded IMDB ID </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The numeric ID</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 padded ID</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="35" column="30" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="35" bodyend="38"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -39,9 +69,10 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="13" column="1" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="12" bodyend="32"/>
+    <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="10" column="1" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="9" bodyend="39"/>
     <listofallmembers>
       <member refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a21d626b4353f5b005f86eb298c3b2150" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBIDHelper</scope><name>GetIDFromUrl</name></member>
+      <member refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a18e61f2a11a3f09218d0c154234c9b02" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBIDHelper</scope><name>GetPaddedIMDBId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

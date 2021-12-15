@@ -44,6 +44,11 @@
             Sleep duration in ms to be waited if an exception occurs during Http calls
             </summary>
         </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.IMDbIDExtendedLength">
+            <summary>
+            Length of the Extended IMDb IDs
+            </summary>
+        </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.IMDbIDLength">
             <summary>
             Length of the IMDb IDs
@@ -154,11 +159,6 @@
             Text of Taglines title
             </summary>
         </member>
-        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.PlotKeyword">
-            <summary>
-            Text of Plot Keyword title
-            </summary>
-        </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.Genre">
             <summary>
             Text of Genre title
@@ -254,6 +254,11 @@
             Empty text to be checked to determine if there is no plot
             </summary>
         </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.ProductionTitleMatcherRegex">
+            <summary>
+            Regex that matches the title
+            </summary>
+        </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.StarsSummaryRegex">
             <summary>
             Regex that matches the stars section in Movie Summary
@@ -292,11 +297,6 @@
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.TaglinesSummaryRegex">
             <summary>
             Regex that matches the tag lines section in Movie Summary
-            </summary>
-        </member>
-        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.PlotKeywordsSummaryRegex">
-            <summary>
-            Regex that matches the plot keywords section in Movie Summary
             </summary>
         </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.KeywordLinkRegex">
@@ -402,6 +402,21 @@
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.CreditYearRegex">
             <summary>
             Regex that matches the credit year
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.RatingJSONLDMatcher">
+            <summary>
+            Regex that matches the rating out of context JSON
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.RatingCountMatcher">
+            <summary>
+            Regex that matches the rating count out of rating JSON
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.RatingValueMatcher">
+            <summary>
+            Regex that matches the rating value out of rating JSON
             </summary>
         </member>
         <member name="T:AmountExtensions">

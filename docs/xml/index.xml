@@ -126,6 +126,7 @@
   <compound refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants" kind="class"><name>JMovies::IMDb::Common::Constants::IMDbConstants</name>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acb18dbfa8c474197be39953d818d7a4e" kind="variable"><name>HttpMaxRetryCount</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa4d8e96a201a708134194cc8200fa317" kind="variable"><name>HttpRetrySleepTime</name></member>
+    <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a893e41b3753155359cf146c27aec1e08" kind="variable"><name>IMDbIDExtendedLength</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae5e149ad5ffa070f7c02430a81feed99" kind="variable"><name>IMDbIDLength</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab4ed6705200c70ea922664655c244d75" kind="variable"><name>DefaultScrapingCulture</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ac44dd316c36c4b3731e473682f6071b5" kind="variable"><name>BaseURL</name></member>
@@ -148,7 +149,6 @@
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9898534ad033913d0ca370766322619" kind="variable"><name>Writer</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acc8ef2ea57281852c421097a84b8f2ca" kind="variable"><name>Creator</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a456ab3add55e286aea7b31c01f351447" kind="variable"><name>Tagline</name></member>
-    <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5cba2e257fdd6ea2cfbb7d36a5150d7a" kind="variable"><name>PlotKeyword</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1b4531e31aa06c27b4995d844d853816" kind="variable"><name>Genre</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5d74ead77d9d7a46a7d0eec7d8ea5f7e" kind="variable"><name>OfficialSite</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa38a8fb904edca8a726ce2102869b2de" kind="variable"><name>CountryOfOriginFilterName</name></member>
@@ -168,6 +168,7 @@
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a279c10c495d13090da73a4eb0a3f8869" kind="variable"><name>ActorCategoryName</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abda4dace3f89f3dfd5f57dfad9f037ad" kind="variable"><name>ActressCategoryName</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a69b2ef0ed2fda15e337ed2be27b655c1" kind="variable"><name>EmptyPlotText</name></member>
+    <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1af8eb0edc1154c729c0fb9fc49d02d90a" kind="variable"><name>ProductionTitleMatcherRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a24c185ee6926daeee3e40ca954470465" kind="variable"><name>StarsSummaryRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a438b01012c24a36664292739aa56f574" kind="variable"><name>DirectorsSummaryRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a03d339b38ed954afb550f23f68c05a1e" kind="variable"><name>WritersSummaryRegex</name></member>
@@ -176,7 +177,6 @@
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a788c9151a5a2133517329fa7dac5cbec" kind="variable"><name>MovieYearRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acd3436f4b701694810481a02cb45940b" kind="variable"><name>CharacterRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abe418c5f5e3186e1419d4a4cc09e1ce3" kind="variable"><name>TaglinesSummaryRegex</name></member>
-    <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9601b87409cec659fd536b69c8fc958" kind="variable"><name>PlotKeywordsSummaryRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a147b941712a1f469f77461007d00aba7" kind="variable"><name>KeywordLinkRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5650b51e18dab404a4ed301202c16823" kind="variable"><name>GenresSummaryRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a168aea3167731457e9716ec04e2af0e4" kind="variable"><name>GenreLinkRegex</name></member>
@@ -198,9 +198,13 @@
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aeb532c0be346429400216c1cd2a930a5" kind="variable"><name>BioHeightRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a59d1dece57a8484fecba422029745739" kind="variable"><name>IMDBIDRegex</name></member>
     <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aac5e19ba32590ab6596fbdd456c5140f" kind="variable"><name>CreditYearRegex</name></member>
+    <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a062c4337d61ca40e4800441071cf5203" kind="variable"><name>RatingJSONLDMatcher</name></member>
+    <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a528361956f9c89e326c226a408c37c73" kind="variable"><name>RatingCountMatcher</name></member>
+    <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a842dd57a4350019054f838cce9519eb1" kind="variable"><name>RatingValueMatcher</name></member>
   </compound>
   <compound refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper" kind="class"><name>JMovies::IMDb::Helpers::IMDBIDHelper</name>
     <member refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a21d626b4353f5b005f86eb298c3b2150" kind="function"><name>GetIDFromUrl</name></member>
+    <member refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a18e61f2a11a3f09218d0c154234c9b02" kind="function"><name>GetPaddedIMDBId</name></member>
   </compound>
   <compound refid="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper" kind="class"><name>JMovies::IMDb::Helpers::IMDBImageHelper</name>
     <member refid="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1a4832f5acf7f7742be3789d2ba486c822" kind="function"><name>NormalizeImageUrl</name></member>
@@ -225,6 +229,7 @@
     <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1a51c3e899a78e439760393774a1a385eb" kind="function"><name>PersonScraping</name></member>
     <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1ac1be77838db4ec7c211cfbdd277ee542" kind="function"><name>DetailedPersonScraping</name></member>
     <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1a87ae3ecf683d6fb12561438e25c482ed" kind="function"><name>TVShowWithNoEndTest</name></member>
+    <member refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1ab13da4f76f5fb7066586b8c1d56f1149" kind="function"><name>SummaryTVShowTest</name></member>
   </compound>
   <compound refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kind="class"><name>JMovies::IMDb::Entities::Movies::Keyword</name>
     <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1aed938b38a746bc88e826ea2c1e4456d6" kind="property"><name>ID</name></member>
@@ -265,7 +270,7 @@
   <compound refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</name>
     <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a8935a12b9ec8f4e6dc0b62218659ba1f" kind="function"><name>Parse</name></member>
     <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1aed72d778ca23380466662eb44b979d1b" kind="function"><name>ParseDetailsSection</name></member>
-    <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a0bec389341c30854187f746885d5a612" kind="function"><name>ParseCastList</name></member>
+    <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1ab0b1b218d47c69db0425fb031125893d" kind="function"><name>ParseCastListAsLegacyTable</name></member>
     <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1affbb0caba7efbfcc2d47cd4eca7fa943" kind="function"><name>GetCharacter</name></member>
   </compound>
   <compound refid="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site" kind="class"><name>JMovies::IMDb::Entities::Movies::OfficialSite</name>
@@ -368,6 +373,10 @@
   </compound>
   <compound refid="d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::SummaryCastHelper</name>
     <member refid="d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper_1a159843a3fd107ec2e2a5fae990cd4dc1" kind="function"><name>GetCreditInfo</name></member>
+  </compound>
+  <compound refid="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::SummaryCreditsHelper</name>
+    <member refid="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1aad0278f92287e1a633d5e3f4446a72b6" kind="function"><name>ParseCastList</name></member>
+    <member refid="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1a0d6718071f0eb17e378f5cbbe72daef7" kind="function"><name>GetCharacter</name></member>
   </compound>
   <compound refid="d0/df5/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_storyline_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::SummaryStorylineHelper</name>
     <member refid="d0/df5/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_storyline_helper_1a16fc07e19e0fded2f05935c88125f120" kind="function"><name>Parse</name></member>
@@ -629,6 +638,8 @@
   <compound refid="d5/d5f/_release_info_page_helper_8cs" kind="file"><name>ReleaseInfoPageHelper.cs</name>
   </compound>
   <compound refid="dc/d3b/_summary_cast_helper_8cs" kind="file"><name>SummaryCastHelper.cs</name>
+  </compound>
+  <compound refid="db/dbd/_summary_credits_helper_8cs" kind="file"><name>SummaryCreditsHelper.cs</name>
   </compound>
   <compound refid="df/d36/_summary_storyline_helper_8cs" kind="file"><name>SummaryStorylineHelper.cs</name>
   </compound>

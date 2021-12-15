@@ -92,8 +92,19 @@
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.IsTrue((production<sp/>as<sp/><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref>).Year<sp/>!=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.IsFalse((production<sp/>as<sp/><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref>).EndYear.HasValue);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[TestMethod]</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests_1ab13da4f76f5fb7066586b8c1d56f1149" kindref="member">SummaryTVShowTest</ref>()</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" kindref="compound">IIMDbDataProvider</ref><sp/>imdbDataProvider<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider" kindref="compound">IMDbScraperDataProvider</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref><sp/>production<sp/>=<sp/>imdbDataProvider.<ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1abecfdbc184066ab4a1cc644b08c709d9" kindref="member">GetProduction</ref>(397442);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.IsNotNull(production);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.AreEqual(397442,<sp/>production.<ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1aa04f94022c7e169342ea787f84272e34" kindref="member">IMDbID</ref>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.IsTrue(production.<ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae7790593a04eb1e4519f2dadb562214d" kindref="member">ProductionType</ref><sp/>==<sp/><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" kindref="member">ProductionTypeEnum</ref>.TVSeries);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="JMovies.IMDb.Tests/IMDbScrapingTests.cs"/>
   </compounddef>

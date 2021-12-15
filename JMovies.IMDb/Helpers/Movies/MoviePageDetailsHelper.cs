@@ -45,9 +45,10 @@ namespace JMovies.IMDb.Helpers.Movies
             }
 
             //Parse Title
-            HtmlNode titleWrapper = documentNode.QuerySelector(".title_wrapper");
-            if (titleWrapper != null)
+            HtmlNode blockMetadataElement = documentNode.QuerySelector("[data-testid=hero-title-block__metadata]");
+            if (blockMetadataElement != null)
             {
+                HtmlNode titleWrapper = blockMetadataElement.ParentNode.ParentNode;
                 movie.Title = titleWrapper.QuerySelector("h1").InnerText.Prepare();
                 if (IMDbConstants.MovieYearRegex.IsMatch(movie.Title))
                 {
@@ -68,13 +69,13 @@ namespace JMovies.IMDb.Helpers.Movies
                         Match yearMatch = IMDbConstants.MovieYearRegex.Match(titleLink.InnerText.Prepare());
                         if (yearMatch.Success)
                         {
-                            movie.Year = yearMatch.Groups[2].Value.Trim().ToInteger();
-                            if (yearMatch.Groups.Count > 3)
+                            movie.Year = yearMatch.Groups[1].Value.Trim().ToInteger();
+                            if (yearMatch.Groups.Count > 2)
                             {
-                                string endYearString = yearMatch.Groups[3].Value.Trim();
+                                string endYearString = yearMatch.Groups[2].Value.Trim();
                                 if (!string.IsNullOrEmpty(endYearString))
                                 {
-                                    (movie as TVSeries).EndYear = yearMatch.Groups[3].Value.Trim().ToInteger();
+                                    (movie as TVSeries).EndYear = yearMatch.Groups[2].Value.Trim().ToInteger();
                                 }
                             }
                         }
@@ -86,36 +87,47 @@ namespace JMovies.IMDb.Helpers.Movies
                 return false;
             }
 
-            HtmlNode posterNode = documentNode.QuerySelector(".poster img");
-            if (posterNode != null)
+            HtmlNode posterWrapperNode = documentNode.QuerySelector("[data-testid=hero-media__poster]");
+            if (posterWrapperNode != null)
             {
-                movie.Poster = new Image
+                HtmlNode posterNode = posterWrapperNode.QuerySelector("img");
+                if (posterNode != null)
                 {
-                    Title = posterNode.GetAttributeValue("title", string.Empty),
-                    URL = IMDBImageHelper.NormalizeImageUrl(posterNode.GetAttributeValue("src", string.Empty))
-                };
-                if (settings.FetchImageContents)
-                {
-                    movie.Poster.Content = IMDBImageHelper.GetImageContent(movie.Poster.URL);
+                    movie.Poster = new Image
+                    {
+                        Title = posterNode.GetAttributeValue("alt", string.Empty).Prepare(),
+                        URL = IMDBImageHelper.NormalizeImageUrl(posterNode.GetAttributeValue("src", string.Empty))
+                    };
+                    if (settings.FetchImageContents)
+                    {
+                        movie.Poster.Content = IMDBImageHelper.GetImageContent(movie.Poster.URL);
+                    }
                 }
             }
 
             //Parse Summary
-            HtmlNode summaryWrapper = documentNode.QuerySelector(".plot_summary_wrapper");
-            List<Credit> credits = new List<Credit>();
+            HtmlNode summaryWrapper = documentNode.QuerySelector("[data-testid=plot]");
             if (summaryWrapper != null)
             {
-                HtmlNode summaryText = summaryWrapper.QuerySelector(".summary_text");
+                HtmlNode summaryText = summaryWrapper.Children().LastOrDefault(e => !string.IsNullOrEmpty(e.InnerText));
                 if (summaryText != null)
                 {
-                    movie.PlotSummary = summaryText.FirstChild.InnerText.Prepare();
+                    movie.PlotSummary = summaryText.InnerText.Prepare();
                     if (movie.PlotSummary.StartsWith(IMDbConstants.EmptyPlotText))
                     {
                         movie.PlotSummary = string.Empty;
                     }
                 }
-
-                foreach (HtmlNode creditSummaryNode in summaryWrapper.QuerySelectorAll(".credit_summary_item"))
+            }
+            else
+            {
+                return false;
+            }
+            HtmlNode summaryCreditsWrapper = documentNode.QuerySelector("[data-testid=title-pc-wide-screen]");
+            List<Credit> credits = new List<Credit>();
+            if (summaryCreditsWrapper != null)
+            {
+                foreach (HtmlNode creditSummaryNode in summaryCreditsWrapper.QuerySelectorAll("[data-testid=title-pc-principal-credit]"))
                 {
                     List<Credit> summaryCredits = SummaryCastHelper.GetCreditInfo(creditSummaryNode);
                     if (summaryCredits != null && summaryCredits.Count > 0)
@@ -124,30 +136,26 @@ namespace JMovies.IMDb.Helpers.Movies
                     }
                 }
             }
-            else
-            {
-                return false;
-            }
 
             //Parse Story Line
-            HtmlNode storyLineSection = documentNode.QuerySelector("#titleStoryLine");
+            HtmlNode storyLineSection = documentNode.QuerySelector("[data-testid=Storyline]");
             if (storyLineSection != null)
             {
                 SummaryStorylineHelper.Parse(movie, storyLineSection);
             }
 
             //Parse Details Section
-            HtmlNode detailsSection = documentNode.QuerySelector("#titleDetails");
+            HtmlNode detailsSection = documentNode.QuerySelector("[data-testid=title-details-section] > ul");
             if (detailsSection != null)
             {
-                MoviePageDetailsHelper.ParseDetailsSection(movie, detailsSection);
+                ParseDetailsSection(movie, detailsSection);
             }
 
             if (!settings.FetchDetailedCast)
             {
                 //Parse Cast Table
-                HtmlNode castListNode = documentNode.QuerySelector(".cast_list");
-                ParseCastList(movie, credits, castListNode);
+                HtmlNode castListNode = documentNode.QuerySelector("[data-testid=title-cast]");
+                SummaryCreditsHelper.ParseCastList(movie, credits, castListNode);
             }
             else
             {
@@ -161,7 +169,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 }
                 HtmlNode fullCreditsPageDocumentNode = creditsPageDocument.DocumentNode;
                 HtmlNode fullCreditsPageCastListNode = fullCreditsPageDocumentNode.QuerySelector(".cast_list");
-                ParseCastList(movie, credits, fullCreditsPageCastListNode);
+                ParseCastListAsLegacyTable(movie, credits, fullCreditsPageCastListNode);
                 movie.Credits = credits;
             }
 
@@ -176,14 +184,15 @@ namespace JMovies.IMDb.Helpers.Movies
             ReleaseInfoPageHelper.Parse(movie, releaseInfoPageDocument);
             #endregion
             #region Parse Ratings
-            HtmlNode ratingsWrapper = documentNode.QuerySelector(".imdbRating");
-            if (ratingsWrapper != null)
+            Match ratingMatch = IMDbConstants.RatingJSONLDMatcher.Match(documentNode.InnerHtml);
+            if (ratingMatch.Success)
             {
-                HtmlNode ratingNode = ratingsWrapper.QuerySelector("span[itemprop='ratingValue']");
-                HtmlNode ratingCountNode = ratingsWrapper.QuerySelector("span[itemprop='ratingCount']");
+                string ratingContextJSON = ratingMatch.Value;
+                string ratingValue = IMDbConstants.RatingValueMatcher.Match(ratingContextJSON).Groups?[1].Value.Prepare();
+                string ratingCount = IMDbConstants.RatingCountMatcher.Match(ratingContextJSON).Groups?[1].Value.Prepare();
                 movie.Rating = new Rating(DataSourceTypeEnum.IMDb, movie);
-                movie.Rating.Value = double.Parse(ratingNode.InnerText.Prepare().Replace('.', ','));
-                movie.Rating.RateCount = ratingCountNode.InnerText.Prepare().Replace(",", string.Empty).ToLong();
+                movie.Rating.Value = double.Parse(ratingValue.Replace('.', ','));
+                movie.Rating.RateCount = ratingCount.Replace(",", string.Empty).ToLong();
             }
             #endregion
 
@@ -209,7 +218,7 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <param name="movie">Movie instance to be populated</param>
         /// <param name="credits">Credits list to be filled</param>
         /// <param name="castListNode">Html node that holds the cast list</param>
-        private static void ParseCastList(Movie movie, List<Credit> credits, HtmlNode castListNode)
+        private static void ParseCastListAsLegacyTable(Movie movie, List<Credit> credits, HtmlNode castListNode)
         {
             if (castListNode != null)
             {
@@ -314,37 +323,24 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <param name="detailsSection">HTML Node containing the Details section</param>
         public static void ParseDetailsSection(Movie movie, HtmlNode detailsSection)
         {
-            foreach (HtmlNode detailBox in detailsSection.QuerySelectorAll(".txt-block"))
+            foreach (HtmlNode detailBox in detailsSection.ChildNodes.Where(e => e.Name == "li"))
             {
-                HtmlNode headerNode = detailBox.QuerySelector("h4");
+                HtmlNode headerNode = detailBox.FirstChild;
                 if (headerNode != null)
                 {
                     string headerContent = headerNode.InnerText.Prepare();
                     if (IMDbConstants.OfficialSitesHeaderRegex.IsMatch(headerContent))
                     {
                         List<OfficialSite> officialSites = new List<OfficialSite>();
-                        Parallel.ForEach(detailBox.QuerySelectorAll("a"), (HtmlNode officialSiteLink) =>
+                        foreach (HtmlNode officialSiteLink in detailBox.QuerySelectorAll("a"))
                         {
-                            try
+                            string url = officialSiteLink.Attributes["href"].Value;
+                            officialSites.Add(new OfficialSite
                             {
-                                string url = IMDbConstants.BaseURL + officialSiteLink.Attributes["href"].Value;
-                                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-                                request.AllowAutoRedirect = false;
-                                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-                                {
-                                    string redirectURL = response.Headers["Location"];
-                                    officialSites.Add(new OfficialSite
-                                    {
-                                        Title = officialSiteLink.InnerText.Prepare(),
-                                        URL = redirectURL
-                                    });
-                                }
-                            }
-                            catch
-                            {
-                                //simply ignore official site errors
-                            }
-                        });
+                                Title = officialSiteLink.InnerText.Prepare(),
+                                URL = url
+                            });
+                        }
                         movie.OfficialSites = officialSites;
                     }
                     else if (IMDbConstants.CountriesHeaderRegex.IsMatch(headerContent))

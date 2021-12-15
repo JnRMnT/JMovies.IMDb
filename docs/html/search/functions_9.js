@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tvshowwithnoendtest_327',['TVShowWithNoEndTest',['../d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests.html#a87ae3ecf683d6fb12561438e25c482ed',1,'JMovies::IMDb::Tests::IMDbScrapingTests']]]
+  ['summarytvshowtest_337',['SummaryTVShowTest',['../d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests.html#ab13da4f76f5fb7066586b8c1d56f1149',1,'JMovies::IMDb::Tests::IMDbScrapingTests']]]
 ];

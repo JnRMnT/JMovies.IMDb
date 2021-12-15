@@ -60,6 +60,7 @@ var hierarchy =
     [ "JMovies.IMDb.Entities.Movies.ReleaseDate", "dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date.html", null ],
     [ "JMovies.IMDb.Helpers.Movies.ReleaseInfoPageHelper", "de/dde/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_release_info_page_helper.html", null ],
     [ "JMovies.IMDb.Helpers.Movies.SummaryCastHelper", "d2/ddd/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_cast_helper.html", null ],
+    [ "JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper", "db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper.html", null ],
     [ "JMovies.IMDb.Helpers.Movies.SummaryStorylineHelper", "d0/df5/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_storyline_helper.html", null ],
     [ "JMovies.IMDb.Entities.Movies.TagLine", "db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line.html", null ]
 ];

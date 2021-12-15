@@ -44,5 +44,10 @@
             Test Method that tests a production with start date but no end date
             </summary>
         </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.SummaryTVShowTest">
+            <summary>
+            Test Method that tests a TV Show with the summary fetch settings
+            </summary>
+        </member>
     </members>
 </doc>

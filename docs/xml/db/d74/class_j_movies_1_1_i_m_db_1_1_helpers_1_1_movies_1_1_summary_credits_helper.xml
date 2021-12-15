@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Helpers::Movies::SummaryCreditsHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1aad0278f92287e1a633d5e3f4446a72b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.ParseCastList</definition>
+        <argsstring>(Movie movie, List&lt; Credit &gt; credits, HtmlNode castListNode)</argsstring>
+        <name>ParseCastList</name>
+        <param>
+          <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+          <declname>movie</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref> &gt;</type>
+          <declname>credits</declname>
+        </param>
+        <param>
+          <type>HtmlNode</type>
+          <declname>castListNode</declname>
+        </param>
+        <briefdescription>
+<para>Method responsible for parsing the cast list of the movie </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Movie instance to be populated</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>credits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Credits list to be filled</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>castListNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Html node that holds the cast list</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" line="23" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" bodystart="23" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1a0d6718071f0eb17e378f5cbbe72daef7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref></type>
+        <definition>static Character JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.GetCharacter</definition>
+        <argsstring>(HtmlNode characterNode, Movie movie)</argsstring>
+        <name>GetCharacter</name>
+        <param>
+          <type>HtmlNode</type>
+          <declname>characterNode</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
+          <declname>movie</declname>
+        </param>
+        <briefdescription>
+<para>Method responsible for parsing a single character information </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>characterNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>HTML Node that holds the character information</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>movie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Movie instance that is populated</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Parsed character instance</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" line="74" column="34" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" bodystart="74" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class responsible for parsing the summary credits </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" line="16" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" bodystart="15" bodyend="119"/>
+    <listofallmembers>
+      <member refid="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1a0d6718071f0eb17e378f5cbbe72daef7" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::SummaryCreditsHelper</scope><name>GetCharacter</name></member>
+      <member refid="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1aad0278f92287e1a633d5e3f4446a72b6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::SummaryCreditsHelper</scope><name>ParseCastList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

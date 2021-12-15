@@ -83,6 +83,13 @@
             <param name="url">URL to be parsed</param>
             <returns>Detected IMDb ID</returns>
         </member>
+        <member name="M:JMovies.IMDb.Helpers.IMDBIDHelper.GetPaddedIMDBId(System.Int64)">
+            <summary>
+            Returns 7 or 8 digit padded IMDB ID
+            </summary>
+            <param name="id">The numeric ID</param>
+            <returns>0 padded ID</returns>
+        </member>
         <member name="T:JMovies.IMDb.Helpers.IMDBImageHelper">
             <summary>
             Class responsible for providing utility methods related to Image related operations for IMDb
@@ -118,7 +125,7 @@
             <param name="settings">Object containing Data Fetch settings</param>
             <returns>If scraping was successful or not</returns>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseCastList(JMovies.IMDb.Entities.Movies.Movie,System.Collections.Generic.List{JMovies.IMDb.Entities.Movies.Credit},HtmlAgilityPack.HtmlNode)">
+        <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseCastListAsLegacyTable(JMovies.IMDb.Entities.Movies.Movie,System.Collections.Generic.List{JMovies.IMDb.Entities.Movies.Credit},HtmlAgilityPack.HtmlNode)">
             <summary>
             Method responsible for parsing the cast list of the movie
             </summary>
@@ -177,6 +184,27 @@
             </summary>
             <param name="creditSummaryNode">HTML Node that contains the credits summary section</param>
             <returns>Parsed credits array</returns>
+        </member>
+        <member name="T:JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper">
+            <summary>
+            Helper class responsible for parsing the summary credits
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.ParseCastList(JMovies.IMDb.Entities.Movies.Movie,System.Collections.Generic.List{JMovies.IMDb.Entities.Movies.Credit},HtmlAgilityPack.HtmlNode)">
+            <summary>
+            Method responsible for parsing the cast list of the movie
+            </summary>
+            <param name="movie">Movie instance to be populated</param>
+            <param name="credits">Credits list to be filled</param>
+            <param name="castListNode">Html node that holds the cast list</param>
+        </member>
+        <member name="M:JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.GetCharacter(HtmlAgilityPack.HtmlNode,JMovies.IMDb.Entities.Movies.Movie)">
+            <summary>
+            Method responsible for parsing a single character information
+            </summary>
+            <param name="characterNode">HTML Node that holds the character information</param>
+            <param name="movie">Movie instance that is populated</param>
+            <returns>Parsed character instance</returns>
         </member>
         <member name="T:JMovies.IMDb.Helpers.Movies.SummaryStorylineHelper">
             <summary>

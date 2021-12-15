@@ -5,6 +5,7 @@ using Fizzler.Systems.HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
@@ -20,54 +21,60 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <param name="storyLineSection">HTML Node containing Story Line section</param>
         public static void Parse(Movie movie, HtmlNode storyLineSection)
         {
-            HtmlNode storyLine = storyLineSection.QuerySelector("p span");
+            HtmlNode storyLine = storyLineSection.QuerySelector("[data-testid=storyline-plot-summary]");
             if (storyLine != null)
             {
                 movie.StoryLine = storyLine.InnerText.Prepare();
+
+                //Parse Story Line related info
+                foreach (HtmlNode storyLineSectionHeader in storyLine.ParentNode.ChildNodes.Where(e => e.Name == "ul").LastOrDefault()?.ChildNodes.Where(e => e.Name == "li"))
+                {
+                    string headerContent = storyLineSectionHeader.FirstChild.InnerText.Prepare();
+                    if (IMDbConstants.TaglinesSummaryRegex.IsMatch(headerContent))
+                    {
+                        movie.TagLines = new List<TagLine>();
+                        for (int i = 1; i < storyLineSectionHeader.ChildNodes.Count; i++)
+                        {
+                            movie.TagLines.Add(new TagLine { Content = storyLineSectionHeader.ChildNodes[i].InnerText.Prepare() });
+                        }
+                    }
+                    else if (IMDbConstants.GenresSummaryRegex.IsMatch(headerContent))
+                    {
+                        List<Genre> genres = new List<Genre>();
+                        foreach (HtmlNode genreLink in storyLineSectionHeader.QuerySelectorAll("a"))
+                        {
+                            Match genreMatch = IMDbConstants.GenreLinkRegex.Match(genreLink.OuterHtml);
+                            if (genreMatch.Success)
+                            {
+                                genres.Add(new Genre
+                                {
+                                    Identifier = genreMatch.Groups[1].Value,
+                                    Value = genreLink.InnerText.Prepare()
+                                });
+                            }
+                        }
+                        movie.Genres = genres;
+                    }
+                }
             }
 
-            //Parse Taglines
-            foreach (HtmlNode storyLineSectionHeader in storyLineSection.QuerySelectorAll("h4"))
+            HtmlNode keywordsNode = storyLineSection.QuerySelector("[data-testid=storyline-plot-keywords]");
+            if (keywordsNode != null)
             {
-                string headerContent = storyLineSectionHeader.InnerText.Prepare();
-                if (IMDbConstants.TaglinesSummaryRegex.IsMatch(headerContent))
+                List<Keyword> keywords = new List<Keyword>();
+                foreach (HtmlNode keywordLink in keywordsNode.QuerySelectorAll("a"))
                 {
-                    movie.TagLines = new List<TagLine>() { new TagLine { Content = storyLineSectionHeader.NextSibling.InnerText.Prepare() } };
-                }
-                else if (IMDbConstants.PlotKeywordsSummaryRegex.IsMatch(headerContent))
-                {
-                    List<Keyword> keywords = new List<Keyword>();
-                    foreach (HtmlNode keywordLink in storyLineSectionHeader.ParentNode.QuerySelectorAll("a"))
+                    Match keywordMatch = IMDbConstants.KeywordLinkRegex.Match(keywordLink.OuterHtml);
+                    if (keywordMatch.Success)
                     {
-                        Match keywordMatch = IMDbConstants.KeywordLinkRegex.Match(keywordLink.OuterHtml);
-                        if (keywordMatch.Success)
+                        keywords.Add(new Keyword
                         {
-                            keywords.Add(new Keyword
-                            {
-                                Identifier = keywordMatch.Groups[1].Value,
-                                Value = keywordLink.InnerText.Prepare()
-                            });
-                        }
+                            Identifier = keywordMatch.Groups[1].Value,
+                            Value = keywordLink.InnerText.Prepare()
+                        });
                     }
-                    movie.Keywords = keywords;
                 }
-                else if (IMDbConstants.GenresSummaryRegex.IsMatch(headerContent))
-                {
-                    List<Genre> genres = new List<Genre>();
-                    foreach (HtmlNode genreLink in storyLineSectionHeader.ParentNode.QuerySelectorAll("a"))
-                    {
-                        Match genreMatch = IMDbConstants.GenreLinkRegex.Match(genreLink.OuterHtml);
-                        if (genreMatch.Success)
-                        {
-                            genres.Add(new Genre
-                            {
-                                Identifier = genreMatch.Groups[1].Value,
-                                Value = genreLink.InnerText.Prepare()
-                            });
-                        }
-                    }
-                    movie.Genres = genres;
-                }
+                movie.Keywords = keywords;
             }
         }
     }
