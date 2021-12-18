@@ -73,6 +73,8 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <returns>Parsed character instance</returns>
         private static Character GetCharacter(HtmlNode characterNode, Movie movie)
         {
+            if (characterNode == null) return null;
+
             if (!characterNode.GetAttributes().Any(e => e.Name == "data-testid" && e.Value == "title-cast-item__eps-toggle"))
             {
                 Character character = null;

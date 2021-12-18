@@ -49,5 +49,20 @@
             Test Method that tests a TV Show with the summary fetch settings
             </summary>
         </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TestMovieThePowerOfTheDog">
+            <summary>
+            Test Method that tests a movie: "The Power of the Dog"
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TestMovieReadyPlayerOne">
+            <summary>
+            Test Method that tests a movie: "Ready Player One"
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TestMovieEarwigAndTheWitch">
+            <summary>
+            Test Method that tests a movie: "Earwig and the Witch"
+            </summary>
+        </member>
     </members>
 </doc>
