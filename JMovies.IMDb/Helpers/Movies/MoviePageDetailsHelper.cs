@@ -191,7 +191,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 string ratingValue = IMDbConstants.RatingValueMatcher.Match(ratingContextJSON).Groups?[1].Value.Prepare();
                 string ratingCount = IMDbConstants.RatingCountMatcher.Match(ratingContextJSON).Groups?[1].Value.Prepare();
                 movie.Rating = new Rating(DataSourceTypeEnum.IMDb, movie);
-                movie.Rating.Value = double.Parse(ratingValue.Replace('.', ','));
+                movie.Rating.Value = stringToDouble(ratingValue);
                 movie.Rating.RateCount = ratingCount.Replace(",", string.Empty).ToLong();
             }
             #endregion
@@ -210,6 +210,18 @@ namespace JMovies.IMDb.Helpers.Movies
             }
             #endregion
             return true;
+        }
+        
+        /// <summary>
+        /// Method responsible for parsing a string value to a double
+        /// </summary>
+        /// <param name="valueString">String value</param>
+        private static double stringToDouble(string valueString)
+        {
+            string decSep = System.Globalization.NumberFormatInfo.CurrentInfo.NumberDecimalSeparator;
+            if (decSep == ",") valueString = valueString.Replace('.', ',');
+            double value = double.Parse(valueString);
+            return value;
         }
 
         /// <summary>
