@@ -1,23 +1,23 @@
 ﻿using Fizzler.Systems.HtmlAgilityPack;
 using HtmlAgilityPack;
+using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Entities.Common;
 using JMovies.IMDb.Entities.Movies;
 using JMovies.IMDb.Entities.People;
-using System.Collections.Generic;
-using System;
-using System.Linq;
-using JMovies.IMDb.Entities.Common;
-using System.Globalization;
-using JMovies.IMDb.Common.Constants;
-using JMovies.IMDb.Factories;
-using System.Text.RegularExpressions;
 using JMovies.IMDb.Entities.Settings;
+using JMovies.IMDb.Factories;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.People
 {
     /// <summary>
     /// Class responsible for parsing the person page
     /// </summary>
-    public class PersonPageHelper
+    public static class PersonPageHelper
     {
         /// <summary>
         /// Method responsible for parsing the person page

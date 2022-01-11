@@ -1,27 +1,25 @@
-﻿using HtmlAgilityPack;
+﻿using Fizzler.Systems.HtmlAgilityPack;
+using HtmlAgilityPack;
+using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Entities.Common;
+using JMovies.IMDb.Entities.Misc;
 using JMovies.IMDb.Entities.Movies;
 using JMovies.IMDb.Entities.People;
-using Fizzler.Systems.HtmlAgilityPack;
-using JMovies.IMDb.Common.Constants;
-using System.Text.RegularExpressions;
-using System.Collections.Generic;
-using System.Net;
-using System.Threading.Tasks;
-using System;
-using System.IO;
-using System.Text;
-using JMovies.IMDb.Providers;
-using System.Linq;
-using JMovies.IMDb.Entities.Misc;
-using JMovies.IMDb.Entities.Common;
 using JMovies.IMDb.Entities.Settings;
+using JMovies.IMDb.Providers;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
     /// <summary>
     /// Class responsible for parsing the Movie Page Details
     /// </summary>
-    public class MoviePageDetailsHelper
+    public static class MoviePageDetailsHelper
     {
         /// <summary>
         /// Main Parse method of the Movie Page
@@ -191,7 +189,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 string ratingValue = IMDbConstants.RatingValueMatcher.Match(ratingContextJSON).Groups?[1].Value.Prepare();
                 string ratingCount = IMDbConstants.RatingCountMatcher.Match(ratingContextJSON).Groups?[1].Value.Prepare();
                 movie.Rating = new Rating(DataSourceTypeEnum.IMDb, movie);
-                movie.Rating.Value = stringToDouble(ratingValue);
+                movie.Rating.Value = ParseRatingValue(ratingValue);
                 movie.Rating.RateCount = ratingCount.Replace(",", string.Empty).ToLong();
             }
             #endregion
@@ -211,16 +209,16 @@ namespace JMovies.IMDb.Helpers.Movies
             #endregion
             return true;
         }
-        
+
         /// <summary>
-        /// Method responsible for parsing a string value to a double
+        /// Method responsible for parsing the rating value from string to a double
         /// </summary>
-        /// <param name="valueString">String value</param>
-        private static double stringToDouble(string valueString)
+        /// <param name="ratingString">Rating value as a string</param>
+        private static double ParseRatingValue(string ratingString)
         {
             string decSep = System.Globalization.NumberFormatInfo.CurrentInfo.NumberDecimalSeparator;
-            if (decSep == ",") valueString = valueString.Replace('.', ',');
-            double value = double.Parse(valueString);
+            if (decSep == ",") ratingString = ratingString.Replace('.', ',');
+            double value = double.Parse(ratingString);
             return value;
         }
 

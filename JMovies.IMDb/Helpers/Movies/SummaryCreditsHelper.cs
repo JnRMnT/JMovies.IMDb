@@ -12,7 +12,7 @@ namespace JMovies.IMDb.Helpers.Movies
     /// <summary>
     /// Helper class responsible for parsing the summary credits
     /// </summary>
-    public class SummaryCreditsHelper
+    public static class SummaryCreditsHelper
     {
         /// <summary>
         /// Method responsible for parsing the cast list of the movie
@@ -22,9 +22,9 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <param name="castListNode">Html node that holds the cast list</param>
         public static void ParseCastList(Movie movie, List<Credit> credits, HtmlNode castListNode)
         {
-            if(castListNode != null)
+            if (castListNode != null)
             {
-                foreach(HtmlNode castItem in castListNode.QuerySelectorAll("[data-testid=title-cast-item]"))
+                foreach (HtmlNode castItem in castListNode.QuerySelectorAll("[data-testid=title-cast-item]"))
                 {
                     HtmlNode personNode = castItem.QuerySelector("[data-testid=title-cast-item__actor]");
                     HtmlNode charactersNode = castItem.QuerySelector("[data-testid=cast-item-characters-list]");

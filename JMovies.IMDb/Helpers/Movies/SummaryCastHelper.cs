@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Fizzler.Systems.HtmlAgilityPack;
 using HtmlAgilityPack;
+using JMovies.IMDb.Common.Constants;
 using JMovies.IMDb.Entities.Movies;
 using JMovies.IMDb.Entities.People;
-using Fizzler.Systems.HtmlAgilityPack;
-using JMovies.IMDb.Common.Constants;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.Movies
@@ -11,7 +11,7 @@ namespace JMovies.IMDb.Helpers.Movies
     /// <summary>
     /// Class responsible for parsing Cast Summary Section
     /// </summary>
-    public class SummaryCastHelper
+    public static class SummaryCastHelper
     {
         /// <summary>
         /// Internal Method responsible to parse cast summary from related HTML Node
