@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="21" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="21" bodyend="21"/>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="16" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="16" bodyend="16"/>
       </memberdef>
       <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a3dd651a7e23822b8258a7b716fe3772e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983" kindref="member">CharacterTypeEnum</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="30" column="42" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="30" bodyend="30"/>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="25" column="42" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="25" bodyend="25"/>
       </memberdef>
       <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a12d30e39588d5b76fe12c91d5a78f09c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>long?</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="36" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="36" bodyend="36"/>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="31" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a8c63b7ea053d02a5ce9c356b6fb53208" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="45" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="45" bodyend="45"/>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="40" column="23" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="property" id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a6b64d9edfd4df35f5824e2ca14012b6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>long</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="50" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="50" bodyend="50"/>
+        <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="45" column="21" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="45" bodyend="45"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -92,7 +92,7 @@
         <link refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character"/>
       </node>
     </inheritancegraph>
-    <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="15" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="14" bodyend="51"/>
+    <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="10" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="9" bodyend="46"/>
     <listofallmembers>
       <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a3dd651a7e23822b8258a7b716fe3772e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>CharacterType</name></member>
       <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a6b64d9edfd4df35f5824e2ca14012b6c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>CreditID</name></member>

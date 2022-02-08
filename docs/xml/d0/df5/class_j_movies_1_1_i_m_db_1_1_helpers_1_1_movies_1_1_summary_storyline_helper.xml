@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" line="22" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" bodystart="22" bodyend="79"/>
+        <location file="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" line="21" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" bodystart="21" bodyend="78"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -50,7 +50,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" line="16" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" bodystart="15" bodyend="80"/>
+    <location file="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" line="15" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryStorylineHelper.cs" bodystart="14" bodyend="79"/>
     <listofallmembers>
       <member refid="d0/df5/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_storyline_helper_1a16fc07e19e0fded2f05935c88125f120" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::SummaryStorylineHelper</scope><name>Parse</name></member>
     </listofallmembers>

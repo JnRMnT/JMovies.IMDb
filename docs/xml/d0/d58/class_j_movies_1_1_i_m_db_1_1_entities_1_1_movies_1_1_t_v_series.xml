@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="21" column="20" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="21" bodyend="21"/>
+        <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="16" column="20" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="16" bodyend="16"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="26" column="44" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="26" bodyend="-1"/>
+        <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="21" column="44" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="21" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -77,7 +77,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="15" bodyend="27"/>
+    <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="10" bodyend="22"/>
     <listofallmembers>
       <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aac520b3365e313424a7486a9b049ab98" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>AKAs</name></member>
       <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0b87740ba35603e24813b4c80e393e8" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Budget</name></member>

@@ -127,7 +127,7 @@ namespace JMovies.IMDb.Tests
             Assert.IsNotNull(movie);
             Assert.AreEqual("The Power of the Dog", movie.Title);
             Assert.AreEqual(2021, movie.Year);
-            Assert.AreEqual(7.0, Math.Round(movie.Rating.Value, 1));
+            Assert.AreEqual(6.9, Math.Round(movie.Rating.Value, 1));
             long RateCount = movie.Rating.RateCount;
             Assert.AreEqual(true, (RateCount > 30000));
         }

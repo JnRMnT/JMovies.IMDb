@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="32" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="32" bodyend="66"/>
+        <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="22" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="22" bodyend="56"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -61,7 +61,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="25" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="24" bodyend="67"/>
+    <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="15" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="14" bodyend="57"/>
     <listofallmembers>
       <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a1e906acde6a9826424b21d87afde059e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</scope><name>Parse</name></member>
     </listofallmembers>
