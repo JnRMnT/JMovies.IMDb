@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JMovies.IMDb.Entities.Movies
 {
     /// <summary>
     /// Class definition of an Acting Credit
     /// </summary>
-    public class ActingCredit: Credit
+    public class ActingCredit : Credit
     {
         /// <summary>
         /// Characters played by the actor/actress

@@ -1,11 +1,9 @@
-﻿using System;
+﻿using JMovies.IMDb.Entities.Interfaces;
 using JMovies.IMDb.Entities.Movies;
 using JMovies.IMDb.Entities.People;
-using JMovies.IMDb.Entities.Interfaces;
+using JMovies.IMDb.Entities.Settings.Presets;
 using JMovies.IMDb.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using JMovies.IMDb.Entities.Settings;
-using JMovies.IMDb.Entities.Settings.Presets;
 
 namespace JMovies.IMDb.Tests
 {

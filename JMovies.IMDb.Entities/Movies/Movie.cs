@@ -8,8 +8,8 @@ namespace JMovies.IMDb.Entities.Movies
     /// <summary>
     /// Class definition of a movie
     /// </summary>
-    [Table("Movie")]
-    public class Movie: Production
+    [Table("Production")]
+    public class Movie : Production
     {
         /// <summary>
         /// Original Title of the movie
