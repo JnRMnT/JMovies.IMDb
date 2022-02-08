@@ -41,7 +41,7 @@ namespace JMovies.IMDb.Providers
             Movie movie = new Movie();
             string url = IMDbConstants.BaseURL + IMDbConstants.MoviesPath + IMDbConstants.MovieIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
             HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
-            WebRequest webRequest = HttpHelper.InitializeWebRequest(url);
+            WebRequest webRequest = HttpHelper.InitializeWebRequest(url + "/");
             using (Stream stream = HttpHelper.GetResponseStream(webRequest))
             {
                 htmlDocument.Load(stream, Encoding.UTF8);

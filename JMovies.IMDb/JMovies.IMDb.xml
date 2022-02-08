@@ -125,6 +125,12 @@
             <param name="settings">Object containing Data Fetch settings</param>
             <returns>If scraping was successful or not</returns>
         </member>
+        <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseRatingValue(System.String)">
+            <summary>
+            Method responsible for parsing the rating value from string to a double
+            </summary>
+            <param name="ratingString">Rating value as a string</param>
+        </member>
         <member name="M:JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseCastListAsLegacyTable(JMovies.IMDb.Entities.Movies.Movie,System.Collections.Generic.List{JMovies.IMDb.Entities.Movies.Credit},HtmlAgilityPack.HtmlNode)">
             <summary>
             Method responsible for parsing the cast list of the movie

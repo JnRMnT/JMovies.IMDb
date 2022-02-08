@@ -1,22 +1,21 @@
-﻿using HtmlAgilityPack;
+﻿using Fizzler.Systems.HtmlAgilityPack;
+using HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Entities.Common;
 using JMovies.IMDb.Entities.People;
-using System.Linq;
-using Fizzler.Systems.HtmlAgilityPack;
+using System;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Text;
-using System.Collections.Generic;
-using System;
 using System.Text.RegularExpressions;
-using JMovies.IMDb.Entities.Common;
 
 namespace JMovies.IMDb.Helpers.People
 {
     /// <summary>
     /// Class responsible for parsing the Bio Page
     /// </summary>
-    public class BioPageHelper
+    public static class BioPageHelper
     {
         /// <summary>
         /// Method responsible for parsing the Bio Page

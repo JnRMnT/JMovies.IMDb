@@ -1,27 +1,17 @@
-﻿using HtmlAgilityPack;
-using JMovies.IMDb.Entities.Movies;
-using JMovies.IMDb.Entities.People;
-using Fizzler.Systems.HtmlAgilityPack;
-using JMovies.IMDb.Common.Constants;
-using System.Text.RegularExpressions;
-using System.Collections.Generic;
-using System.Net;
-using System.Threading.Tasks;
-using System;
-using System.IO;
-using System.Text;
-using JMovies.IMDb.Providers;
-using System.Linq;
-using JMovies.IMDb.Entities.Misc;
+﻿using Fizzler.Systems.HtmlAgilityPack;
+using HtmlAgilityPack;
 using JMovies.IMDb.Entities.Common;
+using JMovies.IMDb.Entities.Movies;
 using JMovies.IMDb.Entities.Settings;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
     /// <summary>
     /// Class responsible for parsing the Media Images
     /// </summary>
-    public class PhotoGalleryPageHelper
+    public static class PhotoGalleryPageHelper
     {
         /// <summary>
         /// Main Parse method of the Photo Gallery Page

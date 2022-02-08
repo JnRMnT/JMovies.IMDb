@@ -1,11 +1,10 @@
-﻿using HtmlAgilityPack;
-using JMovies.IMDb.Entities.Movies;
-using Fizzler.Systems.HtmlAgilityPack;
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using System.Text;
+﻿using Fizzler.Systems.HtmlAgilityPack;
+using HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Entities.Movies;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.Movies
@@ -13,7 +12,7 @@ namespace JMovies.IMDb.Helpers.Movies
     /// <summary>
     /// Helper Class responsible for parsing the Release Info Page
     /// </summary>
-    public class ReleaseInfoPageHelper
+    public static class ReleaseInfoPageHelper
     {
         /// <summary>
         /// Parses the Release Info Page and persists the data on Movie instance

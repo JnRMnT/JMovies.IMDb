@@ -1,18 +1,17 @@
-﻿using HtmlAgilityPack;
-using JMovies.IMDb.Entities.Movies;
-using JMovies.IMDb.Entities.People;
-using Fizzler.Systems.HtmlAgilityPack;
+﻿using Fizzler.Systems.HtmlAgilityPack;
+using HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
-using System.Text.RegularExpressions;
+using JMovies.IMDb.Entities.Movies;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.Movies
 {
     /// <summary>
     /// Class responsible for parsing the summary-story line section 
     /// </summary>
-    public class SummaryStorylineHelper
+    public static class SummaryStorylineHelper
     {
         /// <summary>
         /// Method responsible for parsing the summary-story line section  
