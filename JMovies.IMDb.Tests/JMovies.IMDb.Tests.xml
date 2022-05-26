@@ -4,64 +4,79 @@
         <name>JMovies.IMDb.Tests</name>
     </assembly>
     <members>
-        <member name="T:JMovies.IMDb.Tests.IMDbScrapingTests">
+        <member name="T:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests">
             <summary>
-            Test class that provides different test scenarios of IMDb Screen Scraping
+            Test class that contains the tests for basic scraping scenarios for persons
             </summary>
         </member>
-        <member name="F:JMovies.IMDb.Tests.IMDbScrapingTests.productionIDsTotest">
-            <summary>
-            Static list of IMDb IDs of some productions to be tested
-            </summary>
-        </member>
-        <member name="F:JMovies.IMDb.Tests.IMDbScrapingTests.personIDsToTest">
+        <member name="F:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests.personIDsToTest">
             <summary>
             Static list of IMDb IDs of some persons to be tested
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.ProductionScraping">
-            <summary>
-            Method that tests scraping of different Production Details for basic details
-            </summary>
-        </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.DetailedProductionScraping">
-            <summary>
-            Method that tests scraping of different Production Details for extended details
-            </summary>
-        </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.PersonScraping">
+        <member name="M:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests.PersonScraping">
             <summary>
             Method that tests scraping of person pages
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.DetailedPersonScraping">
+        <member name="M:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests.DetailedPersonScraping">
             <summary>
             Method that tests detailed scraping of person pages
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TVShowWithNoEndTest">
+        <member name="T:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests">
             <summary>
-            Test Method that tests a production with start date but no end date
+            Test class that contains the tests for basic scraping scenarios for productions
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.SummaryTVShowTest">
+        <member name="F:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.productionIDsTotest">
             <summary>
-            Test Method that tests a TV Show with the summary fetch settings
+            Static list of IMDb IDs of some productions to be tested
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TestMovieThePowerOfTheDog">
+        <member name="M:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.ProductionScraping">
+            <summary>
+            Method that tests scraping of different Production Details for basic details
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.DetailedProductionScraping">
+            <summary>
+            Method that tests scraping of different Production Details for extended details
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Tests.Production.SpecificMoviesTests">
+            <summary>
+            Test class that contains the tests which are targeted for specific movies
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.SpecificMoviesTests.TestMovieThePowerOfTheDog">
             <summary>
             Test Method that tests a movie: "The Power of the Dog"
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TestMovieReadyPlayerOne">
+        <member name="M:JMovies.IMDb.Tests.Production.SpecificMoviesTests.TestMovieReadyPlayerOne">
             <summary>
             Test Method that tests a movie: "Ready Player One"
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Tests.IMDbScrapingTests.TestMovieEarwigAndTheWitch">
+        <member name="M:JMovies.IMDb.Tests.Production.SpecificMoviesTests.TestMovieEarwigAndTheWitch">
             <summary>
             Test Method that tests a movie: "Earwig and the Witch"
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Tests.Production.TVShowTests">
+            <summary>
+            Test class that contains the tests dedicated for TV Show specific information
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.TVShowTests.TVShowWithNoEndTest">
+            <summary>
+            Test Method that tests a production with start date but no end date
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.TVShowTests.SummaryTVShowTest">
+            <summary>
+            Test Method that tests a TV Show with the summary fetch settings
             </summary>
         </member>
     </members>
