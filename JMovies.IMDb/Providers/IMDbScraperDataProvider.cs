@@ -41,8 +41,8 @@ namespace JMovies.IMDb.Providers
             Movie movie = new Movie();
             string url = IMDbConstants.BaseURL + IMDbConstants.MoviesPath + IMDbConstants.MovieIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
             HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
-            WebRequest webRequest = HttpHelper.InitializeWebRequest(url + "/");
-            using (Stream stream = HttpHelper.GetResponseStream(webRequest))
+            WebRequest webRequest = HttpHelper.InitializeWebRequest(url + "/", settings);
+            using (Stream stream = HttpHelper.GetResponseStream(webRequest, settings))
             {
                 htmlDocument.Load(stream, Encoding.UTF8);
             }
@@ -93,8 +93,8 @@ namespace JMovies.IMDb.Providers
             string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
             HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
 
-            WebRequest webRequest = HttpHelper.InitializeWebRequest(url);
-            using (Stream stream = HttpHelper.GetResponseStream(webRequest))
+            WebRequest webRequest = HttpHelper.InitializeWebRequest(url, settings);
+            using (Stream stream = HttpHelper.GetResponseStream(webRequest, settings))
             {
                 htmlDocument.Load(stream, Encoding.UTF8);
             }

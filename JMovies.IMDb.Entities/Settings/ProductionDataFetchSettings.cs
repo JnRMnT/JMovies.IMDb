@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace JMovies.IMDb.Entities.Settings
+﻿namespace JMovies.IMDb.Entities.Settings
 {
     /// <summary>
     /// Class that is responsible for holding settings for Production data fetching
     /// </summary>
-    public class ProductionDataFetchSettings
+    public class ProductionDataFetchSettings : BaseDataFetchSettings
     {
         /// <summary>
         /// Should the detailed cast info be fetched? This effects the response time.

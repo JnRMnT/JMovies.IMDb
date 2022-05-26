@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Tests::Production::BasicProductionScrapingTests</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a44f49c844a2f43e1d7692e5257fdb2ca" prot="private" static="yes" mutable="no">
+        <type>readonly long[]</type>
+        <definition>readonly long [] JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.productionIDsTotest</definition>
+        <argsstring></argsstring>
+        <name>productionIDsTotest</name>
+        <initializer>= new long[] { 30988, 3636, 1477834, 173, 212, 397442, 6412452, 0944947, 2139881 }</initializer>
+        <briefdescription>
+<para>Static list of <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs of some productions to be tested </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="17" column="38" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a87513271deb1e419ce2d5ace3445db70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.ProductionScraping</definition>
+        <argsstring>()</argsstring>
+        <name>ProductionScraping</name>
+        <briefdescription>
+<para>Method that tests scraping of different <ref refid="dd/d6e/namespace_j_movies_1_1_i_m_db_1_1_tests_1_1_production" kindref="compound">Production</ref> Details for basic details </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="24" column="21" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a20dfd9b12abcd88c14c44235a18a8d60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.DetailedProductionScraping</definition>
+        <argsstring>()</argsstring>
+        <name>DetailedProductionScraping</name>
+        <briefdescription>
+<para>Method that tests scraping of different <ref refid="dd/d6e/namespace_j_movies_1_1_i_m_db_1_1_tests_1_1_production" kindref="compound">Production</ref> Details for extended details </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="39" column="21" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="39" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test class that contains the tests for basic scraping scenarios for productions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="13" column="1" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="12" bodyend="50"/>
+    <listofallmembers>
+      <member refid="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a20dfd9b12abcd88c14c44235a18a8d60" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::BasicProductionScrapingTests</scope><name>DetailedProductionScraping</name></member>
+      <member refid="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a44f49c844a2f43e1d7692e5257fdb2ca" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::BasicProductionScrapingTests</scope><name>productionIDsTotest</name></member>
+      <member refid="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a87513271deb1e419ce2d5ace3445db70" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::BasicProductionScrapingTests</scope><name>ProductionScraping</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,11 +2,12 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
   <compounddef id="d8/de9/namespace_j_movies_1_1_i_m_db_1_1_tests" kind="namespace" language="C#">
     <compoundname>JMovies::IMDb::Tests</compoundname>
-    <innerclass refid="d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests" prot="public">JMovies::IMDb::Tests::IMDbScrapingTests</innerclass>
+    <innernamespace refid="de/d13/namespace_j_movies_1_1_i_m_db_1_1_tests_1_1_person">JMovies::IMDb::Tests::Person</innernamespace>
+    <innernamespace refid="dd/d6e/namespace_j_movies_1_1_i_m_db_1_1_tests_1_1_production">JMovies::IMDb::Tests::Production</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/IMDbScrapingTests.cs" line="10" column="1"/>
+    <location file="JMovies.IMDb.Tests/Person/BasicPersonScrapingTests.cs" line="7" column="1"/>
   </compounddef>
 </doxygen>

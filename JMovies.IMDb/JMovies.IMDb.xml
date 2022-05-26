@@ -56,18 +56,20 @@
             Class responsible for providing utility methods for HTTP Operations
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.HttpHelper.InitializeWebRequest(System.String)">
+        <member name="M:JMovies.IMDb.Helpers.HttpHelper.InitializeWebRequest(System.String,JMovies.IMDb.Entities.Settings.BaseDataFetchSettings)">
             <summary>
             Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info
             </summary>
             <param name="url">URL of the Request</param>
+            <param name="settings">Settings used for scraping</param>
             <returns>Configured Web Request</returns>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.HttpHelper.GetResponseStream(System.Net.WebRequest,System.Int32)">
+        <member name="M:JMovies.IMDb.Helpers.HttpHelper.GetResponseStream(System.Net.WebRequest,JMovies.IMDb.Entities.Settings.BaseDataFetchSettings,System.Int32)">
             <summary>
             Retry mechanism for sending Web Request that is required to avoid Connectivity issues
             </summary>
             <param name="webRequest">Request to be sent</param>
+            <param name="settings">Settings used for scraping</param>
             <param name="retryCount">Current Retry Count</param>
             <returns>Successful Response Stream</returns>
         </member>
@@ -229,11 +231,12 @@
             Class responsible for parsing the Bio Page
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.People.BioPageHelper.ParseBioPage(JMovies.IMDb.Entities.People.Person)">
+        <member name="M:JMovies.IMDb.Helpers.People.BioPageHelper.ParseBioPage(JMovies.IMDb.Entities.People.Person,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
             <summary>
             Method responsible for parsing the Bio Page
             </summary>
             <param name="person">Person to be populated</param>
+            <param name="settings">Object containing Data Fetch settings</param>
         </member>
         <member name="T:JMovies.IMDb.Helpers.People.PersonPageHelper">
             <summary>

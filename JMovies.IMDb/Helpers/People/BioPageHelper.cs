@@ -3,6 +3,7 @@ using HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
 using JMovies.IMDb.Entities.Common;
 using JMovies.IMDb.Entities.People;
+using JMovies.IMDb.Entities.Settings;
 using System;
 using System.IO;
 using System.Linq;
@@ -21,12 +22,13 @@ namespace JMovies.IMDb.Helpers.People
         /// Method responsible for parsing the Bio Page
         /// </summary>
         /// <param name="person">Person to be populated</param>
-        public static void ParseBioPage(Person person)
+        /// <param name="settings">Object containing Data Fetch settings</param>
+        public static void ParseBioPage(Person person, PersonDataFetchSettings settings)
         {
             string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + IMDBIDHelper.GetPaddedIMDBId(person.IMDbID) + "/" + IMDbConstants.BioPagePath;
             HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
-            WebRequest webRequest = HttpHelper.InitializeWebRequest(url);
-            using (Stream stream = HttpHelper.GetResponseStream(webRequest))
+            WebRequest webRequest = HttpHelper.InitializeWebRequest(url, settings);
+            using (Stream stream = HttpHelper.GetResponseStream(webRequest, settings))
             {
                 htmlDocument.Load(stream, Encoding.UTF8);
             }

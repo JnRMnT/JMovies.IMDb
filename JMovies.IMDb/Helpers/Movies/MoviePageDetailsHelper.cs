@@ -159,9 +159,9 @@ namespace JMovies.IMDb.Helpers.Movies
             {
                 //Fetch credits through full credits page
                 string fullCreditsUrl = moviePageUrl + "/" + IMDbConstants.FullCreditsPath;
-                WebRequest fullCreditsPageRequest = HttpHelper.InitializeWebRequest(fullCreditsUrl);
+                WebRequest fullCreditsPageRequest = HttpHelper.InitializeWebRequest(fullCreditsUrl, settings);
                 HtmlDocument creditsPageDocument = HtmlHelper.GetNewHtmlDocument();
-                using (Stream stream = HttpHelper.GetResponseStream(fullCreditsPageRequest))
+                using (Stream stream = HttpHelper.GetResponseStream(fullCreditsPageRequest, settings))
                 {
                     creditsPageDocument.Load(stream, Encoding.UTF8);
                 }
@@ -173,9 +173,9 @@ namespace JMovies.IMDb.Helpers.Movies
 
             #region  Parse Relase Info Page
             string releaseInfoURL = moviePageUrl + "/" + IMDbConstants.ReleaseInfoPath;
-            WebRequest releaseInfoPageRequest = HttpHelper.InitializeWebRequest(releaseInfoURL);
+            WebRequest releaseInfoPageRequest = HttpHelper.InitializeWebRequest(releaseInfoURL, settings);
             HtmlDocument releaseInfoPageDocument = HtmlHelper.GetNewHtmlDocument();
-            using (Stream stream = HttpHelper.GetResponseStream(releaseInfoPageRequest))
+            using (Stream stream = HttpHelper.GetResponseStream(releaseInfoPageRequest, settings))
             {
                 releaseInfoPageDocument.Load(stream, Encoding.UTF8);
             }
@@ -198,9 +198,9 @@ namespace JMovies.IMDb.Helpers.Movies
             if (settings.MediaImagesFetchCount > 0)
             {
                 string photoGalleryURL = moviePageUrl + "/" + IMDbConstants.PhotoGalleryPath;
-                WebRequest photoGalleryPageRequest = HttpHelper.InitializeWebRequest(photoGalleryURL);
+                WebRequest photoGalleryPageRequest = HttpHelper.InitializeWebRequest(photoGalleryURL, settings);
                 HtmlDocument photoGalleryPageDocument = HtmlHelper.GetNewHtmlDocument();
-                using (Stream stream = HttpHelper.GetResponseStream(photoGalleryPageRequest))
+                using (Stream stream = HttpHelper.GetResponseStream(photoGalleryPageRequest, settings))
                 {
                     photoGalleryPageDocument.Load(stream, Encoding.UTF8);
                 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace JMovies.IMDb.Entities.Settings.Presets
+﻿namespace JMovies.IMDb.Entities.Settings.Presets
 {
     /// <summary>
     /// A preset of data fetch settings that fetches all the data available for persons

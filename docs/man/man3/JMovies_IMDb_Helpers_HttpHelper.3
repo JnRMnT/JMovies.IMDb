@@ -11,11 +11,11 @@ JMovies.IMDb.Helpers.HttpHelper \- Class responsible for providing utility metho
 
 .in +1c
 .ti -1c
-.RI "static WebRequest \fBInitializeWebRequest\fP (string url)"
+.RI "static WebRequest \fBInitializeWebRequest\fP (string url, \fBBaseDataFetchSettings\fP settings)"
 .br
 .RI "Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info "
 .ti -1c
-.RI "static Stream \fBGetResponseStream\fP (WebRequest webRequest, int retryCount=0)"
+.RI "static Stream \fBGetResponseStream\fP (WebRequest webRequest, \fBBaseDataFetchSettings\fP settings, int retryCount=0)"
 .br
 .RI "Retry mechanism for sending Web Request that is required to avoid Connectivity issues "
 .in -1c
@@ -26,7 +26,7 @@ Class responsible for providing utility methods for HTTP Operations
 
 .SH "Member Function Documentation"
 .PP 
-.SS "static Stream JMovies\&.IMDb\&.Helpers\&.HttpHelper\&.GetResponseStream (WebRequest webRequest, int retryCount = \fC0\fP)\fC [static]\fP"
+.SS "static Stream JMovies\&.IMDb\&.Helpers\&.HttpHelper\&.GetResponseStream (WebRequest webRequest, \fBBaseDataFetchSettings\fP settings, int retryCount = \fC0\fP)\fC [static]\fP"
 
 .PP
 Retry mechanism for sending Web Request that is required to avoid Connectivity issues 
@@ -34,6 +34,8 @@ Retry mechanism for sending Web Request that is required to avoid Connectivity i
 \fBParameters\fP
 .RS 4
 \fIwebRequest\fP Request to be sent
+.br
+\fIsettings\fP Settings used for scraping
 .br
 \fIretryCount\fP Current Retry Count
 .RE
@@ -44,7 +46,7 @@ Successful Response Stream
 .RE
 .PP
 
-.SS "static WebRequest JMovies\&.IMDb\&.Helpers\&.HttpHelper\&.InitializeWebRequest (string url)\fC [static]\fP"
+.SS "static WebRequest JMovies\&.IMDb\&.Helpers\&.HttpHelper\&.InitializeWebRequest (string url, \fBBaseDataFetchSettings\fP settings)\fC [static]\fP"
 
 .PP
 Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info 
@@ -52,6 +54,8 @@ Initializes the web request using the URL and configures the request for default
 \fBParameters\fP
 .RS 4
 \fIurl\fP URL of the Request
+.br
+\fIsettings\fP Settings used for scraping
 .RE
 .PP
 \fBReturns\fP

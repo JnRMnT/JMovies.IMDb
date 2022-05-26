@@ -44,6 +44,21 @@
             Method that tests scraping of different Production Details for extended details
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Tests.Production.ScrapingCultureTests">
+            <summary>
+            Test class that contains the tests which are targeted for scraping culture related tests
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.ScrapingCultureTests.TestDefaultCulture">
+            <summary>
+            Test Method that tests scraping with the default culture
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.ScrapingCultureTests.TestTurkishCulture">
+            <summary>
+            Test Method that tests scraping with the Turkish culture
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Tests.Production.SpecificMoviesTests">
             <summary>
             Test class that contains the tests which are targeted for specific movies

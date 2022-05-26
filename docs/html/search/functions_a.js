@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['testmovieearwigandthewitch_317',['TestMovieEarwigAndTheWitch',['../d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests.html#acaa7a7a14627825d937b346c73de1fe3',1,'JMovies::IMDb::Tests::IMDbScrapingTests']]],
-  ['testmoviereadyplayerone_318',['TestMovieReadyPlayerOne',['../d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests.html#a74af1ee95b4f9bdaea3b79f79c2e639e',1,'JMovies::IMDb::Tests::IMDbScrapingTests']]],
-  ['testmoviethepowerofthedog_319',['TestMovieThePowerOfTheDog',['../d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests.html#a9ed6760a184acb368629e03fb56cbb3a',1,'JMovies::IMDb::Tests::IMDbScrapingTests']]],
-  ['tvshowwithnoendtest_320',['TVShowWithNoEndTest',['../d4/d82/class_j_movies_1_1_i_m_db_1_1_tests_1_1_i_m_db_scraping_tests.html#a87ae3ecf683d6fb12561438e25c482ed',1,'JMovies::IMDb::Tests::IMDbScrapingTests']]]
+  ['testdefaultculture_329',['TestDefaultCulture',['../d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests.html#a7f8e20677d09bffe6971ffdf9175d30d',1,'JMovies::IMDb::Tests::Production::ScrapingCultureTests']]],
+  ['testturkishculture_330',['TestTurkishCulture',['../d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests.html#a43b74c358a7ddfac7f824f1a4ddf2acf',1,'JMovies::IMDb::Tests::Production::ScrapingCultureTests']]],
+  ['tvshowwithnoendtest_331',['TVShowWithNoEndTest',['../dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests.html#aa6000f22b4faf776d0475c4bb5efc099',1,'JMovies::IMDb::Tests::Production::TVShowTests']]]
 ];

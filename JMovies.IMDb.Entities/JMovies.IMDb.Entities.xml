@@ -1023,6 +1023,16 @@
             The production that person is credited in
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.BaseDataFetchSettings">
+            <summary>
+            Base settings class common to both productions and persons
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.BaseDataFetchSettings.PreferredCulture">
+            <summary>
+            Preferred culture for fetching data (where applicable)
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Settings.PersonDataFetchSettings">
             <summary>
             Class that is responsible for holding settings for Person data fetching

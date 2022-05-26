@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Settings::BaseDataFetchSettings</compoundname>
+    <derivedcompoundref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Settings.PersonDataFetchSettings</derivedcompoundref>
+    <derivedcompoundref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings_1a3787b118a1d61271d20c26dcf38370b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>virtual string JMovies.IMDb.Entities.Settings.BaseDataFetchSettings.PreferredCulture</definition>
+        <argsstring></argsstring>
+        <name>PreferredCulture</name>
+        <briefdescription>
+<para>Preferred culture for fetching data (where applicable) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/BaseDataFetchSettings.cs" line="11" column="31" bodyfile="JMovies.IMDb.Entities/Settings/BaseDataFetchSettings.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base settings class common to both productions and persons </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings</label>
+        <link refid="d4/d1c/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_person_data_fetch_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings</label>
+        <link refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>JMovies.IMDb.Entities.Settings.PersonDataFetchSettings</label>
+        <link refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings</label>
+        <link refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings</label>
+        <link refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings</label>
+        <link refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Settings.BaseDataFetchSettings</label>
+        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
+      </node>
+    </inheritancegraph>
+    <location file="JMovies.IMDb.Entities/Settings/BaseDataFetchSettings.cs" line="7" column="1" bodyfile="JMovies.IMDb.Entities/Settings/BaseDataFetchSettings.cs" bodystart="6" bodyend="12"/>
+    <listofallmembers>
+      <member refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings_1a3787b118a1d61271d20c26dcf38370b5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::BaseDataFetchSettings</scope><name>PreferredCulture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

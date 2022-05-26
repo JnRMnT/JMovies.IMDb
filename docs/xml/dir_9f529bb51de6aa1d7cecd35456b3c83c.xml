@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_9f529bb51de6aa1d7cecd35456b3c83c" kind="dir">
+    <compoundname>JMovies.IMDb.Tests/Production</compoundname>
+    <innerfile refid="d2/df9/_basic_production_scraping_tests_8cs">BasicProductionScrapingTests.cs</innerfile>
+    <innerfile refid="da/d0d/_scraping_culture_tests_8cs">ScrapingCultureTests.cs</innerfile>
+    <innerfile refid="dd/d36/_specific_movies_tests_8cs">SpecificMoviesTests.cs</innerfile>
+    <innerfile refid="db/d39/_t_v_show_tests_8cs">TVShowTests.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Tests/Production/"/>
+  </compounddef>
+</doxygen>

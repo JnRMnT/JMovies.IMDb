@@ -3,7 +3,8 @@
   <compounddef id="dir_aa5a95831cf236ce2a5bc71a5a2500a9" kind="dir">
     <compoundname>JMovies.IMDb.Tests</compoundname>
     <innerdir refid="dir_909a052c62ef55cf04415d9b7eba5fd6">JMovies.IMDb.Tests/obj</innerdir>
-    <innerfile refid="d9/d60/_i_m_db_scraping_tests_8cs">IMDbScrapingTests.cs</innerfile>
+    <innerdir refid="dir_56f0eb2681f4532ce3ed05eb19e73eca">JMovies.IMDb.Tests/Person</innerdir>
+    <innerdir refid="dir_9f529bb51de6aa1d7cecd35456b3c83c">JMovies.IMDb.Tests/Production</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

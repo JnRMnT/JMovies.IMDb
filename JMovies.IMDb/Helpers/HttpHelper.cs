@@ -1,12 +1,9 @@
 ﻿using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Entities.Settings;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace JMovies.IMDb.Helpers
 {
@@ -19,11 +16,13 @@ namespace JMovies.IMDb.Helpers
         /// Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info
         /// </summary>
         /// <param name="url">URL of the Request</param>
+        /// <param name="settings">Settings used for scraping</param>
         /// <returns>Configured Web Request</returns>
-        public static WebRequest InitializeWebRequest(string url)
+        public static WebRequest InitializeWebRequest(string url, BaseDataFetchSettings settings)
         {
-            HttpWebRequest webRequest = (HttpWebRequest)HttpWebRequest.Create(url);
-            webRequest.Headers["Accept-Language"] = IMDbConstants.DefaultScrapingCulture;
+            HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
+            string language = !string.IsNullOrEmpty(settings.PreferredCulture) ? settings.PreferredCulture : IMDbConstants.DefaultScrapingCulture;
+            webRequest.Headers["Accept-Language"] = language;
             Random random = new Random();
             //Random IP Address
             webRequest.Headers["X-Forwarded-For"] = random.Next(0, 255) + "." + random.Next(0, 255) + "." + random.Next(0, 255) + "." + random.Next(0, 255);
@@ -37,9 +36,10 @@ namespace JMovies.IMDb.Helpers
         /// Retry mechanism for sending Web Request that is required to avoid Connectivity issues
         /// </summary>
         /// <param name="webRequest">Request to be sent</param>
+        /// <param name="settings">Settings used for scraping</param>
         /// <param name="retryCount">Current Retry Count</param>
         /// <returns>Successful Response Stream</returns>
-        public static Stream GetResponseStream(WebRequest webRequest, int retryCount = 0)
+        public static Stream GetResponseStream(WebRequest webRequest, BaseDataFetchSettings settings, int retryCount = 0)
         {
             //Wait for some time to avoid connectivity issues
             if (retryCount != 0)
@@ -56,8 +56,8 @@ namespace JMovies.IMDb.Helpers
             {
                 if (retryCount + 1 <= IMDbConstants.HttpMaxRetryCount)
                 {
-                    webRequest = InitializeWebRequest(webRequest.RequestUri.AbsoluteUri);
-                    return GetResponseStream(webRequest, retryCount + 1);
+                    webRequest = InitializeWebRequest(webRequest.RequestUri.AbsoluteUri, settings);
+                    return GetResponseStream(webRequest, settings, retryCount + 1);
                 }
                 else
                 {

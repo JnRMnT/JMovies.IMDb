@@ -3,14 +3,18 @@
   <compounddef id="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::People::BioPageHelper</compoundname>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper_1af364cf710d23064484d48dc24efa3c5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper_1afc444bd29054e85c966a9b775792a99c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>static void JMovies.IMDb.Helpers.People.BioPageHelper.ParseBioPage</definition>
-        <argsstring>(Person person)</argsstring>
+        <argsstring>(Person person, PersonDataFetchSettings settings)</argsstring>
         <name>ParseBioPage</name>
         <param>
           <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
           <declname>person</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kindref="compound">PersonDataFetchSettings</ref></type>
+          <declname>settings</declname>
         </param>
         <briefdescription>
 <para>Method responsible for parsing the Bio Page </para>
@@ -24,12 +28,20 @@
 <para>Person to be populated</para>
 </parameterdescription>
 </parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object containing Data Fetch settings</para>
+</parameterdescription>
+</parameteritem>
 </parameterlist>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/People/BioPageHelper.cs" line="24" column="28" bodyfile="JMovies.IMDb/Helpers/People/BioPageHelper.cs" bodystart="24" bodyend="88"/>
+        <location file="JMovies.IMDb/Helpers/People/BioPageHelper.cs" line="26" column="28" bodyfile="JMovies.IMDb/Helpers/People/BioPageHelper.cs" bodystart="26" bodyend="90"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,9 +49,9 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/People/BioPageHelper.cs" line="19" column="1" bodyfile="JMovies.IMDb/Helpers/People/BioPageHelper.cs" bodystart="18" bodyend="89"/>
+    <location file="JMovies.IMDb/Helpers/People/BioPageHelper.cs" line="20" column="1" bodyfile="JMovies.IMDb/Helpers/People/BioPageHelper.cs" bodystart="19" bodyend="91"/>
     <listofallmembers>
-      <member refid="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper_1af364cf710d23064484d48dc24efa3c5c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::BioPageHelper</scope><name>ParseBioPage</name></member>
+      <member refid="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper_1afc444bd29054e85c966a9b775792a99c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::BioPageHelper</scope><name>ParseBioPage</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

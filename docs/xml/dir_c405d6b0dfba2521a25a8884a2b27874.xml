@@ -3,6 +3,7 @@
   <compounddef id="dir_c405d6b0dfba2521a25a8884a2b27874" kind="dir">
     <compoundname>JMovies.IMDb.Entities/Settings</compoundname>
     <innerdir refid="dir_49285a1343200a3e5c09cd69c0303fe4">JMovies.IMDb.Entities/Settings/Presets</innerdir>
+    <innerfile refid="d8/d57/_base_data_fetch_settings_8cs">BaseDataFetchSettings.cs</innerfile>
     <innerfile refid="d9/d88/_person_data_fetch_settings_8cs">PersonDataFetchSettings.cs</innerfile>
     <innerfile refid="d1/d2e/_production_data_fetch_settings_8cs">ProductionDataFetchSettings.cs</innerfile>
     <briefdescription>

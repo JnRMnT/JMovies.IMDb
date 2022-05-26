@@ -112,7 +112,7 @@ namespace JMovies.IMDb.Helpers.People
             #region Bio Page Parsing
             if (settings.FetchBioPage)
             {
-                BioPageHelper.ParseBioPage(person);
+                BioPageHelper.ParseBioPage(person, settings);
             }
             #endregion
             #region Filmography Parsing

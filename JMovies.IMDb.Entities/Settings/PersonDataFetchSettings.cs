@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace JMovies.IMDb.Entities.Settings
+﻿namespace JMovies.IMDb.Entities.Settings
 {
     /// <summary>
     /// Class that is responsible for holding settings for Person data fetching
     /// </summary>
-    public class PersonDataFetchSettings
+    public class PersonDataFetchSettings : BaseDataFetchSettings
     {
         /// <summary>
         /// Should the Bio Page details be also fetched? This effects the response time
