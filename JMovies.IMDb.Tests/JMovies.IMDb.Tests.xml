@@ -24,6 +24,16 @@
             Method that tests detailed scraping of person pages
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Tests.Production.AKATests">
+            <summary>
+            Test class that contains the tests which are targeted for scraping culture related tests
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.AKATests.TestAKAsOfSongOfTheSouth">
+            <summary>
+            Test Method that tests AKAs of the movie "Song of the South"
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests">
             <summary>
             Test class that contains the tests for basic scraping scenarios for productions

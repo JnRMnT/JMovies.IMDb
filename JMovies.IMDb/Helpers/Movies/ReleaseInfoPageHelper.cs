@@ -21,6 +21,7 @@ namespace JMovies.IMDb.Helpers.Movies
         /// <param name="releaseInfoPageDocument">HTML Document of the Release Info Page</param>
         public static void Parse(Movie movie, HtmlDocument releaseInfoPageDocument)
         {
+            #region Release Dates
             List<ReleaseDate> releaseDates = new List<ReleaseDate>();
             HtmlNode releaseDatesNode = releaseInfoPageDocument.DocumentNode.QuerySelector("#releases");
             if (releaseDatesNode != null)
@@ -63,6 +64,25 @@ namespace JMovies.IMDb.Helpers.Movies
                 }
             }
             movie.ReleaseDates = releaseDates;
+            #endregion
+            #region AKAs
+            HtmlNode akasNode = releaseInfoPageDocument.DocumentNode.QuerySelector("#akas");
+            if (akasNode != null)
+            {
+                List<AKA> akas = new List<AKA>();
+                HtmlNode akasTableNode = akasNode.NodesAfterSelf().FirstOrDefault(e => e.Name == "table");
+                foreach (HtmlNode akaDateRow in akasTableNode.QuerySelectorAll("tr"))
+                {
+                    AKA aka = new AKA();
+                    HtmlNode[] akaColumns = akaDateRow.QuerySelectorAll("td").ToArray();
+                    aka.Description = akaColumns[0].InnerText.Prepare();
+                    aka.Name = akaColumns[1].InnerText.Prepare();
+                    akas.Add(aka);
+                }
+
+                movie.AKAs = akas.ToArray();
+            }
+            #endregion
         }
     }
 }
