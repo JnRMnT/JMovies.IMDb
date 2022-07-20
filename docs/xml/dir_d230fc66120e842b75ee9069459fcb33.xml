@@ -4,6 +4,7 @@
     <compoundname>JMovies.IMDb/Helpers/People</compoundname>
     <innerfile refid="d6/d92/_bio_page_helper_8cs">BioPageHelper.cs</innerfile>
     <innerfile refid="d8/d1b/_person_page_helper_8cs">PersonPageHelper.cs</innerfile>
+    <innerfile refid="d7/da4/_people_2_photo_gallery_page_helper_8cs">PhotoGalleryPageHelper.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

@@ -307,12 +307,22 @@
     <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1a7578a119b627e9b8f8f86d5efaa3ad92" kind="property"><name>FetchImageContents</name></member>
     <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1af76f6bd0f2e79ca82b30ff52f4ee1f76" kind="property"><name>MediaImagesFetchCount</name></member>
   </compound>
+  <compound refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests" kind="class"><name>JMovies::IMDb::Tests::Person::PersonGalleryTests</name>
+    <member refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests_1ae80ffad04cc28f2901e1cf9d2a5f9190" kind="variable"><name>benAffleckID</name></member>
+    <member refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests_1ac537b044d1f23bc5e67b75ba08f50320" kind="function"><name>FetchingLimitedImages</name></member>
+    <member refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests_1a3e38d97394398686058635f2ce34af82" kind="function"><name>FetchingWithPagination</name></member>
+  </compound>
   <compound refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper" kind="class"><name>JMovies::IMDb::Helpers::People::PersonPageHelper</name>
     <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1ab30c13d632ce59f43cd8ee55f61f0d9a" kind="function"><name>Parse</name></member>
     <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1aef14ac2a0c87f6d48ff6ed2cc44df72d" kind="function"><name>DetectGender</name></member>
   </compound>
+  <compound refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::People::PhotoGalleryPageHelper</name>
+    <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1a87c9c3adb53f9c2e82c441185c192d75" kind="function"><name>Parse</name></member>
+    <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1aaae167fe17fabe473f86897113443db8" kind="function"><name>FetchPhotos</name></member>
+  </compound>
   <compound refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</name>
-    <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a1e906acde6a9826424b21d87afde059e" kind="function"><name>Parse</name></member>
+    <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a52515ea2e1478af482dd7fc38db2a783" kind="function"><name>Parse</name></member>
+    <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a4d38e9ded2f44f82adf471bb02c3619b" kind="function"><name>FetchPhotos</name></member>
   </compound>
   <compound refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kind="class"><name>JMovies::IMDb::Entities::Movies::Production</name>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a53e167728a60e78aac7b03372d7a49c5" kind="property"><name>ID</name></member>
@@ -345,6 +355,11 @@
   </compound>
   <compound refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory" kind="class"><name>JMovies::IMDb::Factories::ProductionFactory</name>
     <member refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory_1adb85893b5129a9e1c89201932ba64fce" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests" kind="class"><name>JMovies::IMDb::Tests::Production::ProductionGalleryTests</name>
+    <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a93be0c57402c20f5b4d4a0a8cc1ced7c" kind="variable"><name>justiceLeagueID</name></member>
+    <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1ab38ba990f5e3dd13a91cd0b897236ebf" kind="function"><name>FetchingLimitedImages</name></member>
+    <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a8338da694960de140bf359f1c712c964" kind="function"><name>FetchingWithPagination</name></member>
   </compound>
   <compound refid="db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language" kind="class"><name>JMovies::IMDb::Entities::Movies::ProductionLanguage</name>
     <member refid="db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language_1a9ea1facc94678cc1425aa835aae62bba" kind="property"><name>ID</name></member>
@@ -647,9 +662,13 @@
   </compound>
   <compound refid="de/dc9/_basic_person_scraping_tests_8cs" kind="file"><name>BasicPersonScrapingTests.cs</name>
   </compound>
+  <compound refid="df/d39/_person_gallery_tests_8cs" kind="file"><name>PersonGalleryTests.cs</name>
+  </compound>
   <compound refid="d1/d80/_a_k_a_tests_8cs" kind="file"><name>AKATests.cs</name>
   </compound>
   <compound refid="d2/df9/_basic_production_scraping_tests_8cs" kind="file"><name>BasicProductionScrapingTests.cs</name>
+  </compound>
+  <compound refid="d2/d76/_production_gallery_tests_8cs" kind="file"><name>ProductionGalleryTests.cs</name>
   </compound>
   <compound refid="da/d0d/_scraping_culture_tests_8cs" kind="file"><name>ScrapingCultureTests.cs</name>
   </compound>
@@ -673,7 +692,9 @@
   </compound>
   <compound refid="d8/d02/_movie_page_details_helper_8cs" kind="file"><name>MoviePageDetailsHelper.cs</name>
   </compound>
-  <compound refid="db/df4/_photo_gallery_page_helper_8cs" kind="file"><name>PhotoGalleryPageHelper.cs</name>
+  <compound refid="d7/d6f/_movies_2_photo_gallery_page_helper_8cs" kind="file"><name>PhotoGalleryPageHelper.cs</name>
+  </compound>
+  <compound refid="d7/da4/_people_2_photo_gallery_page_helper_8cs" kind="file"><name>PhotoGalleryPageHelper.cs</name>
   </compound>
   <compound refid="d5/d5f/_release_info_page_helper_8cs" kind="file"><name>ReleaseInfoPageHelper.cs</name>
   </compound>

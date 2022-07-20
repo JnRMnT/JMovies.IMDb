@@ -13,6 +13,25 @@
 <codeline></codeline>
 <codeline><highlight class="normal">A<sp/>IMDb<sp/>data<sp/>provider<sp/>library<sp/>written<sp/>for<sp/>.NET<sp/>Standart<sp/>platform<sp/>that<sp/>uses<sp/>screen<sp/>scraping<sp/>to<sp/>gather<sp/>the<sp/>data<sp/>from<sp/>IMDb<sp/>on<sp/>demand.</highlight></codeline>
 <codeline></codeline>
+<codeline><highlight class="normal">##<sp/>How<sp/>to<sp/>Use?</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Simple<sp/>Usage:**<sp/>After<sp/>initializing<sp/>the<sp/>provider,<sp/>simply<sp/>by<sp/>passing<sp/>the<sp/>movie<sp/>ID,<sp/>its<sp/>details<sp/>can<sp/>be<sp/>fetched.<sp/>This<sp/>will<sp/>use<sp/>a<sp/>the<sp/>most<sp/>basic<sp/>scraping<sp/>and<sp/>will<sp/>provide<sp/>only<sp/>the<sp/>information<sp/>available<sp/>on<sp/>the<sp/>production/person<sp/>page.</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">IIMDbDataProvider<sp/>imdbDataProvider<sp/>=<sp/>new<sp/>IMDbScraperDataProvider();</highlight></codeline>
+<codeline><highlight class="normal">Movie<sp/>movie<sp/>=<sp/>imdbDataProvider.GetMovie(232500);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Detailed<sp/>Scraping:**<sp/>GetMovie<sp/>(also<sp/>similar<sp/>methods<sp/>for<sp/>other<sp/>purposes)<sp/>method<sp/>optionally<sp/>accepts<sp/>a<sp/>&quot;DataFetchSettings&quot;<sp/>object.<sp/>The<sp/>scraper<sp/>comes<sp/>with<sp/>a<sp/>number<sp/>of<sp/>preset<sp/>settings,<sp/>by<sp/>using<sp/>&quot;FullProductionDataFetchSettings&quot;;<sp/>it<sp/>can<sp/>be<sp/>configured<sp/>to<sp/>visit<sp/>all<sp/>the<sp/>related<sp/>pages<sp/>of<sp/>the<sp/>product<sp/>and<sp/>get<sp/>the<sp/>details<sp/>from<sp/>there<sp/>and<sp/>include<sp/>in<sp/>the<sp/>movie<sp/>object.</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">IIMDbDataProvider<sp/>imdbDataProvider<sp/>=<sp/>new<sp/>IMDbScraperDataProvider();</highlight></codeline>
+<codeline><highlight class="normal">Movie<sp/>movie<sp/>=<sp/>imdbDataProvider.GetMovie(232500,<sp/>new<sp/>FullProductionDataFetchSettings());</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Scraping<sp/>in<sp/>any<sp/>other<sp/>language:**<sp/>As<sp/>mentioned<sp/>above,<sp/>scrapers<sp/>behaviour<sp/>can<sp/>be<sp/>changed<sp/>by<sp/>providing<sp/>a<sp/>settings<sp/>object.<sp/>Any<sp/>preset<sp/>can<sp/>be<sp/>changed<sp/>and<sp/>simply<sp/>by<sp/>setting<sp/>&quot;PreferredCulture&quot;<sp/>as<sp/>the<sp/>culture<sp/>name<sp/>of<sp/>the<sp/>language<sp/>which<sp/>should<sp/>be<sp/>used<sp/>while<sp/>scraping,<sp/>the<sp/>scraper<sp/>can<sp/>be<sp/>configured<sp/>to<sp/>use<sp/>that<sp/>language<sp/>to<sp/>get<sp/>the<sp/>results.<sp/>Note<sp/>that<sp/>movie<sp/>names<sp/>etc.<sp/>would<sp/>be<sp/>coming<sp/>in<sp/>that<sp/>language.</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">IIMDbDataProvider<sp/>imdbDataProvider<sp/>=<sp/>new<sp/>IMDbScraperDataProvider();</highlight></codeline>
+<codeline><highlight class="normal">Entities.Movies.Movie<sp/>movie<sp/>=<sp/>imdbDataProvider.GetMovie(232500,<sp/>new<sp/>BasicProductionDataFetchSettings</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>PreferredCulture<sp/>=<sp/>&quot;tr-TR&quot;</highlight></codeline>
+<codeline><highlight class="normal">});<sp/>//<sp/>https://www.imdb.com/title/tt0232500/</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
 <codeline></codeline>
 <codeline><highlight class="normal">##<sp/>Under<sp/>the<sp/>hood</highlight></codeline>
 <codeline><highlight class="normal">JMovies.IMDb<sp/>uses<sp/>.NET<sp/>standart<sp/>Http<sp/>Web<sp/>Requests<sp/>to<sp/>fetch<sp/>the<sp/>IMDB<sp/>pages<sp/>and<sp/>parse<sp/>them<sp/>using<sp/>HtmlAgilityPack+Fizzler.</highlight></codeline>

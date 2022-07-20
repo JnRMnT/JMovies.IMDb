@@ -4,6 +4,7 @@
     <compoundname>JMovies::IMDb::Tests::Production</compoundname>
     <innerclass refid="d3/d08/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_a_k_a_tests" prot="public">JMovies::IMDb::Tests::Production::AKATests</innerclass>
     <innerclass refid="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests" prot="public">JMovies::IMDb::Tests::Production::BasicProductionScrapingTests</innerclass>
+    <innerclass refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests" prot="public">JMovies::IMDb::Tests::Production::ProductionGalleryTests</innerclass>
     <innerclass refid="d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests" prot="public">JMovies::IMDb::Tests::Production::ScrapingCultureTests</innerclass>
     <innerclass refid="d4/d7b/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_specific_movies_tests" prot="package">JMovies::IMDb::Tests::Production::SpecificMoviesTests</innerclass>
     <innerclass refid="dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests" prot="public">JMovies::IMDb::Tests::Production::TVShowTests</innerclass>

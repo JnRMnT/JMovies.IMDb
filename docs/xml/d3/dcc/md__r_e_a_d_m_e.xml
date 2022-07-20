@@ -15,18 +15,36 @@
 <para>A IMDb data provider library written for .NET Standart platform that uses screen scraping to gather the data from IMDb on demand.</para>
 </sect3>
 <sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md2">
+<title>How to Use?</title>
+<para><itemizedlist>
+<listitem><para><bold>Simple Usage:</bold> After initializing the provider, simply by passing the movie ID, its details can be fetched. This will use a the most basic scraping and will provide only the information available on the production/person page. <programlisting><codeline><highlight class="normal">IIMDbDataProvider<sp/>imdbDataProvider<sp/>=<sp/>new<sp/>IMDbScraperDataProvider();</highlight></codeline>
+<codeline><highlight class="normal">Movie<sp/>movie<sp/>=<sp/>imdbDataProvider.GetMovie(232500);</highlight></codeline>
+</programlisting></para>
+</listitem><listitem><para><bold>Detailed Scraping:</bold> GetMovie (also similar methods for other purposes) method optionally accepts a &quot;DataFetchSettings&quot; object. The scraper comes with a number of preset settings, by using &quot;FullProductionDataFetchSettings&quot;; it can be configured to visit all the related pages of the product and get the details from there and include in the movie object. <programlisting><codeline><highlight class="normal">IIMDbDataProvider<sp/>imdbDataProvider<sp/>=<sp/>new<sp/>IMDbScraperDataProvider();</highlight></codeline>
+<codeline><highlight class="normal">Movie<sp/>movie<sp/>=<sp/>imdbDataProvider.GetMovie(232500,<sp/>new<sp/>FullProductionDataFetchSettings());</highlight></codeline>
+</programlisting></para>
+</listitem><listitem><para><bold>Scraping in any other language:</bold> As mentioned above, scrapers behaviour can be changed by providing a settings object. Any preset can be changed and simply by setting &quot;PreferredCulture&quot; as the culture name of the language which should be used while scraping, the scraper can be configured to use that language to get the results. Note that movie names etc. would be coming in that language. <programlisting><codeline><highlight class="normal">IIMDbDataProvider<sp/>imdbDataProvider<sp/>=<sp/>new<sp/>IMDbScraperDataProvider();</highlight></codeline>
+<codeline><highlight class="normal">Entities.Movies.Movie<sp/>movie<sp/>=<sp/>imdbDataProvider.GetMovie(232500,<sp/>new<sp/>BasicProductionDataFetchSettings</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>PreferredCulture<sp/>=<sp/>&quot;tr-TR&quot;</highlight></codeline>
+<codeline><highlight class="normal">});<sp/>//<sp/>https://www.imdb.com/title/tt0232500/</highlight></codeline>
+</programlisting></para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md3">
 <title>Under the hood</title>
 <para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">JMovies.IMDb</ref> uses .NET standart Http Web Requests to fetch the IMDB pages and parse them using HtmlAgilityPack+Fizzler.</para>
 </sect1>
-<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md3">
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md4">
 <title>Maintenance</title>
 <para>I will personaly maintain the project as much as i can but as it uses Screen Scraping it is possible that it will require some changes along the way, so every issue report and pull request is welcome!</para>
 </sect1>
-<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md4">
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md5">
 <title>Code Documentation</title>
 <para>Documentation website can be found under <ulink url="https://jnrmnt.github.io/JMovies.IMDb/html/index.html">JMovies.IMDb GitHub Pages</ulink>.</para>
 </sect1>
-<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md5">
+<sect1 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md6">
 <title>Warning</title>
 <para>Please know that this library is not intended for bulk data scraping from IMDb and it is restricted by them. Also note that this library is not affliated with IMDB and you need to use it at your own risk/responsibility. </para>
 </sect1>

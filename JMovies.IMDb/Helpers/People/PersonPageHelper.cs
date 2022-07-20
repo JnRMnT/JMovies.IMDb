@@ -69,35 +69,6 @@ namespace JMovies.IMDb.Helpers.People
 
                         person.Roles = roles;
                     }
-
-                    List<Image> photos = new List<Image>();
-                    HtmlNode mediaStripContainer = nameOverviewWidget.QuerySelector(".mediastrip_container");
-                    if (mediaStripContainer != null)
-                    {
-                        HtmlNode[] allImageNodes = mediaStripContainer.QuerySelectorAll(".mediastrip a").ToArray();
-                        int endIndex = allImageNodes.Length;
-                        if (settings.MediaImagesFetchCount < endIndex)
-                        {
-                            endIndex = settings.MediaImagesFetchCount;
-                        }
-
-                        for (int i = 0; i < endIndex; i++)
-                        {
-                            HtmlNode imageLink = allImageNodes[i];
-                            HtmlNode imageNode = imageLink.Element("img");
-                            Image image = new Image
-                            {
-                                Title = imageNode.Attributes["title"].Value.Prepare(),
-                                URL = IMDBImageHelper.NormalizeImageUrl(imageNode.Attributes["loadlate"].Value)
-                            };
-                            if (settings.FetchImageContents)
-                            {
-                                image.Content = IMDBImageHelper.GetImageContent(image.URL);
-                            }
-                            photos.Add(image);
-                        }
-                    }
-                    person.Photos = photos;
                 }
                 else
                 {

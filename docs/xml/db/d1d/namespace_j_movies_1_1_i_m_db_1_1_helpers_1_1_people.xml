@@ -4,6 +4,7 @@
     <compoundname>JMovies::IMDb::Helpers::People</compoundname>
     <innerclass refid="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper" prot="public">JMovies::IMDb::Helpers::People::BioPageHelper</innerclass>
     <innerclass refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper" prot="public">JMovies::IMDb::Helpers::People::PersonPageHelper</innerclass>
+    <innerclass refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper" prot="public">JMovies::IMDb::Helpers::People::PhotoGalleryPageHelper</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

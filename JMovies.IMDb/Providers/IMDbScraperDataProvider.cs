@@ -113,6 +113,12 @@ namespace JMovies.IMDb.Providers
 
             PersonPageHelper.Parse(person, documentNode, settings);
 
+            #region Parse Photo Gallery Page
+            if (settings.MediaImagesFetchCount > 0)
+            {
+                Helpers.People.PhotoGalleryPageHelper.Parse(person, url, settings);
+            }
+            #endregion
             return person;
         }
 

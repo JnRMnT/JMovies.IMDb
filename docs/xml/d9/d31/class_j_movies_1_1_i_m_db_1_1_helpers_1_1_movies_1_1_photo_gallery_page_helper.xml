@@ -3,18 +3,18 @@
   <compounddef id="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</compoundname>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a1e906acde6a9826424b21d87afde059e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a52515ea2e1478af482dd7fc38db2a783" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>static void JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper.Parse</definition>
-        <argsstring>(Movie movie, HtmlNode documentNode, ProductionDataFetchSettings settings)</argsstring>
+        <argsstring>(Movie movie, string movieURL, ProductionDataFetchSettings settings)</argsstring>
         <name>Parse</name>
         <param>
           <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
           <declname>movie</declname>
         </param>
         <param>
-          <type>HtmlNode</type>
-          <declname>documentNode</declname>
+          <type>string</type>
+          <declname>movieURL</declname>
         </param>
         <param>
           <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
@@ -34,10 +34,10 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>documentNode</parametername>
+<parametername>movieURL</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Document Node of the photo gallery page</para>
+<para>URL of the movie page</para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -53,7 +53,73 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="22" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="22" bodyend="56"/>
+        <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="26" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a4d38e9ded2f44f82adf471bb02c3619b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper.FetchPhotos</definition>
+        <argsstring>(string movieURL, int currentPage, ProductionDataFetchSettings settings, ref List&lt; Image &gt; imageContainer)</argsstring>
+        <name>FetchPhotos</name>
+        <param>
+          <type>string</type>
+          <declname>movieURL</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentPage</declname>
+        </param>
+        <param>
+          <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>ref List&lt; <ref refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image" kindref="compound">Image</ref> &gt;</type>
+          <declname>imageContainer</declname>
+        </param>
+        <briefdescription>
+<para>Fetches all photos of nth page of the media gallery page </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>movieURL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL of the movie page</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentPage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the current page to fetch</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object containing Data Fetch settings</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imageContainer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference of the container that is holding the images</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="40" column="29" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="40" bodyend="87"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -61,9 +127,10 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="15" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="14" bodyend="57"/>
+    <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="19" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="18" bodyend="88"/>
     <listofallmembers>
-      <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a1e906acde6a9826424b21d87afde059e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</scope><name>Parse</name></member>
+      <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a4d38e9ded2f44f82adf471bb02c3619b" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</scope><name>FetchPhotos</name></member>
+      <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a52515ea2e1478af482dd7fc38db2a783" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</scope><name>Parse</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -4,6 +4,7 @@
     <compoundname>JMovies.IMDb.Tests/Production</compoundname>
     <innerfile refid="d1/d80/_a_k_a_tests_8cs">AKATests.cs</innerfile>
     <innerfile refid="d2/df9/_basic_production_scraping_tests_8cs">BasicProductionScrapingTests.cs</innerfile>
+    <innerfile refid="d2/d76/_production_gallery_tests_8cs">ProductionGalleryTests.cs</innerfile>
     <innerfile refid="da/d0d/_scraping_culture_tests_8cs">ScrapingCultureTests.cs</innerfile>
     <innerfile refid="dd/d36/_specific_movies_tests_8cs">SpecificMoviesTests.cs</innerfile>
     <innerfile refid="db/d39/_t_v_show_tests_8cs">TVShowTests.cs</innerfile>

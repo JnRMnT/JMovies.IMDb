@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Tests::Production::ProductionGalleryTests</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a93be0c57402c20f5b4d4a0a8cc1ced7c" prot="private" static="yes" mutable="no">
+        <type>readonly long</type>
+        <definition>readonly long JMovies.IMDb.Tests.Production.ProductionGalleryTests.justiceLeagueID</definition>
+        <argsstring></argsstring>
+        <name>justiceLeagueID</name>
+        <initializer>= 12361974</initializer>
+        <briefdescription>
+<para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID of Justice League </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" line="17" column="38" bodyfile="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1ab38ba990f5e3dd13a91cd0b897236ebf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingLimitedImages</definition>
+        <argsstring>()</argsstring>
+        <name>FetchingLimitedImages</name>
+        <briefdescription>
+<para>Fetches the production data with 5 images </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" line="24" column="21" bodyfile="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" bodystart="24" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a8338da694960de140bf359f1c712c964" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingWithPagination</definition>
+        <argsstring>()</argsstring>
+        <name>FetchingWithPagination</name>
+        <briefdescription>
+<para>Fetches the production data with 55 images </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" line="45" column="21" bodyfile="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" bodystart="45" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test suite for tests related to fetching of the gallery page of the productions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" line="13" column="1" bodyfile="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" bodystart="12" bodyend="61"/>
+    <listofallmembers>
+      <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1ab38ba990f5e3dd13a91cd0b897236ebf" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionGalleryTests</scope><name>FetchingLimitedImages</name></member>
+      <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a8338da694960de140bf359f1c712c964" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionGalleryTests</scope><name>FetchingWithPagination</name></member>
+      <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a93be0c57402c20f5b4d4a0a8cc1ced7c" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionGalleryTests</scope><name>justiceLeagueID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

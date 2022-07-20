@@ -24,6 +24,26 @@
             Method that tests detailed scraping of person pages
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Tests.Person.PersonGalleryTests">
+            <summary>
+            Test suite for tests related to fetching of the gallery page of the persons
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Tests.Person.PersonGalleryTests.benAffleckID">
+            <summary>
+            IMDb ID of Ben Affleck
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Person.PersonGalleryTests.FetchingLimitedImages">
+            <summary>
+            Fetches the person data with 5 images
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Person.PersonGalleryTests.FetchingWithPagination">
+            <summary>
+            Fetches the person data with 55 images
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Tests.Production.AKATests">
             <summary>
             Test class that contains the tests which are targeted for scraping culture related tests
@@ -52,6 +72,26 @@
         <member name="M:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.DetailedProductionScraping">
             <summary>
             Method that tests scraping of different Production Details for extended details
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Tests.Production.ProductionGalleryTests">
+            <summary>
+            Test suite for tests related to fetching of the gallery page of the productions
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Tests.Production.ProductionGalleryTests.justiceLeagueID">
+            <summary>
+            IMDb ID of Justice League
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingLimitedImages">
+            <summary>
+            Fetches the production data with 5 images
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingWithPagination">
+            <summary>
+            Fetches the production data with 55 images
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Tests.Production.ScrapingCultureTests">

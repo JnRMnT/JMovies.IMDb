@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="86" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="86" bodyend="117"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="86" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="86" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a5748daa2f474b5d531098d4285b0774a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="125" column="22" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="125" bodyend="128"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="131" column="22" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="131" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acbcd6885db34798b96c968e9b804e267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref></type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="136" column="25" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="136" bodyend="139"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="142" column="25" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="142" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1adee371f09187f5d157bfc1390d43badc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="146" column="27" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="146" bodyend="149"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="152" column="27" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="152" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ad26f0b3ac75c285466312d51627d1ea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
@@ -290,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="156" column="22" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="156" bodyend="159"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="162" column="22" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="162" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a1603c213131dc67f98eb4ac3d481b252" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref></type>
@@ -321,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="166" column="25" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="166" bodyend="169"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="172" column="25" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="172" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a3e892fc886f3226138c5e13e134436b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="176" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="176" bodyend="179"/>
+        <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="182" column="23" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="182" bodyend="185"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -384,7 +384,7 @@
         <link refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider"/>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="23" column="1" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="22" bodyend="180"/>
+    <location file="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" line="23" column="1" bodyfile="JMovies.IMDb/Providers/IMDbScraperDataProvider.cs" bodystart="22" bodyend="186"/>
     <listofallmembers>
       <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a5748daa2f474b5d531098d4285b0774a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetMovie</name></member>
       <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ad26f0b3ac75c285466312d51627d1ea7" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Providers::IMDbScraperDataProvider</scope><name>GetMovie</name></member>

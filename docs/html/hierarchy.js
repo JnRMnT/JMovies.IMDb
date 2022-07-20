@@ -48,6 +48,8 @@ var hierarchy =
     [ "JMovies.IMDb.Entities.People.Person", "d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person.html", [
       [ "JMovies.IMDb.Entities.People.Actor", "de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor.html", null ]
     ] ],
+    [ "JMovies.IMDb.Tests.Person.PersonGalleryTests", "d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests.html", null ],
+    [ "JMovies.IMDb.Helpers.People.PhotoGalleryPageHelper", "d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper.html", null ],
     [ "JMovies.IMDb.Entities.Movies.Production", "d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production.html", [
       [ "JMovies.IMDb.Entities.Movies.Movie", "d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie.html", [
         [ "JMovies.IMDb.Entities.Movies.TVSeries", "d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series.html", null ]
@@ -55,6 +57,7 @@ var hierarchy =
     ] ],
     [ "JMovies.IMDb.Entities.Movies.ProductionCountry", "d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country.html", null ],
     [ "JMovies.IMDb.Entities.People.ProductionCredit", "dc/d41/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_production_credit.html", null ],
+    [ "JMovies.IMDb.Tests.Production.ProductionGalleryTests", "d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests.html", null ],
     [ "JMovies.IMDb.Entities.Movies.ProductionLanguage", "db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language.html", null ],
     [ "JMovies.IMDb.Entities.Movies.Rating", "dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating.html", null ],
     [ "JMovies.IMDb.Entities.Movies.ReleaseDate", "dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date.html", null ],

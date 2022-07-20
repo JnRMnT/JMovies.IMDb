@@ -197,14 +197,7 @@ namespace JMovies.IMDb.Helpers.Movies
             #region Parse Photo Gallery Page
             if (settings.MediaImagesFetchCount > 0)
             {
-                string photoGalleryURL = moviePageUrl + "/" + IMDbConstants.PhotoGalleryPath;
-                WebRequest photoGalleryPageRequest = HttpHelper.InitializeWebRequest(photoGalleryURL, settings);
-                HtmlDocument photoGalleryPageDocument = HtmlHelper.GetNewHtmlDocument();
-                using (Stream stream = HttpHelper.GetResponseStream(photoGalleryPageRequest, settings))
-                {
-                    photoGalleryPageDocument.Load(stream, Encoding.UTF8);
-                }
-                PhotoGalleryPageHelper.Parse(movie, photoGalleryPageDocument?.DocumentNode, settings);
+                PhotoGalleryPageHelper.Parse(movie, moviePageUrl, settings);
             }
             #endregion
             return true;
