@@ -1,0 +1,114 @@
+.TH "JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder" 3 "Wed Jul 20 2022" "JMovies.IMDb" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder \- Class that is responsible for holding settings for Production data fetching  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBProductionFetchSettingsBuilder\fP \fBWithDetailedCast\fP ()"
+.br
+.RI "Enables fetching detailed cast on the settings "
+.ti -1c
+.RI "\fBProductionFetchSettingsBuilder\fP \fBWithLimitedCastDetails\fP (int limit)"
+.br
+.RI "Enables limiting fetching the cast details "
+.ti -1c
+.RI "\fBProductionFetchSettingsBuilder\fP \fBWithFetchingImageContents\fP ()"
+.br
+.RI "Enables fetching image contents fetching on the settings "
+.ti -1c
+.RI "\fBProductionFetchSettingsBuilder\fP \fBWithLimitedImageFetching\fP (int limit)"
+.br
+.RI "Sets image fetching limit "
+.ti -1c
+.RI "\fBProductionFetchSettingsBuilder\fP \fBWithPreferredCulture\fP (string culture)"
+.br
+.RI "Enables fetching with a preferred culture "
+.ti -1c
+.RI "\fBProductionDataFetchSettings\fP \fBBuild\fP ()"
+.br
+.RI "Builds a production data fetch settings based on the chained properties "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class that is responsible for holding settings for Production data fetching 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBProductionDataFetchSettings\fP JMovies\&.IMDb\&.Entities\&.Settings\&.ProductionFetchSettingsBuilder\&.Build ()"
+
+.PP
+Builds a production data fetch settings based on the chained properties 
+.PP
+\fBReturns\fP
+.RS 4
+A built and customized production data fetch settings
+.RE
+.PP
+
+.SS "\fBProductionFetchSettingsBuilder\fP JMovies\&.IMDb\&.Entities\&.Settings\&.ProductionFetchSettingsBuilder\&.WithDetailedCast ()"
+
+.PP
+Enables fetching detailed cast on the settings 
+.PP
+\fBReturns\fP
+.RS 4
+Builder for more chaining
+.RE
+.PP
+
+.SS "\fBProductionFetchSettingsBuilder\fP JMovies\&.IMDb\&.Entities\&.Settings\&.ProductionFetchSettingsBuilder\&.WithFetchingImageContents ()"
+
+.PP
+Enables fetching image contents fetching on the settings 
+.PP
+\fBReturns\fP
+.RS 4
+Builder for more chaining
+.RE
+.PP
+
+.SS "\fBProductionFetchSettingsBuilder\fP JMovies\&.IMDb\&.Entities\&.Settings\&.ProductionFetchSettingsBuilder\&.WithLimitedCastDetails (int limit)"
+
+.PP
+Enables limiting fetching the cast details 
+.PP
+\fBReturns\fP
+.RS 4
+Builder for more chaining
+.RE
+.PP
+
+.SS "\fBProductionFetchSettingsBuilder\fP JMovies\&.IMDb\&.Entities\&.Settings\&.ProductionFetchSettingsBuilder\&.WithLimitedImageFetching (int limit)"
+
+.PP
+Sets image fetching limit 
+.PP
+\fBReturns\fP
+.RS 4
+Builder for more chaining
+.RE
+.PP
+
+.SS "\fBProductionFetchSettingsBuilder\fP JMovies\&.IMDb\&.Entities\&.Settings\&.ProductionFetchSettingsBuilder\&.WithPreferredCulture (string culture)"
+
+.PP
+Enables fetching with a preferred culture 
+.PP
+\fBReturns\fP
+.RS 4
+Builder for more chaining
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for JMovies\&.IMDb from the source code\&.

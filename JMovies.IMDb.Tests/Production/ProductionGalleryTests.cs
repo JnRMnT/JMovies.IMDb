@@ -24,13 +24,10 @@ namespace JMovies.IMDb.Tests.Production
         public void FetchingLimitedImages()
         {
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            ProductionDataFetchSettings settings = new ProductionDataFetchSettings
-            {
-                FetchDetailedCast = false,
-                FetchImageContents = true,
+            ProductionDataFetchSettings settings = new ProductionFetchSettingsBuilder().WithFetchingImageContents()
                 //5 is a value that is lower than a full page, so we are testing if we are able to stop at the limit
-                MediaImagesFetchCount = 5
-            };
+                .WithLimitedImageFetching(5).Build();
+
             Entities.Movies.Production production = imdbDataProvider.GetProduction(justiceLeagueID, settings);
             Assert.IsNotNull(production);
             Assert.AreEqual(justiceLeagueID, production.IMDbID);
@@ -45,13 +42,9 @@ namespace JMovies.IMDb.Tests.Production
         public void FetchingWithPagination()
         {
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            ProductionDataFetchSettings settings = new ProductionDataFetchSettings
-            {
-                FetchDetailedCast = false,
-                FetchImageContents = true,
+            ProductionDataFetchSettings settings = new ProductionFetchSettingsBuilder().WithFetchingImageContents()
                 //55 is a value that fetches at least 2 pages but still relatively low
-                MediaImagesFetchCount = 55
-            };
+                .WithLimitedImageFetching(55).Build();
             Entities.Movies.Production production = imdbDataProvider.GetProduction(justiceLeagueID, settings);
             Assert.IsNotNull(production);
             Assert.AreEqual(justiceLeagueID, production.IMDbID);

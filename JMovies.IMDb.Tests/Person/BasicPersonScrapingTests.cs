@@ -1,4 +1,5 @@
 ﻿using JMovies.IMDb.Entities.Interfaces;
+using JMovies.IMDb.Entities.Settings;
 using JMovies.IMDb.Entities.Settings.Presets;
 using JMovies.IMDb.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -39,10 +40,16 @@ namespace JMovies.IMDb.Tests.Person
         [TestMethod]
         public void DetailedPersonScraping()
         {
+            PersonDataFetchSettings settings = new PersonDataFetchSettings
+            {
+                FetchBioPage = true,
+                FetchImageContents = true,
+                MediaImagesFetchCount = 10
+            };
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
             foreach (long personID in personIDsToTest)
             {
-                Entities.People.Person person = imdbDataProvider.GetPerson(personID, new FullPersonDataFetchSettings());
+                Entities.People.Person person = imdbDataProvider.GetPerson(personID, settings);
                 Assert.IsNotNull(person);
                 Assert.IsFalse(string.IsNullOrEmpty(person.FullName));
                 Assert.AreEqual(personID, person.IMDbID);

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d5/d87/_production_fetch_settings_builder_8cs" kind="file" language="C#">
+    <compoundname>ProductionFetchSettingsBuilder.cs</compoundname>
+    <innerclass refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" prot="public">JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
+    <innernamespace refid="d9/ddb/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_settings">JMovies::IMDb::Entities::Settings</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/ddb/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_settings" kindref="compound">JMovies.IMDb.Entities.Settings</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref><sp/>_settings;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref><sp/>settings</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_settings<sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_settings<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_settings;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ad74196636d6945fc84c225ae1f91a14a" kindref="member">WithDetailedCast</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings.<ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a41cf38adda1540d6f86c86bad2ab172c" kindref="member">FetchDetailedCast</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a4055c9d3806e89059862a6ee6afdb6c5" kindref="member">WithLimitedCastDetails</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>limit)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings.<ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a932e6696a7d28d0dfc9d6ce5090e38fa" kindref="member">CastFetchCount</ref><sp/>=<sp/>limit;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ace1c15892be80cdfb2f1b908c92d31a6" kindref="member">WithFetchingImageContents</ref>()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings.<ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a729edda2d6427b225d06c042733b0436" kindref="member">FetchImageContents</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a7370b2f94c9ca1c07887ba07c6c8d64e" kindref="member">WithLimitedImageFetching</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>limit)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings.<ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings_1a0d69a900413382a5e573d55bbfa39029" kindref="member">MediaImagesFetchCount</ref><sp/>=<sp/>limit;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a10fed410764c2913b3d16914a3bacf9b" kindref="member">WithPreferredCulture</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>culture)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings.<ref refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings_1a3787b118a1d61271d20c26dcf38370b5" kindref="member">PreferredCulture</ref><sp/>=<sp/>culture;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref><sp/><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a2716646908e8ffea1f616c222e794df5" kindref="member">Build</ref>()</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>settings;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs"/>
+  </compounddef>
+</doxygen>

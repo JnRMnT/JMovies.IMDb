@@ -1053,6 +1053,41 @@
             Number of media images to be fetched along with the person
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder">
+            <summary>
+            Builder for person fetching settings
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithFetchingBioPage">
+            <summary>
+            Enables fetching bio page on the settings
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithFetchingImageContents">
+            <summary>
+            Enables fetching image contents fetching on the settings
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithLimitedImageFetching(System.Int32)">
+            <summary>
+            Sets image fetching limit
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithPreferredCulture(System.String)">
+            <summary>
+            Enables fetching with a preferred culture
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.Build">
+            <summary>
+            Builds a person data fetch settings based on the chained properties
+            </summary>
+            <returns>A built and customized person data fetch settings</returns>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings">
             <summary>
             A preset of settings to fetch only basic person data
@@ -1162,6 +1197,47 @@
             <summary>
             Number of cast to be fetched along with the production
             </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder">
+            <summary>
+            Class that is responsible for holding settings for Production data fetching
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithDetailedCast">
+            <summary>
+            Enables fetching detailed cast on the settings
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithLimitedCastDetails(System.Int32)">
+            <summary>
+            Enables limiting fetching the cast details
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithFetchingImageContents">
+            <summary>
+            Enables fetching image contents fetching on the settings
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithLimitedImageFetching(System.Int32)">
+            <summary>
+            Sets image fetching limit
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithPreferredCulture(System.String)">
+            <summary>
+            Enables fetching with a preferred culture
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.Build">
+            <summary>
+            Builds a production data fetch settings based on the chained properties
+            </summary>
+            <returns>A built and customized production data fetch settings</returns>
         </member>
     </members>
 </doc>

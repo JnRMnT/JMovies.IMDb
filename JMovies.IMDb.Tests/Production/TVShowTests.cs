@@ -1,6 +1,6 @@
 ﻿using JMovies.IMDb.Entities.Interfaces;
 using JMovies.IMDb.Entities.Movies;
-using JMovies.IMDb.Entities.Settings.Presets;
+using JMovies.IMDb.Entities.Settings;
 using JMovies.IMDb.Providers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -18,8 +18,10 @@ namespace JMovies.IMDb.Tests.Production
         [TestMethod]
         public void TVShowWithNoEndTest()
         {
+            ProductionDataFetchSettings settings = new ProductionFetchSettingsBuilder().WithDetailedCast().
+                WithFetchingImageContents().WithLimitedImageFetching(55).WithFetchingImageContents().Build();
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            Entities.Movies.Production production = imdbDataProvider.GetProduction(48861, new FullProductionDataFetchSettings());
+            Entities.Movies.Production production = imdbDataProvider.GetProduction(48861, settings);
             Assert.IsNotNull(production);
             Assert.AreEqual(48861, production.IMDbID);
             Assert.IsTrue(production.ProductionType == ProductionTypeEnum.TVSeries);

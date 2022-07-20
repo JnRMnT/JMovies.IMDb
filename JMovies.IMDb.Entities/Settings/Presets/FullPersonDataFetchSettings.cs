@@ -18,6 +18,6 @@
         /// <summary>
         /// Fetch 25 media images
         /// </summary>
-        public override int MediaImagesFetchCount { get => 25; }
+        public override int MediaImagesFetchCount { get => int.MaxValue; }
     }
 }

@@ -307,6 +307,15 @@
     <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1a7578a119b627e9b8f8f86d5efaa3ad92" kind="property"><name>FetchImageContents</name></member>
     <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1af76f6bd0f2e79ca82b30ff52f4ee1f76" kind="property"><name>MediaImagesFetchCount</name></member>
   </compound>
+  <compound refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder" kind="class"><name>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</name>
+    <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a3a94a065cd32aa123a948e6fa452d235" kind="variable"><name>_settings</name></member>
+    <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1ac3b1bf62b90458ea01454da563f1ae75" kind="property"><name>settings</name></member>
+    <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a9106032ed1670b73eeb55a900b91c247" kind="function"><name>WithFetchingBioPage</name></member>
+    <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1aa00ba77393415261ef8ef0a8fec29472" kind="function"><name>WithFetchingImageContents</name></member>
+    <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1afd40c22ea8918c73585ced08b72fed29" kind="function"><name>WithLimitedImageFetching</name></member>
+    <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a1adfb844cc36f114ad5e18ed90be8000" kind="function"><name>WithPreferredCulture</name></member>
+    <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a812c0ccbab14d8d7ef6c89c45f841ca6" kind="function"><name>Build</name></member>
+  </compound>
   <compound refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests" kind="class"><name>JMovies::IMDb::Tests::Person::PersonGalleryTests</name>
     <member refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests_1ae80ffad04cc28f2901e1cf9d2a5f9190" kind="variable"><name>benAffleckID</name></member>
     <member refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests_1ac537b044d1f23bc5e67b75ba08f50320" kind="function"><name>FetchingLimitedImages</name></member>
@@ -316,13 +325,13 @@
     <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1ab30c13d632ce59f43cd8ee55f61f0d9a" kind="function"><name>Parse</name></member>
     <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1aef14ac2a0c87f6d48ff6ed2cc44df72d" kind="function"><name>DetectGender</name></member>
   </compound>
-  <compound refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::People::PhotoGalleryPageHelper</name>
-    <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1a87c9c3adb53f9c2e82c441185c192d75" kind="function"><name>Parse</name></member>
-    <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1aaae167fe17fabe473f86897113443db8" kind="function"><name>FetchPhotos</name></member>
-  </compound>
   <compound refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</name>
     <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a52515ea2e1478af482dd7fc38db2a783" kind="function"><name>Parse</name></member>
     <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a4d38e9ded2f44f82adf471bb02c3619b" kind="function"><name>FetchPhotos</name></member>
+  </compound>
+  <compound refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::People::PhotoGalleryPageHelper</name>
+    <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1a87c9c3adb53f9c2e82c441185c192d75" kind="function"><name>Parse</name></member>
+    <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1aaae167fe17fabe473f86897113443db8" kind="function"><name>FetchPhotos</name></member>
   </compound>
   <compound refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kind="class"><name>JMovies::IMDb::Entities::Movies::Production</name>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a53e167728a60e78aac7b03372d7a49c5" kind="property"><name>ID</name></member>
@@ -355,6 +364,16 @@
   </compound>
   <compound refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory" kind="class"><name>JMovies::IMDb::Factories::ProductionFactory</name>
     <member refid="d8/d17/class_j_movies_1_1_i_m_db_1_1_factories_1_1_production_factory_1adb85893b5129a9e1c89201932ba64fce" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kind="class"><name>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</name>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1afa4480aa40e8826851df0d58d73ee13c" kind="variable"><name>_settings</name></member>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a0c2af9ad4f87c121453320b8891191db" kind="property"><name>settings</name></member>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ad74196636d6945fc84c225ae1f91a14a" kind="function"><name>WithDetailedCast</name></member>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a4055c9d3806e89059862a6ee6afdb6c5" kind="function"><name>WithLimitedCastDetails</name></member>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ace1c15892be80cdfb2f1b908c92d31a6" kind="function"><name>WithFetchingImageContents</name></member>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a7370b2f94c9ca1c07887ba07c6c8d64e" kind="function"><name>WithLimitedImageFetching</name></member>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a10fed410764c2913b3d16914a3bacf9b" kind="function"><name>WithPreferredCulture</name></member>
+    <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a2716646908e8ffea1f616c222e794df5" kind="function"><name>Build</name></member>
   </compound>
   <compound refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests" kind="class"><name>JMovies::IMDb::Tests::Production::ProductionGalleryTests</name>
     <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a93be0c57402c20f5b4d4a0a8cc1ced7c" kind="variable"><name>justiceLeagueID</name></member>
@@ -634,6 +653,8 @@
   </compound>
   <compound refid="d9/d88/_person_data_fetch_settings_8cs" kind="file"><name>PersonDataFetchSettings.cs</name>
   </compound>
+  <compound refid="d5/d50/_person_fetch_settings_builder_8cs" kind="file"><name>PersonFetchSettingsBuilder.cs</name>
+  </compound>
   <compound refid="d7/d31/_basic_person_data_fetch_settings_8cs" kind="file"><name>BasicPersonDataFetchSettings.cs</name>
   </compound>
   <compound refid="d0/da0/_basic_production_data_fetch_settings_8cs" kind="file"><name>BasicProductionDataFetchSettings.cs</name>
@@ -643,6 +664,8 @@
   <compound refid="d5/d22/_full_production_data_fetch_settings_8cs" kind="file"><name>FullProductionDataFetchSettings.cs</name>
   </compound>
   <compound refid="d1/d2e/_production_data_fetch_settings_8cs" kind="file"><name>ProductionDataFetchSettings.cs</name>
+  </compound>
+  <compound refid="d5/d87/_production_fetch_settings_builder_8cs" kind="file"><name>ProductionFetchSettingsBuilder.cs</name>
   </compound>
   <compound refid="d6/d0b/_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
   </compound>

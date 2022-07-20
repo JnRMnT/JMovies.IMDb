@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1afa4480aa40e8826851df0d58d73ee13c" prot="private" static="no" mutable="no">
+        <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+        <definition>ProductionDataFetchSettings JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder._settings</definition>
+        <argsstring></argsstring>
+        <name>_settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="8" column="45" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a0c2af9ad4f87c121453320b8891191db" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+        <definition>ProductionDataFetchSettings JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="9" column="45" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ad74196636d6945fc84c225ae1f91a14a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref></type>
+        <definition>ProductionFetchSettingsBuilder JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithDetailedCast</definition>
+        <argsstring>()</argsstring>
+        <name>WithDetailedCast</name>
+        <briefdescription>
+<para>Enables fetching detailed cast on the settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Builder for more chaining</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="25" column="47" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a4055c9d3806e89059862a6ee6afdb6c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref></type>
+        <definition>ProductionFetchSettingsBuilder JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithLimitedCastDetails</definition>
+        <argsstring>(int limit)</argsstring>
+        <name>WithLimitedCastDetails</name>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+<para>Enables limiting fetching the cast details </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Builder for more chaining</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="35" column="47" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ace1c15892be80cdfb2f1b908c92d31a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref></type>
+        <definition>ProductionFetchSettingsBuilder JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithFetchingImageContents</definition>
+        <argsstring>()</argsstring>
+        <name>WithFetchingImageContents</name>
+        <briefdescription>
+<para>Enables fetching image contents fetching on the settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Builder for more chaining</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="45" column="47" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a7370b2f94c9ca1c07887ba07c6c8d64e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref></type>
+        <definition>ProductionFetchSettingsBuilder JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithLimitedImageFetching</definition>
+        <argsstring>(int limit)</argsstring>
+        <name>WithLimitedImageFetching</name>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+<para>Sets image fetching limit </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Builder for more chaining</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="55" column="47" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a10fed410764c2913b3d16914a3bacf9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder" kindref="compound">ProductionFetchSettingsBuilder</ref></type>
+        <definition>ProductionFetchSettingsBuilder JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithPreferredCulture</definition>
+        <argsstring>(string culture)</argsstring>
+        <name>WithPreferredCulture</name>
+        <param>
+          <type>string</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+<para>Enables fetching with a preferred culture </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Builder for more chaining</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="66" column="47" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a2716646908e8ffea1f616c222e794df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+        <definition>ProductionDataFetchSettings JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <briefdescription>
+<para>Builds a production data fetch settings based on the chained properties </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A built and customized production data fetch settings</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="76" column="44" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that is responsible for holding settings for Production data fetching </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" line="7" column="1" bodyfile="JMovies.IMDb.Entities/Settings/ProductionFetchSettingsBuilder.cs" bodystart="6" bodyend="80"/>
+    <listofallmembers>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1afa4480aa40e8826851df0d58d73ee13c" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>_settings</name></member>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a2716646908e8ffea1f616c222e794df5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>Build</name></member>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a0c2af9ad4f87c121453320b8891191db" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>settings</name></member>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ad74196636d6945fc84c225ae1f91a14a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>WithDetailedCast</name></member>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1ace1c15892be80cdfb2f1b908c92d31a6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>WithFetchingImageContents</name></member>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a4055c9d3806e89059862a6ee6afdb6c5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>WithLimitedCastDetails</name></member>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a7370b2f94c9ca1c07887ba07c6c8d64e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>WithLimitedImageFetching</name></member>
+      <member refid="dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder_1a10fed410764c2913b3d16914a3bacf9b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::ProductionFetchSettingsBuilder</scope><name>WithPreferredCulture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

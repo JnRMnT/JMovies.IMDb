@@ -24,13 +24,9 @@ namespace JMovies.IMDb.Tests.Person
         public void FetchingLimitedImages()
         {
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            PersonDataFetchSettings settings = new PersonDataFetchSettings
-            {
-                FetchBioPage = false,
-                FetchImageContents = true,
+            PersonDataFetchSettings settings = new PersonFetchSettingsBuilder().WithFetchingImageContents()
                 //5 is a value that is lower than a full page, so we are testing if we are able to stop at the limit
-                MediaImagesFetchCount = 5
-            };
+                .WithLimitedImageFetching(5).Build();
             Entities.People.Person person = imdbDataProvider.GetPerson(benAffleckID, settings);
             Assert.IsNotNull(person);
             Assert.AreEqual(benAffleckID, person.IMDbID);
@@ -45,13 +41,9 @@ namespace JMovies.IMDb.Tests.Person
         public void FetchingWithPagination()
         {
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            PersonDataFetchSettings settings = new PersonDataFetchSettings
-            {
-                FetchBioPage = false,
-                FetchImageContents = true,
+            PersonDataFetchSettings settings = new PersonFetchSettingsBuilder().WithFetchingImageContents()
                 //55 is a value that fetches at least 2 pages but still relatively low
-                MediaImagesFetchCount = 55
-            };
+                .WithLimitedImageFetching(55).Build();
             Entities.People.Person person = imdbDataProvider.GetPerson(benAffleckID, settings);
             Assert.IsNotNull(person);
             Assert.AreEqual(benAffleckID, person.IMDbID);

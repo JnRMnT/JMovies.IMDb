@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="39" column="21" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="39" bodyend="48"/>
+        <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="39" column="21" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="39" bodyend="50"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -54,7 +54,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="13" column="1" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="12" bodyend="50"/>
+    <location file="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" line="13" column="1" bodyfile="JMovies.IMDb.Tests/Production/BasicProductionScrapingTests.cs" bodystart="12" bodyend="52"/>
     <listofallmembers>
       <member refid="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a20dfd9b12abcd88c14c44235a18a8d60" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::BasicProductionScrapingTests</scope><name>DetailedProductionScraping</name></member>
       <member refid="d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests_1a44f49c844a2f43e1d7692e5257fdb2ca" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::BasicProductionScrapingTests</scope><name>productionIDsTotest</name></member>

@@ -5,7 +5,9 @@
     <innerdir refid="dir_49285a1343200a3e5c09cd69c0303fe4">JMovies.IMDb.Entities/Settings/Presets</innerdir>
     <innerfile refid="d8/d57/_base_data_fetch_settings_8cs">BaseDataFetchSettings.cs</innerfile>
     <innerfile refid="d9/d88/_person_data_fetch_settings_8cs">PersonDataFetchSettings.cs</innerfile>
+    <innerfile refid="d5/d50/_person_fetch_settings_builder_8cs">PersonFetchSettingsBuilder.cs</innerfile>
     <innerfile refid="d1/d2e/_production_data_fetch_settings_8cs">ProductionDataFetchSettings.cs</innerfile>
+    <innerfile refid="d5/d87/_production_fetch_settings_builder_8cs">ProductionFetchSettingsBuilder.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

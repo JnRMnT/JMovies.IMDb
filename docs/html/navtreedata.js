@@ -54,7 +54,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date.html#ac3a188f4b7fe06746b703bc5b6425c72"
+"dc/ded/namespace_j_movies_1_1_i_m_db.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
