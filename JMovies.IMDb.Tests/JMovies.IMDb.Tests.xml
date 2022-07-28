@@ -6,7 +6,7 @@
     <members>
         <member name="T:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests">
             <summary>
-            Test class that contains the tests for basic scraping scenarios for persons
+            Test class that contains the tests for basic async scraping scenarios for persons
             </summary>
         </member>
         <member name="F:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests.personIDsToTest">
@@ -22,6 +22,27 @@
         <member name="M:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests.DetailedPersonScraping">
             <summary>
             Method that tests detailed scraping of person pages
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Tests.Person.PersonAsyncTests">
+            <summary>
+            Test suite designed to test asnyc operations
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Tests.Person.PersonAsyncTests.personIDsToTest">
+            <summary>
+            Static list of IMDb IDs of some persons to be tested
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Person.PersonAsyncTests.BasicFetchingTest">
+            <summary>
+            Test that checks if the code is running correctly in async mode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Person.PersonAsyncTests.NonBlockingTest">
+            <summary>
+            Test that checks if the code is running without blocking
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Tests.Person.PersonGalleryTests">
@@ -72,6 +93,27 @@
         <member name="M:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.DetailedProductionScraping">
             <summary>
             Method that tests scraping of different Production Details for extended details
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Tests.Production.ProductionAsyncTests">
+            <summary>
+            Test class that contains the tests for basic async scraping scenarios for productions
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Tests.Production.ProductionAsyncTests.productionIDsToTest">
+            <summary>
+            Static list of IMDb IDs of some productions to be tested
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.ProductionAsyncTests.BasicFetchingTest">
+            <summary>
+            Test that checks if the code is running correctly in async mode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.ProductionAsyncTests.NonBlockingTest">
+            <summary>
+            Test that checks if the code is running without blocking
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Tests.Production.ProductionGalleryTests">

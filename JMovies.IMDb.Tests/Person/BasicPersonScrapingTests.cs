@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace JMovies.IMDb.Tests.Person
 {
     /// <summary>
-    /// Test class that contains the tests for basic scraping scenarios for persons
+    /// Test class that contains the tests for basic async scraping scenarios for persons
     /// </summary>
     [TestClass]
     public class BasicPersonScrapingTests

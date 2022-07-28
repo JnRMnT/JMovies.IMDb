@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="12" column="41" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="12" bodyend="-1"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="8" column="41" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="8" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="13" column="41" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="14" bodyend="23"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="9" column="41" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="10" bodyend="19"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="29" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="29" bodyend="33"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="25" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="25" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1aa00ba77393415261ef8ef0a8fec29472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder" kindref="compound">PersonFetchSettingsBuilder</ref></type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="39" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="39" bodyend="43"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="35" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="35" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1afd40c22ea8918c73585ced08b72fed29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder" kindref="compound">PersonFetchSettingsBuilder</ref></type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="49" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="49" bodyend="53"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="45" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="45" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a1adfb844cc36f114ad5e18ed90be8000" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder" kindref="compound">PersonFetchSettingsBuilder</ref></type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="60" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="60" bodyend="64"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="56" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="56" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a812c0ccbab14d8d7ef6c89c45f841ca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kindref="compound">PersonDataFetchSettings</ref></type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="70" column="40" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="70" bodyend="73"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="66" column="40" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="66" bodyend="69"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -132,7 +132,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="10" bodyend="74"/>
+    <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="7" column="1" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="6" bodyend="70"/>
     <listofallmembers>
       <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a3a94a065cd32aa123a948e6fa452d235" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>_settings</name></member>
       <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a812c0ccbab14d8d7ef6c89c45f841ca6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>Build</name></member>

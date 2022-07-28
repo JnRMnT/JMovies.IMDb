@@ -33,7 +33,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="22" column="20"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="18" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1afba343bb1bb1d3578f730fed63fae6e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> &gt;</type>
+        <definition>Task&lt;Production&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetProductionAsync</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetProductionAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a16425273e8c135a159a17388097c678b">GetProductionAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets Production Information iresspective of type using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the production</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Task that fetches Production instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="25" column="14"/>
       </memberdef>
       <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a32ab2adcb7e1427bf2a6343f4255a2c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
@@ -64,14 +95,45 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="29" column="15"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="32" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a27794863a31871c995b10dfed856d1ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref> &gt;</type>
+        <definition>Task&lt;Movie&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetMovieAsync</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetMovieAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a81a6b035896dc9424f7a77041109f249">GetMovieAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets Movie information using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the movie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Task that fetches Movie instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="39" column="14"/>
       </memberdef>
       <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab35ce4c949414516ecac284cf60fd008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref></type>
         <definition>TVSeries JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetTvSeries</definition>
         <argsstring>(long id)</argsstring>
         <name>GetTvSeries</name>
-        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a1603c213131dc67f98eb4ac3d481b252">GetTvSeries</reimplementedby>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a112c663d719206dc08d6ec6ef0daff78">GetTvSeries</reimplementedby>
         <param>
           <type>long</type>
           <declname>id</declname>
@@ -95,7 +157,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="36" column="18"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="46" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ad31f28d9fe18b0ca1df8de861cf17d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref> &gt;</type>
+        <definition>Task&lt;TVSeries&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetTvSeriesAsync</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetTvSeriesAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a4bb6e9179485b7e0384496bbcd024ba5">GetTvSeriesAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets TV Series information using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the TV Series</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Task that fetches TV Series instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="53" column="14"/>
       </memberdef>
       <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab6c8eadf6df4f65617b3ebfa8e48e36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref></type>
@@ -138,7 +231,50 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="44" column="20"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="61" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a2f1e98904d0c34aa94efe871f6d94a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> &gt;</type>
+        <definition>Task&lt;Production&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetProductionAsync</definition>
+        <argsstring>(long id, ProductionDataFetchSettings settings)</argsstring>
+        <name>GetProductionAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1aa3e1f68d4fc262f051a40fa620434468">GetProductionAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Gets Production Information iresspective of type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the production</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object containing Data Fetch settings</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Task that fetches Production instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="69" column="14"/>
       </memberdef>
       <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a4faea5a906ded347fcdf91b38ddff96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
@@ -181,7 +317,50 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="52" column="15"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="77" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a78738bc57ffc0cc1d73596d1d91ed740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref> &gt;</type>
+        <definition>Task&lt;Movie&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetMovieAsync</definition>
+        <argsstring>(long id, ProductionDataFetchSettings settings)</argsstring>
+        <name>GetMovieAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a4827faf804cd9abe0a954a8418bad000">GetMovieAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Gets Movie information </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the movie</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object containing Data Fetch settings</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Taks that fetches Movie instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="85" column="14"/>
       </memberdef>
       <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a864582a776afa95e781364f4d2266067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref></type>
@@ -224,7 +403,50 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="60" column="18"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="93" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1acb05d60f685d6fb24b75c7a5cd0c0571" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">TVSeries</ref> &gt;</type>
+        <definition>Task&lt;TVSeries&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetTvSeriesAsync</definition>
+        <argsstring>(long id, ProductionDataFetchSettings settings)</argsstring>
+        <name>GetTvSeriesAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a272b9a8e355b1af446ccccc3721bfa2e">GetTvSeriesAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Gets TV Series information </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the TV Series</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object containing Data Fetch settings</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Task that fetches TV Series instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="101" column="14"/>
       </memberdef>
       <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a106d4aedbfb974ecaee9b47686bd70fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
@@ -267,7 +489,50 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="68" column="16"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="109" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a30f8bffaff94bd77067b96f5a5069773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref> &gt;</type>
+        <definition>Task&lt;Person&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetPersonAsync</definition>
+        <argsstring>(long id, PersonDataFetchSettings settings)</argsstring>
+        <name>GetPersonAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a6f452cd780b85d9a2ab2d779b527f9d5">GetPersonAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kindref="compound">PersonDataFetchSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Gets Person information </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the Person</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object containing Data Fetch settings</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Task that fetches Person instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="117" column="14"/>
       </memberdef>
       <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ac5a6c99e010a7bf3a127ef4c2aebe902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
@@ -298,7 +563,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="75" column="16"/>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="124" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a66078d7f73aa5c9079b09da1ab98852e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref> &gt;</type>
+        <definition>Task&lt;Person&gt; JMovies.IMDb.Entities.Interfaces.IIMDbDataProvider.GetPersonAsync</definition>
+        <argsstring>(long id)</argsstring>
+        <name>GetPersonAsync</name>
+        <reimplementedby refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a61a310504c414d4c27764dcb87437c34">GetPersonAsync</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Gets Person information using the default settings </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of the Person</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Task that fetches the Person instance containing retreived information</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="131" column="14"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -318,16 +614,24 @@
         <link refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider"/>
       </node>
     </inheritancegraph>
-    <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" bodystart="15" bodyend="76"/>
+    <location file="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" line="12" column="1" bodyfile="JMovies.IMDb.Entities/Interfaces/IIMDbDataProvider.cs" bodystart="11" bodyend="132"/>
     <listofallmembers>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a32ab2adcb7e1427bf2a6343f4255a2c4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetMovie</name></member>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a4faea5a906ded347fcdf91b38ddff96c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetMovie</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a27794863a31871c995b10dfed856d1ad" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetMovieAsync</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a78738bc57ffc0cc1d73596d1d91ed740" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetMovieAsync</name></member>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a106d4aedbfb974ecaee9b47686bd70fa" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetPerson</name></member>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ac5a6c99e010a7bf3a127ef4c2aebe902" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetPerson</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a30f8bffaff94bd77067b96f5a5069773" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetPersonAsync</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a66078d7f73aa5c9079b09da1ab98852e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetPersonAsync</name></member>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1abecfdbc184066ab4a1cc644b08c709d9" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetProduction</name></member>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab6c8eadf6df4f65617b3ebfa8e48e36d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetProduction</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1afba343bb1bb1d3578f730fed63fae6e0" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetProductionAsync</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a2f1e98904d0c34aa94efe871f6d94a9a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetProductionAsync</name></member>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab35ce4c949414516ecac284cf60fd008" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetTvSeries</name></member>
       <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a864582a776afa95e781364f4d2266067" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetTvSeries</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ad31f28d9fe18b0ca1df8de861cf17d60" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetTvSeriesAsync</name></member>
+      <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1acb05d60f685d6fb24b75c7a5cd0c0571" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</scope><name>GetTvSeriesAsync</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -123,13 +123,21 @@
   </compound>
   <compound refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" kind="interface"><name>JMovies::IMDb::Entities::Interfaces::IIMDbDataProvider</name>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1abecfdbc184066ab4a1cc644b08c709d9" kind="function"><name>GetProduction</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1afba343bb1bb1d3578f730fed63fae6e0" kind="function"><name>GetProductionAsync</name></member>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a32ab2adcb7e1427bf2a6343f4255a2c4" kind="function"><name>GetMovie</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a27794863a31871c995b10dfed856d1ad" kind="function"><name>GetMovieAsync</name></member>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab35ce4c949414516ecac284cf60fd008" kind="function"><name>GetTvSeries</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ad31f28d9fe18b0ca1df8de861cf17d60" kind="function"><name>GetTvSeriesAsync</name></member>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab6c8eadf6df4f65617b3ebfa8e48e36d" kind="function"><name>GetProduction</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a2f1e98904d0c34aa94efe871f6d94a9a" kind="function"><name>GetProductionAsync</name></member>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a4faea5a906ded347fcdf91b38ddff96c" kind="function"><name>GetMovie</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a78738bc57ffc0cc1d73596d1d91ed740" kind="function"><name>GetMovieAsync</name></member>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a864582a776afa95e781364f4d2266067" kind="function"><name>GetTvSeries</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1acb05d60f685d6fb24b75c7a5cd0c0571" kind="function"><name>GetTvSeriesAsync</name></member>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a106d4aedbfb974ecaee9b47686bd70fa" kind="function"><name>GetPerson</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a30f8bffaff94bd77067b96f5a5069773" kind="function"><name>GetPersonAsync</name></member>
     <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ac5a6c99e010a7bf3a127ef4c2aebe902" kind="function"><name>GetPerson</name></member>
+    <member refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a66078d7f73aa5c9079b09da1ab98852e" kind="function"><name>GetPersonAsync</name></member>
   </compound>
   <compound refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image" kind="class"><name>JMovies::IMDb::Entities::Common::Image</name>
     <member refid="d8/d0e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_image_1a1bdaf503063b893b8f76fe8b87f7ca16" kind="property"><name>ID</name></member>
@@ -227,15 +235,23 @@
     <member refid="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1ad43f2355fabeca590af5c28f694092d2" kind="function"><name>GetImageContent</name></member>
   </compound>
   <compound refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider" kind="class"><name>JMovies::IMDb::Providers::IMDbScraperDataProvider</name>
-    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a0d8fd0f4a0b613a7db19af22f841414d" kind="function"><name>GetProduction</name></member>
-    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a992126d5d0e1c5be85b3e981ad601eba" kind="function"><name>GetPerson</name></member>
-    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acee682edf36e188c344a54945ea318fe" kind="function"><name>GetPerson</name></member>
-    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a5748daa2f474b5d531098d4285b0774a" kind="function"><name>GetMovie</name></member>
-    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acbcd6885db34798b96c968e9b804e267" kind="function"><name>GetTvSeries</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1aa3e1f68d4fc262f051a40fa620434468" kind="function"><name>GetProductionAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a6f452cd780b85d9a2ab2d779b527f9d5" kind="function"><name>GetPersonAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1aa4fb2f3673579873f3e8518092719b15" kind="function"><name>AsyncGetPerson</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a4827faf804cd9abe0a954a8418bad000" kind="function"><name>GetMovieAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a272b9a8e355b1af446ccccc3721bfa2e" kind="function"><name>GetTvSeriesAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a16425273e8c135a159a17388097c678b" kind="function"><name>GetProductionAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a81a6b035896dc9424f7a77041109f249" kind="function"><name>GetMovieAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a4bb6e9179485b7e0384496bbcd024ba5" kind="function"><name>GetTvSeriesAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a61a310504c414d4c27764dcb87437c34" kind="function"><name>GetPersonAsync</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1adee371f09187f5d157bfc1390d43badc" kind="function"><name>GetProduction</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ad26f0b3ac75c285466312d51627d1ea7" kind="function"><name>GetMovie</name></member>
-    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a1603c213131dc67f98eb4ac3d481b252" kind="function"><name>GetTvSeries</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a0d8fd0f4a0b613a7db19af22f841414d" kind="function"><name>GetProduction</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a5748daa2f474b5d531098d4285b0774a" kind="function"><name>GetMovie</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acbcd6885db34798b96c968e9b804e267" kind="function"><name>GetTvSeries</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a992126d5d0e1c5be85b3e981ad601eba" kind="function"><name>GetPerson</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a3e892fc886f3226138c5e13e134436b0" kind="function"><name>GetPerson</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a112c663d719206dc08d6ec6ef0daff78" kind="function"><name>GetTvSeries</name></member>
   </compound>
   <compound refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kind="class"><name>JMovies::IMDb::Entities::Movies::Keyword</name>
     <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1aed938b38a746bc88e826ea2c1e4456d6" kind="property"><name>ID</name></member>
@@ -301,6 +317,11 @@
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ab5040c7e31b30d70e5577373e6f6fe1f" kind="property"><name>Photos</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ac4314b2463e8f300bf4cca4737d9619d" kind="property"><name>KnownFor</name></member>
     <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1ab3802249b1ec38a5ae0dee7aeb72304b" kind="property"><name>Gender</name></member>
+  </compound>
+  <compound refid="d9/d5f/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_async_tests" kind="class"><name>JMovies::IMDb::Tests::Person::PersonAsyncTests</name>
+    <member refid="d9/d5f/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_async_tests_1a25c19a79bc68895a56a8410381a98d60" kind="variable"><name>personIDsToTest</name></member>
+    <member refid="d9/d5f/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_async_tests_1a9148078c64023385dca4cc1bfe63c0a6" kind="function"><name>BasicFetchingTest</name></member>
+    <member refid="d9/d5f/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_async_tests_1a65ac4794d1cfedd883cb284475982e3e" kind="function"><name>NonBlockingTest</name></member>
   </compound>
   <compound refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kind="class"><name>JMovies::IMDb::Entities::Settings::PersonDataFetchSettings</name>
     <member refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings_1a12bfa3f5e7e259f41725664fc8cb3c56" kind="property"><name>FetchBioPage</name></member>
@@ -539,6 +560,8 @@
   </compound>
   <compound refid="d9/de6/namespace_system_1_1_component_model_1_1_data_annotations_1_1_schema" kind="namespace"><name>System::ComponentModel::DataAnnotations::Schema</name>
   </compound>
+  <compound refid="d3/d7c/namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
   <compound refid="d7/dd5/namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
   </compound>
   <compound refid="dc/d30/namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
@@ -684,6 +707,8 @@
   <compound refid="d1/d33/_8_n_e_t_core_app_00_version_0av3_81_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v3.1.AssemblyAttributes.cs</name>
   </compound>
   <compound refid="de/dc9/_basic_person_scraping_tests_8cs" kind="file"><name>BasicPersonScrapingTests.cs</name>
+  </compound>
+  <compound refid="d6/db2/_person_async_tests_8cs" kind="file"><name>PersonAsyncTests.cs</name>
   </compound>
   <compound refid="df/d39/_person_gallery_tests_8cs" kind="file"><name>PersonGalleryTests.cs</name>
   </compound>

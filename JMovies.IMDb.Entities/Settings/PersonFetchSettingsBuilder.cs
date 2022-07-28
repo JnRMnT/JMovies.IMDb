@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace JMovies.IMDb.Entities.Settings
+﻿namespace JMovies.IMDb.Entities.Settings
 {
     /// <summary>
     /// Builder for person fetching settings

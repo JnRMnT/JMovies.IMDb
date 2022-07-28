@@ -3,6 +3,7 @@
   <compounddef id="dir_56f0eb2681f4532ce3ed05eb19e73eca" kind="dir">
     <compoundname>JMovies.IMDb.Tests/Person</compoundname>
     <innerfile refid="de/dc9/_basic_person_scraping_tests_8cs">BasicPersonScrapingTests.cs</innerfile>
+    <innerfile refid="d6/db2/_person_async_tests_8cs">PersonAsyncTests.cs</innerfile>
     <innerfile refid="df/d39/_person_gallery_tests_8cs">PersonGalleryTests.cs</innerfile>
     <briefdescription>
     </briefdescription>

@@ -294,74 +294,56 @@
             Data provider that fetches the data real-time on IMDb website using Screen Scraping and returns it as per defined in IIMDbDataProvider.
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
-            <summary>
-            Gets Production Information iresspective of type
-            </summary>
-            <param name="id">ID of the production</param>
-            <param name="settings">Object containing Data Fetch settings</param>
-            <returns>Production instance containing retreived information</returns>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProductionAsync(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
+            <inheritdoc/>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
-            <summary>
-            Gets Person information
-            </summary>
-            <param name="id">ID of the Person</param>
-            <param name="settings">Object containing Data Fetch settings</param>
-            <returns>Person instance containing retreived information</returns>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPersonAsync(System.Int64,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
+            <inheritdoc/>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64,JMovies.IMDb.Entities.People.Person,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
-            <summary>
-            Gets Person information
-            </summary>
-            <param name="id">ID of the Person</param>
-            <param name="person">Person instance to be populated</param>
-            <param name="settings">Object containing Data Fetch settings</param>
-            <returns>Person instance containing retreived information</returns>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.AsyncGetPerson(System.Int64,JMovies.IMDb.Entities.People.Person,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
+            <inheritdoc/>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
-            <summary>
-            Gets Movie information
-            </summary>
-            <param name="id">ID of the movie</param>
-            <param name="settings">Object containing Data Fetch settings</param>
-            <returns>Movie instance containing retreived information</returns>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovieAsync(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
+            <inheritdoc/>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
-            <summary>
-            Gets TV Series information
-            </summary>
-            <param name="id">ID of the TV Series</param>
-            <param name="settings">Object containing Data Fetch settings</param>
-            <returns>TV Series instance containing retreived information</returns>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeriesAsync(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProductionAsync(System.Int64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovieAsync(System.Int64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeriesAsync(System.Int64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPersonAsync(System.Int64)">
+            <inheritdoc/>
         </member>
         <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction(System.Int64)">
-            <summary>
-            Gets Production Information iresspective of type using the default settings
-            </summary>
-            <param name="id">ID of the production</param>
-            <returns>Production instance containing retreived information</returns>
+            <inheritdoc/>
         </member>
         <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64)">
-            <summary>
-            Gets Movie information using the default settings
-            </summary>
-            <param name="id">ID of the movie</param>
-            <returns>Movie instance containing retreived information</returns>
+            <inheritdoc/>
         </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries(System.Int64)">
-            <summary>
-            Gets TV Series information using the default settings
-            </summary>
-            <param name="id">ID of the TV Series</param>
-            <returns>TV Series instance containing retreived information</returns>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.JMovies#IMDb#Entities#Interfaces#IIMDbDataProvider#GetTvSeries(System.Int64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeries(System.Int64,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
+            <inheritdoc/>
+        </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64,JMovies.IMDb.Entities.Settings.PersonDataFetchSettings)">
+            <inheritdoc/>
         </member>
         <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetPerson(System.Int64)">
-            <summary>
-            Gets Person information using the default settings
-            </summary>
-            <param name="id">ID of the Person</param>
-            <returns>Person instance containing retreived information</returns>
+            <inheritdoc/>
         </member>
     </members>
 </doc>
