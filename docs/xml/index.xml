@@ -346,13 +346,13 @@
     <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1ab30c13d632ce59f43cd8ee55f61f0d9a" kind="function"><name>Parse</name></member>
     <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1aef14ac2a0c87f6d48ff6ed2cc44df72d" kind="function"><name>DetectGender</name></member>
   </compound>
-  <compound refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</name>
-    <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a52515ea2e1478af482dd7fc38db2a783" kind="function"><name>Parse</name></member>
-    <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a4d38e9ded2f44f82adf471bb02c3619b" kind="function"><name>FetchPhotos</name></member>
-  </compound>
   <compound refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::People::PhotoGalleryPageHelper</name>
     <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1a87c9c3adb53f9c2e82c441185c192d75" kind="function"><name>Parse</name></member>
     <member refid="d0/df7/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_photo_gallery_page_helper_1aaae167fe17fabe473f86897113443db8" kind="function"><name>FetchPhotos</name></member>
+  </compound>
+  <compound refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</name>
+    <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a52515ea2e1478af482dd7fc38db2a783" kind="function"><name>Parse</name></member>
+    <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a4d38e9ded2f44f82adf471bb02c3619b" kind="function"><name>FetchPhotos</name></member>
   </compound>
   <compound refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kind="class"><name>JMovies::IMDb::Entities::Movies::Production</name>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a53e167728a60e78aac7b03372d7a49c5" kind="property"><name>ID</name></member>
@@ -364,6 +364,11 @@
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a2b8830e196af869b07ae6901e3be7659" kind="property"><name>PosterID</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a11d2c7269317d77a4b7379d5fac5d38c" kind="property"><name>MediaImages</name></member>
     <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1ae7790593a04eb1e4519f2dadb562214d" kind="property"><name>ProductionType</name></member>
+  </compound>
+  <compound refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests" kind="class"><name>JMovies::IMDb::Tests::Production::ProductionAsyncTests</name>
+    <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1a51528dfcb8066d76d0752c062adb9b6c" kind="variable"><name>productionIDsToTest</name></member>
+    <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1ae9c7ce2a1a28698a9fba1c16008d6b44" kind="function"><name>BasicFetchingTest</name></member>
+    <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1a91171e258b1cd0f445570229ad58cb96" kind="function"><name>NonBlockingTest</name></member>
   </compound>
   <compound refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country" kind="class"><name>JMovies::IMDb::Entities::Movies::ProductionCountry</name>
     <member refid="d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country_1ad75f82daa403698b43bc06bc1e18721e" kind="property"><name>ID</name></member>
@@ -715,6 +720,8 @@
   <compound refid="d1/d80/_a_k_a_tests_8cs" kind="file"><name>AKATests.cs</name>
   </compound>
   <compound refid="d2/df9/_basic_production_scraping_tests_8cs" kind="file"><name>BasicProductionScrapingTests.cs</name>
+  </compound>
+  <compound refid="d7/dde/_production_async_tests_8cs" kind="file"><name>ProductionAsyncTests.cs</name>
   </compound>
   <compound refid="d2/d76/_production_gallery_tests_8cs" kind="file"><name>ProductionGalleryTests.cs</name>
   </compound>

@@ -7,7 +7,7 @@
     <Company>JnRMnT</Company>
     <Copyright>JnRMnT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.6.4</Version>
+    <Version>1.7.0</Version>
     <Description>JMovies IMDb Entities Library - A .Net Standart class library that provides class definitions for IMDb.</Description>
     <RepositoryUrl>https://github.com/JnRMnT/JMovies.IMDb</RepositoryUrl>
     <PackageTags>scraper,movies,movie,imdb,actor,scraping,screenscrapping,api,imdb-scraper</PackageTags>

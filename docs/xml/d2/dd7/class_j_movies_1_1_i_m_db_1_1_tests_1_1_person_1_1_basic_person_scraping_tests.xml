@@ -50,7 +50,7 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Test class that contains the tests for basic scraping scenarios for persons </para>
+<para>Test class that contains the tests for basic async scraping scenarios for persons </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

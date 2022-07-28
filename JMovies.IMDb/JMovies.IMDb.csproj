@@ -8,7 +8,7 @@
     <Copyright>JnRMnT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>JMovies IMDb Data Provider Library - Currently supports on-demand screen scraping from IMDb to receive movie and person details.</Description>
-    <Version>1.6.5</Version>
+    <Version>1.7.0</Version>
     <PackageTags>scraper,movies,movie,imdb,actor,scraping,screenscrapping,api,imdb-scraper</PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/JnRMnT/JMovies.IMDb</RepositoryUrl>

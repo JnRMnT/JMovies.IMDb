@@ -57,6 +57,7 @@ var hierarchy =
         [ "JMovies.IMDb.Entities.Movies.TVSeries", "d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series.html", null ]
       ] ]
     ] ],
+    [ "JMovies.IMDb.Tests.Production.ProductionAsyncTests", "d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests.html", null ],
     [ "JMovies.IMDb.Entities.Movies.ProductionCountry", "d5/d96/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_country.html", null ],
     [ "JMovies.IMDb.Entities.People.ProductionCredit", "dc/d41/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_production_credit.html", null ],
     [ "JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder", "dc/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_fetch_settings_builder.html", null ],

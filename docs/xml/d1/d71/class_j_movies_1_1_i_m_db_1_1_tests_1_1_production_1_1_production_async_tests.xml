@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Tests::Production::ProductionAsyncTests</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1a51528dfcb8066d76d0752c062adb9b6c" prot="private" static="yes" mutable="no">
+        <type>readonly long[]</type>
+        <definition>readonly long [] JMovies.IMDb.Tests.Production.ProductionAsyncTests.productionIDsToTest</definition>
+        <argsstring></argsstring>
+        <name>productionIDsToTest</name>
+        <initializer>= new long[] { 30988, 3636, 1477834 }</initializer>
+        <briefdescription>
+<para>Static list of <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs of some productions to be tested </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" line="18" column="38" bodyfile="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1ae9c7ce2a1a28698a9fba1c16008d6b44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task JMovies.IMDb.Tests.Production.ProductionAsyncTests.BasicFetchingTest</definition>
+        <argsstring>()</argsstring>
+        <name>BasicFetchingTest</name>
+        <briefdescription>
+<para>Test that checks if the code is running correctly in async mode </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" line="25" column="27" bodyfile="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" bodystart="25" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1a91171e258b1cd0f445570229ad58cb96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JMovies.IMDb.Tests.Production.ProductionAsyncTests.NonBlockingTest</definition>
+        <argsstring>()</argsstring>
+        <name>NonBlockingTest</name>
+        <briefdescription>
+<para>Test that checks if the code is running without blocking </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" line="41" column="21" bodyfile="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" bodystart="41" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test class that contains the tests for basic async scraping scenarios for productions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" line="14" column="1" bodyfile="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" bodystart="13" bodyend="54"/>
+    <listofallmembers>
+      <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1ae9c7ce2a1a28698a9fba1c16008d6b44" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionAsyncTests</scope><name>BasicFetchingTest</name></member>
+      <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1a91171e258b1cd0f445570229ad58cb96" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionAsyncTests</scope><name>NonBlockingTest</name></member>
+      <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1a51528dfcb8066d76d0752c062adb9b6c" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionAsyncTests</scope><name>productionIDsToTest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
