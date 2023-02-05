@@ -61,6 +61,11 @@ namespace JMovies.IMDb.Common.Constants
         /// Prefix of the person IDs
         /// </summary>
         public static readonly string PersonIDPrefix = "nm";
+        
+        /// <summary>
+        /// Suffix of the person title
+        /// </summary>
+        public static readonly string PersonTitleSuffix = " - IMDb";
 
         /// <summary>
         /// Path of the characters page

@@ -84,6 +84,11 @@
             Prefix of the person IDs
             </summary>
         </member>
+        <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.PersonTitleSuffix">
+            <summary>
+            Suffix of the person title
+            </summary>
+        </member>
         <member name="F:JMovies.IMDb.Common.Constants.IMDbConstants.CharactersPath">
             <summary>
             Path of the characters page

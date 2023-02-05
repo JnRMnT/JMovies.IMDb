@@ -79,6 +79,34 @@ namespace JMovies.IMDb.Helpers.People
                     }
                 }
             }
+            else
+            {
+                //Read from meta 
+
+                //full name og:title
+                HtmlNode titleTag = documentNode.QuerySelector("meta[property='og:title']");
+                if (titleTag != null)
+                {
+                    person.FullName = Regex.Replace(titleTag.Attributes["content"].Value, IMDbConstants.PersonTitleSuffix, string.Empty).ToString();
+                }
+
+                //image from og:image
+                HtmlNode imageTag = documentNode.QuerySelector("meta[property='og:image']");
+                if (imageTag != null)
+                {
+                    Image image = new Image
+                    {
+                        Title =person.FullName ?? "Profile",
+                        URL = IMDBImageHelper.NormalizeImageUrl(imageTag.Attributes["content"].Value)
+                    };
+                    if (settings.FetchImageContents)
+                    {
+                        image.Content = IMDBImageHelper.GetImageContent(image.URL);
+                    }
+                    person.PrimaryImage = image;
+                }
+
+            }
             #endregion
             #region Bio Page Parsing
             if (settings.FetchBioPage)

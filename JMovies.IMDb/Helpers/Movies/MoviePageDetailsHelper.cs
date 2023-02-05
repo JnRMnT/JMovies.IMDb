@@ -76,6 +76,8 @@ namespace JMovies.IMDb.Helpers.Movies
                                     (movie as TVSeries).EndYear = yearMatch.Groups[2].Value.Trim().ToInteger();
                                 }
                             }
+
+                            break;
                         }
                     }
                 }

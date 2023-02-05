@@ -43,7 +43,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="if $(ConfigurationName) == Debug  cd ../ &amp;&amp; doxygen Doxyfile" />
+    <!--<Exec Command="if $(ConfigurationName) == Debug  cd ../ &amp;&amp; doxygen Doxyfile" />-->
   </Target>
 
 </Project>
