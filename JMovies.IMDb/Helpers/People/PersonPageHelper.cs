@@ -28,25 +28,40 @@ namespace JMovies.IMDb.Helpers.People
         public static void Parse(Person person, HtmlNode documentNode, PersonDataFetchSettings settings)
         {
             #region Main Details Parsing
-            HtmlNode mainDetailsElement = documentNode.QuerySelector(".maindetails_center");
-            if (mainDetailsElement != null)
+            HtmlNode nameContainer = documentNode.QuerySelector("[data-testid=hero__pageTitle]");
+            if (nameContainer != null)
             {
-                HtmlNode nameOverviewWidget = mainDetailsElement.QuerySelector(".name-overview-widget");
-                if (nameOverviewWidget != null)
+                person.FullName = nameContainer.InnerText.Prepare();
+                if (nameContainer.NextSibling != null)
                 {
-                    HtmlNode nameContainer = nameOverviewWidget.QuerySelector("h1.header .itemprop");
-                    if (nameContainer != null)
+                    List<CreditRoleType> roles = new List<CreditRoleType>();
+                    foreach (HtmlNode jobCategoryLink in nameContainer.NextSibling.ChildNodes)
                     {
-                        person.FullName = nameContainer.InnerText;
+                        CreditRoleType role = CreditRoleType.Undefined;
+                        string roleText = jobCategoryLink.InnerText.Prepare();
+                        Enum.TryParse(roleText, out role);
+                        if (role != CreditRoleType.Undefined)
+                        {
+                            roles.Add(role);
+                        }
                     }
+                    person.Roles = roles;
+                }
+            }
 
-                    HtmlNode primaryImageElement = nameOverviewWidget.QuerySelector("#img_primary .image a img");
-                    if (primaryImageElement != null)
+            HtmlNode imageMetadata = documentNode.QuerySelector("meta[property='og:image']");
+            if (imageMetadata != null)
+            {
+                if (imageMetadata != null)
+                {
+                    string url = imageMetadata.Attributes["content"].Value;
+                    if (url.Contains("._V1_"))
                     {
+                        url = Regex.Split(url, @"\._V1_")[0];
                         Image image = new Image
                         {
-                            Title = primaryImageElement.Attributes["title"].Value.Prepare(),
-                            URL = IMDBImageHelper.NormalizeImageUrl(primaryImageElement.Attributes["src"].Value)
+                            Title = person.FullName,
+                            URL = IMDBImageHelper.NormalizeImageUrl(url)
                         };
                         if (settings.FetchImageContents)
                         {
@@ -54,31 +69,9 @@ namespace JMovies.IMDb.Helpers.People
                         }
                         person.PrimaryImage = image;
                     }
-
-                    HtmlNode jobCategoriesContainer = nameOverviewWidget.QuerySelector("div#name-job-categories");
-                    if (jobCategoriesContainer != null)
-                    {
-                        List<CreditRoleType> roles = new List<CreditRoleType>();
-                        foreach (HtmlNode jobCategoryLink in jobCategoriesContainer.QuerySelectorAll("a"))
-                        {
-                            CreditRoleType role = CreditRoleType.Undefined;
-                            string roleText = jobCategoryLink.InnerText.Prepare();
-                            Enum.TryParse(roleText, out role);
-                            roles.Add(role);
-                        }
-
-                        person.Roles = roles;
-                    }
-                }
-                else
-                {
-                    HtmlNode nameHeader = documentNode.QuerySelector(".header");
-                    if (nameHeader != null)
-                    {
-                        person.FullName = nameHeader.InnerText.Prepare();
-                    }
                 }
             }
+
             #endregion
             #region Bio Page Parsing
             if (settings.FetchBioPage)
@@ -88,46 +81,41 @@ namespace JMovies.IMDb.Helpers.People
             #endregion
             #region Filmography Parsing
             List<ProductionCredit> filmographyCredits = new List<ProductionCredit>();
-            HtmlNode filmographyElement = documentNode.QuerySelector("#filmography");
-            HtmlNode[] filmogpaphyCategories = documentNode.QuerySelectorAll(".filmo-category-section").ToArray();
+            HtmlNode filmographyElement = documentNode.QuerySelector("[data-testid=nm_flmg_sec]");
+            HtmlNode[] filmogpaphyCategories = filmographyElement.NextSibling.QuerySelectorAll("button.ipc-chip").ToArray();
             DetectGender(person, filmogpaphyCategories);
 
-            foreach (HtmlNode filmographyCategorySection in filmogpaphyCategories)
-            {
-                string categoryName = filmographyCategorySection.NodesBeforeSelf().FirstOrDefault(e => e.Name == "div").Attributes["data-category"].Value;
-                categoryName = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(categoryName.Replace("_", " "));
-                string categoryTypeString = categoryName.Replace(" ", string.Empty);
-                CreditRoleType creditRoleType = CreditRoleType.Undefined;
-                Enum.TryParse(categoryTypeString, out creditRoleType);
-            }
             #endregion
             #region Known For Parsing
-            HtmlNode knownForElement = documentNode.QuerySelector("#knownfor");
+            HtmlNode knownForElement = documentNode.QuerySelector("[data-testid=nm_flmg_kwn_for]").QuerySelector("[data-testid=shoveler-items-container]");
             if (knownForElement != null)
             {
                 List<ProductionCredit> knowForCredits = new List<ProductionCredit>();
-                foreach (HtmlNode knownForTitleNode in knownForElement.QuerySelectorAll(".knownfor-title"))
+                foreach (HtmlNode knownForTitleNode in knownForElement.Children())
                 {
-                    HtmlNode titleYearElement = knownForTitleNode.QuerySelector(".knownfor-year");
-                    Match titleYearMatch = GeneralRegexConstants.PharantesisRegex.Match(titleYearElement.InnerText);
+                    HtmlNode titleYearElement = knownForTitleNode.QuerySelectorAll("span[data-testid],button[data-testid]")
+                        .FirstOrDefault(e =>
+                        {
+                            string testIDAttribute = e.Attributes["data-testid"].Value;
+                            return testIDAttribute.StartsWith("nm-flmg-title-metadata-")
+                            || testIDAttribute.StartsWith("nm-flmg-title-year-");
+                        });
+
                     int titleYear = default(int);
                     int? titleEndYear = null;
+                    string titleYearString = titleYearElement.InnerText;
+                    Match titleYearMatch = IMDbConstants.CreditYearRegex.Match(titleYearString);
                     if (titleYearMatch.Success)
                     {
-                        string titleYearString = titleYearMatch.Groups[1].Value;
-                        titleYearMatch = IMDbConstants.CreditYearRegex.Match(titleYearString);
-                        if (titleYearMatch.Success)
+                        titleYear = titleYearMatch.Groups[1].Value.ToInteger();
+                        if (titleYearMatch.Groups.Count >= 4 && titleYearMatch.Groups[3].Success)
                         {
-                            titleYear = titleYearMatch.Groups[1].Value.ToInteger();
-                            if (titleYearMatch.Groups.Count >= 4)
-                            {
-                                titleEndYear = titleYearMatch.Groups[3].Value.ToInteger();
-                            }
+                            titleEndYear = titleYearMatch.Groups[3].Value.ToInteger();
                         }
                     }
 
-                    HtmlNode roleElement = knownForTitleNode.QuerySelector(".knownfor-title-role");
-                    HtmlNode movieLink = roleElement.Element("a");
+                    HtmlNode roleElement = knownForTitleNode.QuerySelector(".ipc-primary-image-list-card__content-mid-bottom");
+                    HtmlNode movieLink = knownForTitleNode.QuerySelector(".ipc-primary-image-list-card__content-top a");
                     ProductionCredit knownFor = new ProductionCredit();
                     if (titleEndYear != null)
                     {
@@ -142,9 +130,8 @@ namespace JMovies.IMDb.Helpers.People
                     knownFor.Production.Title = movieLink.InnerText.Prepare();
                     knownFor.Production.Year = titleYear;
 
-                    string role = roleElement.Element("span").InnerText.Prepare();
-                    CreditRoleType roleType = CreditRoleType.Undefined;
-                    if (!Enum.TryParse<CreditRoleType>(role, out roleType))
+                    string role = roleElement.QuerySelector("span").InnerText.Prepare();
+                    if (!Enum.TryParse(role, out CreditRoleType roleType))
                     {
                         roleType = CreditRoleType.Acting;
                         if (person.Gender == GenderEnum.Male)
@@ -188,12 +175,12 @@ namespace JMovies.IMDb.Helpers.People
         {
             HtmlNode actingCategory = filmogpaphyCategories.FirstOrDefault((categoryWrapper) =>
             {
-                string categoryName = categoryWrapper.NodesBeforeSelf().FirstOrDefault(e => e.Name == "div").Attributes["data-category"].Value;
+                string categoryName = categoryWrapper.InnerText;
                 return categoryName == IMDbConstants.ActorCategoryName || categoryName == IMDbConstants.ActressCategoryName;
             });
             if (actingCategory != null)
             {
-                string categoryName = actingCategory.NodesBeforeSelf().FirstOrDefault(e => e.Name == "div").Attributes["data-category"].Value;
+                string categoryName = actingCategory.InnerText;
                 if (categoryName == IMDbConstants.ActorCategoryName)
                 {
                     person.Gender = GenderEnum.Male;

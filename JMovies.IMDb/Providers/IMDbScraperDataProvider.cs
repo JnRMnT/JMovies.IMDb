@@ -91,7 +91,7 @@ namespace JMovies.IMDb.Providers
                 HtmlNode documentNode = htmlDocument.DocumentNode;
 
                 //Parse and verify IMDb ID Meta Tag
-                HtmlNode idMetaTag = documentNode.QuerySelector("meta[property='pageId']");
+                HtmlNode idMetaTag = documentNode.QuerySelector("meta[property='imdb:pageConst']");
                 if (idMetaTag != null)
                 {
                     person.IMDbID = Regex.Replace(idMetaTag.Attributes["content"].Value, IMDbConstants.PersonIDPrefix, string.Empty).ToLong();

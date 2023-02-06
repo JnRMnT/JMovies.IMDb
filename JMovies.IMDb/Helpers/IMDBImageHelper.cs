@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
+﻿using System.Net;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace JMovies.IMDb.Helpers
 {
@@ -20,7 +15,12 @@ namespace JMovies.IMDb.Helpers
         /// <returns>Normalized URL of the image</returns>
         public static string NormalizeImageUrl(string url)
         {
-            return Regex.Replace(url, @"._V1.*?.jpg", "._V1._SY0.jpg");
+            string normalizedURL = Regex.Replace(url, @"._V1.*?.jpg", "._V1._SY0.jpg");
+            if (normalizedURL.EndsWith("@"))
+            {
+                normalizedURL += "._V1._SY0.jpg";
+            }
+            return normalizedURL;
         }
 
         /// <summary>
