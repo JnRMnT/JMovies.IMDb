@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::TagLine</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.TagLine.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.TagLine.ID</qualifiedname>
         <briefdescription>
-<para>Primary identifier of a tag line </para>
+<para>Primary identifier of a tag line. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.TagLine.Content</definition>
         <argsstring></argsstring>
         <name>Content</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.TagLine.Content</qualifiedname>
         <briefdescription>
-<para>Content of the tag line </para>
+<para>Content of the tag line. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,8 +38,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.TagLine.ProductionID</definition>
         <argsstring></argsstring>
         <name>ProductionID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.TagLine.ProductionID</qualifiedname>
         <briefdescription>
-<para>Reference field for <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+<para>Reference field for Production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -47,11 +50,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Tag line of the production </para>
+<para>Tag line of the production. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/TagLine.cs" line="12" column="1" bodyfile="JMovies.IMDb.Entities/Movies/TagLine.cs" bodystart="11" bodyend="30"/>
+    <location file="JMovies.IMDb.Entities/Movies/TagLine.cs" line="11" column="11" bodyfile="JMovies.IMDb.Entities/Movies/TagLine.cs" bodystart="12" bodyend="30"/>
     <listofallmembers>
       <member refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line_1ae490010b913fe444a173cfb7ed5e53ad" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TagLine</scope><name>Content</name></member>
       <member refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line_1a706f1af044354bae53291e3f139a5045" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TagLine</scope><name>ID</name></member>

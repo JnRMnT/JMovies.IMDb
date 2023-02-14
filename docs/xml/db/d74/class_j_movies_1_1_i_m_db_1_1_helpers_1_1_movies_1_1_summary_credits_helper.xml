@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::Movies::SummaryCreditsHelper</compoundname>
       <sectiondef kind="public-static-func">
@@ -8,6 +8,7 @@
         <definition>static void JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.ParseCastList</definition>
         <argsstring>(Movie movie, List&lt; Credit &gt; credits, HtmlNode castListNode)</argsstring>
         <name>ParseCastList</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.ParseCastList</qualifiedname>
         <param>
           <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
           <declname>movie</declname>
@@ -21,7 +22,7 @@
           <declname>castListNode</declname>
         </param>
         <briefdescription>
-<para>Method responsible for parsing the cast list of the movie </para>
+<para>Method responsible for parsing the cast list of the movie. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -62,6 +63,7 @@
         <definition>static Character JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.GetCharacter</definition>
         <argsstring>(HtmlNode characterNode, Movie movie)</argsstring>
         <name>GetCharacter</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.SummaryCreditsHelper.GetCharacter</qualifiedname>
         <param>
           <type>HtmlNode</type>
           <declname>characterNode</declname>
@@ -71,7 +73,7 @@
           <declname>movie</declname>
         </param>
         <briefdescription>
-<para>Method responsible for parsing a single character information </para>
+<para>Method responsible for parsing a single character information. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -101,11 +103,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Helper class responsible for parsing the summary credits </para>
+<para>Helper class responsible for parsing the summary credits. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" line="16" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" bodystart="15" bodyend="121"/>
+    <location file="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" line="15" column="19" bodyfile="JMovies.IMDb/Helpers/Movies/SummaryCreditsHelper.cs" bodystart="16" bodyend="121"/>
     <listofallmembers>
       <member refid="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1a0d6718071f0eb17e378f5cbbe72daef7" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::SummaryCreditsHelper</scope><name>GetCharacter</name></member>
       <member refid="db/d74/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_summary_credits_helper_1aad0278f92287e1a633d5e3f4446a72b6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::SummaryCreditsHelper</scope><name>ParseCastList</name></member>

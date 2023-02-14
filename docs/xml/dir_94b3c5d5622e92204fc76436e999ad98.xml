@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dir_94b3c5d5622e92204fc76436e999ad98" kind="dir">
     <compoundname>JMovies.IMDb.Tests/obj/Debug/netcoreapp2.0</compoundname>
     <innerfile refid="d5/d71/_debug_2netcoreapp2_80_2_j_movies_8_i_m_db_8_tests_8_assembly_info_8cs">JMovies.IMDb.Tests.AssemblyInfo.cs</innerfile>

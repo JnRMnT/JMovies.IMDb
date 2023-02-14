@@ -1,4 +1,5 @@
 ﻿using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Common.Extensions;
 using JMovies.IMDb.Entities.Settings;
 using System;
 using System.IO;
@@ -21,8 +22,8 @@ namespace JMovies.IMDb.Helpers
         public static WebRequest InitializeWebRequest(string url, BaseDataFetchSettings settings)
         {
             HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
-            string language = !string.IsNullOrEmpty(settings.PreferredCulture) ? settings.PreferredCulture : IMDbConstants.DefaultScrapingCulture;
-            webRequest.Headers["Accept-Language"] = language;
+            string language =
+            webRequest.Headers["Accept-Language"] = settings.GetActiveCulture();
             Random random = new Random();
             //Random IP Address
             webRequest.Headers["X-Forwarded-For"] = random.Next(0, 255) + "." + random.Next(0, 255) + "." + random.Next(0, 255) + "." + random.Next(0, 255);

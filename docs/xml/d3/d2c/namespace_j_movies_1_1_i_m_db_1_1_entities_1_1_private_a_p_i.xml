@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d3/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i" kind="namespace" language="C#">
+    <compoundname>JMovies::IMDb::Entities::PrivateAPI</compoundname>
+    <innerclass refid="d7/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_a_p_i_data" prot="public">JMovies::IMDb::Entities::PrivateAPI::APIData</innerclass>
+    <innerclass refid="d0/d3f/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_a_p_i_response" prot="public">JMovies::IMDb::Entities::PrivateAPI::APIResponse</innerclass>
+    <innerclass refid="df/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_displayable_property" prot="public">JMovies::IMDb::Entities::PrivateAPI::DisplayableProperty</innerclass>
+    <innerclass refid="d2/dfc/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_displayable_property_value" prot="public">JMovies::IMDb::Entities::PrivateAPI::DisplayablePropertyValue</innerclass>
+    <innerclass refid="d4/df8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_data" prot="public">JMovies::IMDb::Entities::PrivateAPI::ProductionData</innerclass>
+    <innernamespace refid="df/d1b/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production">JMovies::IMDb::Entities::PrivateAPI::Production</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/APIData.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

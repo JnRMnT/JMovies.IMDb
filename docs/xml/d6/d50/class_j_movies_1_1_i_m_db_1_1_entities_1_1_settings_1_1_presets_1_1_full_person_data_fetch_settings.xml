@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Settings::Presets::FullPersonDataFetchSettings</compoundname>
     <basecompoundref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Settings.PersonDataFetchSettings</basecompoundref>
@@ -9,8 +9,9 @@
         <definition>override bool JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchBioPage</definition>
         <argsstring></argsstring>
         <name>FetchBioPage</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchBioPage</qualifiedname>
         <briefdescription>
-<para>Fetch the bio page </para>
+<para>Fetch the bio page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -23,8 +24,9 @@
         <definition>override bool JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchImageContents</definition>
         <argsstring></argsstring>
         <name>FetchImageContents</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchImageContents</qualifiedname>
         <briefdescription>
-<para>Fetch the image contents </para>
+<para>Fetch the image contents. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -37,8 +39,9 @@
         <definition>override int JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.MediaImagesFetchCount</definition>
         <argsstring></argsstring>
         <name>MediaImagesFetchCount</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.MediaImagesFetchCount</qualifiedname>
         <briefdescription>
-<para>Fetch 25 media images </para>
+<para>Fetch 25 media images. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -46,22 +49,37 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" line="21" column="29" bodyfile="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" bodystart="21" bodyend="21"/>
       </memberdef>
+      <memberdef kind="property" id="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings_1a0a1838c1916220a582f54d135290fd25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchPrivateData</definition>
+        <argsstring></argsstring>
+        <name>FetchPrivateData</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchPrivateData</qualifiedname>
+        <briefdescription>
+<para>Do not fetch private data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" line="26" column="30" bodyfile="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
-<para>A preset of data fetch settings that fetches all the data available for persons </para>
+<para>A preset of data fetch settings that fetches all the data available for persons. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="3">
+        <label>BaseDataFetchSettings</label>
+        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
+      </node>
       <node id="1">
         <label>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings</label>
         <link refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="3">
-        <label>BaseDataFetchSettings</label>
-        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
       </node>
       <node id="2">
         <label>PersonDataFetchSettings</label>
@@ -71,15 +89,15 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="3">
+        <label>BaseDataFetchSettings</label>
+        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
+      </node>
       <node id="1">
         <label>JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings</label>
         <link refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="3">
-        <label>BaseDataFetchSettings</label>
-        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
       </node>
       <node id="2">
         <label>PersonDataFetchSettings</label>
@@ -88,10 +106,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" line="7" column="1" bodyfile="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" bodystart="6" bodyend="22"/>
+    <location file="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" line="6" column="11" bodyfile="JMovies.IMDb.Entities/Settings/Presets/FullPersonDataFetchSettings.cs" bodystart="7" bodyend="27"/>
     <listofallmembers>
       <member refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings_1a8df066257e55cf7e92aca931895a852d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::FullPersonDataFetchSettings</scope><name>FetchBioPage</name></member>
       <member refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings_1aa7ba5eae3f5027717e57db1f0fa0696a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::FullPersonDataFetchSettings</scope><name>FetchImageContents</name></member>
+      <member refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings_1a0a1838c1916220a582f54d135290fd25" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::FullPersonDataFetchSettings</scope><name>FetchPrivateData</name></member>
       <member refid="d6/d50/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_person_data_fetch_settings_1a1cd2154092bff44a9c0389f9b0ea6cee" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::FullPersonDataFetchSettings</scope><name>MediaImagesFetchCount</name></member>
       <member refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings_1a3787b118a1d61271d20c26dcf38370b5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::FullPersonDataFetchSettings</scope><name>PreferredCulture</name></member>
     </listofallmembers>

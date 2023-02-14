@@ -179,7 +179,7 @@ namespace JMovies.IMDb.Helpers.Movies
             {
                 releaseInfoPageDocument.Load(stream, Encoding.UTF8);
             }
-            ReleaseInfoPageHelper.Parse(movie, releaseInfoPageDocument);
+            ReleaseInfoPageHelper.Parse(movie, releaseInfoPageDocument, settings);
             #endregion
             #region Parse Ratings
             Match ratingMatch = IMDbConstants.RatingJSONLDMatcher.Match(documentNode.InnerHtml);

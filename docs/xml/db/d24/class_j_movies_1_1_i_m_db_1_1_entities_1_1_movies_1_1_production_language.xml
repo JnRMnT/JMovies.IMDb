@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::ProductionLanguage</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.ProductionLanguage.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ProductionLanguage.ID</qualifiedname>
         <briefdescription>
-<para>Primary Key </para>
+<para>Primary Key. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>virtual Language JMovies.IMDb.Entities.Movies.ProductionLanguage.Language</definition>
         <argsstring></argsstring>
         <name>Language</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ProductionLanguage.Language</qualifiedname>
         <briefdescription>
-<para><ref refid="de/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_language" kindref="compound">Language</ref> of the production </para>
+<para>Language of the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,8 +38,9 @@
         <definition>virtual Production JMovies.IMDb.Entities.Movies.ProductionLanguage.Production</definition>
         <argsstring></argsstring>
         <name>Production</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ProductionLanguage.Production</qualifiedname>
         <briefdescription>
-<para>Related <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+<para>Related Production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -50,8 +53,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.ProductionLanguage.ProductionID</definition>
         <argsstring></argsstring>
         <name>ProductionID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ProductionLanguage.ProductionID</qualifiedname>
         <briefdescription>
-<para>Reference id of the production </para>
+<para>Reference id of the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -64,8 +68,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.ProductionLanguage.LanguageID</definition>
         <argsstring></argsstring>
         <name>LanguageID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ProductionLanguage.LanguageID</qualifiedname>
         <briefdescription>
-<para>Reference id of the language </para>
+<para>Reference id of the language. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -75,11 +80,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition that handles language to production mapping </para>
+<para>Class definition that handles language to production mapping. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/ProductionLanguage.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ProductionLanguage.cs" bodystart="12" bodyend="43"/>
+    <location file="JMovies.IMDb.Entities/Movies/ProductionLanguage.cs" line="12" column="11" bodyfile="JMovies.IMDb.Entities/Movies/ProductionLanguage.cs" bodystart="13" bodyend="43"/>
     <listofallmembers>
       <member refid="db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language_1a9ea1facc94678cc1425aa835aae62bba" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ProductionLanguage</scope><name>ID</name></member>
       <member refid="db/d24/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_language_1abb148de6ba87716874601deb2ee7fb52" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ProductionLanguage</scope><name>Language</name></member>

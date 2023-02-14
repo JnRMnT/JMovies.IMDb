@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Tests::Production::TVShowTests</compoundname>
       <sectiondef kind="public-func">
@@ -8,8 +8,9 @@
         <definition>void JMovies.IMDb.Tests.Production.TVShowTests.TVShowWithNoEndTest</definition>
         <argsstring>()</argsstring>
         <name>TVShowWithNoEndTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.TVShowTests.TVShowWithNoEndTest</qualifiedname>
         <briefdescription>
-<para>Test Method that tests a production with start date but no end date </para>
+<para>Test Method that tests a production with start date but no end date. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>void JMovies.IMDb.Tests.Production.TVShowTests.SummaryTVShowTest</definition>
         <argsstring>()</argsstring>
         <name>SummaryTVShowTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.TVShowTests.SummaryTVShowTest</qualifiedname>
         <briefdescription>
-<para>Test Method that tests a TV Show with the summary fetch settings </para>
+<para>Test Method that tests a TV Show with the summary fetch settings. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -33,11 +35,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Test class that contains the tests dedicated for TV Show specific information </para>
+<para>Test class that contains the tests dedicated for TV Show specific information. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/Production/TVShowTests.cs" line="14" column="1" bodyfile="JMovies.IMDb.Tests/Production/TVShowTests.cs" bodystart="13" bodyend="45"/>
+    <location file="JMovies.IMDb.Tests/Production/TVShowTests.cs" line="13" column="11" bodyfile="JMovies.IMDb.Tests/Production/TVShowTests.cs" bodystart="14" bodyend="45"/>
     <listofallmembers>
       <member refid="dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests_1a68ee26759e023a232edbf871277330af" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::TVShowTests</scope><name>SummaryTVShowTest</name></member>
       <member refid="dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests_1aa6000f22b4faf776d0475c4bb5efc099" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::TVShowTests</scope><name>TVShowWithNoEndTest</name></member>

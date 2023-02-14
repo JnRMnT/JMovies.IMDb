@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Common::Length</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>int JMovies.IMDb.Entities.Common.Length.Metric</definition>
         <argsstring></argsstring>
         <name>Metric</name>
+        <qualifiedname>JMovies.IMDb.Entities.Common.Length.Metric</qualifiedname>
         <briefdescription>
-<para>Metric <ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kindref="compound">Length</ref> </para>
+<para>Metric Length. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>double JMovies.IMDb.Entities.Common.Length.Imperial</definition>
         <argsstring></argsstring>
         <name>Imperial</name>
+        <qualifiedname>JMovies.IMDb.Entities.Common.Length.Imperial</qualifiedname>
         <briefdescription>
-<para>Imperial <ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kindref="compound">Length</ref> </para>
+<para>Imperial Length. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -38,8 +40,9 @@
         <definition>JMovies.IMDb.Entities.Common.Length.Length</definition>
         <argsstring>()</argsstring>
         <name>Length</name>
+        <qualifiedname>JMovies.IMDb.Entities.Common.Length.Length</qualifiedname>
         <briefdescription>
-<para>Default empty constructor </para>
+<para>Default empty constructor. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -52,12 +55,13 @@
         <definition>JMovies.IMDb.Entities.Common.Length.Length</definition>
         <argsstring>(int metricLength)</argsstring>
         <name>Length</name>
+        <qualifiedname>JMovies.IMDb.Entities.Common.Length.Length</qualifiedname>
         <param>
           <type>int</type>
           <declname>metricLength</declname>
         </param>
         <briefdescription>
-<para>Metric based <ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kindref="compound">Length</ref> constructor </para>
+<para>Metric based Length constructor. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -77,11 +81,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of <ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kindref="compound">Length</ref> that contains both Imperial and Metric length information </para>
+<para>Class definition of Length that contains both Imperial and Metric length information. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Common/Length.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Common/Length.cs" bodystart="10" bodyend="44"/>
+    <location file="JMovies.IMDb.Entities/Common/Length.cs" line="10" column="11" bodyfile="JMovies.IMDb.Entities/Common/Length.cs" bodystart="11" bodyend="44"/>
     <listofallmembers>
       <member refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length_1aea651ee0d940ab074de9289852c14624" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Length</scope><name>Imperial</name></member>
       <member refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length_1acf922d881cab55ef34fe92790ab7ef9b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Common::Length</scope><name>Length</name></member>

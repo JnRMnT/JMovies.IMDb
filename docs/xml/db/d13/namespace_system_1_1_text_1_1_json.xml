@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="db/d13/namespace_system_1_1_text_1_1_json" kind="namespace" language="C#">
+    <compoundname>System::Text::Json</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb/Helpers/Movies/ReleaseInfoPageHelper.cs" line="13" column="23"/>
+  </compounddef>
+</doxygen>

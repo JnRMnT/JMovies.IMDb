@@ -17,12 +17,12 @@ namespace JMovies.IMDb.Tests.Production
         public void TestAKAsOfSongOfTheSouth()
         {
             IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
-            ProductionDataFetchSettings settings = new ProductionFetchSettingsBuilder().WithDetailedCast().
+            ProductionDataFetchSettings settings = new ProductionFetchSettingsBuilder().WithDetailedCast().WithPrivateData().
                 WithFetchingImageContents().WithLimitedImageFetching(55).WithFetchingImageContents().Build();
             Entities.Movies.Movie movie = imdbDataProvider.GetMovie(38969, settings); // https://www.imdb.com/title/tt0038969/
             Assert.IsNotNull(movie);
             Assert.IsNotNull(movie.AKAs);
-            Assert.AreEqual(35, movie.AKAs.Count);
+            Assert.AreEqual(38, movie.AKAs.Count);
         }
     }
 }

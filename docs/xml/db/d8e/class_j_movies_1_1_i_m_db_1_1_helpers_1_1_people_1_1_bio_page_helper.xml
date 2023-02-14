@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::People::BioPageHelper</compoundname>
       <sectiondef kind="public-static-func">
@@ -8,6 +8,7 @@
         <definition>static void JMovies.IMDb.Helpers.People.BioPageHelper.ParseBioPage</definition>
         <argsstring>(Person person, PersonDataFetchSettings settings)</argsstring>
         <name>ParseBioPage</name>
+        <qualifiedname>JMovies.IMDb.Helpers.People.BioPageHelper.ParseBioPage</qualifiedname>
         <param>
           <type><ref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kindref="compound">Person</ref></type>
           <declname>person</declname>
@@ -17,7 +18,7 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Method responsible for parsing the Bio Page </para>
+<para>Method responsible for parsing the Bio Page. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -45,11 +46,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class responsible for parsing the Bio Page </para>
+<para>Class responsible for parsing the Bio Page. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/People/BioPageHelper.cs" line="20" column="1" bodyfile="JMovies.IMDb/Helpers/People/BioPageHelper.cs" bodystart="19" bodyend="91"/>
+    <location file="JMovies.IMDb/Helpers/People/BioPageHelper.cs" line="19" column="19" bodyfile="JMovies.IMDb/Helpers/People/BioPageHelper.cs" bodystart="20" bodyend="91"/>
     <listofallmembers>
       <member refid="db/d8e/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_bio_page_helper_1afc444bd29054e85c966a9b775792a99c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::BioPageHelper</scope><name>ParseBioPage</name></member>
     </listofallmembers>

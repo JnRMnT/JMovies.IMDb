@@ -1,10 +1,16 @@
 ﻿using Fizzler.Systems.HtmlAgilityPack;
 using HtmlAgilityPack;
 using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Common.Extensions;
 using JMovies.IMDb.Entities.Movies;
+using JMovies.IMDb.Entities.PrivateAPI;
+using JMovies.IMDb.Entities.Settings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.Movies
@@ -19,20 +25,20 @@ namespace JMovies.IMDb.Helpers.Movies
         /// </summary>
         /// <param name="movie">Movie object to be populated</param>
         /// <param name="releaseInfoPageDocument">HTML Document of the Release Info Page</param>
-        public static void Parse(Movie movie, HtmlDocument releaseInfoPageDocument)
+        /// <param name="settings">Object containing Data Fetch settings</param>
+        public static void Parse(Movie movie, HtmlDocument releaseInfoPageDocument, ProductionDataFetchSettings settings)
         {
             #region Release Dates
             List<ReleaseDate> releaseDates = new List<ReleaseDate>();
-            HtmlNode releaseDatesNode = releaseInfoPageDocument.DocumentNode.QuerySelector("#releases");
-            if (releaseDatesNode != null)
+            IEnumerable<HtmlNode> relaseDateRows = releaseInfoPageDocument.DocumentNode.QuerySelectorAll("[data-testid=sub-section-releases]>ul>li");
+            if (relaseDateRows != null)
             {
-                HtmlNode releaseDatesTableNode = releaseDatesNode.NodesAfterSelf().FirstOrDefault(e => e.Name == "table");
-                foreach (HtmlNode releaseDateRow in releaseDatesTableNode.QuerySelectorAll("tr"))
+                foreach (HtmlNode releaseDateRow in relaseDateRows)
                 {
                     ReleaseDate releaseDate = new ReleaseDate();
                     releaseDate.Country = new Country();
-                    HtmlNode[] releaseDateColumns = releaseDateRow.QuerySelectorAll("td").ToArray();
-                    HtmlNode releaseDateCountryLink = releaseDateColumns[0].QuerySelector("a");
+                    HtmlNode[] releaseDateColumns = releaseDateRow.ChildNodes.ToArray();
+                    HtmlNode releaseDateCountryLink = releaseDateColumns[0];
                     Match countryMatch = IMDbConstants.ReleaseDateCountryIdentifierRegex.Match(releaseDateCountryLink.GetAttributeValue("href", string.Empty));
                     releaseDate.Country.Name = releaseDateCountryLink.InnerText.Prepare();
                     if (countryMatch.Success)
@@ -40,7 +46,7 @@ namespace JMovies.IMDb.Helpers.Movies
                         releaseDate.Country.Identifier = countryMatch.Groups[1].Value;
                     }
 
-                    string releaseDateString = releaseDateColumns[1].InnerText.Prepare();
+                    string releaseDateString = releaseDateColumns[1].QuerySelector("label").InnerText.Prepare();
                     Match allNumericReleaseDateMatch = GeneralRegexConstants.AllNumericRegex.Match(releaseDateString);
                     if (allNumericReleaseDateMatch.Success)
                     {
@@ -51,10 +57,10 @@ namespace JMovies.IMDb.Helpers.Movies
                         releaseDate.Date = DateTime.Parse(releaseDateString);
                     }
 
-
-                    if (releaseDateColumns.Length > 2)
+                    HtmlNode releaseDateDescriptionNode = releaseDateColumns[1].QuerySelector("label+span");
+                    if (releaseDateDescriptionNode != null)
                     {
-                        releaseDate.Description = releaseDateColumns[2].InnerText.Prepare();
+                        releaseDate.Description = releaseDateDescriptionNode.InnerText.Prepare();
                         if (releaseDate.Description.Count(e => e == '(') == 1)
                         {
                             releaseDate.Description = releaseDate.Description.TrimStart('(').TrimEnd(')');
@@ -66,18 +72,46 @@ namespace JMovies.IMDb.Helpers.Movies
             movie.ReleaseDates = releaseDates;
             #endregion
             #region AKAs
-            HtmlNode akasNode = releaseInfoPageDocument.DocumentNode.QuerySelector("#akas");
-            if (akasNode != null)
+            IEnumerable<HtmlNode> akaRows = releaseInfoPageDocument.DocumentNode.QuerySelectorAll("[data-testid=sub-section-akas]>ul>li");
+            if (akaRows != null)
             {
                 List<AKA> akas = new List<AKA>();
-                HtmlNode akasTableNode = akasNode.NodesAfterSelf().FirstOrDefault(e => e.Name == "table");
-                foreach (HtmlNode akaDateRow in akasTableNode.QuerySelectorAll("tr"))
+                foreach (HtmlNode akaRow in akaRows)
                 {
                     AKA aka = new AKA();
-                    HtmlNode[] akaColumns = akaDateRow.QuerySelectorAll("td").ToArray();
-                    aka.Description = akaColumns[0].InnerText.Prepare();
-                    aka.Name = akaColumns[1].InnerText.Prepare();
+                    aka.Description = akaRow.QuerySelector("button").InnerText.Prepare().TrimStart('(').TrimEnd(')');
+                    aka.Name = akaRow.QuerySelector("label").InnerText.Prepare();
                     akas.Add(aka);
+                }
+
+                HtmlNode moreButton = releaseInfoPageDocument.DocumentNode.QuerySelector("[data-testid=sub-section-akas]>ul>div button");
+                if (moreButton != null && settings.FetchPrivateData)
+                {
+                    //Has More
+                    string getMoreURL = $"https://caching.graphql.imdb.com/?operationName=TitleAkasPaginated&" +
+                        $"variables={{\"after\":\"NA==\",\"const\":\"{IMDbConstants.MovieIDPrefix}{IMDBIDHelper.GetPaddedIMDBId(movie.IMDbID)}\",\"first\":150,\"locale\":\"{settings.GetActiveCulture()}\",\"originalTitleText\":false}}&extensions={{\"persistedQuery\":{{\"sha256Hash\":\"180f0f5df1b03c9ee78b1f410d65928ec22e7aca590e5321fbb6a6c39b802695\",\"version\":1}}}}";
+                    using (HttpClient client = new HttpClient())
+                    {
+                        HttpRequestMessage getMoreRequest = new HttpRequestMessage()
+                        {
+                            Method = HttpMethod.Get,
+                            RequestUri = new Uri(getMoreURL)
+                        };
+                        getMoreRequest.Headers.Add("Accept", "application/json");
+                        getMoreRequest.Content = new StringContent(string.Empty, Encoding.UTF8, "application/json");
+                        string moreAKAs = client.SendAsync(getMoreRequest).Result.Content.ReadAsStringAsync().Result;
+                        APIResponse akaAPIResponse = JsonSerializer.Deserialize<APIResponse>(moreAKAs);
+                        if (akaAPIResponse?.Data?.ProductionData?.AKAsData?.AKAEdges != null)
+                        {
+                            foreach (var akaEdge in akaAPIResponse.Data.ProductionData.AKAsData.AKAEdges)
+                            {
+                                AKA aka = new AKA();
+                                aka.Description = akaEdge.AKANode.Country?.Description;
+                                aka.Name = akaEdge.AKANode.DisplayableProperty.Value.PlainText;
+                                akas.Add(aka);
+                            }
+                        }
+                    }
                 }
 
                 movie.AKAs = akas.ToArray();

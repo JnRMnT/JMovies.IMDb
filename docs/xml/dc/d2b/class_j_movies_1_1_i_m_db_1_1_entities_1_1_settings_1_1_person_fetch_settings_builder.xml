@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</compoundname>
       <sectiondef kind="private-attrib">
@@ -8,6 +8,7 @@
         <definition>PersonDataFetchSettings JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder._settings</definition>
         <argsstring></argsstring>
         <name>_settings</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder._settings</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -23,6 +24,7 @@
         <definition>PersonDataFetchSettings JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.settings</definition>
         <argsstring></argsstring>
         <name>settings</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.settings</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -38,8 +40,9 @@
         <definition>PersonFetchSettingsBuilder JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithFetchingBioPage</definition>
         <argsstring>()</argsstring>
         <name>WithFetchingBioPage</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithFetchingBioPage</qualifiedname>
         <briefdescription>
-<para>Enables fetching bio page on the settings </para>
+<para>Enables fetching bio page on the settings. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>Builder for more chaining</para>
@@ -55,8 +58,9 @@
         <definition>PersonFetchSettingsBuilder JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithFetchingImageContents</definition>
         <argsstring>()</argsstring>
         <name>WithFetchingImageContents</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithFetchingImageContents</qualifiedname>
         <briefdescription>
-<para>Enables fetching image contents fetching on the settings </para>
+<para>Enables fetching image contents fetching on the settings. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>Builder for more chaining</para>
@@ -72,12 +76,13 @@
         <definition>PersonFetchSettingsBuilder JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithLimitedImageFetching</definition>
         <argsstring>(int limit)</argsstring>
         <name>WithLimitedImageFetching</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithLimitedImageFetching</qualifiedname>
         <param>
           <type>int</type>
           <declname>limit</declname>
         </param>
         <briefdescription>
-<para>Sets image fetching limit </para>
+<para>Sets image fetching limit. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>Builder for more chaining</para>
@@ -93,12 +98,13 @@
         <definition>PersonFetchSettingsBuilder JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithPreferredCulture</definition>
         <argsstring>(string culture)</argsstring>
         <name>WithPreferredCulture</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithPreferredCulture</qualifiedname>
         <param>
           <type>string</type>
           <declname>culture</declname>
         </param>
         <briefdescription>
-<para>Enables fetching with a preferred culture </para>
+<para>Enables fetching with a preferred culture. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>Builder for more chaining</para>
@@ -109,13 +115,32 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="56" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="56" bodyend="60"/>
       </memberdef>
+      <memberdef kind="function" id="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a6dc49b39e2051d6e400935e2c2fd30f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder" kindref="compound">PersonFetchSettingsBuilder</ref></type>
+        <definition>PersonFetchSettingsBuilder JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithPrivateData</definition>
+        <argsstring>()</argsstring>
+        <name>WithPrivateData</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithPrivateData</qualifiedname>
+        <briefdescription>
+<para>Enables fetching private data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Builder for more chaining</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="66" column="43" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
       <memberdef kind="function" id="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a812c0ccbab14d8d7ef6c89c45f841ca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d4/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_data_fetch_settings" kindref="compound">PersonDataFetchSettings</ref></type>
         <definition>PersonDataFetchSettings JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.Build</definition>
         <argsstring>()</argsstring>
         <name>Build</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.Build</qualifiedname>
         <briefdescription>
-<para>Builds a person data fetch settings based on the chained properties </para>
+<para>Builds a person data fetch settings based on the chained properties. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>A built and customized person data fetch settings</para>
@@ -124,15 +149,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="66" column="40" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="66" bodyend="69"/>
+        <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="76" column="40" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="76" bodyend="79"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Builder for person fetching settings </para>
+<para>Builder for person fetching settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="7" column="1" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="6" bodyend="70"/>
+    <location file="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" line="6" column="11" bodyfile="JMovies.IMDb.Entities/Settings/PersonFetchSettingsBuilder.cs" bodystart="7" bodyend="80"/>
     <listofallmembers>
       <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a3a94a065cd32aa123a948e6fa452d235" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>_settings</name></member>
       <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a812c0ccbab14d8d7ef6c89c45f841ca6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>Build</name></member>
@@ -141,6 +166,7 @@
       <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1aa00ba77393415261ef8ef0a8fec29472" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>WithFetchingImageContents</name></member>
       <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1afd40c22ea8918c73585ced08b72fed29" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>WithLimitedImageFetching</name></member>
       <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a1adfb844cc36f114ad5e18ed90be8000" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>WithPreferredCulture</name></member>
+      <member refid="dc/d2b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_person_fetch_settings_builder_1a6dc49b39e2051d6e400935e2c2fd30f2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::PersonFetchSettingsBuilder</scope><name>WithPrivateData</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

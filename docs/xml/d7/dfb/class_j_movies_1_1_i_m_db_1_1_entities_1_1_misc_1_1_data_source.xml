@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Misc::DataSource</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>int JMovies.IMDb.Entities.Misc.DataSource.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Misc.DataSource.ID</qualifiedname>
         <briefdescription>
-<para>Primary key </para>
+<para>Primary key. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,6 +23,7 @@
         <definition>int JMovies.IMDb.Entities.Misc.DataSource.Identifier</definition>
         <argsstring></argsstring>
         <name>Identifier</name>
+        <qualifiedname>JMovies.IMDb.Entities.Misc.DataSource.Identifier</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -35,8 +37,9 @@
         <definition>string JMovies.IMDb.Entities.Misc.DataSource.Name</definition>
         <argsstring></argsstring>
         <name>Name</name>
+        <qualifiedname>JMovies.IMDb.Entities.Misc.DataSource.Name</qualifiedname>
         <briefdescription>
-<para>Name of the source </para>
+<para>Name of the source. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -49,8 +52,9 @@
         <definition>DataSourceTypeEnum JMovies.IMDb.Entities.Misc.DataSource.DataSourceType</definition>
         <argsstring></argsstring>
         <name>DataSourceType</name>
+        <qualifiedname>JMovies.IMDb.Entities.Misc.DataSource.DataSourceType</qualifiedname>
         <briefdescription>
-<para>Type of the data source </para>
+<para>Type of the data source. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -65,8 +69,9 @@
         <definition>JMovies.IMDb.Entities.Misc.DataSource.DataSource</definition>
         <argsstring>()</argsstring>
         <name>DataSource</name>
+        <qualifiedname>JMovies.IMDb.Entities.Misc.DataSource.DataSource</qualifiedname>
         <briefdescription>
-<para>Default constructor of data source </para>
+<para>Default constructor of data source. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -79,12 +84,13 @@
         <definition>JMovies.IMDb.Entities.Misc.DataSource.DataSource</definition>
         <argsstring>(DataSourceTypeEnum dataSourceType)</argsstring>
         <name>DataSource</name>
+        <qualifiedname>JMovies.IMDb.Entities.Misc.DataSource.DataSource</qualifiedname>
         <param>
           <type><ref refid="db/df9/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1a681ceb59a358b43c4de0cc1ea653b921" kindref="member">DataSourceTypeEnum</ref></type>
           <declname>dataSourceType</declname>
         </param>
         <briefdescription>
-<para>Datasource constructor by type </para>
+<para>Datasource constructor by type. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -103,11 +109,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class Definition of a data source </para>
+<para>Class Definition of a data source. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="14" column="1" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="13" bodyend="71"/>
+    <location file="JMovies.IMDb.Entities/Misc/DataSource.cs" line="13" column="11" bodyfile="JMovies.IMDb.Entities/Misc/DataSource.cs" bodystart="14" bodyend="71"/>
     <listofallmembers>
       <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1a590d5e148095e426ee7a94377be79069" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>DataSource</name></member>
       <member refid="d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source_1ab94ad5d90ee4f8905bca7e3fd3443e3a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Misc::DataSource</scope><name>DataSource</name></member>

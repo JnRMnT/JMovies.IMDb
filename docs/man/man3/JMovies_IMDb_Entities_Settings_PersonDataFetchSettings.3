@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Entities.Settings.PersonDataFetchSettings" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Settings.PersonDataFetchSettings" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.Settings.PersonDataFetchSettings \- Class that is responsible for holding settings for Person data fetching  
+JMovies.IMDb.Entities.Settings.PersonDataFetchSettings \- Class that is responsible for holding settings for Person data fetching\&.  
 
 .SH SYNOPSIS
 .br
@@ -17,35 +17,31 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.BasicPersonData
 .ti -1c
 .RI "virtual bool \fBFetchBioPage\fP\fC [get, set]\fP"
 .br
-.RI "Should the Bio Page details be also fetched? This effects the response time "
+.RI "Should the Bio Page details be also fetched? This effects the response time\&. "
 .ti -1c
 .RI "virtual bool \fBFetchImageContents\fP\fC [get, set]\fP"
 .br
-.RI "Should the byte array content of the images be fetched along with URLs "
+.RI "Should the byte array content of the images be fetched along with URLs\&. "
 .ti -1c
 .RI "virtual int \fBMediaImagesFetchCount\fP\fC [get, set]\fP"
 .br
-.RI "Number of media images to be fetched along with the person "
+.RI "Number of media images to be fetched along with the person\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Settings\&.BaseDataFetchSettings\fP
+.in +1c
+.ti -1c
+.RI "virtual string \fBPreferredCulture\fP\fC [get, set]\fP"
+.br
+.RI "Preferred culture for fetching data (where applicable) "
+.ti -1c
+.RI "virtual bool \fBFetchPrivateData\fP\fC [get, set]\fP"
+.br
+.RI "Toggles fetching private data available through normally user-click on the website\&. DISCLAIMER: Use this only on private projects\&. Usage of these APIs are not allowed for non-private purposes\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Class that is responsible for holding settings for Person data fetching 
-
-
-.SH "Property Documentation"
-.PP 
-.SS "virtual bool JMovies\&.IMDb\&.Entities\&.Settings\&.PersonDataFetchSettings\&.FetchBioPage\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Should the Bio Page details be also fetched? This effects the response time 
-.SS "virtual bool JMovies\&.IMDb\&.Entities\&.Settings\&.PersonDataFetchSettings\&.FetchImageContents\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Should the byte array content of the images be fetched along with URLs 
-.SS "virtual int JMovies\&.IMDb\&.Entities\&.Settings\&.PersonDataFetchSettings\&.MediaImagesFetchCount\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Number of media images to be fetched along with the person 
+Class that is responsible for holding settings for Person data fetching\&. 
 
 .SH "Author"
 .PP 

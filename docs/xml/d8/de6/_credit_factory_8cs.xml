@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d8/de6/_credit_factory_8cs" kind="file" language="C#">
     <compoundname>CreditFactory.cs</compoundname>
     <innerclass refid="d5/de3/class_j_movies_1_1_i_m_db_1_1_factories_1_1_credit_factory" prot="public">JMovies::IMDb::Factories::CreditFactory</innerclass>
@@ -12,9 +12,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>JM.Entities.Interfaces;</highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d5/d13/namespace_j_movies" kindref="compound">JMovies</ref>.<ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>.<ref refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kindref="compound">Entities</ref>.<ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kindref="compound">Movies</ref>;</highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d5/d13/namespace_j_movies" kindref="compound">JMovies</ref>.<ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>.<ref refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kindref="compound">Entities</ref>.<ref refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people" kindref="compound">People</ref>;</highlight></codeline>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">JM.Entities.Interfaces;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kindref="compound">JMovies.IMDb.Entities.Movies</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people" kindref="compound">JMovies.IMDb.Entities.People</ref>;</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5" refid="dc/d9d/namespace_j_movies_1_1_i_m_db_1_1_factories" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dc/d9d/namespace_j_movies_1_1_i_m_db_1_1_factories" kindref="compound">JMovies.IMDb.Factories</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>

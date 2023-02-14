@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Rating</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Rating.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.ID</qualifiedname>
         <briefdescription>
-<para>Primary key </para>
+<para>Primary key. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>double JMovies.IMDb.Entities.Movies.Rating.Value</definition>
         <argsstring></argsstring>
         <name>Value</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.Value</qualifiedname>
         <briefdescription>
-<para>Value of the rating </para>
+<para>Value of the rating. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,8 +38,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Rating.RateCount</definition>
         <argsstring></argsstring>
         <name>RateCount</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.RateCount</qualifiedname>
         <briefdescription>
-<para>Count of rates </para>
+<para>Count of rates. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -50,8 +53,9 @@
         <definition>virtual DataSource JMovies.IMDb.Entities.Movies.Rating.DataSource</definition>
         <argsstring></argsstring>
         <name>DataSource</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.DataSource</qualifiedname>
         <briefdescription>
-<para>Source of the rating data </para>
+<para>Source of the rating data. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -64,8 +68,9 @@
         <definition>int JMovies.IMDb.Entities.Movies.Rating.DataSourceID</definition>
         <argsstring></argsstring>
         <name>DataSourceID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.DataSourceID</qualifiedname>
         <briefdescription>
-<para>Reference field for DataSource </para>
+<para>Reference field for DataSource. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,8 +83,9 @@
         <definition>virtual Production JMovies.IMDb.Entities.Movies.Rating.Production</definition>
         <argsstring></argsstring>
         <name>Production</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.Production</qualifiedname>
         <briefdescription>
-<para>Related production </para>
+<para>Related production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,8 +98,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Rating.ProductionID</definition>
         <argsstring></argsstring>
         <name>ProductionID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.ProductionID</qualifiedname>
         <briefdescription>
-<para>Reference field for <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+<para>Reference field for Production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -108,6 +115,7 @@
         <definition>JMovies.IMDb.Entities.Movies.Rating.Rating</definition>
         <argsstring>(DataSourceTypeEnum dataSourceType, Production production)</argsstring>
         <name>Rating</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.Rating</qualifiedname>
         <param>
           <type><ref refid="db/df9/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1a681ceb59a358b43c4de0cc1ea653b921" kindref="member">DataSourceTypeEnum</ref></type>
           <declname>dataSourceType</declname>
@@ -117,7 +125,7 @@
           <declname>production</declname>
         </param>
         <briefdescription>
-<para>Constructor by type of the datasource </para>
+<para>Constructor by type of the datasource. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -133,7 +141,7 @@
 <parametername>production</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Related <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> instance</para>
+<para>Related Production instance</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -148,8 +156,9 @@
         <definition>JMovies.IMDb.Entities.Movies.Rating.Rating</definition>
         <argsstring>()</argsstring>
         <name>Rating</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Rating.Rating</qualifiedname>
         <briefdescription>
-<para>Default constructor </para>
+<para>Default constructor. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -159,11 +168,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of Ratings </para>
+<para>Class definition of Ratings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="15" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="14" bodyend="73"/>
+    <location file="JMovies.IMDb.Entities/Movies/Rating.cs" line="14" column="11" bodyfile="JMovies.IMDb.Entities/Movies/Rating.cs" bodystart="15" bodyend="73"/>
     <listofallmembers>
       <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a03229a77525ee850ed84540f7f54a34d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>DataSource</name></member>
       <member refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating_1a8133c9a1cbd6973af999d290010b938d" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Rating</scope><name>DataSourceID</name></member>

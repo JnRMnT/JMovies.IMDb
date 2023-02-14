@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Entities.Movies.TVCharacter" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies.TVCharacter" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.Movies.TVCharacter \- Class definition of a TV \fBCharacter\fP  
+JMovies.IMDb.Entities.Movies.TVCharacter \- Class definition of a TV Character\&.  
 
 .SH SYNOPSIS
 .br
@@ -15,43 +15,47 @@ Inherits \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Character\fP\&.
 .ti -1c
 .RI "int \fBEpisodeCount\fP\fC [get, set]\fP"
 .br
-.RI "Count of episodes the character was in "
+.RI "Count of episodes the character was in\&. "
 .ti -1c
 .RI "int? \fBStartYear\fP\fC [get, set]\fP"
 .br
-.RI "\fBCharacter\fP first appereance year "
+.RI "Character first appereance year\&. "
 .ti -1c
 .RI "int? \fBEndYear\fP\fC [get, set]\fP"
 .br
-.RI "\fBCharacter\fP last appereance year "
+.RI "Character last appereance year\&. "
 .ti -1c
 .RI "override \fBCharacterTypeEnum\fP \fBCharacterType\fP\fC [get]\fP"
 .br
-.RI "Overridden character type property to return always \fBTVCharacter\fP "
+.RI "Overridden character type property to return always TVCharacter\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Character\fP
+.in +1c
+.ti -1c
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary key of a character\&. "
+.ti -1c
+.RI "virtual \fBCharacterTypeEnum\fP \fBCharacterType\fP\fC [get, set]\fP"
+.br
+.RI "Underlining Character Type\&. "
+.ti -1c
+.RI "long? \fBIMDbID\fP\fC [get, set]\fP"
+.br
+.RI "IMDb ID\&. "
+.ti -1c
+.RI "string \fBName\fP\fC [get, set]\fP"
+.br
+.RI "Name of the character\&. "
+.ti -1c
+.RI "long \fBCreditID\fP\fC [get, set]\fP"
+.br
+.RI "Reference ID of related credit\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Class definition of a TV \fBCharacter\fP 
-
-
-.SH "Property Documentation"
-.PP 
-.SS "override \fBCharacterTypeEnum\fP JMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\&.CharacterType\fC [get]\fP"
-
-.PP
-Overridden character type property to return always \fBTVCharacter\fP 
-.SS "int? JMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\&.EndYear\fC [get]\fP, \fC [set]\fP"
-
-.PP
-\fBCharacter\fP last appereance year 
-.SS "int JMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\&.EpisodeCount\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Count of episodes the character was in 
-.SS "int? JMovies\&.IMDb\&.Entities\&.Movies\&.TVCharacter\&.StartYear\fC [get]\fP, \fC [set]\fP"
-
-.PP
-\fBCharacter\fP first appereance year 
+Class definition of a TV Character\&. 
 
 .SH "Author"
 .PP 

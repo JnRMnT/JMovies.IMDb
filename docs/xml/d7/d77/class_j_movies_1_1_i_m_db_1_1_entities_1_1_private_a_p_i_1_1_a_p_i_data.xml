@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d7/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_a_p_i_data" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::PrivateAPI::APIData</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_a_p_i_data_1a0b652d685211b2f41970257aacba7e75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d4/df8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_data" kindref="compound">ProductionData</ref></type>
+        <definition>ProductionData JMovies.IMDb.Entities.PrivateAPI.APIData.ProductionData</definition>
+        <argsstring></argsstring>
+        <name>ProductionData</name>
+        <qualifiedname>JMovies.IMDb.Entities.PrivateAPI.APIData.ProductionData</qualifiedname>
+        <briefdescription>
+<para>Production Data property. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/PrivateAPI/APIData.cs" line="14" column="31" bodyfile="JMovies.IMDb.Entities/PrivateAPI/APIData.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class Definition of a private API Response. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/APIData.cs" line="8" column="11" bodyfile="JMovies.IMDb.Entities/PrivateAPI/APIData.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d7/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_a_p_i_data_1a0b652d685211b2f41970257aacba7e75" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::PrivateAPI::APIData</scope><name>ProductionData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

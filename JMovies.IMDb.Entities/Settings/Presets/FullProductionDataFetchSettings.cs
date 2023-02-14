@@ -24,5 +24,10 @@
         /// Fetch all cast
         /// </summary>
         public override int CastFetchCount { get => int.MaxValue; }
+
+        /// <summary>
+        /// Do not fetch private data
+        /// </summary>
+        public override bool FetchPrivateData { get => false; }
     }
 }

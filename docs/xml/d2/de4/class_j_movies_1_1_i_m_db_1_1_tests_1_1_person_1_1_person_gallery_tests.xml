@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Tests::Person::PersonGalleryTests</compoundname>
       <sectiondef kind="private-static-attrib">
@@ -8,9 +8,10 @@
         <definition>readonly long JMovies.IMDb.Tests.Person.PersonGalleryTests.benAffleckID</definition>
         <argsstring></argsstring>
         <name>benAffleckID</name>
+        <qualifiedname>JMovies.IMDb.Tests.Person.PersonGalleryTests.benAffleckID</qualifiedname>
         <initializer>= 255</initializer>
         <briefdescription>
-<para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID of Ben Affleck </para>
+<para>IMDb ID of Ben Affleck. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25,8 +26,9 @@
         <definition>void JMovies.IMDb.Tests.Person.PersonGalleryTests.FetchingLimitedImages</definition>
         <argsstring>()</argsstring>
         <name>FetchingLimitedImages</name>
+        <qualifiedname>JMovies.IMDb.Tests.Person.PersonGalleryTests.FetchingLimitedImages</qualifiedname>
         <briefdescription>
-<para>Fetches the person data with 5 images </para>
+<para>Fetches the person data with 5 images. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -39,8 +41,9 @@
         <definition>void JMovies.IMDb.Tests.Person.PersonGalleryTests.FetchingWithPagination</definition>
         <argsstring>()</argsstring>
         <name>FetchingWithPagination</name>
+        <qualifiedname>JMovies.IMDb.Tests.Person.PersonGalleryTests.FetchingWithPagination</qualifiedname>
         <briefdescription>
-<para>Fetches the person data with 55 images </para>
+<para>Fetches the person data with 55 images. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -50,11 +53,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Test suite for tests related to fetching of the gallery page of the persons </para>
+<para>Test suite for tests related to fetching of the gallery page of the persons. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/Person/PersonGalleryTests.cs" line="14" column="1" bodyfile="JMovies.IMDb.Tests/Person/PersonGalleryTests.cs" bodystart="13" bodyend="53"/>
+    <location file="JMovies.IMDb.Tests/Person/PersonGalleryTests.cs" line="13" column="11" bodyfile="JMovies.IMDb.Tests/Person/PersonGalleryTests.cs" bodystart="14" bodyend="53"/>
     <listofallmembers>
       <member refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests_1ae80ffad04cc28f2901e1cf9d2a5f9190" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Tests::Person::PersonGalleryTests</scope><name>benAffleckID</name></member>
       <member refid="d2/de4/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_gallery_tests_1ac537b044d1f23bc5e67b75ba08f50320" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Person::PersonGalleryTests</scope><name>FetchingLimitedImages</name></member>

@@ -60,6 +60,16 @@
         }
 
         /// <summary>
+        /// Enables fetching private data
+        /// </summary>
+        /// <returns>Builder for more chaining</returns>
+        public PersonFetchSettingsBuilder WithPrivateData()
+        {
+            settings.FetchPrivateData = true;
+            return this;
+        }
+
+        /// <summary>
         /// Builds a person data fetch settings based on the chained properties
         /// </summary>
         /// <returns>A built and customized person data fetch settings</returns>

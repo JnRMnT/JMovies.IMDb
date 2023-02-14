@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d8/de8/_base_data_fetch_settings_extensions_8cs" kind="file" language="C#">
+    <compoundname>BaseDataFetchSettingsExtensions.cs</compoundname>
+    <innerclass refid="d2/d4a/class_j_movies_1_1_i_m_db_1_1_common_1_1_extensions_1_1_base_data_fetch_settings_extensions" prot="public">JMovies::IMDb::Common::Extensions::BaseDataFetchSettingsExtensions</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="db/dac/namespace_j_movies_1_1_i_m_db_1_1_common">JMovies::IMDb::Common</innernamespace>
+    <innernamespace refid="d0/d97/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_extensions">JMovies::IMDb::Common::Extensions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="dc/d74/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_constants" kindref="compound">JMovies.IMDb.Common.Constants</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d9/ddb/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_settings" kindref="compound">JMovies.IMDb.Entities.Settings</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="d0/d97/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_extensions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d0/d97/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_extensions" kindref="compound">JMovies.IMDb.Common.Extensions</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">BaseDataFetchSettingsExtensions</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>GetActiveCulture(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/><ref refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings" kindref="compound">BaseDataFetchSettings</ref><sp/>settings)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.IsNullOrEmpty(settings.<ref refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings_1a3787b118a1d61271d20c26dcf38370b5" kindref="member">PreferredCulture</ref>)<sp/>?<sp/>settings.PreferredCulture<sp/>:<sp/><ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants" kindref="compound">IMDbConstants</ref>.<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab4ed6705200c70ea922664655c244d75" kindref="member">DefaultScrapingCulture</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Common/Extensions/BaseDataFetchSettingsExtensions.cs"/>
+  </compounddef>
+</doxygen>

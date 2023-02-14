@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d5/d22/_full_production_data_fetch_settings_8cs" kind="file" language="C#">
     <compoundname>FullProductionDataFetchSettings.cs</compoundname>
     <innerclass refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings" prot="public">JMovies::IMDb::Entities::Settings::Presets::FullProductionDataFetchSettings</innerclass>
@@ -24,8 +24,10 @@
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings_1aa104b21966d9b91d683db9319f345593" kindref="member">MediaImagesFetchCount</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">.MaxValue;<sp/>}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings_1a01a0e3155bd53abb579cf1bbf0a4222e" kindref="member">CastFetchCount</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">.MaxValue;<sp/>}</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings_1a3d10c2a3ab8b7bff52b12f52ea9035b5" kindref="member">FetchPrivateData</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="JMovies.IMDb.Entities/Settings/Presets/FullProductionDataFetchSettings.cs"/>
   </compounddef>

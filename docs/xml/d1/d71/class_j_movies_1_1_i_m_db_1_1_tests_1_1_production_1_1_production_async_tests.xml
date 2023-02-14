@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Tests::Production::ProductionAsyncTests</compoundname>
       <sectiondef kind="private-static-attrib">
@@ -8,9 +8,10 @@
         <definition>readonly long [] JMovies.IMDb.Tests.Production.ProductionAsyncTests.productionIDsToTest</definition>
         <argsstring></argsstring>
         <name>productionIDsToTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.ProductionAsyncTests.productionIDsToTest</qualifiedname>
         <initializer>= new long[] { 30988, 3636, 1477834 }</initializer>
         <briefdescription>
-<para>Static list of <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs of some productions to be tested </para>
+<para>Static list of IMDb IDs of some productions to be tested. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25,8 +26,9 @@
         <definition>async Task JMovies.IMDb.Tests.Production.ProductionAsyncTests.BasicFetchingTest</definition>
         <argsstring>()</argsstring>
         <name>BasicFetchingTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.ProductionAsyncTests.BasicFetchingTest</qualifiedname>
         <briefdescription>
-<para>Test that checks if the code is running correctly in async mode </para>
+<para>Test that checks if the code is running correctly in async mode. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para></para>
@@ -42,8 +44,9 @@
         <definition>void JMovies.IMDb.Tests.Production.ProductionAsyncTests.NonBlockingTest</definition>
         <argsstring>()</argsstring>
         <name>NonBlockingTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.ProductionAsyncTests.NonBlockingTest</qualifiedname>
         <briefdescription>
-<para>Test that checks if the code is running without blocking </para>
+<para>Test that checks if the code is running without blocking. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -53,11 +56,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Test class that contains the tests for basic async scraping scenarios for productions </para>
+<para>Test class that contains the tests for basic async scraping scenarios for productions. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" line="14" column="1" bodyfile="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" bodystart="13" bodyend="54"/>
+    <location file="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" line="13" column="11" bodyfile="JMovies.IMDb.Tests/Production/ProductionAsyncTests.cs" bodystart="14" bodyend="54"/>
     <listofallmembers>
       <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1ae9c7ce2a1a28698a9fba1c16008d6b44" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionAsyncTests</scope><name>BasicFetchingTest</name></member>
       <member refid="d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests_1a91171e258b1cd0f445570229ad58cb96" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionAsyncTests</scope><name>NonBlockingTest</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</compoundname>
       <sectiondef kind="public-static-func">
@@ -8,6 +8,7 @@
         <definition>static bool JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.Parse</definition>
         <argsstring>(IMDbScraperDataProvider providerInstance, ref Movie movie, HtmlNode documentNode, string moviePageUrl, ProductionDataFetchSettings settings)</argsstring>
         <name>Parse</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.Parse</qualifiedname>
         <param>
           <type><ref refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider" kindref="compound">IMDbScraperDataProvider</ref></type>
           <declname>providerInstance</declname>
@@ -29,7 +30,7 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Main Parse method of the Movie Page </para>
+<para>Main Parse method of the Movie Page. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -86,6 +87,7 @@
         <definition>static void JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseDetailsSection</definition>
         <argsstring>(Movie movie, HtmlNode detailsSection)</argsstring>
         <name>ParseDetailsSection</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseDetailsSection</qualifiedname>
         <param>
           <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
           <declname>movie</declname>
@@ -95,7 +97,7 @@
           <declname>detailsSection</declname>
         </param>
         <briefdescription>
-<para>Method responsible for parsing the details section of the movie page </para>
+<para>Method responsible for parsing the details section of the movie page. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -128,12 +130,13 @@
         <definition>static double JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseRatingValue</definition>
         <argsstring>(string ratingString)</argsstring>
         <name>ParseRatingValue</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseRatingValue</qualifiedname>
         <param>
           <type>string</type>
           <declname>ratingString</declname>
         </param>
         <briefdescription>
-<para>Method responsible for parsing the rating value from string to a double </para>
+<para>Method responsible for parsing the rating value from string to a double. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -156,6 +159,7 @@
         <definition>static void JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseCastListAsLegacyTable</definition>
         <argsstring>(Movie movie, List&lt; Credit &gt; credits, HtmlNode castListNode)</argsstring>
         <name>ParseCastListAsLegacyTable</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.ParseCastListAsLegacyTable</qualifiedname>
         <param>
           <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
           <declname>movie</declname>
@@ -169,7 +173,7 @@
           <declname>castListNode</declname>
         </param>
         <briefdescription>
-<para>Method responsible for parsing the cast list of the movie </para>
+<para>Method responsible for parsing the cast list of the movie. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -208,6 +212,7 @@
         <definition>static Character JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.GetCharacter</definition>
         <argsstring>(HtmlNode characterNode, Movie movie)</argsstring>
         <name>GetCharacter</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.MoviePageDetailsHelper.GetCharacter</qualifiedname>
         <param>
           <type>HtmlNode</type>
           <declname>characterNode</declname>
@@ -217,7 +222,7 @@
           <declname>movie</declname>
         </param>
         <briefdescription>
-<para>Method responsible for parsing a single character information </para>
+<para>Method responsible for parsing a single character information. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -247,11 +252,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class responsible for parsing the Movie Page Details </para>
+<para>Class responsible for parsing the Movie Page Details. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="23" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="22" bodyend="460"/>
+    <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="22" column="19" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="23" bodyend="460"/>
     <listofallmembers>
       <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1affbb0caba7efbfcc2d47cd4eca7fa943" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>GetCharacter</name></member>
       <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a8935a12b9ec8f4e6dc0b62218659ba1f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>Parse</name></member>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d7/d71/namespace_system_1_1_text_1_1_json_1_1_serialization" kind="namespace" language="C#">
+    <compoundname>System::Text::Json::Serialization</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/APIData.cs" line="1" column="37"/>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dc/d41/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_production_credit" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::People::ProductionCredit</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>long JMovies.IMDb.Entities.People.ProductionCredit.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.ProductionCredit.ID</qualifiedname>
         <briefdescription>
-<para>Primary Key </para>
+<para>Primary Key. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>virtual Credit JMovies.IMDb.Entities.People.ProductionCredit.Credit</definition>
         <argsstring></argsstring>
         <name>Credit</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.ProductionCredit.Credit</qualifiedname>
         <briefdescription>
-<para>Credit </para>
+<para>Credit. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,8 +38,9 @@
         <definition>virtual Production JMovies.IMDb.Entities.People.ProductionCredit.Production</definition>
         <argsstring></argsstring>
         <name>Production</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.ProductionCredit.Production</qualifiedname>
         <briefdescription>
-<para>The production that person is credited in </para>
+<para>The production that person is credited in. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -47,11 +50,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Credit of a person in a specific production </para>
+<para>Credit of a person in a specific production. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/People/ProductionCredit.cs" line="15" column="1" bodyfile="JMovies.IMDb.Entities/People/ProductionCredit.cs" bodystart="14" bodyend="30"/>
+    <location file="JMovies.IMDb.Entities/People/ProductionCredit.cs" line="14" column="11" bodyfile="JMovies.IMDb.Entities/People/ProductionCredit.cs" bodystart="15" bodyend="30"/>
     <listofallmembers>
       <member refid="dc/d41/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_production_credit_1abef86b54353ee68ebbb5aff2d9366124" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::ProductionCredit</scope><name>Credit</name></member>
       <member refid="dc/d41/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_production_credit_1acf7179a82b17cd763d1888bc39124dad" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::ProductionCredit</scope><name>ID</name></member>

@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Helpers.HttpHelper" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Helpers.HttpHelper" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Helpers.HttpHelper \- Class responsible for providing utility methods for HTTP Operations  
+JMovies.IMDb.Helpers.HttpHelper \- Class responsible for providing utility methods for HTTP Operations\&.  
 
 .SH SYNOPSIS
 .br
@@ -13,23 +13,21 @@ JMovies.IMDb.Helpers.HttpHelper \- Class responsible for providing utility metho
 .ti -1c
 .RI "static WebRequest \fBInitializeWebRequest\fP (string url, \fBBaseDataFetchSettings\fP settings)"
 .br
-.RI "Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info "
+.RI "Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info\&. "
 .ti -1c
 .RI "static Stream \fBGetResponseStream\fP (WebRequest webRequest, \fBBaseDataFetchSettings\fP settings, int retryCount=0)"
 .br
-.RI "Retry mechanism for sending Web Request that is required to avoid Connectivity issues "
+.RI "Retry mechanism for sending Web Request that is required to avoid Connectivity issues\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Class responsible for providing utility methods for HTTP Operations 
-
-
+Class responsible for providing utility methods for HTTP Operations\&. 
 .SH "Member Function Documentation"
 .PP 
 .SS "static Stream JMovies\&.IMDb\&.Helpers\&.HttpHelper\&.GetResponseStream (WebRequest webRequest, \fBBaseDataFetchSettings\fP settings, int retryCount = \fC0\fP)\fC [static]\fP"
 
 .PP
-Retry mechanism for sending Web Request that is required to avoid Connectivity issues 
+Retry mechanism for sending Web Request that is required to avoid Connectivity issues\&. 
 .PP
 \fBParameters\fP
 .RS 4
@@ -49,7 +47,7 @@ Successful Response Stream
 .SS "static WebRequest JMovies\&.IMDb\&.Helpers\&.HttpHelper\&.InitializeWebRequest (string url, \fBBaseDataFetchSettings\fP settings)\fC [static]\fP"
 
 .PP
-Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info 
+Initializes the web request using the URL and configures the request for default language and dummy User Agent/IP Info\&. 
 .PP
 \fBParameters\fP
 .RS 4

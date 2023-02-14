@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Tests::Production::ProductionGalleryTests</compoundname>
       <sectiondef kind="private-static-attrib">
@@ -8,9 +8,10 @@
         <definition>readonly long JMovies.IMDb.Tests.Production.ProductionGalleryTests.justiceLeagueID</definition>
         <argsstring></argsstring>
         <name>justiceLeagueID</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.ProductionGalleryTests.justiceLeagueID</qualifiedname>
         <initializer>= 12361974</initializer>
         <briefdescription>
-<para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID of Justice League </para>
+<para>IMDb ID of Justice League. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25,8 +26,9 @@
         <definition>void JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingLimitedImages</definition>
         <argsstring>()</argsstring>
         <name>FetchingLimitedImages</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingLimitedImages</qualifiedname>
         <briefdescription>
-<para>Fetches the production data with 5 images </para>
+<para>Fetches the production data with 5 images. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -39,8 +41,9 @@
         <definition>void JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingWithPagination</definition>
         <argsstring>()</argsstring>
         <name>FetchingWithPagination</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingWithPagination</qualifiedname>
         <briefdescription>
-<para>Fetches the production data with 55 images </para>
+<para>Fetches the production data with 55 images. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -50,11 +53,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Test suite for tests related to fetching of the gallery page of the productions </para>
+<para>Test suite for tests related to fetching of the gallery page of the productions. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" line="13" column="1" bodyfile="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" bodystart="12" bodyend="54"/>
+    <location file="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" line="12" column="11" bodyfile="JMovies.IMDb.Tests/Production/ProductionGalleryTests.cs" bodystart="13" bodyend="54"/>
     <listofallmembers>
       <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1ab38ba990f5e3dd13a91cd0b897236ebf" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionGalleryTests</scope><name>FetchingLimitedImages</name></member>
       <member refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests_1a8338da694960de140bf359f1c712c964" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::ProductionGalleryTests</scope><name>FetchingWithPagination</name></member>

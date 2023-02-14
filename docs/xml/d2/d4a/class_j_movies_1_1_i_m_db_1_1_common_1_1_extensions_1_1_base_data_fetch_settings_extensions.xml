@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d2/d4a/class_j_movies_1_1_i_m_db_1_1_common_1_1_extensions_1_1_base_data_fetch_settings_extensions" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Common::Extensions::BaseDataFetchSettingsExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/d4a/class_j_movies_1_1_i_m_db_1_1_common_1_1_extensions_1_1_base_data_fetch_settings_extensions_1a03f1dffb71a76af8f3f8e542b024b161" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string JMovies.IMDb.Common.Extensions.BaseDataFetchSettingsExtensions.GetActiveCulture</definition>
+        <argsstring>(this BaseDataFetchSettings settings)</argsstring>
+        <name>GetActiveCulture</name>
+        <qualifiedname>JMovies.IMDb.Common.Extensions.BaseDataFetchSettingsExtensions.GetActiveCulture</qualifiedname>
+        <param>
+          <type>this <ref refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings" kindref="compound">BaseDataFetchSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Gets the active culture if one preferred or the default. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The active culture (preferred or default)</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Extensions/BaseDataFetchSettingsExtensions.cs" line="15" column="30" bodyfile="JMovies.IMDb.Common/Extensions/BaseDataFetchSettingsExtensions.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides extension methods for the BasicDataFetchSettings type of objects. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Common/Extensions/BaseDataFetchSettingsExtensions.cs" line="9" column="19" bodyfile="JMovies.IMDb.Common/Extensions/BaseDataFetchSettingsExtensions.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="d2/d4a/class_j_movies_1_1_i_m_db_1_1_common_1_1_extensions_1_1_base_data_fetch_settings_extensions_1a03f1dffb71a76af8f3f8e542b024b161" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Extensions::BaseDataFetchSettingsExtensions</scope><name>GetActiveCulture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

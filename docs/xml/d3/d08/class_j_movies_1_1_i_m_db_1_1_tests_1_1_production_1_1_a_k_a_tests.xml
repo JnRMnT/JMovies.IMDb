@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d3/d08/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_a_k_a_tests" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Tests::Production::AKATests</compoundname>
       <sectiondef kind="public-func">
@@ -8,8 +8,9 @@
         <definition>void JMovies.IMDb.Tests.Production.AKATests.TestAKAsOfSongOfTheSouth</definition>
         <argsstring>()</argsstring>
         <name>TestAKAsOfSongOfTheSouth</name>
+        <qualifiedname>JMovies.IMDb.Tests.Production.AKATests.TestAKAsOfSongOfTheSouth</qualifiedname>
         <briefdescription>
-<para>Test Method that tests AKAs of the movie &quot;Song of the South&quot; </para>
+<para>Test Method that tests AKAs of the movie &quot;Song of the South&quot;. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -19,11 +20,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Test class that contains the tests which are targeted for scraping culture related tests </para>
+<para>Test class that contains the tests which are targeted for scraping culture related tests. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/Production/AKATests.cs" line="12" column="1" bodyfile="JMovies.IMDb.Tests/Production/AKATests.cs" bodystart="11" bodyend="27"/>
+    <location file="JMovies.IMDb.Tests/Production/AKATests.cs" line="11" column="11" bodyfile="JMovies.IMDb.Tests/Production/AKATests.cs" bodystart="12" bodyend="27"/>
     <listofallmembers>
       <member refid="d3/d08/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_a_k_a_tests_1a30f9ae80553a79b43ac0c5575c04f160" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Production::AKATests</scope><name>TestAKAsOfSongOfTheSouth</name></member>
     </listofallmembers>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d3/dcc/md__r_e_a_d_m_e" kind="page">
     <compoundname>md_README</compoundname>
     <title>JMovies.IMDb</title>
@@ -8,9 +8,9 @@
     <detaileddescription>
 <sect3 id="d3/dcc/md__r_e_a_d_m_e_1autotoc_md1">
 <title>JMovies IMDb Data Provider Library</title>
-<para><ulink url="https://dev.azure.com/jnrmnt/JMovies.IMDb/_build/latest?definitionId=9&amp;branchName=master"><image type="html" name="JnRMnT.JMovies.IMDb?branchName=master" inline="yes"></image>
-</ulink> <image type="html" name="JMovies.IMDb" inline="yes"></image>
- <image type="html" name="JMovies.IMDb" inline="yes"></image>
+<para><ulink url="https://dev.azure.com/jnrmnt/JMovies.IMDb/_build/latest?definitionId=9&amp;branchName=master"><image type="html" name="https://dev.azure.com/jnrmnt/JMovies.IMDb/_apis/build/status/JnRMnT.JMovies.IMDb?branchName=master" alt="Build Status" inline="yes"></image>
+</ulink> <image type="html" name="https://img.shields.io/nuget/dt/JMovies.IMDb" alt="NuGet Downloads" inline="yes"></image>
+ <image type="html" name="https://img.shields.io/nuget/v/JMovies.IMDb" alt="NuGet Version" inline="yes"></image>
 </para>
 <para>A IMDb data provider library written for .NET Standart platform that uses screen scraping to gather the data from IMDb on demand.</para>
 </sect3>
@@ -49,5 +49,6 @@
 <para>Please know that this library is not intended for bulk data scraping from IMDb and it is restricted by them. Also note that this library is not affliated with IMDB and you need to use it at your own risk/responsibility. </para>
 </sect1>
     </detaileddescription>
+    <location file="README.md"/>
   </compounddef>
 </doxygen>

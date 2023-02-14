@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Character</compoundname>
     <derivedcompoundref refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.TVCharacter</derivedcompoundref>
@@ -9,8 +9,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Character.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Character.ID</qualifiedname>
         <briefdescription>
-<para>Primary key of a character </para>
+<para>Primary key of a character. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -23,8 +24,9 @@
         <definition>virtual CharacterTypeEnum JMovies.IMDb.Entities.Movies.Character.CharacterType</definition>
         <argsstring></argsstring>
         <name>CharacterType</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Character.CharacterType</qualifiedname>
         <briefdescription>
-<para>Underlining <ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> Type </para>
+<para>Underlining Character Type. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -37,8 +39,9 @@
         <definition>long? JMovies.IMDb.Entities.Movies.Character.IMDbID</definition>
         <argsstring></argsstring>
         <name>IMDbID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Character.IMDbID</qualifiedname>
         <briefdescription>
-<para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID </para>
+<para>IMDb ID. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -51,8 +54,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Character.Name</definition>
         <argsstring></argsstring>
         <name>Name</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Character.Name</qualifiedname>
         <briefdescription>
-<para>Name of the character </para>
+<para>Name of the character. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -65,8 +69,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Character.CreditID</definition>
         <argsstring></argsstring>
         <name>CreditID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Character.CreditID</qualifiedname>
         <briefdescription>
-<para>Reference ID of related credit </para>
+<para>Reference ID of related credit. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -76,23 +81,23 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of a character in a title </para>
+<para>Class definition of a character in a title. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="1">
+        <label>JMovies.IMDb.Entities.Movies.Character</label>
+        <link refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character"/>
+      </node>
       <node id="2">
         <label>JMovies.IMDb.Entities.Movies.TVCharacter</label>
         <link refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1">
-        <label>JMovies.IMDb.Entities.Movies.Character</label>
-        <link refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character"/>
-      </node>
     </inheritancegraph>
-    <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="10" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="9" bodyend="46"/>
+    <location file="JMovies.IMDb.Entities/Movies/Character.cs" line="9" column="11" bodyfile="JMovies.IMDb.Entities/Movies/Character.cs" bodystart="10" bodyend="46"/>
     <listofallmembers>
       <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a3dd651a7e23822b8258a7b716fe3772e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>CharacterType</name></member>
       <member refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character_1a6b64d9edfd4df35f5824e2ca14012b6c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Character</scope><name>CreditID</name></member>

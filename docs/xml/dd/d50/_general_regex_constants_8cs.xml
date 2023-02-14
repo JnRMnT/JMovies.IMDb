@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dd/d50/_general_regex_constants_8cs" kind="file" language="C#">
     <compoundname>GeneralRegexConstants.cs</compoundname>
     <innerclass refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants" prot="public">JMovies::IMDb::Common::Constants::GeneralRegexConstants</innerclass>
@@ -7,29 +7,64 @@
     <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
     <innernamespace refid="db/dac/namespace_j_movies_1_1_i_m_db_1_1_common">JMovies::IMDb::Common</innernamespace>
     <innernamespace refid="dc/d74/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_constants">JMovies::IMDb::Common::Constants</innernamespace>
+    <innernamespace refid="d8/dd0/namespace_system">System</innernamespace>
+    <innernamespace refid="d9/d1b/namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="d5/de4/namespace_system_1_1_linq">System::Linq</innernamespace>
+    <innernamespace refid="d8/d71/namespace_system_1_1_text">System::Text</innernamespace>
+    <innernamespace refid="d5/db7/namespace_system_1_1_text_1_1_regular_expressions">System::Text::RegularExpressions</innernamespace>
+    <innernamespace refid="d7/d66/namespace_system_1_1_threading_1_1_tasks">System::Threading::Tasks</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dd/d50/_general_regex_constants_8cs_1a58859d93c30e635814dc980ed86e3f84" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$</definition>
+        <argsstring></argsstring>
+        <name>$</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/GeneralRegexConstants.cs" line="18" column="56" bodyfile="JMovies.IMDb.Common/Constants/GeneralRegexConstants.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d50/_general_regex_constants_8cs_1ae2f8b6c8d2245c9e469746f1c12a1507" prot="public" static="no" mutable="no">
+        <type>RegexOptions.</type>
+        <definition>RegexOptions. Multiline</definition>
+        <argsstring></argsstring>
+        <name>Multiline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; BasicRegexthatcapturestextinsidepharantesis </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Constants/GeneralRegexConstants.cs" line="18" column="69" bodyfile="JMovies.IMDb.Common/Constants/GeneralRegexConstants.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text.RegularExpressions;</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text.RegularExpressions;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="dc/d74/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_constants" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dc/d74/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_constants" kindref="compound">JMovies.IMDb.Common.Constants</ref></highlight></codeline>
+<codeline lineno="8" refid="d5/d13/namespace_j_movies" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dc/d74/namespace_j_movies_1_1_i_m_db_1_1_common_1_1_constants" kindref="compound">JMovies.IMDb.Common.Constants</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13" refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants" kindref="compound">GeneralRegexConstants</ref></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/>Regex<sp/><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants_1a830416d195596d5e8bb870ed88fd6cab" kindref="member">AmountStringRegex</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Regex(</highlight><highlight class="stringliteral">@&quot;^([^a-zA-Z0-9_\s\n]*\s?|[a-zA-Z]{2,3}\s?)([\d\.,]+)(\s?[^a-zA-Z0-9_\s\n]*|\s?[a-zA-Z]{2,3})$&quot;</highlight><highlight class="normal">,<sp/>RegexOptions.Multiline);</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/>Regex<sp/><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants_1ac57e7b9802b658e48ba0ca8c707c9900" kindref="member">PharantesisRegex</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Regex(</highlight><highlight class="stringliteral">@&quot;\((.+)\)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/>Regex<sp/>PharantesisRegex<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Regex(</highlight><highlight class="stringliteral">@&quot;\((.+)\)&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/>Regex<sp/><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants_1a95b7dbd63c1c8e83afe50f7314122610" kindref="member">HtmlDatetimeTagRegex</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Regex(</highlight><highlight class="stringliteral">@&quot;PT(\d*D)?(\d*H)?(\d*M)?(\d*S)?&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/>Regex<sp/><ref refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_general_regex_constants_1a4e43470accc2b876757ba7f78f1fa63c" kindref="member">AllNumericRegex</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Regex(</highlight><highlight class="stringliteral">@&quot;^(\d+)$&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/>Regex<sp/>AllNumericRegex<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Regex(</highlight><highlight class="stringliteral">@&quot;^(\d+)$&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">}</highlight></codeline>
     </programlisting>

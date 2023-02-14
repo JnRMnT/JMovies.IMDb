@@ -70,6 +70,16 @@
         }
 
         /// <summary>
+        /// Enables fetching private data
+        /// </summary>
+        /// <returns>Builder for more chaining</returns>
+        public ProductionFetchSettingsBuilder WithPrivateData()
+        {
+            settings.FetchPrivateData = true;
+            return this;
+        }
+
+        /// <summary>
         /// Builds a production data fetch settings based on the chained properties
         /// </summary>
         /// <returns>A built and customized production data fetch settings</returns>

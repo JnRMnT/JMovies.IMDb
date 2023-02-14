@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Entities.People.Actor" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.People.Actor" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.People.Actor \- Class definition of an actor  
+JMovies.IMDb.Entities.People.Actor \- Class definition of an actor\&.  
 
 .SH SYNOPSIS
 .br
@@ -15,19 +15,79 @@ Inherits \fBJMovies\&.IMDb\&.Entities\&.People\&.Person\fP\&.
 .ti -1c
 .RI "override \fBPersonTypeEnum\fP \fBPersonType\fP\fC [get, set]\fP"
 .br
-.RI "Overriden property of PersonType that returns \fBActor\fP always "
+.RI "Overriden property of PersonType that returns Actor always\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.People\&.Person\fP
+.in +1c
+.ti -1c
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary Key\&. "
+.ti -1c
+.RI "virtual \fBPersonTypeEnum\fP \fBPersonType\fP\fC [get, set]\fP"
+.br
+.RI "Type of the underlining person\&. "
+.ti -1c
+.RI "long \fBIMDbID\fP\fC [get, set]\fP"
+.br
+.RI "IMDb ID of the person\&. "
+.ti -1c
+.RI "string \fBFullName\fP\fC [get, set]\fP"
+.br
+.RI "Full Name of the person\&. "
+.ti -1c
+.RI "virtual \fBImage\fP \fBPrimaryImage\fP\fC [get, set]\fP"
+.br
+.RI "Main image of the person\&. "
+.ti -1c
+.RI "long? \fBPrimaryImageID\fP\fC [get, set]\fP"
+.br
+.RI "Reference field for the Primary Image\&. "
+.ti -1c
+.RI "ICollection< \fBCreditRoleType\fP > \fBRoles\fP\fC [get, set]\fP"
+.br
+.RI "Roles of the person\&. "
+.ti -1c
+.RI "DateTime? \fBBirthDate\fP\fC [get, set]\fP"
+.br
+.RI "Birth Date of the person\&. "
+.ti -1c
+.RI "string \fBBirthPlace\fP\fC [get, set]\fP"
+.br
+.RI "Birth Place of the person\&. "
+.ti -1c
+.RI "string \fBBirthName\fP\fC [get, set]\fP"
+.br
+.RI "Birth Place of the person\&. "
+.ti -1c
+.RI "\fBLength\fP \fBHeight\fP\fC [get, set]\fP"
+.br
+.RI "Height of the person\&. "
+.ti -1c
+.RI "string \fBNickName\fP\fC [get, set]\fP"
+.br
+.RI "NickName of the person\&. "
+.ti -1c
+.RI "string \fBMiniBiography\fP\fC [get, set]\fP"
+.br
+.RI "Mini Biography of the person\&. "
+.ti -1c
+.RI "virtual ICollection< \fBImage\fP > \fBPhotos\fP\fC [get, set]\fP"
+.br
+.RI "Available Photos of the person\&. "
+.ti -1c
+.RI "virtual ICollection< \fBProductionCredit\fP > \fBKnownFor\fP\fC [get, set]\fP"
+.br
+.RI "Known credits of the person\&. "
+.ti -1c
+.RI "\fBGenderEnum\fP \fBGender\fP\fC [get, set]\fP"
+.br
+.RI "Gender of the person\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Class definition of an actor 
-
-
-.SH "Property Documentation"
-.PP 
-.SS "override \fBPersonTypeEnum\fP JMovies\&.IMDb\&.Entities\&.People\&.Actor\&.PersonType\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Overriden property of PersonType that returns \fBActor\fP always 
+Class definition of an actor\&. 
 
 .SH "Author"
 .PP 

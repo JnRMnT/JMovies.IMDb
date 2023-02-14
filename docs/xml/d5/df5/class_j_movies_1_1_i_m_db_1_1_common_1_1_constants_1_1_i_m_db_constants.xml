@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Common::Constants::IMDbConstants</compoundname>
       <sectiondef kind="public-static-attrib">
@@ -8,9 +8,10 @@
         <definition>readonly int JMovies.IMDb.Common.Constants.IMDbConstants.HttpMaxRetryCount</definition>
         <argsstring></argsstring>
         <name>HttpMaxRetryCount</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.HttpMaxRetryCount</qualifiedname>
         <initializer>= 5</initializer>
         <briefdescription>
-<para>Max Retry Count for HTTP Calls </para>
+<para>Max Retry Count for HTTP Calls. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -23,9 +24,10 @@
         <definition>readonly int JMovies.IMDb.Common.Constants.IMDbConstants.HttpRetrySleepTime</definition>
         <argsstring></argsstring>
         <name>HttpRetrySleepTime</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.HttpRetrySleepTime</qualifiedname>
         <initializer>= 1000</initializer>
         <briefdescription>
-<para>Sleep duration in ms to be waited if an exception occurs during Http calls </para>
+<para>Sleep duration in ms to be waited if an exception occurs during Http calls. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -38,9 +40,10 @@
         <definition>readonly int JMovies.IMDb.Common.Constants.IMDbConstants.IMDbIDExtendedLength</definition>
         <argsstring></argsstring>
         <name>IMDbIDExtendedLength</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.IMDbIDExtendedLength</qualifiedname>
         <initializer>= 8</initializer>
         <briefdescription>
-<para>Length of the Extended <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs </para>
+<para>Length of the Extended IMDb IDs. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -53,9 +56,10 @@
         <definition>readonly int JMovies.IMDb.Common.Constants.IMDbConstants.IMDbIDLength</definition>
         <argsstring></argsstring>
         <name>IMDbIDLength</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.IMDbIDLength</qualifiedname>
         <initializer>= 7</initializer>
         <briefdescription>
-<para>Length of the <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs </para>
+<para>Length of the IMDb IDs. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -68,9 +72,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.DefaultScrapingCulture</definition>
         <argsstring></argsstring>
         <name>DefaultScrapingCulture</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.DefaultScrapingCulture</qualifiedname>
         <initializer>= &quot;en-US&quot;</initializer>
         <briefdescription>
-<para>Default culture to be used while screen scraping </para>
+<para>Default culture to be used while screen scraping. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -83,9 +88,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.BaseURL</definition>
         <argsstring></argsstring>
         <name>BaseURL</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BaseURL</qualifiedname>
         <initializer>= &quot;https://www.imdb.com/&quot;</initializer>
         <briefdescription>
-<para>Base URL of the <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> website </para>
+<para>Base URL of the IMDb website. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -98,9 +104,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.MoviesPath</definition>
         <argsstring></argsstring>
         <name>MoviesPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.MoviesPath</qualifiedname>
         <initializer>= &quot;title/&quot;</initializer>
         <briefdescription>
-<para>Path of the movies page </para>
+<para>Path of the movies page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -113,9 +120,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.MovieIDPrefix</definition>
         <argsstring></argsstring>
         <name>MovieIDPrefix</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.MovieIDPrefix</qualifiedname>
         <initializer>= &quot;tt&quot;</initializer>
         <briefdescription>
-<para>Prefix of the movie IDs </para>
+<para>Prefix of the movie IDs. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,9 +136,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PersonsPath</definition>
         <argsstring></argsstring>
         <name>PersonsPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.PersonsPath</qualifiedname>
         <initializer>= &quot;name/&quot;</initializer>
         <briefdescription>
-<para>Path of the person page </para>
+<para>Path of the person page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,9 +152,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PersonIDPrefix</definition>
         <argsstring></argsstring>
         <name>PersonIDPrefix</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.PersonIDPrefix</qualifiedname>
         <initializer>= &quot;nm&quot;</initializer>
         <briefdescription>
-<para>Prefix of the person IDs </para>
+<para>Prefix of the person IDs. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -158,9 +168,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CharactersPath</definition>
         <argsstring></argsstring>
         <name>CharactersPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CharactersPath</qualifiedname>
         <initializer>= &quot;characters/&quot;</initializer>
         <briefdescription>
-<para>Path of the characters page </para>
+<para>Path of the characters page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -173,9 +184,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.KeywordsPath</definition>
         <argsstring></argsstring>
         <name>KeywordsPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.KeywordsPath</qualifiedname>
         <initializer>= &quot;keyword&quot;</initializer>
         <briefdescription>
-<para>Path of the keywords page </para>
+<para>Path of the keywords page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -188,9 +200,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CompanyIDPrefix</definition>
         <argsstring></argsstring>
         <name>CompanyIDPrefix</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CompanyIDPrefix</qualifiedname>
         <initializer>= &quot;co&quot;</initializer>
         <briefdescription>
-<para>Prefix of Company IDs </para>
+<para>Prefix of Company IDs. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -203,9 +216,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CompaniesPath</definition>
         <argsstring></argsstring>
         <name>CompaniesPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CompaniesPath</qualifiedname>
         <initializer>= &quot;company/&quot;</initializer>
         <briefdescription>
-<para>Path of the companies page </para>
+<para>Path of the companies page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -218,9 +232,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.FullCreditsPath</definition>
         <argsstring></argsstring>
         <name>FullCreditsPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.FullCreditsPath</qualifiedname>
         <initializer>= &quot;fullcredits/&quot;</initializer>
         <briefdescription>
-<para>Path of the Full Credits page </para>
+<para>Path of the Full Credits page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -233,9 +248,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseInfoPath</definition>
         <argsstring></argsstring>
         <name>ReleaseInfoPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseInfoPath</qualifiedname>
         <initializer>= &quot;releaseinfo/&quot;</initializer>
         <briefdescription>
-<para>Path of the Release Info page </para>
+<para>Path of the Release Info page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -248,9 +264,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PhotoGalleryPath</definition>
         <argsstring></argsstring>
         <name>PhotoGalleryPath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.PhotoGalleryPath</qualifiedname>
         <initializer>= &quot;mediaindex/&quot;</initializer>
         <briefdescription>
-<para>Path of the Photo Gallery Page </para>
+<para>Path of the Photo Gallery Page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -263,9 +280,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.TVSeriesOgType</definition>
         <argsstring></argsstring>
         <name>TVSeriesOgType</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.TVSeriesOgType</qualifiedname>
         <initializer>= &quot;video.tv_show&quot;</initializer>
         <briefdescription>
-<para>Type indicator for TV Series </para>
+<para>Type indicator for TV Series. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,9 +296,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.BioPagePath</definition>
         <argsstring></argsstring>
         <name>BioPagePath</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BioPagePath</qualifiedname>
         <initializer>= &quot;bio/&quot;</initializer>
         <briefdescription>
-<para>Path of Bio page </para>
+<para>Path of Bio page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -293,9 +312,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Star</definition>
         <argsstring></argsstring>
         <name>Star</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Star</qualifiedname>
         <initializer>= &quot;Star&quot;</initializer>
         <briefdescription>
-<para>Text of Star title </para>
+<para>Text of Star title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -308,9 +328,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Director</definition>
         <argsstring></argsstring>
         <name>Director</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Director</qualifiedname>
         <initializer>= &quot;Director&quot;</initializer>
         <briefdescription>
-<para>Text of Director title </para>
+<para>Text of Director title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -323,9 +344,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.DirectedBy</definition>
         <argsstring></argsstring>
         <name>DirectedBy</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.DirectedBy</qualifiedname>
         <initializer>= &quot;Directed By&quot;</initializer>
         <briefdescription>
-<para>Text of Directed by title </para>
+<para>Text of Directed by title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -338,9 +360,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Writer</definition>
         <argsstring></argsstring>
         <name>Writer</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Writer</qualifiedname>
         <initializer>= &quot;Writer&quot;</initializer>
         <briefdescription>
-<para>Text of Writer title </para>
+<para>Text of Writer title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -353,9 +376,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Creator</definition>
         <argsstring></argsstring>
         <name>Creator</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Creator</qualifiedname>
         <initializer>= &quot;Creator&quot;</initializer>
         <briefdescription>
-<para>Text of Creator title </para>
+<para>Text of Creator title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -368,9 +392,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Tagline</definition>
         <argsstring></argsstring>
         <name>Tagline</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Tagline</qualifiedname>
         <initializer>= &quot;Tagline&quot;</initializer>
         <briefdescription>
-<para>Text of Taglines title </para>
+<para>Text of Taglines title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -383,9 +408,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Genre</definition>
         <argsstring></argsstring>
         <name>Genre</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Genre</qualifiedname>
         <initializer>= &quot;Genre&quot;</initializer>
         <briefdescription>
-<para>Text of Genre title </para>
+<para>Text of Genre title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -398,9 +424,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.OfficialSite</definition>
         <argsstring></argsstring>
         <name>OfficialSite</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.OfficialSite</qualifiedname>
         <initializer>= &quot;Official Site&quot;</initializer>
         <briefdescription>
-<para>Text of Official Site title </para>
+<para>Text of Official Site title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -413,9 +440,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.CountryOfOriginFilterName</definition>
         <argsstring></argsstring>
         <name>CountryOfOriginFilterName</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CountryOfOriginFilterName</qualifiedname>
         <initializer>= &quot;country_of_origin&quot;</initializer>
         <briefdescription>
-<para>Filter name of &quot;Country Of Origin&quot; </para>
+<para>Filter name of &quot;Country Of Origin&quot;. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -428,9 +456,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Language</definition>
         <argsstring></argsstring>
         <name>Language</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Language</qualifiedname>
         <initializer>= &quot;Language&quot;</initializer>
         <briefdescription>
-<para>Text of Language title </para>
+<para>Text of Language title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -443,9 +472,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.PrimaryLanguageFilterName</definition>
         <argsstring></argsstring>
         <name>PrimaryLanguageFilterName</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.PrimaryLanguageFilterName</qualifiedname>
         <initializer>= &quot;primary_language&quot;</initializer>
         <briefdescription>
-<para>Filter name of &quot;Primary Language&quot; </para>
+<para>Filter name of &quot;Primary Language&quot;. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -458,9 +488,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDate</definition>
         <argsstring></argsstring>
         <name>ReleaseDate</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDate</qualifiedname>
         <initializer>= &quot;Release Date&quot;</initializer>
         <briefdescription>
-<para>Text of Release Date title </para>
+<para>Text of Release Date title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -473,9 +504,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.AKA</definition>
         <argsstring></argsstring>
         <name>AKA</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.AKA</qualifiedname>
         <initializer>= &quot;Also Known As&quot;</initializer>
         <briefdescription>
-<para>Text of AKAs title </para>
+<para>Text of AKAs title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -488,9 +520,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.FilmingLocation</definition>
         <argsstring></argsstring>
         <name>FilmingLocation</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.FilmingLocation</qualifiedname>
         <initializer>= &quot;Filming Location&quot;</initializer>
         <briefdescription>
-<para>Text of Filming Location title </para>
+<para>Text of Filming Location title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -503,9 +536,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.LocationsFilterName</definition>
         <argsstring></argsstring>
         <name>LocationsFilterName</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.LocationsFilterName</qualifiedname>
         <initializer>= &quot;locations&quot;</initializer>
         <briefdescription>
-<para>Filter name of &quot;Locations&quot; </para>
+<para>Filter name of &quot;Locations&quot;. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -518,9 +552,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Budget</definition>
         <argsstring></argsstring>
         <name>Budget</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Budget</qualifiedname>
         <initializer>= &quot;Budget&quot;</initializer>
         <briefdescription>
-<para>Text of Budget title </para>
+<para>Text of Budget title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -533,9 +568,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompany</definition>
         <argsstring></argsstring>
         <name>ProductionCompany</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompany</qualifiedname>
         <initializer>= &quot;Production Co&quot;</initializer>
         <briefdescription>
-<para>Text of Production Company title </para>
+<para>Text of Production Company title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -548,9 +584,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.Runtime</definition>
         <argsstring></argsstring>
         <name>Runtime</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.Runtime</qualifiedname>
         <initializer>= &quot;Runtime&quot;</initializer>
         <briefdescription>
-<para>Text of Runtime title </para>
+<para>Text of Runtime title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -563,9 +600,10 @@
         <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewBirthName</definition>
         <argsstring></argsstring>
         <name>BioOverviewBirthName</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewBirthName</qualifiedname>
         <initializer>= &quot;Birth Name&quot;</initializer>
         <briefdescription>
-<para>Bio Page - Overview Section - Birth Name Title </para>
+<para>Bio Page - Overview Section - Birth Name Title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -578,9 +616,10 @@
         <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewBirthInfo</definition>
         <argsstring></argsstring>
         <name>BioOverviewBirthInfo</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewBirthInfo</qualifiedname>
         <initializer>= &quot;Born&quot;</initializer>
         <briefdescription>
-<para>Bio Page - Overview Section - Birth Information Title </para>
+<para>Bio Page - Overview Section - Birth Information Title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -593,9 +632,10 @@
         <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewHeight</definition>
         <argsstring></argsstring>
         <name>BioOverviewHeight</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewHeight</qualifiedname>
         <initializer>= &quot;Height&quot;</initializer>
         <briefdescription>
-<para>Bio Page - Overview Section - Height Title </para>
+<para>Bio Page - Overview Section - Height Title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -608,9 +648,10 @@
         <definition>const string JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewNickName</definition>
         <argsstring></argsstring>
         <name>BioOverviewNickName</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BioOverviewNickName</qualifiedname>
         <initializer>= &quot;Nickname&quot;</initializer>
         <briefdescription>
-<para>Bio Page - Overview Section - NickName Title </para>
+<para>Bio Page - Overview Section - NickName Title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -623,9 +664,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ActorCategoryName</definition>
         <argsstring></argsstring>
         <name>ActorCategoryName</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ActorCategoryName</qualifiedname>
         <initializer>= &quot;actor&quot;</initializer>
         <briefdescription>
-<para>Actor Filmography Category Name </para>
+<para>Actor Filmography Category Name. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -638,9 +680,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.ActressCategoryName</definition>
         <argsstring></argsstring>
         <name>ActressCategoryName</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ActressCategoryName</qualifiedname>
         <initializer>= &quot;actress&quot;</initializer>
         <briefdescription>
-<para>Actress Filmography Category Name </para>
+<para>Actress Filmography Category Name. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -653,9 +696,10 @@
         <definition>readonly string JMovies.IMDb.Common.Constants.IMDbConstants.EmptyPlotText</definition>
         <argsstring></argsstring>
         <name>EmptyPlotText</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.EmptyPlotText</qualifiedname>
         <initializer>= &quot;Add a plot&quot;</initializer>
         <briefdescription>
-<para>Empty text to be checked to determine if there is no plot </para>
+<para>Empty text to be checked to determine if there is no plot. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -668,9 +712,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ProductionTitleMatcherRegex</definition>
         <argsstring></argsstring>
         <name>ProductionTitleMatcherRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ProductionTitleMatcherRegex</qualifiedname>
         <initializer>= new Regex(@&quot;\/title\/tt(\d+)\/&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the title </para>
+<para>Regex that matches the title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -683,9 +728,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.StarsSummaryRegex</definition>
         <argsstring></argsstring>
         <name>StarsSummaryRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.StarsSummaryRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ab55548c6c0d7ca7fbeb0a9685a069b5f" kindref="member">Star</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the stars section in Movie Summary </para>
+<para>Regex that matches the stars section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -698,9 +744,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.DirectorsSummaryRegex</definition>
         <argsstring></argsstring>
         <name>DirectorsSummaryRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.DirectorsSummaryRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a349d2a05053d0251e3214fa502288c7d" kindref="member">Director</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the directors section in Movie Summary </para>
+<para>Regex that matches the directors section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -713,9 +760,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.WritersSummaryRegex</definition>
         <argsstring></argsstring>
         <name>WritersSummaryRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.WritersSummaryRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae9898534ad033913d0ca370766322619" kindref="member">Writer</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the writers section in Movie Summary </para>
+<para>Regex that matches the writers section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -728,9 +776,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CreatorsSummaryRegex</definition>
         <argsstring></argsstring>
         <name>CreatorsSummaryRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CreatorsSummaryRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1acc8ef2ea57281852c421097a84b8f2ca" kindref="member">Creator</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the creators section in Movie Summary </para>
+<para>Regex that matches the creators section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -743,9 +792,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.PersonIDURLMatcher</definition>
         <argsstring></argsstring>
         <name>PersonIDURLMatcher</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.PersonIDURLMatcher</qualifiedname>
         <initializer>= new Regex(Regex.Escape(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a571c5bef29134c3a97f2110c1b699d93" kindref="member">PersonsPath</ref>) + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" kindref="member">PersonIDPrefix</ref> + @&quot;(\d+)&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the Person ID from URL </para>
+<para>Regex that matches the Person ID from URL. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -758,9 +808,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.MovieYearRegex</definition>
         <argsstring></argsstring>
         <name>MovieYearRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.MovieYearRegex</qualifiedname>
         <initializer>= new Regex(@&quot;\s*(\d{4})[–-]?(\d{4})?\s*&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the movie year in the Movie page </para>
+<para>Regex that matches the movie year in the Movie page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -773,9 +824,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CharacterRegex</definition>
         <argsstring></argsstring>
         <name>CharacterRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CharacterRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a76c14b5c585fd65d37ed4fe88945e6be" kindref="member">CharactersPath</ref> + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" kindref="member">PersonIDPrefix</ref> + @&quot;(\d+).*?&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the character <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID </para>
+<para>Regex that matches the character IMDb ID. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -788,9 +840,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.TaglinesSummaryRegex</definition>
         <argsstring></argsstring>
         <name>TaglinesSummaryRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.TaglinesSummaryRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a456ab3add55e286aea7b31c01f351447" kindref="member">Tagline</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the tag lines section in Movie Summary </para>
+<para>Regex that matches the tag lines section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -803,9 +856,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.KeywordLinkRegex</definition>
         <argsstring></argsstring>
         <name>KeywordLinkRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.KeywordLinkRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a7157aebc4ecf7d208b8b3d09b1ac1b30" kindref="member">KeywordsPath</ref> + @&quot;[\/?]{1,2}keywords=(.+)&amp;&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the keywords section in Movie Summary </para>
+<para>Regex that matches the keywords section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -818,9 +872,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.GenresSummaryRegex</definition>
         <argsstring></argsstring>
         <name>GenresSummaryRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.GenresSummaryRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a1b4531e31aa06c27b4995d844d853816" kindref="member">Genre</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the genres section in Movie Summary </para>
+<para>Regex that matches the genres section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -833,9 +888,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.GenreLinkRegex</definition>
         <argsstring></argsstring>
         <name>GenreLinkRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.GenreLinkRegex</qualifiedname>
         <initializer>= new Regex(@&quot;title[/\\]\?genres=(.+?)[&amp;\\&quot;&quot;]&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches a specific Genre Link </para>
+<para>Regex that matches a specific Genre Link. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -848,9 +904,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.OfficialSitesHeaderRegex</definition>
         <argsstring></argsstring>
         <name>OfficialSitesHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.OfficialSitesHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a5d74ead77d9d7a46a7d0eec7d8ea5f7e" kindref="member">OfficialSite</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the Official Sites section in Movie Summary </para>
+<para>Regex that matches the Official Sites section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -863,9 +920,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CountriesHeaderRegex</definition>
         <argsstring></argsstring>
         <name>CountriesHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CountriesHeaderRegex</qualifiedname>
         <initializer>= new Regex(&quot;Countr[y]?(ies)?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the countries section in Movie Summary </para>
+<para>Regex that matches the countries section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -878,9 +936,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CountryOfOriginRegex</definition>
         <argsstring></argsstring>
         <name>CountryOfOriginRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CountryOfOriginRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa38a8fb904edca8a726ce2102869b2de" kindref="member">CountryOfOriginFilterName</ref> + &quot;=(.+?)[&amp;\&quot;]&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the Country Of Origin section in Movie Summary </para>
+<para>Regex that matches the Country Of Origin section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -893,9 +952,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.LanguagesHeaderRegex</definition>
         <argsstring></argsstring>
         <name>LanguagesHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.LanguagesHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a8e41642791e8a7af1f1b714ec25efee4" kindref="member">Language</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the Languages section in Movie Summary </para>
+<para>Regex that matches the Languages section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -908,9 +968,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.PrimaryLanguageRegex</definition>
         <argsstring></argsstring>
         <name>PrimaryLanguageRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.PrimaryLanguageRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1adb661157cc4debe3bfe798e030a5d5d4" kindref="member">PrimaryLanguageFilterName</ref> + &quot;=(.+?)[&amp;\&quot;]&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the Primary Language section in Movie Summary </para>
+<para>Regex that matches the Primary Language section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -923,9 +984,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateHeaderRegex</definition>
         <argsstring></argsstring>
         <name>ReleaseDateHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2011b52b90491939c1d49bbe14b986fe" kindref="member">ReleaseDate</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the Release Date section in Movie Summary </para>
+<para>Regex that matches the Release Date section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -938,9 +1000,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateCountryIdentifierRegex</definition>
         <argsstring></argsstring>
         <name>ReleaseDateCountryIdentifierRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ReleaseDateCountryIdentifierRegex</qualifiedname>
         <initializer>= new Regex(@&quot;region=(.+?)&amp;&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the Country Identifier of a Release Date </para>
+<para>Regex that matches the Country Identifier of a Release Date. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -953,9 +1016,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.AKAHeaderRegex</definition>
         <argsstring></argsstring>
         <name>AKAHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.AKAHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a6a21ea5731e558c755074a13817c7de0" kindref="member">AKA</ref> + &quot;:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the AKAs section in Movie Summary </para>
+<para>Regex that matches the AKAs section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -968,9 +1032,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.FilmingLocationsHeaderRegex</definition>
         <argsstring></argsstring>
         <name>FilmingLocationsHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.FilmingLocationsHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1aa51a4c3f2fda5834aed6c49f52db998d" kindref="member">FilmingLocation</ref> + &quot;[s]?:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the filming locations section in Movie Summary </para>
+<para>Regex that matches the filming locations section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -983,9 +1048,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.LocationsLinkRegex</definition>
         <argsstring></argsstring>
         <name>LocationsLinkRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.LocationsLinkRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a47cb12537ce0e67b6306424a7e63ecfe" kindref="member">LocationsFilterName</ref> + &quot;=.+\&quot;&gt;(.+)&lt;\\/a&gt;&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the locations section in Movie Summary </para>
+<para>Regex that matches the locations section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -998,9 +1064,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.BudgetHeaderRegex</definition>
         <argsstring></argsstring>
         <name>BudgetHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BudgetHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a678839747d5b2557282245537947630e" kindref="member">Budget</ref> + &quot;:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the budget section in Movie Summary </para>
+<para>Regex that matches the budget section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1013,9 +1080,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompanyHeaderRegex</definition>
         <argsstring></argsstring>
         <name>ProductionCompanyHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompanyHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a2672266e34102daa7ff87241d6ccf7f4" kindref="member">ProductionCompany</ref> + &quot;:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the production company section in Movie Summary </para>
+<para>Regex that matches the production company section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1028,9 +1096,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompanyLinkRegex</definition>
         <argsstring></argsstring>
         <name>ProductionCompanyLinkRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.ProductionCompanyLinkRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ad28251768c24dc5b32906dc74a73c42e" kindref="member">CompaniesPath</ref> + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a25f7c3186797bc1c09c9a360bc65cd1a" kindref="member">CompanyIDPrefix</ref> + @&quot;(\d+).*?&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the production company link </para>
+<para>Regex that matches the production company link. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1043,9 +1112,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.RuntimeHeaderRegex</definition>
         <argsstring></argsstring>
         <name>RuntimeHeaderRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.RuntimeHeaderRegex</qualifiedname>
         <initializer>= new Regex(<ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a44b39f1819fd284f0c818230dec973a6" kindref="member">Runtime</ref> + &quot;:?&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the runtime length section in Movie Summary </para>
+<para>Regex that matches the runtime length section in Movie Summary. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1058,9 +1128,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CharacterEpisodeInfoRegex</definition>
         <argsstring></argsstring>
         <name>CharacterEpisodeInfoRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CharacterEpisodeInfoRegex</qualifiedname>
         <initializer>= new Regex(@&quot;\n*\s*\(?(\d+)\s+eps\s+•\s+(\d+)[\-–]?(\d*)&quot;, RegexOptions.IgnoreCase)</initializer>
         <briefdescription>
-<para>Regex that matches the epsidoe info of a character </para>
+<para>Regex that matches the epsidoe info of a character. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1073,9 +1144,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.BioHeightRegex</definition>
         <argsstring></argsstring>
         <name>BioHeightRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.BioHeightRegex</qualifiedname>
         <initializer>= new Regex(@&quot;\((\d\.\d{1,2}).*m\)&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the height of a person in Bio page </para>
+<para>Regex that matches the height of a person in Bio page. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1088,9 +1160,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.IMDBIDRegex</definition>
         <argsstring></argsstring>
         <name>IMDBIDRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.IMDBIDRegex</qualifiedname>
         <initializer>= new Regex(&quot;(&quot; + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a05f7687de21a8f096ed6f86394b636ee" kindref="member">MovieIDPrefix</ref> + &quot;|&quot; + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1ae43b923b06603322fd225ffe426ea62b" kindref="member">PersonIDPrefix</ref> + &quot;|&quot; + <ref refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a25f7c3186797bc1c09c9a360bc65cd1a" kindref="member">CompanyIDPrefix</ref> + @&quot;)(\d+)&quot;)</initializer>
         <briefdescription>
-<para>Resource indipendent <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID matcher regex </para>
+<para>Resource indipendent IMDb ID matcher regex. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1103,9 +1176,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.CreditYearRegex</definition>
         <argsstring></argsstring>
         <name>CreditYearRegex</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.CreditYearRegex</qualifiedname>
         <initializer>= new Regex(@&quot;(\d{4})(\/\w)?[–-]?(\d{4})?(\/\w)?&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the credit year </para>
+<para>Regex that matches the credit year. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1118,9 +1192,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.RatingJSONLDMatcher</definition>
         <argsstring></argsstring>
         <name>RatingJSONLDMatcher</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.RatingJSONLDMatcher</qualifiedname>
         <initializer>= new Regex(@&quot;{&quot;&quot;@type&quot;&quot;:&quot;&quot;AggregateRating&quot;&quot;.+?}&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the rating out of context JSON </para>
+<para>Regex that matches the rating out of context JSON. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1133,9 +1208,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.RatingCountMatcher</definition>
         <argsstring></argsstring>
         <name>RatingCountMatcher</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.RatingCountMatcher</qualifiedname>
         <initializer>= new Regex(@&quot;&quot;&quot;ratingCount&quot;&quot;\s*:\s*(\d+)&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the rating count out of rating JSON </para>
+<para>Regex that matches the rating count out of rating JSON. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1148,9 +1224,10 @@
         <definition>readonly Regex JMovies.IMDb.Common.Constants.IMDbConstants.RatingValueMatcher</definition>
         <argsstring></argsstring>
         <name>RatingValueMatcher</name>
+        <qualifiedname>JMovies.IMDb.Common.Constants.IMDbConstants.RatingValueMatcher</qualifiedname>
         <initializer>= new Regex(@&quot;&quot;&quot;ratingValue&quot;&quot;:([\d\.,]*)&quot;)</initializer>
         <briefdescription>
-<para>Regex that matches the rating value out of rating JSON </para>
+<para>Regex that matches the rating value out of rating JSON. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1160,11 +1237,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class that holds constant definitions that are related to <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> </para>
+<para>Class that holds constant definitions that are related to IMDb. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="14" column="1" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="13" bodyend="373"/>
+    <location file="JMovies.IMDb.Common/Constants/IMDbConstants.cs" line="13" column="11" bodyfile="JMovies.IMDb.Common/Constants/IMDbConstants.cs" bodystart="14" bodyend="373"/>
     <listofallmembers>
       <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1a279c10c495d13090da73a4eb0a3f8869" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ActorCategoryName</name></member>
       <member refid="d5/df5/class_j_movies_1_1_i_m_db_1_1_common_1_1_constants_1_1_i_m_db_constants_1abda4dace3f89f3dfd5f57dfad9f037ad" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Common::Constants::IMDbConstants</scope><name>ActressCategoryName</name></member>

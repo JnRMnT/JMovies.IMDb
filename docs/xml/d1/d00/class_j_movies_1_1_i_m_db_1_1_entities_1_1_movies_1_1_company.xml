@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Company</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Company.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Company.ID</qualifiedname>
         <briefdescription>
-<para>ID of the company </para>
+<para>ID of the company. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Company.Name</definition>
         <argsstring></argsstring>
         <name>Name</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Company.Name</qualifiedname>
         <briefdescription>
-<para>Name of the company </para>
+<para>Name of the company. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,8 +38,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Company.ProductionID</definition>
         <argsstring></argsstring>
         <name>ProductionID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Company.ProductionID</qualifiedname>
         <briefdescription>
-<para>Reference field for <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+<para>Reference field for Production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -47,11 +50,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of a company related to the industry </para>
+<para>Class definition of a company related to the industry. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="15" bodyend="33"/>
+    <location file="JMovies.IMDb.Entities/Movies/Company.cs" line="15" column="11" bodyfile="JMovies.IMDb.Entities/Movies/Company.cs" bodystart="16" bodyend="33"/>
     <listofallmembers>
       <member refid="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company_1a05f68879961ec42b3bd17825cf393705" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Company</scope><name>ID</name></member>
       <member refid="d1/d00/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_company_1a0feda98307f0713655075e305b7f7d6b" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Company</scope><name>Name</name></member>

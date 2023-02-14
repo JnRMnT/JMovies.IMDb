@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</compoundname>
       <sectiondef kind="public-static-func">
@@ -8,6 +8,7 @@
         <definition>static void JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper.Parse</definition>
         <argsstring>(Movie movie, string movieURL, ProductionDataFetchSettings settings)</argsstring>
         <name>Parse</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper.Parse</qualifiedname>
         <param>
           <type><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref></type>
           <declname>movie</declname>
@@ -21,7 +22,7 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Main Parse method of the Photo Gallery Page </para>
+<para>Main Parse method of the Photo Gallery Page. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -62,6 +63,7 @@
         <definition>static void JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper.FetchPhotos</definition>
         <argsstring>(string movieURL, int currentPage, ProductionDataFetchSettings settings, ref List&lt; Image &gt; imageContainer)</argsstring>
         <name>FetchPhotos</name>
+        <qualifiedname>JMovies.IMDb.Helpers.Movies.PhotoGalleryPageHelper.FetchPhotos</qualifiedname>
         <param>
           <type>string</type>
           <declname>movieURL</declname>
@@ -79,7 +81,7 @@
           <declname>imageContainer</declname>
         </param>
         <briefdescription>
-<para>Fetches all photos of nth page of the media gallery page </para>
+<para>Fetches all photos of nth page of the media gallery page. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -123,11 +125,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class responsible for parsing the Media Images </para>
+<para>Class responsible for parsing the Media Images. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="19" column="1" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="18" bodyend="88"/>
+    <location file="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" line="18" column="19" bodyfile="JMovies.IMDb/Helpers/Movies/PhotoGalleryPageHelper.cs" bodystart="19" bodyend="88"/>
     <listofallmembers>
       <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a4d38e9ded2f44f82adf471bb02c3619b" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</scope><name>FetchPhotos</name></member>
       <member refid="d9/d31/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_photo_gallery_page_helper_1a52515ea2e1478af482dd7fc38db2a783" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::PhotoGalleryPageHelper</scope><name>Parse</name></member>

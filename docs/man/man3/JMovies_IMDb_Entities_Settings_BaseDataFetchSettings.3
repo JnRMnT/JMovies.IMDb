@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Entities.Settings.BaseDataFetchSettings" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Settings.BaseDataFetchSettings" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.Settings.BaseDataFetchSettings \- Base settings class common to both productions and persons  
+JMovies.IMDb.Entities.Settings.BaseDataFetchSettings \- Base settings class common to both productions and persons\&.  
 
 .SH SYNOPSIS
 .br
@@ -16,18 +16,14 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.Settings\&.PersonDataFetchSettings\f
 .RI "virtual string \fBPreferredCulture\fP\fC [get, set]\fP"
 .br
 .RI "Preferred culture for fetching data (where applicable) "
+.ti -1c
+.RI "virtual bool \fBFetchPrivateData\fP\fC [get, set]\fP"
+.br
+.RI "Toggles fetching private data available through normally user-click on the website\&. DISCLAIMER: Use this only on private projects\&. Usage of these APIs are not allowed for non-private purposes\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Base settings class common to both productions and persons 
-
-
-.SH "Property Documentation"
-.PP 
-.SS "virtual string JMovies\&.IMDb\&.Entities\&.Settings\&.BaseDataFetchSettings\&.PreferredCulture\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Preferred culture for fetching data (where applicable) 
+Base settings class common to both productions and persons\&. 
 
 .SH "Author"
 .PP 

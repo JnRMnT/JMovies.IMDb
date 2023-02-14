@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d9/dea/_country_info_8cs" kind="file" language="C#">
+    <compoundname>CountryInfo.cs</compoundname>
+    <innerclass refid="d7/dcc/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_country_info" prot="public">JMovies::IMDb::Entities::PrivateAPI::Production::CountryInfo</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
+    <innernamespace refid="d3/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i">JMovies::IMDb::Entities::PrivateAPI</innernamespace>
+    <innernamespace refid="df/d1b/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production">JMovies::IMDb::Entities::PrivateAPI::Production</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text.Json.Serialization;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="df/d1b/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production" kindref="compound">JMovies.IMDb.Entities.PrivateAPI.Production</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="d7/dcc/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_country_info" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/dcc/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_country_info" kindref="compound">CountryInfo</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonPropertyName(</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="d7/dcc/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_country_info_1a16b71a3f08853a3ce5eaa8239c6e5ec2" kindref="member">ID</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonPropertyName(</highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="d7/dcc/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_country_info_1a28c17a4595ac61990ddc0093f5c0f635" kindref="member">Description</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/Production/CountryInfo.cs"/>
+  </compounddef>
+</doxygen>

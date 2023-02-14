@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::OfficialSite</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.OfficialSite.Title</definition>
         <argsstring></argsstring>
         <name>Title</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.OfficialSite.Title</qualifiedname>
         <briefdescription>
-<para>Title of the official website </para>
+<para>Title of the official website. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.OfficialSite.URL</definition>
         <argsstring></argsstring>
         <name>URL</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.OfficialSite.URL</qualifiedname>
         <briefdescription>
-<para>URL of the official website </para>
+<para>URL of the official website. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -33,11 +35,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of an Official Site </para>
+<para>Class definition of an Official Site. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="14" column="1" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="13" bodyend="26"/>
+    <location file="JMovies.IMDb.Entities/Movies/OfficialSite.cs" line="13" column="11" bodyfile="JMovies.IMDb.Entities/Movies/OfficialSite.cs" bodystart="14" bodyend="26"/>
     <listofallmembers>
       <member refid="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site_1ad7423696e29bd4fa0b58f6cb5a6afb44" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::OfficialSite</scope><name>Title</name></member>
       <member refid="d6/d4b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_official_site_1ae26703c2d9d9dd41352b0900fad90f23" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::OfficialSite</scope><name>URL</name></member>

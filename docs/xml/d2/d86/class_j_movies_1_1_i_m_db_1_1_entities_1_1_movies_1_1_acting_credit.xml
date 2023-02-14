@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::ActingCredit</compoundname>
     <basecompoundref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Credit</basecompoundref>
@@ -9,8 +9,9 @@
         <definition>virtual ICollection&lt;Character&gt; JMovies.IMDb.Entities.Movies.ActingCredit.Characters</definition>
         <argsstring></argsstring>
         <name>Characters</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ActingCredit.Characters</qualifiedname>
         <briefdescription>
-<para>Characters played by the actor/actress </para>
+<para>Characters played by the actor/actress. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25,8 +26,9 @@
         <definition>JMovies.IMDb.Entities.Movies.ActingCredit.ActingCredit</definition>
         <argsstring>()</argsstring>
         <name>ActingCredit</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ActingCredit.ActingCredit</qualifiedname>
         <briefdescription>
-<para>Default constructor </para>
+<para>Default constructor. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,7 +38,7 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of an Acting <ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref> </para>
+<para>Class definition of an Acting Credit. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -64,7 +66,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="10" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="9" bodyend="24"/>
+    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="9" column="11" bodyfile="JMovies.IMDb.Entities/Movies/ActingCredit.cs" bodystart="10" bodyend="24"/>
     <listofallmembers>
       <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a9f883450f802f80e26273e2dfa4a9c31" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>ActingCredit</name></member>
       <member refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit_1a1a9f42130829627e3c4885455d22be4e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::ActingCredit</scope><name>Characters</name></member>

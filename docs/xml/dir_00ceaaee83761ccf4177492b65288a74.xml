@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_00ceaaee83761ccf4177492b65288a74" kind="dir">
+    <compoundname>JMovies.IMDb.Entities/PrivateAPI/Production</compoundname>
+    <innerfile refid="dd/d92/_a_k_a_data_8cs">AKAData.cs</innerfile>
+    <innerfile refid="d0/d57/_a_k_a_node_8cs">AKANode.cs</innerfile>
+    <innerfile refid="d7/d77/_a_k_as_edge_8cs">AKAsEdge.cs</innerfile>
+    <innerfile refid="d9/dea/_country_info_8cs">CountryInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/Production/"/>
+  </compounddef>
+</doxygen>

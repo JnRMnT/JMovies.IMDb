@@ -1083,6 +1083,106 @@
             The production that person is credited in
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.APIData">
+            <summary>
+            Class Definition of a private API Response
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.APIData.ProductionData">
+            <summary>
+            Production Data property
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.APIResponse">
+            <summary>
+            Class Definition of a private API Response
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.APIResponse.Data">
+            <summary>
+            Main Data property
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.DisplayableProperty">
+            <summary>
+            Class Definition of a private Displayable Property
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.DisplayableProperty.Value">
+            <summary>
+            Value of a displayable property
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.DisplayablePropertyValue">
+            <summary>
+            Class Definition of a private Displayable Property Value
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.DisplayablePropertyValue.PlainText">
+            <summary>
+            Plain Text Value of a displayable property
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.ProductionData">
+            <summary>
+            Class Definition of a private Production Data
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.ProductionData.AKAsData">
+            <summary>
+            AKAs property
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.Production.AKAData">
+            <summary>
+            Class Definition of a private Production AKA Data
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.Production.AKAData.AKAEdges">
+            <summary>
+            Edges property
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.Production.AKANode">
+            <summary>
+            Class Definition of a private Production AKA Node
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.Production.AKANode.Country">
+            <summary>
+            Country of the AKA
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.Production.AKANode.DisplayableProperty">
+            <summary>
+            Displayable Property of the AKA
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.Production.AKAsEdge">
+            <summary>
+            Class Definition of a private Production AKAs Edge
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.Production.AKAsEdge.AKANode">
+            <summary>
+            Node property
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.PrivateAPI.Production.CountryInfo">
+            <summary>
+            Class Definition of a private API Country Info
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.Production.CountryInfo.ID">
+            <summary>
+            Identifier of the country
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.PrivateAPI.Production.CountryInfo.Description">
+            <summary>
+            Description/Title of the country
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Settings.BaseDataFetchSettings">
             <summary>
             Base settings class common to both productions and persons
@@ -1091,6 +1191,12 @@
         <member name="P:JMovies.IMDb.Entities.Settings.BaseDataFetchSettings.PreferredCulture">
             <summary>
             Preferred culture for fetching data (where applicable)
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.BaseDataFetchSettings.FetchPrivateData">
+            <summary>
+            Toggles fetching private data available through normally user-click on the website.
+            DISCLAIMER: Use this only on private projects. Usage of these APIs are not allowed for non-private purposes.
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Settings.PersonDataFetchSettings">
@@ -1142,6 +1248,12 @@
             </summary>
             <returns>Builder for more chaining</returns>
         </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.WithPrivateData">
+            <summary>
+            Enables fetching private data
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
         <member name="M:JMovies.IMDb.Entities.Settings.PersonFetchSettingsBuilder.Build">
             <summary>
             Builds a person data fetch settings based on the chained properties
@@ -1161,6 +1273,11 @@
         <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings.FetchImageContents">
             <summary>
             Do not fetch image contents
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings.FetchPrivateData">
+            <summary>
+            Do not fetch private data
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings">
@@ -1188,6 +1305,11 @@
             Do not fetch the cast
             </summary>
         </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchPrivateData">
+            <summary>
+            Do not fetch private data
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings">
             <summary>
             A preset of data fetch settings that fetches all the data available for persons
@@ -1206,6 +1328,11 @@
         <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.MediaImagesFetchCount">
             <summary>
             Fetch 25 media images
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullPersonDataFetchSettings.FetchPrivateData">
+            <summary>
+            Do not fetch private data
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings">
@@ -1231,6 +1358,11 @@
         <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings.CastFetchCount">
             <summary>
             Fetch all cast
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Settings.Presets.FullProductionDataFetchSettings.FetchPrivateData">
+            <summary>
+            Do not fetch private data
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings">
@@ -1290,6 +1422,12 @@
         <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithPreferredCulture(System.String)">
             <summary>
             Enables fetching with a preferred culture
+            </summary>
+            <returns>Builder for more chaining</returns>
+        </member>
+        <member name="M:JMovies.IMDb.Entities.Settings.ProductionFetchSettingsBuilder.WithPrivateData">
+            <summary>
+            Enables fetching private data
             </summary>
             <returns>Builder for more chaining</returns>
         </member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Keyword</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Keyword.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Keyword.ID</qualifiedname>
         <briefdescription>
-<para>Primary Key </para>
+<para>Primary Key. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Keyword.Value</definition>
         <argsstring></argsstring>
         <name>Value</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Keyword.Value</qualifiedname>
         <briefdescription>
-<para><ref refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kindref="compound">Keyword</ref> name </para>
+<para>Keyword name. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,8 +38,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Keyword.Identifier</definition>
         <argsstring></argsstring>
         <name>Identifier</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Keyword.Identifier</qualifiedname>
         <briefdescription>
-<para>Unique Identifier of a keyword </para>
+<para>Unique Identifier of a keyword. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -50,8 +53,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Keyword.ProductionID</definition>
         <argsstring></argsstring>
         <name>ProductionID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Keyword.ProductionID</qualifiedname>
         <briefdescription>
-<para>Reference field for <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+<para>Reference field for Production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -61,11 +65,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of a keyword related to a title </para>
+<para>Class definition of a keyword related to a title. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Keyword.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Keyword.cs" bodystart="15" bodyend="42"/>
+    <location file="JMovies.IMDb.Entities/Movies/Keyword.cs" line="15" column="11" bodyfile="JMovies.IMDb.Entities/Movies/Keyword.cs" bodystart="16" bodyend="42"/>
     <listofallmembers>
       <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1aed938b38a746bc88e826ea2c1e4456d6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Keyword</scope><name>ID</name></member>
       <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1afd95dad2dab9943f8dd10b90da0c18d3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Keyword</scope><name>Identifier</name></member>

@@ -14,5 +14,10 @@
         /// Do not fetch image contents
         /// </summary>
         public override bool FetchImageContents { get => false; }
+
+        /// <summary>
+        /// Do not fetch private data
+        /// </summary>
+        public override bool FetchPrivateData { get => false; }
     }
 }

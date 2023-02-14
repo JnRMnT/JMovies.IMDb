@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings \- A preset of settings to fetch only basic production data  
+JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings \- A preset of settings to fetch only basic production data\&.  
 
 .SH SYNOPSIS
 .br
@@ -15,43 +15,59 @@ Inherits \fBJMovies\&.IMDb\&.Entities\&.Settings\&.ProductionDataFetchSettings\f
 .ti -1c
 .RI "override bool \fBFetchDetailedCast\fP\fC [get]\fP"
 .br
-.RI "Do not fetch detailed cast "
+.RI "Do not fetch detailed cast\&. "
 .ti -1c
 .RI "override bool \fBFetchImageContents\fP\fC [get]\fP"
 .br
-.RI "Do not fetch image contents "
+.RI "Do not fetch image contents\&. "
 .ti -1c
 .RI "override int \fBMediaImagesFetchCount\fP\fC [get]\fP"
 .br
-.RI "Do not fetch media images "
+.RI "Do not fetch media images\&. "
 .ti -1c
 .RI "override int \fBCastFetchCount\fP\fC [get]\fP"
 .br
-.RI "Do not fetch the cast "
+.RI "Do not fetch the cast\&. "
+.ti -1c
+.RI "override bool \fBFetchPrivateData\fP\fC [get]\fP"
+.br
+.RI "Do not fetch private data\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Settings\&.ProductionDataFetchSettings\fP
+.in +1c
+.ti -1c
+.RI "virtual bool \fBFetchDetailedCast\fP\fC [get, set]\fP"
+.br
+.RI "Should the detailed cast info be fetched? This effects the response time\&. "
+.ti -1c
+.RI "virtual bool \fBFetchImageContents\fP\fC [get, set]\fP"
+.br
+.RI "Should the byte array content of the images be fetched along with URLs\&. "
+.ti -1c
+.RI "virtual int \fBMediaImagesFetchCount\fP\fC [get, set]\fP"
+.br
+.RI "Number of media images to be fetched along with the production\&. "
+.ti -1c
+.RI "virtual int \fBCastFetchCount\fP\fC [get, set]\fP"
+.br
+.RI "Number of cast to be fetched along with the production\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Settings\&.BaseDataFetchSettings\fP
+.in +1c
+.ti -1c
+.RI "virtual string \fBPreferredCulture\fP\fC [get, set]\fP"
+.br
+.RI "Preferred culture for fetching data (where applicable) "
+.ti -1c
+.RI "virtual bool \fBFetchPrivateData\fP\fC [get, set]\fP"
+.br
+.RI "Toggles fetching private data available through normally user-click on the website\&. DISCLAIMER: Use this only on private projects\&. Usage of these APIs are not allowed for non-private purposes\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-A preset of settings to fetch only basic production data 
-
-
-.SH "Property Documentation"
-.PP 
-.SS "override int JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.BasicProductionDataFetchSettings\&.CastFetchCount\fC [get]\fP"
-
-.PP
-Do not fetch the cast 
-.SS "override bool JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.BasicProductionDataFetchSettings\&.FetchDetailedCast\fC [get]\fP"
-
-.PP
-Do not fetch detailed cast 
-.SS "override bool JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.BasicProductionDataFetchSettings\&.FetchImageContents\fC [get]\fP"
-
-.PP
-Do not fetch image contents 
-.SS "override int JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.BasicProductionDataFetchSettings\&.MediaImagesFetchCount\fC [get]\fP"
-
-.PP
-Do not fetch media images 
+A preset of settings to fetch only basic production data\&. 
 
 .SH "Author"
 .PP 

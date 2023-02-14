@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d4/df8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_data" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::PrivateAPI::ProductionData</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d4/df8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_data_1a80ae9d4794119e506203b9adff663dba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/d67/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_a_k_a_data" kindref="compound">AKAData</ref></type>
+        <definition>AKAData JMovies.IMDb.Entities.PrivateAPI.ProductionData.AKAsData</definition>
+        <argsstring></argsstring>
+        <name>AKAsData</name>
+        <qualifiedname>JMovies.IMDb.Entities.PrivateAPI.ProductionData.AKAsData</qualifiedname>
+        <briefdescription>
+<para>AKAs property. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/PrivateAPI/ProductionData.cs" line="15" column="24" bodyfile="JMovies.IMDb.Entities/PrivateAPI/ProductionData.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class Definition of a private Production Data. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/ProductionData.cs" line="9" column="11" bodyfile="JMovies.IMDb.Entities/PrivateAPI/ProductionData.cs" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d4/df8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_data_1a80ae9d4794119e506203b9adff663dba" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::PrivateAPI::ProductionData</scope><name>AKAsData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

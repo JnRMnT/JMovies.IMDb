@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dir_24966a62453017c829ed4f8559016590" kind="dir">
     <compoundname>JMovies.IMDb/obj/Release</compoundname>
     <innerdir refid="dir_d5fcee89b3d023476aacb3ad51b82957">JMovies.IMDb/obj/Release/netstandard2.0</innerdir>

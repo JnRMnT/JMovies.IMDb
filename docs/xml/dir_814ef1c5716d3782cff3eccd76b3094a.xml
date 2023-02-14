@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_814ef1c5716d3782cff3eccd76b3094a" kind="dir">
+    <compoundname>JMovies.IMDb.Entities/PrivateAPI</compoundname>
+    <innerdir refid="dir_00ceaaee83761ccf4177492b65288a74">JMovies.IMDb.Entities/PrivateAPI/Production</innerdir>
+    <innerfile refid="d9/dc9/_a_p_i_data_8cs">APIData.cs</innerfile>
+    <innerfile refid="db/d84/_a_p_i_response_8cs">APIResponse.cs</innerfile>
+    <innerfile refid="da/de4/_displayable_property_8cs">DisplayableProperty.cs</innerfile>
+    <innerfile refid="d3/dfc/_displayable_property_value_8cs">DisplayablePropertyValue.cs</innerfile>
+    <innerfile refid="d8/d99/_production_data_8cs">ProductionData.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/"/>
+  </compounddef>
+</doxygen>

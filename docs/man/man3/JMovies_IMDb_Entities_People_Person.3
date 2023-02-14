@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Entities.People.Person" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.People.Person" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.People.Person \- Class definition of a person  
+JMovies.IMDb.Entities.People.Person \- Class definition of a person\&.  
 
 .SH SYNOPSIS
 .br
@@ -15,139 +15,71 @@ Inherited by \fBJMovies\&.IMDb\&.Entities\&.People\&.Actor\fP\&.
 .ti -1c
 .RI "long \fBID\fP\fC [get, set]\fP"
 .br
-.RI "Primary Key "
+.RI "Primary Key\&. "
 .ti -1c
 .RI "virtual \fBPersonTypeEnum\fP \fBPersonType\fP\fC [get, set]\fP"
 .br
-.RI "Type of the underlining person "
+.RI "Type of the underlining person\&. "
 .ti -1c
 .RI "long \fBIMDbID\fP\fC [get, set]\fP"
 .br
-.RI "\fBIMDb\fP ID of the person "
+.RI "IMDb ID of the person\&. "
 .ti -1c
 .RI "string \fBFullName\fP\fC [get, set]\fP"
 .br
-.RI "Full Name of the person "
+.RI "Full Name of the person\&. "
 .ti -1c
 .RI "virtual \fBImage\fP \fBPrimaryImage\fP\fC [get, set]\fP"
 .br
-.RI "Main image of the person "
+.RI "Main image of the person\&. "
 .ti -1c
 .RI "long? \fBPrimaryImageID\fP\fC [get, set]\fP"
 .br
-.RI "Reference field for the Primary Image "
+.RI "Reference field for the Primary Image\&. "
 .ti -1c
 .RI "ICollection< \fBCreditRoleType\fP > \fBRoles\fP\fC [get, set]\fP"
 .br
-.RI "Roles of the person "
+.RI "Roles of the person\&. "
 .ti -1c
 .RI "DateTime? \fBBirthDate\fP\fC [get, set]\fP"
 .br
-.RI "Birth Date of the person "
+.RI "Birth Date of the person\&. "
 .ti -1c
 .RI "string \fBBirthPlace\fP\fC [get, set]\fP"
 .br
-.RI "Birth Place of the person "
+.RI "Birth Place of the person\&. "
 .ti -1c
 .RI "string \fBBirthName\fP\fC [get, set]\fP"
 .br
-.RI "Birth Place of the person "
+.RI "Birth Place of the person\&. "
 .ti -1c
 .RI "\fBLength\fP \fBHeight\fP\fC [get, set]\fP"
 .br
-.RI "Height of the person "
+.RI "Height of the person\&. "
 .ti -1c
 .RI "string \fBNickName\fP\fC [get, set]\fP"
 .br
-.RI "NickName of the person "
+.RI "NickName of the person\&. "
 .ti -1c
 .RI "string \fBMiniBiography\fP\fC [get, set]\fP"
 .br
-.RI "Mini Biography of the person "
+.RI "Mini Biography of the person\&. "
 .ti -1c
 .RI "virtual ICollection< \fBImage\fP > \fBPhotos\fP\fC [get, set]\fP"
 .br
-.RI "Available Photos of the person "
+.RI "Available Photos of the person\&. "
 .ti -1c
 .RI "virtual ICollection< \fBProductionCredit\fP > \fBKnownFor\fP\fC [get, set]\fP"
 .br
-.RI "Known credits of the person "
+.RI "Known credits of the person\&. "
 .ti -1c
 .RI "\fBGenderEnum\fP \fBGender\fP\fC [get, set]\fP"
 .br
-.RI "Gender of the person "
+.RI "Gender of the person\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Class definition of a person 
-
-
-.SH "Property Documentation"
-.PP 
-.SS "DateTime? JMovies\&.IMDb\&.Entities\&.People\&.Person\&.BirthDate\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Birth Date of the person 
-.SS "string JMovies\&.IMDb\&.Entities\&.People\&.Person\&.BirthName\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Birth Place of the person 
-.SS "string JMovies\&.IMDb\&.Entities\&.People\&.Person\&.BirthPlace\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Birth Place of the person 
-.SS "string JMovies\&.IMDb\&.Entities\&.People\&.Person\&.FullName\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Full Name of the person 
-.SS "\fBGenderEnum\fP JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Gender\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Gender of the person 
-.SS "\fBLength\fP JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Height\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Height of the person 
-.SS "long JMovies\&.IMDb\&.Entities\&.People\&.Person\&.ID\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Primary Key 
-.SS "long JMovies\&.IMDb\&.Entities\&.People\&.Person\&.IMDbID\fC [get]\fP, \fC [set]\fP"
-
-.PP
-\fBIMDb\fP ID of the person 
-.SS "virtual ICollection<\fBProductionCredit\fP> JMovies\&.IMDb\&.Entities\&.People\&.Person\&.KnownFor\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Known credits of the person 
-.SS "string JMovies\&.IMDb\&.Entities\&.People\&.Person\&.MiniBiography\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Mini Biography of the person 
-.SS "string JMovies\&.IMDb\&.Entities\&.People\&.Person\&.NickName\fC [get]\fP, \fC [set]\fP"
-
-.PP
-NickName of the person 
-.SS "virtual \fBPersonTypeEnum\fP JMovies\&.IMDb\&.Entities\&.People\&.Person\&.PersonType\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Type of the underlining person 
-.SS "virtual ICollection<\fBImage\fP> JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Photos\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Available Photos of the person 
-.SS "virtual \fBImage\fP JMovies\&.IMDb\&.Entities\&.People\&.Person\&.PrimaryImage\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Main image of the person 
-.SS "long? JMovies\&.IMDb\&.Entities\&.People\&.Person\&.PrimaryImageID\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Reference field for the Primary Image 
-.SS "ICollection<\fBCreditRoleType\fP> JMovies\&.IMDb\&.Entities\&.People\&.Person\&.Roles\fC [get]\fP, \fC [set]\fP"
-
-.PP
-Roles of the person 
+Class definition of a person\&. 
 
 .SH "Author"
 .PP 

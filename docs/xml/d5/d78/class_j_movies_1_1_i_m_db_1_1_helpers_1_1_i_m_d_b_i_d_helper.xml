@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::IMDBIDHelper</compoundname>
       <sectiondef kind="public-static-func">
@@ -8,12 +8,13 @@
         <definition>static ? long JMovies.IMDb.Helpers.IMDBIDHelper.GetIDFromUrl</definition>
         <argsstring>(string url)</argsstring>
         <name>GetIDFromUrl</name>
+        <qualifiedname>JMovies.IMDb.Helpers.IMDBIDHelper.GetIDFromUrl</qualifiedname>
         <param>
           <type>string</type>
           <declname>url</declname>
         </param>
         <briefdescription>
-<para>Method responsible for getting <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID from a URL </para>
+<para>Method responsible for getting IMDb ID from a URL. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -25,7 +26,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>Detected <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID</para>
+<simplesect kind="return"><para>Detected IMDb ID</para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -38,12 +39,13 @@
         <definition>static string JMovies.IMDb.Helpers.IMDBIDHelper.GetPaddedIMDBId</definition>
         <argsstring>(long id)</argsstring>
         <name>GetPaddedIMDBId</name>
+        <qualifiedname>JMovies.IMDb.Helpers.IMDBIDHelper.GetPaddedIMDBId</qualifiedname>
         <param>
           <type>long</type>
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>Returns 7 or 8 digit padded IMDB ID </para>
+<para>Returns 7 or 8 digit padded IMDB ID. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -65,11 +67,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class responsible for providing utility methods related to IMDB ID related operations </para>
+<para>Class responsible for providing utility methods related to IMDB ID related operations. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="10" column="1" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="9" bodyend="39"/>
+    <location file="JMovies.IMDb/Helpers/IMDbIDHelper.cs" line="9" column="11" bodyfile="JMovies.IMDb/Helpers/IMDbIDHelper.cs" bodystart="10" bodyend="39"/>
     <listofallmembers>
       <member refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a21d626b4353f5b005f86eb298c3b2150" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBIDHelper</scope><name>GetIDFromUrl</name></member>
       <member refid="d5/d78/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_i_d_helper_1a18e61f2a11a3f09218d0c154234c9b02" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBIDHelper</scope><name>GetPaddedIMDBId</name></member>

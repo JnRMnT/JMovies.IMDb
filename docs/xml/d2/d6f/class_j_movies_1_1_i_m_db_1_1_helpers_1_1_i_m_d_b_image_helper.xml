@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Helpers::IMDBImageHelper</compoundname>
       <sectiondef kind="public-static-func">
@@ -8,12 +8,13 @@
         <definition>static string JMovies.IMDb.Helpers.IMDBImageHelper.NormalizeImageUrl</definition>
         <argsstring>(string url)</argsstring>
         <name>NormalizeImageUrl</name>
+        <qualifiedname>JMovies.IMDb.Helpers.IMDBImageHelper.NormalizeImageUrl</qualifiedname>
         <param>
           <type>string</type>
           <declname>url</declname>
         </param>
         <briefdescription>
-<para>Class responsible for normalizing image urls within <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>. By default <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> uses a handler to return cropped versions of the images. This method ensures it returns the raw image. </para>
+<para>Class responsible for normalizing image urls within IMDb. By default IMDb uses a handler to return cropped versions of the images. This method ensures it returns the raw image. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -31,19 +32,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/IMDBImageHelper.cs" line="21" column="30" bodyfile="JMovies.IMDb/Helpers/IMDBImageHelper.cs" bodystart="21" bodyend="24"/>
+        <location file="JMovies.IMDb/Helpers/IMDBImageHelper.cs" line="16" column="30" bodyfile="JMovies.IMDb/Helpers/IMDBImageHelper.cs" bodystart="16" bodyend="24"/>
       </memberdef>
-      <memberdef kind="function" id="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1ad43f2355fabeca590af5c28f694092d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1aad901b0dd7a6eaaaf3973e8bcd8323eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>byte[]</type>
-        <definition>static byte [] JMovies.IMDb.Helpers.IMDBImageHelper.GetImageContent</definition>
+        <definition>static byte[] JMovies.IMDb.Helpers.IMDBImageHelper.GetImageContent</definition>
         <argsstring>(string url)</argsstring>
         <name>GetImageContent</name>
+        <qualifiedname>JMovies.IMDb.Helpers.IMDBImageHelper.GetImageContent</qualifiedname>
         <param>
           <type>string</type>
           <declname>url</declname>
         </param>
         <briefdescription>
-<para>Fetches the content of an image using its URL </para>
+<para>Fetches the content of an image using its URL. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -65,13 +67,13 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class responsible for providing utility methods related to Image related operations for <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> </para>
+<para>Class responsible for providing utility methods related to Image related operations for IMDb. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/IMDBImageHelper.cs" line="15" column="1" bodyfile="JMovies.IMDb/Helpers/IMDBImageHelper.cs" bodystart="14" bodyend="38"/>
+    <location file="JMovies.IMDb/Helpers/IMDBImageHelper.cs" line="9" column="11" bodyfile="JMovies.IMDb/Helpers/IMDBImageHelper.cs" bodystart="10" bodyend="38"/>
     <listofallmembers>
-      <member refid="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1ad43f2355fabeca590af5c28f694092d2" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBImageHelper</scope><name>GetImageContent</name></member>
+      <member refid="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1aad901b0dd7a6eaaaf3973e8bcd8323eb" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBImageHelper</scope><name>GetImageContent</name></member>
       <member refid="d2/d6f/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_i_m_d_b_image_helper_1a4832f5acf7f7742be3789d2ba486c822" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::IMDBImageHelper</scope><name>NormalizeImageUrl</name></member>
     </listofallmembers>
   </compounddef>

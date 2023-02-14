@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Settings::Presets::BasicProductionDataFetchSettings</compoundname>
     <basecompoundref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings</basecompoundref>
@@ -9,8 +9,9 @@
         <definition>override bool JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchDetailedCast</definition>
         <argsstring></argsstring>
         <name>FetchDetailedCast</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchDetailedCast</qualifiedname>
         <briefdescription>
-<para>Do not fetch detailed cast </para>
+<para>Do not fetch detailed cast. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -23,8 +24,9 @@
         <definition>override bool JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchImageContents</definition>
         <argsstring></argsstring>
         <name>FetchImageContents</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchImageContents</qualifiedname>
         <briefdescription>
-<para>Do not fetch image contents </para>
+<para>Do not fetch image contents. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -37,8 +39,9 @@
         <definition>override int JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.MediaImagesFetchCount</definition>
         <argsstring></argsstring>
         <name>MediaImagesFetchCount</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.MediaImagesFetchCount</qualifiedname>
         <briefdescription>
-<para>Do not fetch media images </para>
+<para>Do not fetch media images. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -51,8 +54,9 @@
         <definition>override int JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.CastFetchCount</definition>
         <argsstring></argsstring>
         <name>CastFetchCount</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.CastFetchCount</qualifiedname>
         <briefdescription>
-<para>Do not fetch the cast </para>
+<para>Do not fetch the cast. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -60,22 +64,37 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" line="26" column="29" bodyfile="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" bodystart="26" bodyend="26"/>
       </memberdef>
+      <memberdef kind="property" id="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1a1cba3fe3aae6ca0b55512dd37989ede0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchPrivateData</definition>
+        <argsstring></argsstring>
+        <name>FetchPrivateData</name>
+        <qualifiedname>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings.FetchPrivateData</qualifiedname>
+        <briefdescription>
+<para>Do not fetch private data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" line="31" column="30" bodyfile="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
-<para>A preset of settings to fetch only basic production data </para>
+<para>A preset of settings to fetch only basic production data. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+      <node id="3">
+        <label>BaseDataFetchSettings</label>
+        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
+      </node>
       <node id="1">
         <label>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings</label>
         <link refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="3">
-        <label>BaseDataFetchSettings</label>
-        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
       </node>
       <node id="2">
         <label>ProductionDataFetchSettings</label>
@@ -85,15 +104,15 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="3">
+        <label>BaseDataFetchSettings</label>
+        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
+      </node>
       <node id="1">
         <label>JMovies.IMDb.Entities.Settings.Presets.BasicProductionDataFetchSettings</label>
         <link refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
-      </node>
-      <node id="3">
-        <label>BaseDataFetchSettings</label>
-        <link refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings"/>
       </node>
       <node id="2">
         <label>ProductionDataFetchSettings</label>
@@ -102,11 +121,12 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" line="7" column="1" bodyfile="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" bodystart="6" bodyend="27"/>
+    <location file="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" line="6" column="11" bodyfile="JMovies.IMDb.Entities/Settings/Presets/BasicProductionDataFetchSettings.cs" bodystart="7" bodyend="32"/>
     <listofallmembers>
       <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1aba4b875dc23f812426c1d290201887e9" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::BasicProductionDataFetchSettings</scope><name>CastFetchCount</name></member>
       <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1a7e0c1ef42b84e2f8035ee2caf8b7aa52" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::BasicProductionDataFetchSettings</scope><name>FetchDetailedCast</name></member>
       <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1a32e703b19f613c0bdf3064ec81696fd9" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::BasicProductionDataFetchSettings</scope><name>FetchImageContents</name></member>
+      <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1a1cba3fe3aae6ca0b55512dd37989ede0" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::BasicProductionDataFetchSettings</scope><name>FetchPrivateData</name></member>
       <member refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings_1ab274284418c863d0b23e608255f8cd16" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::BasicProductionDataFetchSettings</scope><name>MediaImagesFetchCount</name></member>
       <member refid="d8/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_base_data_fetch_settings_1a3787b118a1d61271d20c26dcf38370b5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Settings::Presets::BasicProductionDataFetchSettings</scope><name>PreferredCulture</name></member>
     </listofallmembers>

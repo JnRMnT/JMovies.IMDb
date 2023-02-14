@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings \- A preset of settings to fetch only basic person data  
+JMovies.IMDb.Entities.Settings.Presets.BasicPersonDataFetchSettings \- A preset of settings to fetch only basic person data\&.  
 
 .SH SYNOPSIS
 .br
@@ -15,27 +15,47 @@ Inherits \fBJMovies\&.IMDb\&.Entities\&.Settings\&.PersonDataFetchSettings\fP\&.
 .ti -1c
 .RI "override bool \fBFetchBioPage\fP\fC [get]\fP"
 .br
-.RI "Do not fetch the bio page "
+.RI "Do not fetch the bio page\&. "
 .ti -1c
 .RI "override bool \fBFetchImageContents\fP\fC [get]\fP"
 .br
-.RI "Do not fetch image contents "
+.RI "Do not fetch image contents\&. "
+.ti -1c
+.RI "override bool \fBFetchPrivateData\fP\fC [get]\fP"
+.br
+.RI "Do not fetch private data\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Settings\&.PersonDataFetchSettings\fP
+.in +1c
+.ti -1c
+.RI "virtual bool \fBFetchBioPage\fP\fC [get, set]\fP"
+.br
+.RI "Should the Bio Page details be also fetched? This effects the response time\&. "
+.ti -1c
+.RI "virtual bool \fBFetchImageContents\fP\fC [get, set]\fP"
+.br
+.RI "Should the byte array content of the images be fetched along with URLs\&. "
+.ti -1c
+.RI "virtual int \fBMediaImagesFetchCount\fP\fC [get, set]\fP"
+.br
+.RI "Number of media images to be fetched along with the person\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Settings\&.BaseDataFetchSettings\fP
+.in +1c
+.ti -1c
+.RI "virtual string \fBPreferredCulture\fP\fC [get, set]\fP"
+.br
+.RI "Preferred culture for fetching data (where applicable) "
+.ti -1c
+.RI "virtual bool \fBFetchPrivateData\fP\fC [get, set]\fP"
+.br
+.RI "Toggles fetching private data available through normally user-click on the website\&. DISCLAIMER: Use this only on private projects\&. Usage of these APIs are not allowed for non-private purposes\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-A preset of settings to fetch only basic person data 
-
-
-.SH "Property Documentation"
-.PP 
-.SS "override bool JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.BasicPersonDataFetchSettings\&.FetchBioPage\fC [get]\fP"
-
-.PP
-Do not fetch the bio page 
-.SS "override bool JMovies\&.IMDb\&.Entities\&.Settings\&.Presets\&.BasicPersonDataFetchSettings\&.FetchImageContents\fC [get]\fP"
-
-.PP
-Do not fetch image contents 
+A preset of settings to fetch only basic person data\&. 
 
 .SH "Author"
 .PP 

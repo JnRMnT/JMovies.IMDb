@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
-  <compounddef id="de/d38/namespace_j_m_1_1_entities_1_1_interfaces" kind="namespace" language="Unknown">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="de/d38/namespace_j_m_1_1_entities_1_1_interfaces" kind="namespace" language="C#">
     <compoundname>JM::Entities::Interfaces</compoundname>
     <briefdescription>
     </briefdescription>

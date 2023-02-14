@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Budget</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Budget.Description</definition>
         <argsstring></argsstring>
         <name>Description</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Budget.Description</qualifiedname>
         <briefdescription>
-<para>Description related to the budget information </para>
+<para>Description related to the budget information. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>Amount JMovies.IMDb.Entities.Movies.Budget.Amount</definition>
         <argsstring></argsstring>
         <name>Amount</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Budget.Amount</qualifiedname>
         <briefdescription>
-<para>Amount of the budget of the title </para>
+<para>Amount of the budget of the title. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -33,11 +35,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of <ref refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" kindref="compound">Budget</ref> of a Title </para>
+<para>Class definition of Budget of a Title. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Budget.cs" line="15" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Budget.cs" bodystart="14" bodyend="27"/>
+    <location file="JMovies.IMDb.Entities/Movies/Budget.cs" line="14" column="11" bodyfile="JMovies.IMDb.Entities/Movies/Budget.cs" bodystart="15" bodyend="27"/>
     <listofallmembers>
       <member refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget_1af16503be577fce69616f94353913c97c" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Budget</scope><name>Amount</name></member>
       <member refid="d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget_1aef390608d1ea78789da9bfc2b00ced24" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Budget</scope><name>Description</name></member>

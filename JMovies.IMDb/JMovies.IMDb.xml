@@ -183,12 +183,13 @@
             Helper Class responsible for parsing the Release Info Page
             </summary>
         </member>
-        <member name="M:JMovies.IMDb.Helpers.Movies.ReleaseInfoPageHelper.Parse(JMovies.IMDb.Entities.Movies.Movie,HtmlAgilityPack.HtmlDocument)">
+        <member name="M:JMovies.IMDb.Helpers.Movies.ReleaseInfoPageHelper.Parse(JMovies.IMDb.Entities.Movies.Movie,HtmlAgilityPack.HtmlDocument,JMovies.IMDb.Entities.Settings.ProductionDataFetchSettings)">
             <summary>
             Parses the Release Info Page and persists the data on Movie instance
             </summary>
             <param name="movie">Movie object to be populated</param>
             <param name="releaseInfoPageDocument">HTML Document of the Release Info Page</param>
+            <param name="settings">Object containing Data Fetch settings</param>
         </member>
         <member name="T:JMovies.IMDb.Helpers.Movies.SummaryCastHelper">
             <summary>

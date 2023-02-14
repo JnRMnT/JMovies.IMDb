@@ -1,8 +1,9 @@
-.TH "md__r_e_a_d_m_e" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "md__r_e_a_d_m_e" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
 md__r_e_a_d_m_e \- \fBJMovies\&.IMDb\fP 
+.PP
 
 .SS "JMovies IMDb Data Provider Library"
 \fC\fP  
@@ -37,7 +38,7 @@ Movie movie = imdbDataProvider\&.GetMovie(232500, new FullProductionDataFetchSet
 IIMDbDataProvider imdbDataProvider = new IMDbScraperDataProvider();
 Entities\&.Movies\&.Movie movie = imdbDataProvider\&.GetMovie(232500, new BasicProductionDataFetchSettings
 {
-    PreferredCulture = "tr-TR"
+    PreferredCulture = "tr\-TR"
 }); // https://www\&.imdb\&.com/title/tt0232500/
 
 .fi

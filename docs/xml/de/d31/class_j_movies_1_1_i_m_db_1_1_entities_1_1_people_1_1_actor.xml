@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::People::Actor</compoundname>
     <basecompoundref refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" prot="public" virt="non-virtual">JMovies.IMDb.Entities.People.Person</basecompoundref>
@@ -9,8 +9,9 @@
         <definition>override PersonTypeEnum JMovies.IMDb.Entities.People.Actor.PersonType</definition>
         <argsstring></argsstring>
         <name>PersonType</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Actor.PersonType</qualifiedname>
         <briefdescription>
-<para>Overriden property of PersonType that returns <ref refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" kindref="compound">Actor</ref> always </para>
+<para>Overriden property of PersonType that returns Actor always. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -20,35 +21,35 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of an actor </para>
+<para>Class definition of an actor. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="2">
-        <label>Person</label>
-        <link refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person"/>
-      </node>
       <node id="1">
         <label>JMovies.IMDb.Entities.People.Actor</label>
         <link refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="2">
+        <label>Person</label>
+        <link refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="2">
-        <label>Person</label>
-        <link refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person"/>
-      </node>
       <node id="1">
         <label>JMovies.IMDb.Entities.People.Actor</label>
         <link refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="2">
+        <label>Person</label>
+        <link refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person"/>
+      </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/People/Actor.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/People/Actor.cs" bodystart="12" bodyend="18"/>
+    <location file="JMovies.IMDb.Entities/People/Actor.cs" line="12" column="11" bodyfile="JMovies.IMDb.Entities/People/Actor.cs" bodystart="13" bodyend="18"/>
     <listofallmembers>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a9fb64a2bfa647bdfb293ae06e9056708" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>BirthDate</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a7ebe473f5a42c1b20fd49b001a4159b4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Actor</scope><name>BirthName</name></member>

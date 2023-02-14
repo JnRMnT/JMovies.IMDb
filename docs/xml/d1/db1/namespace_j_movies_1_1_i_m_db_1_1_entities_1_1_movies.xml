@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies" kind="namespace" language="C#">
     <compoundname>JMovies::IMDb::Entities::Movies</compoundname>
     <innerclass refid="d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" prot="public">JMovies::IMDb::Entities::Movies::ActingCredit</innerclass>
@@ -26,10 +26,11 @@
       <memberdef kind="enum" id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983" prot="public" static="no" strong="yes">
         <type></type>
         <name>CharacterTypeEnum</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.CharacterTypeEnum</qualifiedname>
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983a76a40e4f974fd895a0a2598c1cee28b4" prot="public">
           <name>Character</name>
           <briefdescription>
-<para>A generic character </para>
+<para>A generic character. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -37,27 +38,28 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983a204218120eae5e7d0324e95489547cc3" prot="public">
           <name>TVCharacter</name>
           <briefdescription>
-<para>A TV <ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref> </para>
+<para>A TV Character. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Class definition of a character type </para>
+<para>Class definition of a character type. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/CharacterTypeEnum.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Movies/CharacterTypeEnum.cs" bodystart="10" bodyend="20"/>
+        <location file="JMovies.IMDb.Entities/Movies/CharacterTypeEnum.cs" line="10" column="11" bodyfile="JMovies.IMDb.Entities/Movies/CharacterTypeEnum.cs" bodystart="11" bodyend="20"/>
       </memberdef>
       <memberdef kind="enum" id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734e" prot="public" static="no" strong="yes">
         <type></type>
         <name>CreditRoleType</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.CreditRoleType</qualifiedname>
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734eaec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
           <name>Undefined</name>
           <briefdescription>
-<para>Default Value of <ref refid="d1/de8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_credit" kindref="compound">Credit</ref> Role </para>
+<para>Default Value of Credit Role. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -65,7 +67,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734ea7c5ba892645af8d7dba520e3978c726f" prot="public">
           <name>Director</name>
           <briefdescription>
-<para>Director role in a title </para>
+<para>Director role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -73,7 +75,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734ea8753f70d7deb979607ef691619fe4bf7" prot="public">
           <name>Acting</name>
           <briefdescription>
-<para>Acting role in a title </para>
+<para>Acting role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -81,7 +83,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734eabbad3d307be077bacf6e77b0520db65f" prot="public">
           <name>Writer</name>
           <briefdescription>
-<para>Writer role in a title </para>
+<para>Writer role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -89,7 +91,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734eaef1d00d8a237a1bbe431e1091f5715fb" prot="public">
           <name>Creator</name>
           <briefdescription>
-<para>Creator role in a title </para>
+<para>Creator role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -97,7 +99,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734eaa6ad87aadc206f6491720e309821904a" prot="public">
           <name>Producer</name>
           <briefdescription>
-<para>Producer role in a title </para>
+<para>Producer role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -105,7 +107,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734eabcba235aa0401fd10464df6afbfaab77" prot="public">
           <name>Composer</name>
           <briefdescription>
-<para>Composer role in a title </para>
+<para>Composer role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -113,7 +115,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734ea04bfd357a4f2b34c452573a991bf4c79" prot="public">
           <name>MusicDepartment</name>
           <briefdescription>
-<para>Part of a Music Department </para>
+<para>Part of a Music Department. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -121,7 +123,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734ea1cc84619677de81ee6e44149845270a3" prot="public">
           <name>Actor</name>
           <briefdescription>
-<para>Actor role in a title </para>
+<para>Actor role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -129,27 +131,28 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1a493b6b8166288891e7590f0a9d2a734ea3a51b9f846ba725cbd963dc9adc3b304" prot="public">
           <name>Actress</name>
           <briefdescription>
-<para>Actress role in a title </para>
+<para>Actress role in a title. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Enumeration of Role Types in a credit </para>
+<para>Enumeration of Role Types in a credit. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/CreditRoleType.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/CreditRoleType.cs" bodystart="12" bodyend="54"/>
+        <location file="JMovies.IMDb.Entities/Movies/CreditRoleType.cs" line="12" column="11" bodyfile="JMovies.IMDb.Entities/Movies/CreditRoleType.cs" bodystart="13" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" prot="public" static="no" strong="yes">
         <type></type>
         <name>ProductionTypeEnum</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.ProductionTypeEnum</qualifiedname>
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286aec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
           <name>Undefined</name>
           <briefdescription>
-<para>Default <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> Type </para>
+<para>Default Production Type. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -157,7 +160,7 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286a1526e0ac850c241ee1631d9ad5664475" prot="public">
           <name>Movie</name>
           <briefdescription>
-<para><ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kindref="compound">Movie</ref> </para>
+<para>Movie. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -165,25 +168,25 @@
         <enumvalue id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286a1e7eff20317ac0bfef8d4284e72a4052" prot="public">
           <name>TVSeries</name>
           <briefdescription>
-<para>TV Series </para>
+<para>TV Series. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Enumeration of <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> Types </para>
+<para>Enumeration of Production Types. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Entities/Movies/ProductionTypeEnum.cs" line="13" column="1" bodyfile="JMovies.IMDb.Entities/Movies/ProductionTypeEnum.cs" bodystart="12" bodyend="26"/>
+        <location file="JMovies.IMDb.Entities/Movies/ProductionTypeEnum.cs" line="12" column="11" bodyfile="JMovies.IMDb.Entities/Movies/ProductionTypeEnum.cs" bodystart="13" bodyend="26"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="5" column="1"/>
+    <location file="JMovies.IMDb.Entities/Movies/ActingCredit.cs" line="4" column="1"/>
   </compounddef>
 </doxygen>

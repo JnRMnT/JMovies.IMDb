@@ -24,5 +24,10 @@
         /// Do not fetch the cast
         /// </summary>
         public override int CastFetchCount { get => 0; }
+
+        /// <summary>
+        /// Do not fetch private data
+        /// </summary>
+        public override bool FetchPrivateData { get => false; }
     }
 }

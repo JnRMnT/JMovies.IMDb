@@ -1,47 +1,141 @@
-.TH "JMovies.IMDb.Entities.Movies.TVSeries" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Entities.Movies.TVSeries" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Entities.Movies.TVSeries \- Class definition of TV Series  
+JMovies.IMDb.Entities.Movies.TVSeries \- Class definition of TV Series\&.  
 
 .SH SYNOPSIS
 .br
 .PP
 .PP
 Inherits \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Movie\fP\&.
-.SS "Public Attributes"
-
-.in +1c
-.ti -1c
-.RI "override \fBProductionTypeEnum\fP \fBProductionType\fP => \fBProductionTypeEnum\&.TVSeries\fP"
-.br
-.RI "Type of the production "
-.in -1c
 .SS "Properties"
 
 .in +1c
 .ti -1c
 .RI "int? \fBEndYear\fP\fC [get, set]\fP"
 .br
-.RI "End Year of the series "
+.RI "End Year of the series\&. "
+.ti -1c
+.RI "override \fBProductionTypeEnum\fP \fBProductionType\fP\fC [get]\fP"
+.br
+.RI "Type of the production\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Movie\fP
+.in +1c
+.ti -1c
+.RI "string \fBOriginalTitle\fP\fC [get, set]\fP"
+.br
+.RI "Original Title of the movie\&. "
+.ti -1c
+.RI "string \fBPlotSummary\fP\fC [get, set]\fP"
+.br
+.RI "Plot Summary of the movie\&. "
+.ti -1c
+.RI "string \fBStoryLine\fP\fC [get, set]\fP"
+.br
+.RI "Story Line of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBCredit\fP > \fBCredits\fP\fC [get, set]\fP"
+.br
+.RI "Credits of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBTagLine\fP > \fBTagLines\fP\fC [get, set]\fP"
+.br
+.RI "Tag Lines of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBKeyword\fP > \fBKeywords\fP\fC [get, set]\fP"
+.br
+.RI "Keywords of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBGenre\fP > \fBGenres\fP\fC [get, set]\fP"
+.br
+.RI "Genres of the movie\&. "
+.ti -1c
+.RI "ICollection< \fBOfficialSite\fP > \fBOfficialSites\fP\fC [get, set]\fP"
+.br
+.RI "Official Sites of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBProductionCountry\fP > \fBCountries\fP\fC [get, set]\fP"
+.br
+.RI "Countries of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBProductionLanguage\fP > \fBLanguages\fP\fC [get, set]\fP"
+.br
+.RI "Languages of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBReleaseDate\fP > \fBReleaseDates\fP\fC [get, set]\fP"
+.br
+.RI "Release dates of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBAKA\fP > \fBAKAs\fP\fC [get, set]\fP"
+.br
+.RI "Alternative names of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< string > \fBFilmingLocations\fP\fC [get, set]\fP"
+.br
+.RI "Filming Locations of the movie\&. "
+.ti -1c
+.RI "\fBBudget\fP \fBBudget\fP\fC [get, set]\fP"
+.br
+.RI "Budget of the movie\&. "
+.ti -1c
+.RI "virtual ICollection< \fBCompany\fP > \fBProductionCompanies\fP\fC [get, set]\fP"
+.br
+.RI "Production Companies of the movie\&. "
+.ti -1c
+.RI "TimeSpan \fBRuntime\fP\fC [get, set]\fP"
+.br
+.RI "Length of the movie\&. "
+.ti -1c
+.RI "override \fBProductionTypeEnum\fP \fBProductionType\fP\fC [get]\fP"
+.br
+.RI "Type of the production\&. "
+.in -1c
+
+Properties inherited from \fBJMovies\&.IMDb\&.Entities\&.Movies\&.Production\fP
+.in +1c
+.ti -1c
+.RI "long \fBID\fP\fC [get, set]\fP"
+.br
+.RI "Primary key of a production\&. "
+.ti -1c
+.RI "long \fBIMDbID\fP\fC [get, set]\fP"
+.br
+.RI "IMDb ID of the production\&. "
+.ti -1c
+.RI "string \fBTitle\fP\fC [get, set]\fP"
+.br
+.RI "Title of the production\&. "
+.ti -1c
+.RI "int \fBYear\fP\fC [get, set]\fP"
+.br
+.RI "Production Year\&. "
+.ti -1c
+.RI "virtual \fBRating\fP \fBRating\fP\fC [get, set]\fP"
+.br
+.RI "Current Rating of the production\&. "
+.ti -1c
+.RI "virtual \fBImage\fP \fBPoster\fP\fC [get, set]\fP"
+.br
+.RI "Poster of the production\&. "
+.ti -1c
+.RI "long? \fBPosterID\fP\fC [get, set]\fP"
+.br
+.RI "Reference field for the Poster\&. "
+.ti -1c
+.RI "virtual ICollection< \fBImage\fP > \fBMediaImages\fP\fC [get, set]\fP"
+.br
+.RI "Media images related with the production\&. "
+.ti -1c
+.RI "virtual \fBProductionTypeEnum\fP \fBProductionType\fP\fC [get, set]\fP"
+.br
+.RI "Type of the Production\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Class definition of TV Series 
-
-
-.SH "Member Data Documentation"
-.PP 
-.SS "override \fBProductionTypeEnum\fP JMovies\&.IMDb\&.Entities\&.Movies\&.TVSeries\&.ProductionType => \fBProductionTypeEnum\&.TVSeries\fP"
-
-.PP
-Type of the production 
-.SH "Property Documentation"
-.PP 
-.SS "int? JMovies\&.IMDb\&.Entities\&.Movies\&.TVSeries\&.EndYear\fC [get]\fP, \fC [set]\fP"
-
-.PP
-End Year of the series 
+Class definition of TV Series\&. 
 
 .SH "Author"
 .PP 

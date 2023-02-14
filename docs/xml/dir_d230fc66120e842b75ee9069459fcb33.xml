@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dir_d230fc66120e842b75ee9069459fcb33" kind="dir">
     <compoundname>JMovies.IMDb/Helpers/People</compoundname>
     <innerfile refid="d6/d92/_bio_page_helper_8cs">BioPageHelper.cs</innerfile>

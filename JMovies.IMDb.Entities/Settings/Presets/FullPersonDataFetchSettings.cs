@@ -19,5 +19,10 @@
         /// Fetch 25 media images
         /// </summary>
         public override int MediaImagesFetchCount { get => int.MaxValue; }
+
+        /// <summary>
+        /// Do not fetch private data
+        /// </summary>
+        public override bool FetchPrivateData { get => false; }
     }
 }

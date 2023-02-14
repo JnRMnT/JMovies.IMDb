@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d0/dd8/namespace_j_movies_1_1_i_m_db_1_1_helpers" kind="namespace" language="C#">
     <compoundname>JMovies::IMDb::Helpers</compoundname>
     <innerclass refid="d1/d23/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_html_helper" prot="public">JMovies::IMDb::Helpers::HtmlHelper</innerclass>
@@ -12,6 +12,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/HtmlHelper.cs" line="7" column="1"/>
+    <location file="JMovies.IMDb/Helpers/HtmlHelper.cs" line="6" column="1"/>
   </compounddef>
 </doxygen>

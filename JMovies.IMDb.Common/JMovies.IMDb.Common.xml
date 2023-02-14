@@ -419,6 +419,17 @@
             Regex that matches the rating value out of rating JSON
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Common.Extensions.BaseDataFetchSettingsExtensions">
+            <summary>
+            Provides extension methods for the BasicDataFetchSettings type of objects
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Common.Extensions.BaseDataFetchSettingsExtensions.GetActiveCulture(JMovies.IMDb.Entities.Settings.BaseDataFetchSettings)">
+            <summary>
+            Gets the active culture if one preferred or the default
+            </summary>
+            <returns>The active culture (preferred or default)</returns>
+        </member>
         <member name="T:AmountExtensions">
             <summary>
             Class responsible for providing Extensions related to Amounts

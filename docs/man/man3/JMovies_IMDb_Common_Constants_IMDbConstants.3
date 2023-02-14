@@ -1,8 +1,8 @@
-.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Thu Jul 28 2022" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Common.Constants.IMDbConstants" 3 "Tue Feb 14 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definitions that are related to \fBIMDb\fP  
+JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definitions that are related to IMDb\&.  
 
 .SH SYNOPSIS
 .br
@@ -13,627 +13,315 @@ JMovies.IMDb.Common.Constants.IMDbConstants \- Class that holds constant definit
 .ti -1c
 .RI "static readonly int \fBHttpMaxRetryCount\fP = 5"
 .br
-.RI "Max Retry Count for HTTP Calls "
+.RI "Max Retry Count for HTTP Calls\&. "
 .ti -1c
 .RI "static readonly int \fBHttpRetrySleepTime\fP = 1000"
 .br
-.RI "Sleep duration in ms to be waited if an exception occurs during Http calls "
+.RI "Sleep duration in ms to be waited if an exception occurs during Http calls\&. "
 .ti -1c
 .RI "static readonly int \fBIMDbIDExtendedLength\fP = 8"
 .br
-.RI "Length of the Extended \fBIMDb\fP IDs "
+.RI "Length of the Extended IMDb IDs\&. "
 .ti -1c
 .RI "static readonly int \fBIMDbIDLength\fP = 7"
 .br
-.RI "Length of the \fBIMDb\fP IDs "
+.RI "Length of the IMDb IDs\&. "
 .ti -1c
 .RI "static readonly string \fBDefaultScrapingCulture\fP = 'en\-US'"
 .br
-.RI "Default culture to be used while screen scraping "
+.RI "Default culture to be used while screen scraping\&. "
 .ti -1c
 .RI "static readonly string \fBBaseURL\fP = 'https://www\&.imdb\&.com/'"
 .br
-.RI "Base URL of the \fBIMDb\fP website "
+.RI "Base URL of the IMDb website\&. "
 .ti -1c
 .RI "static readonly string \fBMoviesPath\fP = 'title/'"
 .br
-.RI "Path of the movies page "
+.RI "Path of the movies page\&. "
 .ti -1c
 .RI "static readonly string \fBMovieIDPrefix\fP = 'tt'"
 .br
-.RI "Prefix of the movie IDs "
+.RI "Prefix of the movie IDs\&. "
 .ti -1c
 .RI "static readonly string \fBPersonsPath\fP = 'name/'"
 .br
-.RI "Path of the person page "
+.RI "Path of the person page\&. "
 .ti -1c
 .RI "static readonly string \fBPersonIDPrefix\fP = 'nm'"
 .br
-.RI "Prefix of the person IDs "
+.RI "Prefix of the person IDs\&. "
 .ti -1c
 .RI "static readonly string \fBCharactersPath\fP = 'characters/'"
 .br
-.RI "Path of the characters page "
+.RI "Path of the characters page\&. "
 .ti -1c
 .RI "static readonly string \fBKeywordsPath\fP = 'keyword'"
 .br
-.RI "Path of the keywords page "
+.RI "Path of the keywords page\&. "
 .ti -1c
 .RI "static readonly string \fBCompanyIDPrefix\fP = 'co'"
 .br
-.RI "Prefix of Company IDs "
+.RI "Prefix of Company IDs\&. "
 .ti -1c
 .RI "static readonly string \fBCompaniesPath\fP = 'company/'"
 .br
-.RI "Path of the companies page "
+.RI "Path of the companies page\&. "
 .ti -1c
 .RI "static readonly string \fBFullCreditsPath\fP = 'fullcredits/'"
 .br
-.RI "Path of the Full Credits page "
+.RI "Path of the Full Credits page\&. "
 .ti -1c
 .RI "static readonly string \fBReleaseInfoPath\fP = 'releaseinfo/'"
 .br
-.RI "Path of the Release Info page "
+.RI "Path of the Release Info page\&. "
 .ti -1c
 .RI "static readonly string \fBPhotoGalleryPath\fP = 'mediaindex/'"
 .br
-.RI "Path of the Photo Gallery Page "
+.RI "Path of the Photo Gallery Page\&. "
 .ti -1c
 .RI "static readonly string \fBTVSeriesOgType\fP = 'video\&.tv_show'"
 .br
-.RI "Type indicator for TV Series "
+.RI "Type indicator for TV Series\&. "
 .ti -1c
 .RI "static readonly string \fBBioPagePath\fP = 'bio/'"
 .br
-.RI "Path of Bio page "
+.RI "Path of Bio page\&. "
 .ti -1c
 .RI "static readonly string \fBStar\fP = 'Star'"
 .br
-.RI "Text of Star title "
+.RI "Text of Star title\&. "
 .ti -1c
 .RI "static readonly string \fBDirector\fP = 'Director'"
 .br
-.RI "Text of Director title "
+.RI "Text of Director title\&. "
 .ti -1c
 .RI "static readonly string \fBDirectedBy\fP = 'Directed By'"
 .br
-.RI "Text of Directed by title "
+.RI "Text of Directed by title\&. "
 .ti -1c
 .RI "static readonly string \fBWriter\fP = 'Writer'"
 .br
-.RI "Text of Writer title "
+.RI "Text of Writer title\&. "
 .ti -1c
 .RI "static readonly string \fBCreator\fP = 'Creator'"
 .br
-.RI "Text of Creator title "
+.RI "Text of Creator title\&. "
 .ti -1c
 .RI "static readonly string \fBTagline\fP = 'Tagline'"
 .br
-.RI "Text of Taglines title "
+.RI "Text of Taglines title\&. "
 .ti -1c
 .RI "static readonly string \fBGenre\fP = 'Genre'"
 .br
-.RI "Text of Genre title "
+.RI "Text of Genre title\&. "
 .ti -1c
 .RI "static readonly string \fBOfficialSite\fP = 'Official Site'"
 .br
-.RI "Text of Official Site title "
+.RI "Text of Official Site title\&. "
 .ti -1c
 .RI "static readonly string \fBCountryOfOriginFilterName\fP = 'country_of_origin'"
 .br
-.RI "Filter name of 'Country Of Origin' "
+.RI "Filter name of 'Country Of Origin'\&. "
 .ti -1c
 .RI "static readonly string \fBLanguage\fP = 'Language'"
 .br
-.RI "Text of Language title "
+.RI "Text of Language title\&. "
 .ti -1c
 .RI "static readonly string \fBPrimaryLanguageFilterName\fP = 'primary_language'"
 .br
-.RI "Filter name of 'Primary Language' "
+.RI "Filter name of 'Primary Language'\&. "
 .ti -1c
 .RI "static readonly string \fBReleaseDate\fP = 'Release Date'"
 .br
-.RI "Text of Release Date title "
+.RI "Text of Release Date title\&. "
 .ti -1c
 .RI "static readonly string \fBAKA\fP = 'Also Known As'"
 .br
-.RI "Text of AKAs title "
+.RI "Text of AKAs title\&. "
 .ti -1c
 .RI "static readonly string \fBFilmingLocation\fP = 'Filming Location'"
 .br
-.RI "Text of Filming Location title "
+.RI "Text of Filming Location title\&. "
 .ti -1c
 .RI "static readonly string \fBLocationsFilterName\fP = 'locations'"
 .br
-.RI "Filter name of 'Locations' "
+.RI "Filter name of 'Locations'\&. "
 .ti -1c
 .RI "static readonly string \fBBudget\fP = 'Budget'"
 .br
-.RI "Text of Budget title "
+.RI "Text of Budget title\&. "
 .ti -1c
 .RI "static readonly string \fBProductionCompany\fP = 'Production Co'"
 .br
-.RI "Text of Production Company title "
+.RI "Text of Production Company title\&. "
 .ti -1c
 .RI "static readonly string \fBRuntime\fP = 'Runtime'"
 .br
-.RI "Text of Runtime title "
+.RI "Text of Runtime title\&. "
 .ti -1c
 .RI "const string \fBBioOverviewBirthName\fP = 'Birth Name'"
 .br
-.RI "Bio Page - Overview Section - Birth Name Title "
+.RI "Bio Page - Overview Section - Birth Name Title\&. "
 .ti -1c
 .RI "const string \fBBioOverviewBirthInfo\fP = 'Born'"
 .br
-.RI "Bio Page - Overview Section - Birth Information Title "
+.RI "Bio Page - Overview Section - Birth Information Title\&. "
 .ti -1c
 .RI "const string \fBBioOverviewHeight\fP = 'Height'"
 .br
-.RI "Bio Page - Overview Section - Height Title "
+.RI "Bio Page - Overview Section - Height Title\&. "
 .ti -1c
 .RI "const string \fBBioOverviewNickName\fP = 'Nickname'"
 .br
-.RI "Bio Page - Overview Section - NickName Title "
+.RI "Bio Page - Overview Section - NickName Title\&. "
 .ti -1c
 .RI "static readonly string \fBActorCategoryName\fP = 'actor'"
 .br
-.RI "Actor Filmography Category Name "
+.RI "Actor Filmography Category Name\&. "
 .ti -1c
 .RI "static readonly string \fBActressCategoryName\fP = 'actress'"
 .br
-.RI "Actress Filmography Category Name "
+.RI "Actress Filmography Category Name\&. "
 .ti -1c
 .RI "static readonly string \fBEmptyPlotText\fP = 'Add a plot'"
 .br
-.RI "Empty text to be checked to determine if there is no plot "
+.RI "Empty text to be checked to determine if there is no plot\&. "
 .ti -1c
 .RI "static readonly Regex \fBProductionTitleMatcherRegex\fP = new Regex(@'\\/title\\/tt(\\d+)\\/')"
 .br
-.RI "Regex that matches the title "
+.RI "Regex that matches the title\&. "
 .ti -1c
 .RI "static readonly Regex \fBStarsSummaryRegex\fP = new Regex(\fBStar\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the stars section in Movie Summary "
+.RI "Regex that matches the stars section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBDirectorsSummaryRegex\fP = new Regex(\fBDirector\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the directors section in Movie Summary "
+.RI "Regex that matches the directors section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBWritersSummaryRegex\fP = new Regex(\fBWriter\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the writers section in Movie Summary "
+.RI "Regex that matches the writers section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBCreatorsSummaryRegex\fP = new Regex(\fBCreator\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the creators section in Movie Summary "
+.RI "Regex that matches the creators section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBPersonIDURLMatcher\fP = new Regex(Regex\&.Escape(\fBPersonsPath\fP) + \fBPersonIDPrefix\fP + @'(\\d+)', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Person ID from URL "
+.RI "Regex that matches the Person ID from URL\&. "
 .ti -1c
 .RI "static readonly Regex \fBMovieYearRegex\fP = new Regex(@'\\s*(\\d{4})[–\-]?(\\d{4})?\\s*')"
 .br
-.RI "Regex that matches the movie year in the Movie page "
+.RI "Regex that matches the movie year in the Movie page\&. "
 .ti -1c
 .RI "static readonly Regex \fBCharacterRegex\fP = new Regex(\fBCharactersPath\fP + \fBPersonIDPrefix\fP + @'(\\d+)\&.*?')"
 .br
-.RI "Regex that matches the character \fBIMDb\fP ID "
+.RI "Regex that matches the character IMDb ID\&. "
 .ti -1c
 .RI "static readonly Regex \fBTaglinesSummaryRegex\fP = new Regex(\fBTagline\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the tag lines section in Movie Summary "
+.RI "Regex that matches the tag lines section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBKeywordLinkRegex\fP = new Regex(\fBKeywordsPath\fP + @'[\\/?]{1,2}keywords=(\&.+)&', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the keywords section in Movie Summary "
+.RI "Regex that matches the keywords section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBGenresSummaryRegex\fP = new Regex(\fBGenre\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the genres section in Movie Summary "
+.RI "Regex that matches the genres section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBGenreLinkRegex\fP = new Regex(@'title[/\\\\]\\?genres=(\&.+?)[&\\\\'']', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches a specific Genre Link "
+.RI "Regex that matches a specific Genre Link\&. "
 .ti -1c
 .RI "static readonly Regex \fBOfficialSitesHeaderRegex\fP = new Regex(\fBOfficialSite\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Official Sites section in Movie Summary "
+.RI "Regex that matches the Official Sites section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBCountriesHeaderRegex\fP = new Regex('Countr[y]?(ies)?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the countries section in Movie Summary "
+.RI "Regex that matches the countries section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBCountryOfOriginRegex\fP = new Regex(\fBCountryOfOriginFilterName\fP + '=(\&.+?)[&\\']', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Country Of Origin section in Movie Summary "
+.RI "Regex that matches the Country Of Origin section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBLanguagesHeaderRegex\fP = new Regex(\fBLanguage\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Languages section in Movie Summary "
+.RI "Regex that matches the Languages section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBPrimaryLanguageRegex\fP = new Regex(\fBPrimaryLanguageFilterName\fP + '=(\&.+?)[&\\']', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Primary Language section in Movie Summary "
+.RI "Regex that matches the Primary Language section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBReleaseDateHeaderRegex\fP = new Regex(\fBReleaseDate\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Release Date section in Movie Summary "
+.RI "Regex that matches the Release Date section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBReleaseDateCountryIdentifierRegex\fP = new Regex(@'region=(\&.+?)&', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the Country Identifier of a Release Date "
+.RI "Regex that matches the Country Identifier of a Release Date\&. "
 .ti -1c
 .RI "static readonly Regex \fBAKAHeaderRegex\fP = new Regex(\fBAKA\fP + ':?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the AKAs section in Movie Summary "
+.RI "Regex that matches the AKAs section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBFilmingLocationsHeaderRegex\fP = new Regex(\fBFilmingLocation\fP + '[s]?:?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the filming locations section in Movie Summary "
+.RI "Regex that matches the filming locations section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBLocationsLinkRegex\fP = new Regex(\fBLocationsFilterName\fP + '=\&.+\\'>(\&.+)<\\\\/a>', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the locations section in Movie Summary "
+.RI "Regex that matches the locations section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBBudgetHeaderRegex\fP = new Regex(\fBBudget\fP + ':?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the budget section in Movie Summary "
+.RI "Regex that matches the budget section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBProductionCompanyHeaderRegex\fP = new Regex(\fBProductionCompany\fP + ':?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the production company section in Movie Summary "
+.RI "Regex that matches the production company section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBProductionCompanyLinkRegex\fP = new Regex(\fBCompaniesPath\fP + \fBCompanyIDPrefix\fP + @'(\\d+)\&.*?')"
 .br
-.RI "Regex that matches the production company link "
+.RI "Regex that matches the production company link\&. "
 .ti -1c
 .RI "static readonly Regex \fBRuntimeHeaderRegex\fP = new Regex(\fBRuntime\fP + ':?', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the runtime length section in Movie Summary "
+.RI "Regex that matches the runtime length section in Movie Summary\&. "
 .ti -1c
 .RI "static readonly Regex \fBCharacterEpisodeInfoRegex\fP = new Regex(@'\\n*\\s*\\(?(\\d+)\\s+eps\\s+•\\s+(\\d+)[\\\-–]?(\\d*)', RegexOptions\&.IgnoreCase)"
 .br
-.RI "Regex that matches the epsidoe info of a character "
+.RI "Regex that matches the epsidoe info of a character\&. "
 .ti -1c
 .RI "static readonly Regex \fBBioHeightRegex\fP = new Regex(@'\\((\\d\\\&.\\d{1,2})\&.*m\\)')"
 .br
-.RI "Regex that matches the height of a person in Bio page "
+.RI "Regex that matches the height of a person in Bio page\&. "
 .ti -1c
 .RI "static readonly Regex \fBIMDBIDRegex\fP = new Regex('(' + \fBMovieIDPrefix\fP + '|' + \fBPersonIDPrefix\fP + '|' + \fBCompanyIDPrefix\fP + @')(\\d+)')"
 .br
-.RI "Resource indipendent \fBIMDb\fP ID matcher regex "
+.RI "Resource indipendent IMDb ID matcher regex\&. "
 .ti -1c
 .RI "static readonly Regex \fBCreditYearRegex\fP = new Regex(@'(\\d{4})(\\/\\w)?[–\-]?(\\d{4})?(\\/\\w)?')"
 .br
-.RI "Regex that matches the credit year "
+.RI "Regex that matches the credit year\&. "
 .ti -1c
 .RI "static readonly Regex \fBRatingJSONLDMatcher\fP = new Regex(@'{''@type'':''AggregateRating''\&.+?}')"
 .br
-.RI "Regex that matches the rating out of context JSON "
+.RI "Regex that matches the rating out of context JSON\&. "
 .ti -1c
 .RI "static readonly Regex \fBRatingCountMatcher\fP = new Regex(@'''ratingCount''\\s*:\\s*(\\d+)')"
 .br
-.RI "Regex that matches the rating count out of rating JSON "
+.RI "Regex that matches the rating count out of rating JSON\&. "
 .ti -1c
 .RI "static readonly Regex \fBRatingValueMatcher\fP = new Regex(@'''ratingValue'':([\\d\\\&.,]*)')"
 .br
-.RI "Regex that matches the rating value out of rating JSON "
+.RI "Regex that matches the rating value out of rating JSON\&. "
 .in -1c
 .SH "Detailed Description"
 .PP 
-Class that holds constant definitions that are related to \fBIMDb\fP 
-
-
-.SH "Member Data Documentation"
-.PP 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ActorCategoryName = 'actor'\fC [static]\fP"
-
-.PP
-Actor Filmography Category Name 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ActressCategoryName = 'actress'\fC [static]\fP"
-
-.PP
-Actress Filmography Category Name 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.AKA = 'Also Known As'\fC [static]\fP"
-
-.PP
-Text of AKAs title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.AKAHeaderRegex = new Regex(\fBAKA\fP + ':?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the AKAs section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BaseURL = 'https://www\&.imdb\&.com/'\fC [static]\fP"
-
-.PP
-Base URL of the \fBIMDb\fP website 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BioHeightRegex = new Regex(@'\\((\\d\\\&.\\d{1,2})\&.*m\\)')\fC [static]\fP"
-
-.PP
-Regex that matches the height of a person in Bio page 
-.SS "const string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BioOverviewBirthInfo = 'Born'\fC [static]\fP"
-
-.PP
-Bio Page - Overview Section - Birth Information Title 
-.SS "const string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BioOverviewBirthName = 'Birth Name'\fC [static]\fP"
-
-.PP
-Bio Page - Overview Section - Birth Name Title 
-.SS "const string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BioOverviewHeight = 'Height'\fC [static]\fP"
-
-.PP
-Bio Page - Overview Section - Height Title 
-.SS "const string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BioOverviewNickName = 'Nickname'\fC [static]\fP"
-
-.PP
-Bio Page - Overview Section - NickName Title 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BioPagePath = 'bio/'\fC [static]\fP"
-
-.PP
-Path of Bio page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Budget = 'Budget'\fC [static]\fP"
-
-.PP
-Text of Budget title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.BudgetHeaderRegex = new Regex(\fBBudget\fP + ':?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the budget section in Movie Summary 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CharacterEpisodeInfoRegex = new Regex(@'\\n*\\s*\\(?(\\d+)\\s+eps\\s+•\\s+(\\d+)[\\\-–]?(\\d*)', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the epsidoe info of a character 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CharacterRegex = new Regex(\fBCharactersPath\fP + \fBPersonIDPrefix\fP + @'(\\d+)\&.*?')\fC [static]\fP"
-
-.PP
-Regex that matches the character \fBIMDb\fP ID 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CharactersPath = 'characters/'\fC [static]\fP"
-
-.PP
-Path of the characters page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CompaniesPath = 'company/'\fC [static]\fP"
-
-.PP
-Path of the companies page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CompanyIDPrefix = 'co'\fC [static]\fP"
-
-.PP
-Prefix of Company IDs 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CountriesHeaderRegex = new Regex('Countr[y]?(ies)?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the countries section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CountryOfOriginFilterName = 'country_of_origin'\fC [static]\fP"
-
-.PP
-Filter name of 'Country Of Origin' 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CountryOfOriginRegex = new Regex(\fBCountryOfOriginFilterName\fP + '=(\&.+?)[&\\']', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the Country Of Origin section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Creator = 'Creator'\fC [static]\fP"
-
-.PP
-Text of Creator title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CreatorsSummaryRegex = new Regex(\fBCreator\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the creators section in Movie Summary 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.CreditYearRegex = new Regex(@'(\\d{4})(\\/\\w)?[–\-]?(\\d{4})?(\\/\\w)?')\fC [static]\fP"
-
-.PP
-Regex that matches the credit year 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.DefaultScrapingCulture = 'en\-US'\fC [static]\fP"
-
-.PP
-Default culture to be used while screen scraping 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.DirectedBy = 'Directed By'\fC [static]\fP"
-
-.PP
-Text of Directed by title 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Director = 'Director'\fC [static]\fP"
-
-.PP
-Text of Director title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.DirectorsSummaryRegex = new Regex(\fBDirector\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the directors section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.EmptyPlotText = 'Add a plot'\fC [static]\fP"
-
-.PP
-Empty text to be checked to determine if there is no plot 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.FilmingLocation = 'Filming Location'\fC [static]\fP"
-
-.PP
-Text of Filming Location title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.FilmingLocationsHeaderRegex = new Regex(\fBFilmingLocation\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the filming locations section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.FullCreditsPath = 'fullcredits/'\fC [static]\fP"
-
-.PP
-Path of the Full Credits page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Genre = 'Genre'\fC [static]\fP"
-
-.PP
-Text of Genre title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.GenreLinkRegex = new Regex(@'title[/\\\\]\\?genres=(\&.+?)[&\\\\'']', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches a specific Genre Link 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.GenresSummaryRegex = new Regex(\fBGenre\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the genres section in Movie Summary 
-.SS "readonly int JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.HttpMaxRetryCount = 5\fC [static]\fP"
-
-.PP
-Max Retry Count for HTTP Calls 
-.SS "readonly int JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.HttpRetrySleepTime = 1000\fC [static]\fP"
-
-.PP
-Sleep duration in ms to be waited if an exception occurs during Http calls 
-.SS "readonly int JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.IMDbIDExtendedLength = 8\fC [static]\fP"
-
-.PP
-Length of the Extended \fBIMDb\fP IDs 
-.SS "readonly int JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.IMDbIDLength = 7\fC [static]\fP"
-
-.PP
-Length of the \fBIMDb\fP IDs 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.IMDBIDRegex = new Regex('(' + \fBMovieIDPrefix\fP + '|' + \fBPersonIDPrefix\fP + '|' + \fBCompanyIDPrefix\fP + @')(\\d+)')\fC [static]\fP"
-
-.PP
-Resource indipendent \fBIMDb\fP ID matcher regex 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.KeywordLinkRegex = new Regex(\fBKeywordsPath\fP + @'[\\/?]{1,2}keywords=(\&.+)&', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the keywords section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.KeywordsPath = 'keyword'\fC [static]\fP"
-
-.PP
-Path of the keywords page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Language = 'Language'\fC [static]\fP"
-
-.PP
-Text of Language title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.LanguagesHeaderRegex = new Regex(\fBLanguage\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the Languages section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.LocationsFilterName = 'locations'\fC [static]\fP"
-
-.PP
-Filter name of 'Locations' 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.LocationsLinkRegex = new Regex(\fBLocationsFilterName\fP + '=\&.+\\'>(\&.+)<\\\\/a>', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the locations section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.MovieIDPrefix = 'tt'\fC [static]\fP"
-
-.PP
-Prefix of the movie IDs 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.MoviesPath = 'title/'\fC [static]\fP"
-
-.PP
-Path of the movies page 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.MovieYearRegex = new Regex(@'\\s*(\\d{4})[–\-]?(\\d{4})?\\s*')\fC [static]\fP"
-
-.PP
-Regex that matches the movie year in the Movie page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.OfficialSite = 'Official Site'\fC [static]\fP"
-
-.PP
-Text of Official Site title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.OfficialSitesHeaderRegex = new Regex(\fBOfficialSite\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the Official Sites section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PersonIDPrefix = 'nm'\fC [static]\fP"
-
-.PP
-Prefix of the person IDs 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PersonIDURLMatcher = new Regex(Regex\&.Escape(\fBPersonsPath\fP) + \fBPersonIDPrefix\fP + @'(\\d+)', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the Person ID from URL 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PersonsPath = 'name/'\fC [static]\fP"
-
-.PP
-Path of the person page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PhotoGalleryPath = 'mediaindex/'\fC [static]\fP"
-
-.PP
-Path of the Photo Gallery Page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PrimaryLanguageFilterName = 'primary_language'\fC [static]\fP"
-
-.PP
-Filter name of 'Primary Language' 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.PrimaryLanguageRegex = new Regex(\fBPrimaryLanguageFilterName\fP + '=(\&.+?)[&\\']', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the Primary Language section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ProductionCompany = 'Production Co'\fC [static]\fP"
-
-.PP
-Text of Production Company title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ProductionCompanyHeaderRegex = new Regex(\fBProductionCompany\fP + ':?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the production company section in Movie Summary 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ProductionCompanyLinkRegex = new Regex(\fBCompaniesPath\fP + \fBCompanyIDPrefix\fP + @'(\\d+)\&.*?')\fC [static]\fP"
-
-.PP
-Regex that matches the production company link 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ProductionTitleMatcherRegex = new Regex(@'\\/title\\/tt(\\d+)\\/')\fC [static]\fP"
-
-.PP
-Regex that matches the title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.RatingCountMatcher = new Regex(@'''ratingCount''\\s*:\\s*(\\d+)')\fC [static]\fP"
-
-.PP
-Regex that matches the rating count out of rating JSON 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.RatingJSONLDMatcher = new Regex(@'{''@type'':''AggregateRating''\&.+?}')\fC [static]\fP"
-
-.PP
-Regex that matches the rating out of context JSON 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.RatingValueMatcher = new Regex(@'''ratingValue'':([\\d\\\&.,]*)')\fC [static]\fP"
-
-.PP
-Regex that matches the rating value out of rating JSON 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseDate = 'Release Date'\fC [static]\fP"
-
-.PP
-Text of Release Date title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseDateCountryIdentifierRegex = new Regex(@'region=(\&.+?)&', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the Country Identifier of a Release Date 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseDateHeaderRegex = new Regex(\fBReleaseDate\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the Release Date section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.ReleaseInfoPath = 'releaseinfo/'\fC [static]\fP"
-
-.PP
-Path of the Release Info page 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Runtime = 'Runtime'\fC [static]\fP"
-
-.PP
-Text of Runtime title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.RuntimeHeaderRegex = new Regex(\fBRuntime\fP + ':?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the runtime length section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Star = 'Star'\fC [static]\fP"
-
-.PP
-Text of Star title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.StarsSummaryRegex = new Regex(\fBStar\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the stars section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Tagline = 'Tagline'\fC [static]\fP"
-
-.PP
-Text of Taglines title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.TaglinesSummaryRegex = new Regex(\fBTagline\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the tag lines section in Movie Summary 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.TVSeriesOgType = 'video\&.tv_show'\fC [static]\fP"
-
-.PP
-Type indicator for TV Series 
-.SS "readonly string JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.Writer = 'Writer'\fC [static]\fP"
-
-.PP
-Text of Writer title 
-.SS "readonly Regex JMovies\&.IMDb\&.Common\&.Constants\&.IMDbConstants\&.WritersSummaryRegex = new Regex(\fBWriter\fP + '[s]?:?', RegexOptions\&.IgnoreCase)\fC [static]\fP"
-
-.PP
-Regex that matches the writers section in Movie Summary 
+Class that holds constant definitions that are related to IMDb\&. 
 
 .SH "Author"
 .PP 

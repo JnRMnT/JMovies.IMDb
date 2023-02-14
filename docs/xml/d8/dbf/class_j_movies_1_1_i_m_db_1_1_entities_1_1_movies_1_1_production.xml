@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Production</compoundname>
     <derivedcompoundref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Movie</derivedcompoundref>
@@ -9,8 +9,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Production.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.ID</qualifiedname>
         <briefdescription>
-<para>Primary key of a production </para>
+<para>Primary key of a production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -23,8 +24,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Production.IMDbID</definition>
         <argsstring></argsstring>
         <name>IMDbID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.IMDbID</qualifiedname>
         <briefdescription>
-<para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID of the production </para>
+<para>IMDb ID of the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -37,8 +39,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Production.Title</definition>
         <argsstring></argsstring>
         <name>Title</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.Title</qualifiedname>
         <briefdescription>
-<para>Title of the production </para>
+<para>Title of the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -51,8 +54,9 @@
         <definition>int JMovies.IMDb.Entities.Movies.Production.Year</definition>
         <argsstring></argsstring>
         <name>Year</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.Year</qualifiedname>
         <briefdescription>
-<para><ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> Year </para>
+<para>Production Year. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -65,8 +69,9 @@
         <definition>virtual Rating JMovies.IMDb.Entities.Movies.Production.Rating</definition>
         <argsstring></argsstring>
         <name>Rating</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.Rating</qualifiedname>
         <briefdescription>
-<para>Current <ref refid="dd/de6/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_rating" kindref="compound">Rating</ref> of the production </para>
+<para>Current Rating of the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -79,8 +84,9 @@
         <definition>virtual Image JMovies.IMDb.Entities.Movies.Production.Poster</definition>
         <argsstring></argsstring>
         <name>Poster</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.Poster</qualifiedname>
         <briefdescription>
-<para>Poster of the production </para>
+<para>Poster of the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,8 +99,9 @@
         <definition>long? JMovies.IMDb.Entities.Movies.Production.PosterID</definition>
         <argsstring></argsstring>
         <name>PosterID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.PosterID</qualifiedname>
         <briefdescription>
-<para>Reference field for the Poster </para>
+<para>Reference field for the Poster. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,8 +114,9 @@
         <definition>virtual ICollection&lt;Image&gt; JMovies.IMDb.Entities.Movies.Production.MediaImages</definition>
         <argsstring></argsstring>
         <name>MediaImages</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.MediaImages</qualifiedname>
         <briefdescription>
-<para>Media images related with the production </para>
+<para>Media images related with the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -121,8 +129,9 @@
         <definition>virtual ProductionTypeEnum JMovies.IMDb.Entities.Movies.Production.ProductionType</definition>
         <argsstring></argsstring>
         <name>ProductionType</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Production.ProductionType</qualifiedname>
         <briefdescription>
-<para>Type of the <ref refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production" kindref="compound">Production</ref> </para>
+<para>Type of the Production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -132,17 +141,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Base class of any production </para>
+<para>Base class of any production. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="3">
-        <label>JMovies.IMDb.Entities.Movies.TVSeries</label>
-        <link refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series"/>
-        <childnode refid="2" relation="public-inheritance">
-        </childnode>
-      </node>
       <node id="1">
         <label>JMovies.IMDb.Entities.Movies.Production</label>
         <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
@@ -153,8 +156,14 @@
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="3">
+        <label>JMovies.IMDb.Entities.Movies.TVSeries</label>
+        <link refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
     </inheritancegraph>
-    <location file="JMovies.IMDb.Entities/Movies/Production.cs" line="14" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Production.cs" bodystart="13" bodyend="69"/>
+    <location file="JMovies.IMDb.Entities/Movies/Production.cs" line="13" column="11" bodyfile="JMovies.IMDb.Entities/Movies/Production.cs" bodystart="14" bodyend="69"/>
     <listofallmembers>
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1a53e167728a60e78aac7b03372d7a49c5" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>ID</name></member>
       <member refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production_1aa04f94022c7e169342ea787f84272e34" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Production</scope><name>IMDbID</name></member>

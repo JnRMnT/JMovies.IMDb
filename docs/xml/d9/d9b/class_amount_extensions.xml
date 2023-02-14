@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d9/d9b/class_amount_extensions" kind="class" language="C#" prot="public">
     <compoundname>AmountExtensions</compoundname>
       <sectiondef kind="public-static-func">
@@ -8,12 +8,13 @@
         <definition>static Amount AmountExtensions.ToAmount</definition>
         <argsstring>(this string amountString)</argsstring>
         <name>ToAmount</name>
+        <qualifiedname>AmountExtensions.ToAmount</qualifiedname>
         <param>
           <type>this string</type>
           <declname>amountString</declname>
         </param>
         <briefdescription>
-<para>Parses a string into Amount object </para>
+<para>Parses a string into Amount object. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -35,11 +36,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class responsible for providing Extensions related to Amounts </para>
+<para>Class responsible for providing Extensions related to Amounts. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" line="13" column="1" bodyfile="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" bodystart="12" bodyend="34"/>
+    <location file="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" line="12" column="15" bodyfile="JMovies.IMDb.Common/Extensions/AmountExtensions.cs" bodystart="13" bodyend="34"/>
     <listofallmembers>
       <member refid="d9/d9b/class_amount_extensions_1a86395978d93d57855b408d0520d89efc" prot="public" virt="non-virtual"><scope>AmountExtensions</scope><name>ToAmount</name></member>
     </listofallmembers>

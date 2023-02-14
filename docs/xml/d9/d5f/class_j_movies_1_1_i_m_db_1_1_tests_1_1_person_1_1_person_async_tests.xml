@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d9/d5f/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_async_tests" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Tests::Person::PersonAsyncTests</compoundname>
       <sectiondef kind="private-static-attrib">
@@ -8,9 +8,10 @@
         <definition>readonly long [] JMovies.IMDb.Tests.Person.PersonAsyncTests.personIDsToTest</definition>
         <argsstring></argsstring>
         <name>personIDsToTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Person.PersonAsyncTests.personIDsToTest</qualifiedname>
         <initializer>= new long[] { 18652, 3614913, 5253 }</initializer>
         <briefdescription>
-<para>Static list of <ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> IDs of some persons to be tested </para>
+<para>Static list of IMDb IDs of some persons to be tested. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -25,8 +26,9 @@
         <definition>async Task JMovies.IMDb.Tests.Person.PersonAsyncTests.BasicFetchingTest</definition>
         <argsstring>()</argsstring>
         <name>BasicFetchingTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Person.PersonAsyncTests.BasicFetchingTest</qualifiedname>
         <briefdescription>
-<para>Test that checks if the code is running correctly in async mode </para>
+<para>Test that checks if the code is running correctly in async mode. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para></para>
@@ -42,8 +44,9 @@
         <definition>void JMovies.IMDb.Tests.Person.PersonAsyncTests.NonBlockingTest</definition>
         <argsstring>()</argsstring>
         <name>NonBlockingTest</name>
+        <qualifiedname>JMovies.IMDb.Tests.Person.PersonAsyncTests.NonBlockingTest</qualifiedname>
         <briefdescription>
-<para>Test that checks if the code is running without blocking </para>
+<para>Test that checks if the code is running without blocking. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -53,11 +56,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Test suite designed to test asnyc operations </para>
+<para>Test suite designed to test asnyc operations. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Tests/Person/PersonAsyncTests.cs" line="15" column="1" bodyfile="JMovies.IMDb.Tests/Person/PersonAsyncTests.cs" bodystart="14" bodyend="55"/>
+    <location file="JMovies.IMDb.Tests/Person/PersonAsyncTests.cs" line="14" column="11" bodyfile="JMovies.IMDb.Tests/Person/PersonAsyncTests.cs" bodystart="15" bodyend="55"/>
     <listofallmembers>
       <member refid="d9/d5f/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_async_tests_1a9148078c64023385dca4cc1bfe63c0a6" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Person::PersonAsyncTests</scope><name>BasicFetchingTest</name></member>
       <member refid="d9/d5f/class_j_movies_1_1_i_m_db_1_1_tests_1_1_person_1_1_person_async_tests_1a65ac4794d1cfedd883cb284475982e3e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Tests::Person::PersonAsyncTests</scope><name>NonBlockingTest</name></member>

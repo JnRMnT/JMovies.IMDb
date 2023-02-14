@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dir_1a9dc16cf67625c2e82b44a2372ceddb" kind="dir">
     <compoundname>JMovies.IMDb.Entities</compoundname>
     <innerdir refid="dir_55f61c579dde23e37157bb6415346602">JMovies.IMDb.Entities/Common</innerdir>
@@ -8,6 +8,7 @@
     <innerdir refid="dir_28abb59ce676e667a30dee57ee7264a1">JMovies.IMDb.Entities/Movies</innerdir>
     <innerdir refid="dir_aa4252ba76727ceb40ff9d3cd4ad35dd">JMovies.IMDb.Entities/obj</innerdir>
     <innerdir refid="dir_964746a1a2d60f1c840e04cf4c15bb55">JMovies.IMDb.Entities/People</innerdir>
+    <innerdir refid="dir_814ef1c5716d3782cff3eccd76b3094a">JMovies.IMDb.Entities/PrivateAPI</innerdir>
     <innerdir refid="dir_c405d6b0dfba2521a25a8884a2b27874">JMovies.IMDb.Entities/Settings</innerdir>
     <briefdescription>
     </briefdescription>

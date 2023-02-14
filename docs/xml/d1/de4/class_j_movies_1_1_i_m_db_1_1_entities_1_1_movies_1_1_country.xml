@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::Country</compoundname>
       <sectiondef kind="property">
@@ -8,8 +8,9 @@
         <definition>long JMovies.IMDb.Entities.Movies.Country.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Country.ID</qualifiedname>
         <briefdescription>
-<para>Primary Key </para>
+<para>Primary Key. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -22,8 +23,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Country.Name</definition>
         <argsstring></argsstring>
         <name>Name</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Country.Name</qualifiedname>
         <briefdescription>
-<para>Name of the country </para>
+<para>Name of the country. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -36,8 +38,9 @@
         <definition>string JMovies.IMDb.Entities.Movies.Country.Identifier</definition>
         <argsstring></argsstring>
         <name>Identifier</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.Country.Identifier</qualifiedname>
         <briefdescription>
-<para>Unique identifier of the country </para>
+<para>Unique identifier of the country. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -47,11 +50,11 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of a country </para>
+<para>Class definition of a country. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/Movies/Country.cs" line="16" column="1" bodyfile="JMovies.IMDb.Entities/Movies/Country.cs" bodystart="15" bodyend="34"/>
+    <location file="JMovies.IMDb.Entities/Movies/Country.cs" line="15" column="11" bodyfile="JMovies.IMDb.Entities/Movies/Country.cs" bodystart="16" bodyend="34"/>
     <listofallmembers>
       <member refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country_1a53829a7a1d6dbc70999204bdb527a71e" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Country</scope><name>ID</name></member>
       <member refid="d1/de4/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_country_1a8392a4ce762381d7137bd3d44a2e7d89" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::Country</scope><name>Identifier</name></member>

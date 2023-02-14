@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::People::Person</compoundname>
     <derivedcompoundref refid="de/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_actor" prot="public" virt="non-virtual">JMovies.IMDb.Entities.People.Actor</derivedcompoundref>
@@ -9,8 +9,9 @@
         <definition>long JMovies.IMDb.Entities.People.Person.ID</definition>
         <argsstring></argsstring>
         <name>ID</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.ID</qualifiedname>
         <briefdescription>
-<para>Primary Key </para>
+<para>Primary Key. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -23,8 +24,9 @@
         <definition>virtual PersonTypeEnum JMovies.IMDb.Entities.People.Person.PersonType</definition>
         <argsstring></argsstring>
         <name>PersonType</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.PersonType</qualifiedname>
         <briefdescription>
-<para>Type of the underlining person </para>
+<para>Type of the underlining person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -37,8 +39,9 @@
         <definition>long JMovies.IMDb.Entities.People.Person.IMDbID</definition>
         <argsstring></argsstring>
         <name>IMDbID</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.IMDbID</qualifiedname>
         <briefdescription>
-<para><ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref> ID of the person </para>
+<para>IMDb ID of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -51,8 +54,9 @@
         <definition>string JMovies.IMDb.Entities.People.Person.FullName</definition>
         <argsstring></argsstring>
         <name>FullName</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.FullName</qualifiedname>
         <briefdescription>
-<para>Full Name of the person </para>
+<para>Full Name of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -65,8 +69,9 @@
         <definition>virtual Image JMovies.IMDb.Entities.People.Person.PrimaryImage</definition>
         <argsstring></argsstring>
         <name>PrimaryImage</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.PrimaryImage</qualifiedname>
         <briefdescription>
-<para>Main image of the person </para>
+<para>Main image of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -79,8 +84,9 @@
         <definition>long? JMovies.IMDb.Entities.People.Person.PrimaryImageID</definition>
         <argsstring></argsstring>
         <name>PrimaryImageID</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.PrimaryImageID</qualifiedname>
         <briefdescription>
-<para>Reference field for the Primary Image </para>
+<para>Reference field for the Primary Image. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,8 +99,9 @@
         <definition>ICollection&lt;CreditRoleType&gt; JMovies.IMDb.Entities.People.Person.Roles</definition>
         <argsstring></argsstring>
         <name>Roles</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.Roles</qualifiedname>
         <briefdescription>
-<para>Roles of the person </para>
+<para>Roles of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,8 +114,9 @@
         <definition>DateTime? JMovies.IMDb.Entities.People.Person.BirthDate</definition>
         <argsstring></argsstring>
         <name>BirthDate</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.BirthDate</qualifiedname>
         <briefdescription>
-<para>Birth Date of the person </para>
+<para>Birth Date of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -121,8 +129,9 @@
         <definition>string JMovies.IMDb.Entities.People.Person.BirthPlace</definition>
         <argsstring></argsstring>
         <name>BirthPlace</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.BirthPlace</qualifiedname>
         <briefdescription>
-<para>Birth Place of the person </para>
+<para>Birth Place of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -135,8 +144,9 @@
         <definition>string JMovies.IMDb.Entities.People.Person.BirthName</definition>
         <argsstring></argsstring>
         <name>BirthName</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.BirthName</qualifiedname>
         <briefdescription>
-<para>Birth Place of the person </para>
+<para>Birth Place of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,8 +159,9 @@
         <definition>Length JMovies.IMDb.Entities.People.Person.Height</definition>
         <argsstring></argsstring>
         <name>Height</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.Height</qualifiedname>
         <briefdescription>
-<para>Height of the person </para>
+<para>Height of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -163,8 +174,9 @@
         <definition>string JMovies.IMDb.Entities.People.Person.NickName</definition>
         <argsstring></argsstring>
         <name>NickName</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.NickName</qualifiedname>
         <briefdescription>
-<para>NickName of the person </para>
+<para>NickName of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -177,8 +189,9 @@
         <definition>string JMovies.IMDb.Entities.People.Person.MiniBiography</definition>
         <argsstring></argsstring>
         <name>MiniBiography</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.MiniBiography</qualifiedname>
         <briefdescription>
-<para>Mini Biography of the person </para>
+<para>Mini Biography of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,8 +204,9 @@
         <definition>virtual ICollection&lt;Image&gt; JMovies.IMDb.Entities.People.Person.Photos</definition>
         <argsstring></argsstring>
         <name>Photos</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.Photos</qualifiedname>
         <briefdescription>
-<para>Available Photos of the person </para>
+<para>Available Photos of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -205,8 +219,9 @@
         <definition>virtual ICollection&lt;ProductionCredit&gt; JMovies.IMDb.Entities.People.Person.KnownFor</definition>
         <argsstring></argsstring>
         <name>KnownFor</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.KnownFor</qualifiedname>
         <briefdescription>
-<para>Known credits of the person </para>
+<para>Known credits of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -219,8 +234,9 @@
         <definition>GenderEnum JMovies.IMDb.Entities.People.Person.Gender</definition>
         <argsstring></argsstring>
         <name>Gender</name>
+        <qualifiedname>JMovies.IMDb.Entities.People.Person.Gender</qualifiedname>
         <briefdescription>
-<para>Gender of the person </para>
+<para>Gender of the person. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,7 +246,7 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of a person </para>
+<para>Class definition of a person. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -246,7 +262,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="JMovies.IMDb.Entities/People/Person.cs" line="17" column="1" bodyfile="JMovies.IMDb.Entities/People/Person.cs" bodystart="16" bodyend="112"/>
+    <location file="JMovies.IMDb.Entities/People/Person.cs" line="16" column="11" bodyfile="JMovies.IMDb.Entities/People/Person.cs" bodystart="17" bodyend="112"/>
     <listofallmembers>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a9fb64a2bfa647bdfb293ae06e9056708" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>BirthDate</name></member>
       <member refid="d9/d56/class_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1_1_person_1a7ebe473f5a42c1b20fd49b001a4159b4" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::People::Person</scope><name>BirthName</name></member>

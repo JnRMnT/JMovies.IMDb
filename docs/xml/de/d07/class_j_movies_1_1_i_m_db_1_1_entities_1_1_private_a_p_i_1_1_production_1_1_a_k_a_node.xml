@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="de/d07/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_a_k_a_node" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::PrivateAPI::Production::AKANode</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="de/d07/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_a_k_a_node_1a4684a306f1e7062a3c785442dd427596" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/dcc/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_country_info" kindref="compound">CountryInfo</ref></type>
+        <definition>CountryInfo JMovies.IMDb.Entities.PrivateAPI.Production.AKANode.Country</definition>
+        <argsstring></argsstring>
+        <name>Country</name>
+        <qualifiedname>JMovies.IMDb.Entities.PrivateAPI.Production.AKANode.Country</qualifiedname>
+        <briefdescription>
+<para>Country of the AKA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/PrivateAPI/Production/AKANode.cs" line="14" column="28" bodyfile="JMovies.IMDb.Entities/PrivateAPI/Production/AKANode.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d07/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_a_k_a_node_1a69deecde9f527aaf1c2749a945c11c31" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="df/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_displayable_property" kindref="compound">DisplayableProperty</ref></type>
+        <definition>DisplayableProperty JMovies.IMDb.Entities.PrivateAPI.Production.AKANode.DisplayableProperty</definition>
+        <argsstring></argsstring>
+        <name>DisplayableProperty</name>
+        <qualifiedname>JMovies.IMDb.Entities.PrivateAPI.Production.AKANode.DisplayableProperty</qualifiedname>
+        <briefdescription>
+<para>Displayable Property of the AKA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/PrivateAPI/Production/AKANode.cs" line="20" column="36" bodyfile="JMovies.IMDb.Entities/PrivateAPI/Production/AKANode.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class Definition of a private Production AKA Node. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/PrivateAPI/Production/AKANode.cs" line="8" column="11" bodyfile="JMovies.IMDb.Entities/PrivateAPI/Production/AKANode.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="de/d07/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_a_k_a_node_1a4684a306f1e7062a3c785442dd427596" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::PrivateAPI::Production::AKANode</scope><name>Country</name></member>
+      <member refid="de/d07/class_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i_1_1_production_1_1_a_k_a_node_1a69deecde9f527aaf1c2749a945c11c31" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::PrivateAPI::Production::AKANode</scope><name>DisplayableProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

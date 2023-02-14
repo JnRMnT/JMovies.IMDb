@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kind="class" language="C#" prot="public">
     <compoundname>JMovies::IMDb::Entities::Movies::TVSeries</compoundname>
     <basecompoundref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" prot="public" virt="non-virtual">JMovies.IMDb.Entities.Movies.Movie</basecompoundref>
@@ -9,8 +9,9 @@
         <definition>int? JMovies.IMDb.Entities.Movies.TVSeries.EndYear</definition>
         <argsstring></argsstring>
         <name>EndYear</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.TVSeries.EndYear</qualifiedname>
         <briefdescription>
-<para>End Year of the series </para>
+<para>End Year of the series. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -18,16 +19,14 @@
         </inbodydescription>
         <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="16" column="20" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="16" bodyend="16"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1a5226aa8762520e1241a1c33490bd5e8d" prot="public" static="no" mutable="no">
+      <memberdef kind="property" id="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series_1a5226aa8762520e1241a1c33490bd5e8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>override <ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286" kindref="member">ProductionTypeEnum</ref></type>
         <definition>override ProductionTypeEnum JMovies.IMDb.Entities.Movies.TVSeries.ProductionType</definition>
         <argsstring></argsstring>
         <name>ProductionType</name>
-        <initializer>=&gt; <ref refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286a1e7eff20317ac0bfef8d4284e72a4052" kindref="member">ProductionTypeEnum.TVSeries</ref></initializer>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.TVSeries.ProductionType</qualifiedname>
         <briefdescription>
-<para>Type of the production </para>
+<para>Type of the production. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -37,7 +36,7 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class definition of TV Series </para>
+<para>Class definition of TV Series. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -48,15 +47,15 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="3">
-        <label>Production</label>
-        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
-      </node>
       <node id="2">
         <label>Movie</label>
         <link refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="3">
+        <label>Production</label>
+        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -66,18 +65,18 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="3">
-        <label>Production</label>
-        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
-      </node>
       <node id="2">
         <label>Movie</label>
         <link refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="3">
+        <label>Production</label>
+        <link refid="d8/dbf/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_production"/>
+      </node>
     </collaborationgraph>
-    <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="11" column="1" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="10" bodyend="22"/>
+    <location file="JMovies.IMDb.Entities/Movies/TVSeries.cs" line="10" column="11" bodyfile="JMovies.IMDb.Entities/Movies/TVSeries.cs" bodystart="11" bodyend="22"/>
     <listofallmembers>
       <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aac520b3365e313424a7486a9b049ab98" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>AKAs</name></member>
       <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1aa0b87740ba35603e24813b4c80e393e8" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::TVSeries</scope><name>Budget</name></member>
