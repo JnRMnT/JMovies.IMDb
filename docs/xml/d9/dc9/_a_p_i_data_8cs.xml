@@ -7,7 +7,6 @@
     <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
     <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
     <innernamespace refid="d3/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_private_a_p_i">JMovies::IMDb::Entities::PrivateAPI</innernamespace>
-    <innernamespace refid="d7/d71/namespace_system_1_1_text_1_1_json_1_1_serialization">System::Text::Json::Serialization</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

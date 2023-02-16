@@ -22,6 +22,7 @@
     <innerclass refid="db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line" prot="public">JMovies::IMDb::Entities::Movies::TagLine</innerclass>
     <innerclass refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character" prot="public">JMovies::IMDb::Entities::Movies::TVCharacter</innerclass>
     <innerclass refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" prot="public">JMovies::IMDb::Entities::Movies::TVSeries</innerclass>
+    <innernamespace refid="d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json">JMovies::IMDb::Entities::Movies::LDJson</innernamespace>
       <sectiondef kind="enum">
       <memberdef kind="enum" id="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1af8e336418c6c00cf5b757d6dd8521983" prot="public" static="no" strong="yes">
         <type></type>

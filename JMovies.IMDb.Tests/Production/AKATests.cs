@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace JMovies.IMDb.Tests.Production
 {    /// <summary>
-     /// Test class that contains the tests which are targeted for scraping culture related tests
+     /// Test class that contains the tests which are targeted for scraping AKAs related tests
      /// </summary>
     [TestClass]
     public class AKATests

@@ -6,6 +6,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Entities/PrivateAPI/APIData.cs" line="1" column="37"/>
+    <location file="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" line="1" column="37"/>
   </compounddef>
 </doxygen>

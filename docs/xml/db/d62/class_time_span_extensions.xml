@@ -32,7 +32,38 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" line="19" column="28" bodyfile="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" bodystart="19" bodyend="61"/>
+        <location file="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" line="16" column="28" bodyfile="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" bodystart="16" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d62/class_time_span_extensions_1ac2515af8783c052409002602a6ce15dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TimeSpan</type>
+        <definition>static TimeSpan TimeSpanExtensions.HumanReadableToTimeSpan</definition>
+        <argsstring>(this string humanReadableDuration)</argsstring>
+        <name>HumanReadableToTimeSpan</name>
+        <qualifiedname>TimeSpanExtensions.HumanReadableToTimeSpan</qualifiedname>
+        <param>
+          <type>this string</type>
+          <declname>humanReadableDuration</declname>
+        </param>
+        <briefdescription>
+<para>Extension that converts human readable duration string into C# TimeSpan. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>humanReadableDuration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The human readable string</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>C# TimeSpan equivalent</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" line="65" column="28" bodyfile="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" bodystart="65" bodyend="90"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -40,8 +71,9 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" line="12" column="15" bodyfile="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" bodystart="13" bodyend="62"/>
+    <location file="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" line="9" column="15" bodyfile="JMovies.IMDb.Common/Extensions/TimeSpanExtensions.cs" bodystart="10" bodyend="91"/>
     <listofallmembers>
+      <member refid="db/d62/class_time_span_extensions_1ac2515af8783c052409002602a6ce15dc" prot="public" virt="non-virtual"><scope>TimeSpanExtensions</scope><name>HumanReadableToTimeSpan</name></member>
       <member refid="db/d62/class_time_span_extensions_1a36600123636a2d9bd2e46a346129b2ce" prot="public" virt="non-virtual"><scope>TimeSpanExtensions</scope><name>ToHtmlTimeSpan</name></member>
     </listofallmembers>
   </compounddef>

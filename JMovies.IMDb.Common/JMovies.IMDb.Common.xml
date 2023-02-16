@@ -454,5 +454,12 @@
             <param name="dateTimeString">HTML DateTime String</param>
             <returns>C# TimeSpan equivalent</returns>
         </member>
+        <member name="M:TimeSpanExtensions.HumanReadableToTimeSpan(System.String)">
+            <summary>
+             Extension that converts human readable duration string into C# TimeSpan
+            </summary>
+            <param name="humanReadableDuration">The human readable string</param>
+            <returns>C# TimeSpan equivalent</returns>
+        </member>
     </members>
 </doc>

@@ -6,6 +6,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/ReleaseInfoPageHelper.cs" line="13" column="23"/>
+    <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="18" column="23"/>
   </compounddef>
 </doxygen>

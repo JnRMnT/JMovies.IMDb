@@ -551,6 +551,81 @@
             Unique Identifier of the language
             </summary>
         </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.LDJson.Info">
+            <summary>
+            Class representing a basic info linked to the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Info.InfoType">
+            <summary>
+            Property representing the info type
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Info.Name">
+            <summary>
+            Property representing name related to the info
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Info.URL">
+            <summary>
+            Property representing URL related to the info
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Entities.Movies.LDJson.Metadata">
+            <summary>
+            Class representing the metadata linked to the page
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.ProductionType">
+            <summary>
+            Property representing the production's type
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.Description">
+            <summary>
+            Property representing the production's description
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.URL">
+            <summary>
+            Property representing the production's URL
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.Actors">
+            <summary>
+            Property representing the actor list of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.Creators">
+            <summary>
+            Property representing the creator list of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.ReleaseDate">
+            <summary>
+            Property representing the release date of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.Genres">
+            <summary>
+            Property representing the genre list of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.Name">
+            <summary>
+            Property representing the name of the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.Keywords">
+            <summary>
+            Property representing the keywords related to the production
+            </summary>
+        </member>
+        <member name="P:JMovies.IMDb.Entities.Movies.LDJson.Metadata.Image">
+            <summary>
+            Property representing the main image related to the production
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Entities.Movies.Movie">
             <summary>
             Class definition of a movie

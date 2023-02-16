@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json" kind="namespace" language="C#">
+    <compoundname>JMovies::IMDb::Entities::Movies::LDJson</compoundname>
+    <innerclass refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info" prot="public">JMovies::IMDb::Entities::Movies::LDJson::Info</innerclass>
+    <innerclass refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata" prot="public">JMovies::IMDb::Entities::Movies::LDJson::Metadata</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

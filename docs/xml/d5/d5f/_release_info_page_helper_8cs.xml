@@ -8,7 +8,6 @@
     <innernamespace refid="d0/dd8/namespace_j_movies_1_1_i_m_db_1_1_helpers">JMovies::IMDb::Helpers</innernamespace>
     <innernamespace refid="d8/d37/namespace_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies">JMovies::IMDb::Helpers::Movies</innernamespace>
     <innernamespace refid="d5/d81/namespace_system_1_1_net_1_1_http">System::Net::Http</innernamespace>
-    <innernamespace refid="db/d13/namespace_system_1_1_text_1_1_json">System::Text::Json</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

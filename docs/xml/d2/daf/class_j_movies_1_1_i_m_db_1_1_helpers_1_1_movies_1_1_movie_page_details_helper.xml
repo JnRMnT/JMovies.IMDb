@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="33" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="33" bodyend="204"/>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="37" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="37" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1aed72d778ca23380466662eb44b979d1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="327" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="327" bodyend="458"/>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="362" column="28" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="362" bodyend="501"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="210" column="31" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="210" bodyend="216"/>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="245" column="31" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="245" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1ab0b1b218d47c69db0425fb031125893d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="224" column="29" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="224" bodyend="268"/>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="259" column="29" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="259" bodyend="303"/>
       </memberdef>
       <memberdef kind="function" id="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1affbb0caba7efbfcc2d47cd4eca7fa943" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d8/dc8/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_character" kindref="compound">Character</ref></type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="276" column="34" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="276" bodyend="320"/>
+        <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="311" column="34" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="311" bodyend="355"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -256,7 +256,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="22" column="19" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="23" bodyend="460"/>
+    <location file="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" line="26" column="19" bodyfile="JMovies.IMDb/Helpers/Movies/MoviePageDetailsHelper.cs" bodystart="27" bodyend="503"/>
     <listofallmembers>
       <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1affbb0caba7efbfcc2d47cd4eca7fa943" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>GetCharacter</name></member>
       <member refid="d2/daf/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_movie_page_details_helper_1a8935a12b9ec8f4e6dc0b62218659ba1f" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::Movies::MoviePageDetailsHelper</scope><name>Parse</name></member>

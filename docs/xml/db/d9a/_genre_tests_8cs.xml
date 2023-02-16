@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="db/d9a/_genre_tests_8cs" kind="file" language="C#">
+    <compoundname>GenreTests.cs</compoundname>
+    <innerclass refid="de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests" prot="public">JMovies::IMDb::Tests::Production::GenreTests</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="d8/de9/namespace_j_movies_1_1_i_m_db_1_1_tests">JMovies::IMDb::Tests</innernamespace>
+    <innernamespace refid="dd/d6e/namespace_j_movies_1_1_i_m_db_1_1_tests_1_1_production">JMovies::IMDb::Tests::Production</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces" kindref="compound">JMovies.IMDb.Entities.Interfaces</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d9/ddb/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_settings" kindref="compound">JMovies.IMDb.Entities.Settings</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d5/dd5/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets" kindref="compound">JMovies.IMDb.Entities.Settings.Presets</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="df/d60/namespace_j_movies_1_1_i_m_db_1_1_providers" kindref="compound">JMovies.IMDb.Providers</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.VisualStudio.TestTools.UnitTesting;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Linq;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="dd/d6e/namespace_j_movies_1_1_i_m_db_1_1_tests_1_1_production" kindref="compound">JMovies.IMDb.Tests.Production</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[TestClass]</highlight></codeline>
+<codeline lineno="14" refid="de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests" kindref="compound">GenreTests</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[TestMethod]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests_1a0d15a58baf30bae6e4943b5005db7e04" kindref="member">TestGenreOfHunters</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" kindref="compound">IIMDbDataProvider</ref><sp/>imdbDataProvider<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider" kindref="compound">IMDbScraperDataProvider</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/dfe/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_production_data_fetch_settings" kindref="compound">ProductionDataFetchSettings</ref><sp/>settings<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings" kindref="compound">BasicProductionDataFetchSettings</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d58/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_series" kindref="compound">Entities.Movies.TVSeries</ref><sp/>tvSeries<sp/>=<sp/>imdbDataProvider.<ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1ab35ce4c949414516ecac284cf60fd008" kindref="member">GetTvSeries</ref>(7456722,<sp/>settings);<sp/></highlight><highlight class="comment">//<sp/>https://www.imdb.com/title/tt7456722/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.IsNotNull(tvSeries);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.IsNotNull(tvSeries.<ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a1261784d49b05a05b001d6a8225ba7cb" kindref="member">Genres</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.AreNotEqual(0,<sp/>tvSeries.<ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a1261784d49b05a05b001d6a8225ba7cb" kindref="member">Genres</ref>.Count);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Assert.IsTrue(Enumerable.SequenceEqual(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Crime&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Drama&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Mystery&quot;</highlight><highlight class="normal"><sp/>},<sp/>tvSeries.<ref refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1a1261784d49b05a05b001d6a8225ba7cb" kindref="member">Genres</ref>.Select(e<sp/>=&gt;<sp/>e.Value).ToArray()));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Tests/Production/GenreTests.cs"/>
+  </compounddef>
+</doxygen>

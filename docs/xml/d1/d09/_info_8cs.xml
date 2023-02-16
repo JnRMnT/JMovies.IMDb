@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d1/d09/_info_8cs" kind="file" language="C#">
+    <compoundname>Info.cs</compoundname>
+    <innerclass refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info" prot="public">JMovies::IMDb::Entities::Movies::LDJson::Info</innerclass>
+    <innernamespace refid="d5/d13/namespace_j_movies">JMovies</innernamespace>
+    <innernamespace refid="dc/ded/namespace_j_movies_1_1_i_m_db">JMovies::IMDb</innernamespace>
+    <innernamespace refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities">JMovies::IMDb::Entities</innernamespace>
+    <innernamespace refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies">JMovies::IMDb::Entities::Movies</innernamespace>
+    <innernamespace refid="d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json">JMovies::IMDb::Entities::Movies::LDJson</innernamespace>
+    <innernamespace refid="d7/d71/namespace_system_1_1_text_1_1_json_1_1_serialization">System::Text::Json::Serialization</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text.Json.Serialization;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json" kindref="compound">JMovies.IMDb.Entities.Movies.LDJson</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info" kindref="compound">Info</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonPropertyName(</highlight><highlight class="stringliteral">&quot;@type&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1a84a598cedd139aa1c82ea1f8f6edbaea" kindref="member">InfoType</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonPropertyName(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1af1f272abc7ae6d3a137551f4781e85de" kindref="member">Name</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[JsonPropertyName(</highlight><highlight class="stringliteral">&quot;url&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1ab8934f1119a05cbb3f039be74620e0d3" kindref="member">URL</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.Entities/Movies/LDJson/Info.cs"/>
+  </compounddef>
+</doxygen>

@@ -21,6 +21,10 @@ var annotated_dup =
             [ "DataSource", "d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source.html", "d7/dfb/class_j_movies_1_1_i_m_db_1_1_entities_1_1_misc_1_1_data_source" ]
           ] ],
           [ "Movies", "d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies.html", [
+            [ "LDJson", "d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json.html", [
+              [ "Info", "d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info.html", "d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info" ],
+              [ "Metadata", "d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata.html", "d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata" ]
+            ] ],
             [ "ActingCredit", "d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit.html", "d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" ],
             [ "AKA", "df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a.html", "df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a" ],
             [ "Budget", "d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget.html", "d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" ],
@@ -99,8 +103,10 @@ var annotated_dup =
           [ "Production", "dd/d6e/namespace_j_movies_1_1_i_m_db_1_1_tests_1_1_production.html", [
             [ "AKATests", "d3/d08/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_a_k_a_tests.html", "d3/d08/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_a_k_a_tests" ],
             [ "BasicProductionScrapingTests", "d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests.html", "d9/dd1/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_basic_production_scraping_tests" ],
+            [ "GenreTests", "de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests.html", "de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests" ],
             [ "ProductionAsyncTests", "d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests.html", "d1/d71/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_async_tests" ],
             [ "ProductionGalleryTests", "d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests.html", "d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests" ],
+            [ "RuntimeTests", "d1/d6d/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_runtime_tests.html", "d1/d6d/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_runtime_tests" ],
             [ "ScrapingCultureTests", "d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests.html", "d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests" ],
             [ "TVShowTests", "dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests.html", "dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests" ]
           ] ]

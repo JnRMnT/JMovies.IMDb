@@ -1,10 +1,7 @@
 ﻿using JMovies.IMDb.Common.Constants;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 /// <summary>
 /// Class responsible for providing Extenions for TimeSpans
@@ -58,5 +55,37 @@ public static class TimeSpanExtensions
         {
             return timeSpan;
         }
+    }
+
+    /// <summary>
+    ///  Extension that converts human readable duration string into C# TimeSpan
+    /// </summary>
+    /// <param name="humanReadableDuration">The human readable string</param>
+    /// <returns>C# TimeSpan equivalent</returns>
+    public static TimeSpan HumanReadableToTimeSpan(this string humanReadableDuration)
+    {
+        Dictionary<string, int> units = new Dictionary<string, int>()
+            {
+                {@"(\d+)\s*(ms|mili[|s]|milisecon[|s])", 1 },
+                {@"(\d+)\s*(s|sec|second[|s])", 1000 },
+                {@"(\d+)\s*(m|min[|s])", 60000 },
+                {@"(\d+)\s*(h|hour[|s])", 3600000 },
+                {@"(\d+)\s*(d|day[|s])", 86400000 },
+                {@"(\d+)\s*(w|week[|s])", 604800000 },
+            };
+
+        var timespan = new TimeSpan();
+
+        foreach (var x in units)
+        {
+            var matches = Regex.Matches(humanReadableDuration, x.Key);
+            foreach (Match match in matches)
+            {
+                var amount = System.Convert.ToInt32(match.Groups[1].Value);
+                timespan = timespan.Add(TimeSpan.FromMilliseconds(x.Value * amount));
+            }
+        }
+
+        return timespan;
     }
 }

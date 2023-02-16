@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_6623ebb6ca63788656788f04f194cd0d" kind="dir">
+    <compoundname>JMovies.IMDb.Entities/Movies/LDJson</compoundname>
+    <innerfile refid="d1/d09/_info_8cs">Info.cs</innerfile>
+    <innerfile refid="dd/d26/_metadata_8cs">Metadata.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/LDJson/"/>
+  </compounddef>
+</doxygen>

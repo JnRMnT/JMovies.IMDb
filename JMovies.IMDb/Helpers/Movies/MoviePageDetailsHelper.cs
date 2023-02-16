@@ -4,14 +4,18 @@ using JMovies.IMDb.Common.Constants;
 using JMovies.IMDb.Entities.Common;
 using JMovies.IMDb.Entities.Misc;
 using JMovies.IMDb.Entities.Movies;
+using JMovies.IMDb.Entities.Movies.LDJson;
 using JMovies.IMDb.Entities.People;
+using JMovies.IMDb.Entities.PrivateAPI;
 using JMovies.IMDb.Entities.Settings;
 using JMovies.IMDb.Providers;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 
 namespace JMovies.IMDb.Helpers.Movies
@@ -85,6 +89,21 @@ namespace JMovies.IMDb.Helpers.Movies
                 return false;
             }
 
+            string alternativePosterURL = null;
+            //parse metadata
+            HtmlNode ldJsonMetadataNode = documentNode.QuerySelector("script[type='application/ld+json']");
+            if (ldJsonMetadataNode != null)
+            {
+                Metadata metadata = JsonSerializer.Deserialize<Metadata>(ldJsonMetadataNode.InnerText);
+                movie.StoryLine = metadata.Description;
+                movie.Genres = metadata.Genres?.Select(e => new Genre { Identifier = e, Value = e }).ToArray();
+                movie.Keywords = metadata.Keywords?.Split(',').Select(e => new Keyword { Identifier = e, Value = e }).ToArray();
+                if (!string.IsNullOrEmpty(metadata.Image))
+                {
+                    alternativePosterURL = metadata.Image;
+                }
+            }
+
             HtmlNode posterWrapperNode = documentNode.QuerySelector("[data-testid=hero-media__poster]");
             if (posterWrapperNode != null)
             {
@@ -100,6 +119,15 @@ namespace JMovies.IMDb.Helpers.Movies
                     {
                         movie.Poster.Content = IMDBImageHelper.GetImageContent(movie.Poster.URL);
                     }
+                }
+            }
+            else if (!string.IsNullOrEmpty(alternativePosterURL))
+            {
+                //Use poster from metadata
+                movie.Poster = new Image { URL = alternativePosterURL };
+                if (settings.FetchImageContents)
+                {
+                    movie.Poster.Content = IMDBImageHelper.GetImageContent(movie.Poster.URL);
                 }
             }
 
@@ -147,6 +175,13 @@ namespace JMovies.IMDb.Helpers.Movies
             if (detailsSection != null)
             {
                 ParseDetailsSection(movie, detailsSection);
+            }
+
+            //Parse Technical Specs Section
+            HtmlNode technicalSpecsSection = documentNode.QuerySelector("[data-testid=title-techspecs-section] > ul");
+            if (technicalSpecsSection != null)
+            {
+                ParseDetailsSection(movie, technicalSpecsSection);
             }
 
             if (!settings.FetchDetailedCast)
@@ -451,7 +486,15 @@ namespace JMovies.IMDb.Helpers.Movies
                     }
                     else if (IMDbConstants.RuntimeHeaderRegex.IsMatch(headerContent))
                     {
-                        movie.Runtime = headerNode.ParentNode.QuerySelector("time").Attributes["datetime"].Value.ToHtmlTimeSpan();
+                        HtmlNode timeNode = headerNode.ParentNode.QuerySelector("time");
+                        if (timeNode != null)
+                        {
+                            movie.Runtime = timeNode.Attributes["datetime"].Value.ToHtmlTimeSpan();
+                        }
+                        else
+                        {
+                            movie.Runtime = detailBox.LastChild.InnerText.Prepare().HumanReadableToTimeSpan();
+                        }
                     }
                 }
             }

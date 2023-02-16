@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info" kind="class" language="C#" prot="public">
+    <compoundname>JMovies::IMDb::Entities::Movies::LDJson::Info</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1a84a598cedd139aa1c82ea1f8f6edbaea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.LDJson.Info.InfoType</definition>
+        <argsstring></argsstring>
+        <name>InfoType</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.LDJson.Info.InfoType</qualifiedname>
+        <briefdescription>
+<para>Property representing the info type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" line="14" column="23" bodyfile="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1af1f272abc7ae6d3a137551f4781e85de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.LDJson.Info.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.LDJson.Info.Name</qualifiedname>
+        <briefdescription>
+<para>Property representing name related to the info. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" line="20" column="23" bodyfile="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1ab8934f1119a05cbb3f039be74620e0d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string JMovies.IMDb.Entities.Movies.LDJson.Info.URL</definition>
+        <argsstring></argsstring>
+        <name>URL</name>
+        <qualifiedname>JMovies.IMDb.Entities.Movies.LDJson.Info.URL</qualifiedname>
+        <briefdescription>
+<para>Property representing URL related to the info. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" line="26" column="23" bodyfile="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a basic info linked to the production. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" line="8" column="11" bodyfile="JMovies.IMDb.Entities/Movies/LDJson/Info.cs" bodystart="9" bodyend="27"/>
+    <listofallmembers>
+      <member refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1a84a598cedd139aa1c82ea1f8f6edbaea" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::LDJson::Info</scope><name>InfoType</name></member>
+      <member refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1af1f272abc7ae6d3a137551f4781e85de" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::LDJson::Info</scope><name>Name</name></member>
+      <member refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1ab8934f1119a05cbb3f039be74620e0d3" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Entities::Movies::LDJson::Info</scope><name>URL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

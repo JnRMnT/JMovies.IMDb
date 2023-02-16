@@ -67,7 +67,7 @@
         </member>
         <member name="T:JMovies.IMDb.Tests.Production.AKATests">
             <summary>
-            Test class that contains the tests which are targeted for scraping culture related tests
+            Test class that contains the tests which are targeted for scraping AKAs related tests
             </summary>
         </member>
         <member name="M:JMovies.IMDb.Tests.Production.AKATests.TestAKAsOfSongOfTheSouth">
@@ -93,6 +93,16 @@
         <member name="M:JMovies.IMDb.Tests.Production.BasicProductionScrapingTests.DetailedProductionScraping">
             <summary>
             Method that tests scraping of different Production Details for extended details
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Tests.Production.GenreTests">
+            <summary>
+            Test class that contains the tests which are targeted for scraping runtime info related tests
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.GenreTests.TestGenreOfHunters">
+            <summary>
+            Test Method that tests genre info of the TV Series "Hunters"
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Tests.Production.ProductionAsyncTests">
@@ -134,6 +144,16 @@
         <member name="M:JMovies.IMDb.Tests.Production.ProductionGalleryTests.FetchingWithPagination">
             <summary>
             Fetches the production data with 55 images
+            </summary>
+        </member>
+        <member name="T:JMovies.IMDb.Tests.Production.RuntimeTests">
+            <summary>
+            Test class that contains the tests which are targeted for scraping runtime info related tests
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Production.RuntimeTests.RuntimeOfHunters">
+            <summary>
+            Test Method that tests runtime info of the TV Series "Hunters"
             </summary>
         </member>
         <member name="T:JMovies.IMDb.Tests.Production.ScrapingCultureTests">

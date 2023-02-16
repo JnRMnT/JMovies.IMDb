@@ -1,5 +1,6 @@
 var namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies =
 [
+    [ "LDJson", "d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json.html", "d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json" ],
     [ "ActingCredit", "d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit.html", "d2/d86/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_acting_credit" ],
     [ "AKA", "df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a.html", "df/d16/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_a_k_a" ],
     [ "Budget", "d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget.html", "d1/d77/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_budget" ],

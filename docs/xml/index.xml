@@ -146,6 +146,9 @@
     <member refid="d7/d98/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_genre_1ab2958bc02357110557b853d3e91da585" kind="property"><name>Identifier</name></member>
     <member refid="d7/d98/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_genre_1a2c7c74e0f2131ceba59351d1e23e19d5" kind="property"><name>ProductionID</name></member>
   </compound>
+  <compound refid="de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests" kind="class"><name>JMovies::IMDb::Tests::Production::GenreTests</name>
+    <member refid="de/dba/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_genre_tests_1a0d15a58baf30bae6e4943b5005db7e04" kind="function"><name>TestGenreOfHunters</name></member>
+  </compound>
   <compound refid="d1/d23/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_html_helper" kind="class"><name>JMovies::IMDb::Helpers::HtmlHelper</name>
     <member refid="d1/d23/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_html_helper_1a7eb2843a72bd93f11cee06132fafba8b" kind="function"><name>GetNewHtmlDocument</name></member>
   </compound>
@@ -285,6 +288,11 @@
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a3e892fc886f3226138c5e13e134436b0" kind="function"><name>GetPerson</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a112c663d719206dc08d6ec6ef0daff78" kind="function"><name>GetTvSeries</name></member>
   </compound>
+  <compound refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info" kind="class"><name>JMovies::IMDb::Entities::Movies::LDJson::Info</name>
+    <member refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1a84a598cedd139aa1c82ea1f8f6edbaea" kind="property"><name>InfoType</name></member>
+    <member refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1af1f272abc7ae6d3a137551f4781e85de" kind="property"><name>Name</name></member>
+    <member refid="d3/d31/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_info_1ab8934f1119a05cbb3f039be74620e0d3" kind="property"><name>URL</name></member>
+  </compound>
   <compound refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword" kind="class"><name>JMovies::IMDb::Entities::Movies::Keyword</name>
     <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1aed938b38a746bc88e826ea2c1e4456d6" kind="property"><name>ID</name></member>
     <member refid="dd/d9b/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_keyword_1accb94f2e0ec3e1f3256e0fc691d0f5a7" kind="property"><name>Value</name></member>
@@ -301,6 +309,18 @@
     <member refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length_1aea651ee0d940ab074de9289852c14624" kind="property"><name>Imperial</name></member>
     <member refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length_1acf922d881cab55ef34fe92790ab7ef9b" kind="function"><name>Length</name></member>
     <member refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length_1ae0216cdd463967d47cd2683e6e2c4440" kind="function"><name>Length</name></member>
+  </compound>
+  <compound refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata" kind="class"><name>JMovies::IMDb::Entities::Movies::LDJson::Metadata</name>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1a787891ad11b43d0f7b2bec27e5a45f59" kind="property"><name>ProductionType</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1a9f6424200f2b27efddd963f8953454f2" kind="property"><name>Description</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1aec843a5fd85b42c65508935aadba729d" kind="property"><name>URL</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1aadf2059a400670182c4ed484ba71220a" kind="property"><name>Actors</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1a675a6a1396abccb2b11b63760315dad3" kind="property"><name>Creators</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1a69878970b7e47c58a51c8db5353bea24" kind="property"><name>ReleaseDate</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1aef98c472c1c1ba140b4ff3ec83105f44" kind="property"><name>Genres</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1a379e6b16a8feef4cfc60a9a6179a3742" kind="property"><name>Name</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1af9029560952bd090332b943fa1066595" kind="property"><name>Keywords</name></member>
+    <member refid="d6/d9e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json_1_1_metadata_1a6db41de4c116e8ab283c0fb3bf3de5c9" kind="property"><name>Image</name></member>
   </compound>
   <compound refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie" kind="class"><name>JMovies::IMDb::Entities::Movies::Movie</name>
     <member refid="d0/d23/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_movie_1ad4d1831e8ecf0925cf4733b159f34c22" kind="property"><name>OriginalTitle</name></member>
@@ -472,6 +492,9 @@
   <compound refid="de/dde/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_release_info_page_helper" kind="class"><name>JMovies::IMDb::Helpers::Movies::ReleaseInfoPageHelper</name>
     <member refid="de/dde/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_movies_1_1_release_info_page_helper_1a69d2e6a5e54baeaaf77b6e2796c8ec01" kind="function"><name>Parse</name></member>
   </compound>
+  <compound refid="d1/d6d/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_runtime_tests" kind="class"><name>JMovies::IMDb::Tests::Production::RuntimeTests</name>
+    <member refid="d1/d6d/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_runtime_tests_1adc41b860904c35bf4e41a6d98197586b" kind="function"><name>RuntimeOfHunters</name></member>
+  </compound>
   <compound refid="d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests" kind="class"><name>JMovies::IMDb::Tests::Production::ScrapingCultureTests</name>
     <member refid="d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests_1a7f8e20677d09bffe6971ffdf9175d30d" kind="function"><name>TestDefaultCulture</name></member>
     <member refid="d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests_1a43b74c358a7ddfac7f824f1a4ddf2acf" kind="function"><name>TestTurkishCulture</name></member>
@@ -501,6 +524,7 @@
   </compound>
   <compound refid="db/d62/class_time_span_extensions" kind="class"><name>TimeSpanExtensions</name>
     <member refid="db/d62/class_time_span_extensions_1a36600123636a2d9bd2e46a346129b2ce" kind="function"><name>ToHtmlTimeSpan</name></member>
+    <member refid="db/d62/class_time_span_extensions_1ac2515af8783c052409002602a6ce15dc" kind="function"><name>HumanReadableToTimeSpan</name></member>
   </compound>
   <compound refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character" kind="class"><name>JMovies::IMDb::Entities::Movies::TVCharacter</name>
     <member refid="d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character_1ac2d256cbe38340e539089cfb2fd81495" kind="property"><name>EpisodeCount</name></member>
@@ -564,6 +588,8 @@
     <member refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286aec0fc0100c4fc1ce4eea230c3dc10360" kind="enumvalue"><name>Undefined</name></member>
     <member refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286a1526e0ac850c241ee1631d9ad5664475" kind="enumvalue"><name>Movie</name></member>
     <member refid="d1/db1/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1ab702fea3bc2d30e12809fc1ac17a5286a1e7eff20317ac0bfef8d4284e72a4052" kind="enumvalue"><name>TVSeries</name></member>
+  </compound>
+  <compound refid="d1/dde/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_l_d_json" kind="namespace"><name>JMovies::IMDb::Entities::Movies::LDJson</name>
   </compound>
   <compound refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people" kind="namespace"><name>JMovies::IMDb::Entities::People</name>
     <member refid="d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people_1a7e23b2821f39ce7bc88694cdf96affb4" kind="enum"><name>GenderEnum</name></member>
@@ -694,6 +720,10 @@
   </compound>
   <compound refid="d8/d82/_language_8cs" kind="file"><name>Language.cs</name>
   </compound>
+  <compound refid="d1/d09/_info_8cs" kind="file"><name>Info.cs</name>
+  </compound>
+  <compound refid="dd/d26/_metadata_8cs" kind="file"><name>Metadata.cs</name>
+  </compound>
   <compound refid="d9/d7b/_movie_8cs" kind="file"><name>Movie.cs</name>
   </compound>
   <compound refid="d9/d27/_official_site_8cs" kind="file"><name>OfficialSite.cs</name>
@@ -794,9 +824,13 @@
   </compound>
   <compound refid="d2/df9/_basic_production_scraping_tests_8cs" kind="file"><name>BasicProductionScrapingTests.cs</name>
   </compound>
+  <compound refid="db/d9a/_genre_tests_8cs" kind="file"><name>GenreTests.cs</name>
+  </compound>
   <compound refid="d7/dde/_production_async_tests_8cs" kind="file"><name>ProductionAsyncTests.cs</name>
   </compound>
   <compound refid="d2/d76/_production_gallery_tests_8cs" kind="file"><name>ProductionGalleryTests.cs</name>
+  </compound>
+  <compound refid="d3/df8/_runtime_tests_8cs" kind="file"><name>RuntimeTests.cs</name>
   </compound>
   <compound refid="da/d0d/_scraping_culture_tests_8cs" kind="file"><name>ScrapingCultureTests.cs</name>
   </compound>
@@ -883,6 +917,8 @@
   <compound refid="dir_1a9dc16cf67625c2e82b44a2372ceddb" kind="dir"><name>JMovies.IMDb.Entities</name>
   </compound>
   <compound refid="dir_aa5a95831cf236ce2a5bc71a5a2500a9" kind="dir"><name>JMovies.IMDb.Tests</name>
+  </compound>
+  <compound refid="dir_6623ebb6ca63788656788f04f194cd0d" kind="dir"><name>JMovies.IMDb.Entities/Movies/LDJson</name>
   </compound>
   <compound refid="dir_6f7a6501ecf4624b645067470accd591" kind="dir"><name>JMovies.IMDb.Entities/Misc</name>
   </compound>

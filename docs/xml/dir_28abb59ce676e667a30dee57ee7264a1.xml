@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
   <compounddef id="dir_28abb59ce676e667a30dee57ee7264a1" kind="dir">
     <compoundname>JMovies.IMDb.Entities/Movies</compoundname>
+    <innerdir refid="dir_6623ebb6ca63788656788f04f194cd0d">JMovies.IMDb.Entities/Movies/LDJson</innerdir>
     <innerfile refid="dc/d78/_acting_credit_8cs">ActingCredit.cs</innerfile>
     <innerfile refid="d4/deb/_a_k_a_8cs">AKA.cs</innerfile>
     <innerfile refid="d7/d07/_budget_8cs">Budget.cs</innerfile>
