@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMovies.IMDb", "JMovies.IMDb\JMovies.IMDb.csproj", "{02C20F30-CE80-410A-BCEF-F77851A99775}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMovies.IMDb.Entities", "JM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMovies.IMDb.Common", "JMovies.IMDb.Common\JMovies.IMDb.Common.csproj", "{A0D982B6-D40F-4803-978D-41FCFAFF8F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMovies.IMDb.Tests", "JMovies.IMDb.Tests\JMovies.IMDb.Tests.csproj", "{E7F645A8-9F81-4215-94BA-4B3AC2ECB062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMovies.IMDb.Tests", "JMovies.IMDb.Tests\JMovies.IMDb.Tests.csproj", "{E7F645A8-9F81-4215-94BA-4B3AC2ECB062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMovies.IMDb.ExampleApp", "JMovies.IMDb.ExampleApp\JMovies.IMDb.ExampleApp.csproj", "{F68D57B0-8E51-4525-A44D-D573D02B529E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E7F645A8-9F81-4215-94BA-4B3AC2ECB062}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7F645A8-9F81-4215-94BA-4B3AC2ECB062}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7F645A8-9F81-4215-94BA-4B3AC2ECB062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68D57B0-8E51-4525-A44D-D573D02B529E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68D57B0-8E51-4525-A44D-D573D02B529E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68D57B0-8E51-4525-A44D-D573D02B529E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68D57B0-8E51-4525-A44D-D573D02B529E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

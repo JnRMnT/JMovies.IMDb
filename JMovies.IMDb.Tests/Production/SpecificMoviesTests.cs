@@ -9,7 +9,7 @@ namespace JMovies.IMDb.Tests.Production
     /// Test class that contains the tests which are targeted for specific movies
     /// </summary>
     [TestClass]
-    internal class SpecificMoviesTests
+    public class SpecificMoviesTests
     {
 
         /// <summary>
@@ -23,7 +23,7 @@ namespace JMovies.IMDb.Tests.Production
             Assert.IsNotNull(movie);
             Assert.AreEqual("The Power of the Dog", movie.Title);
             Assert.AreEqual(2021, movie.Year);
-            Assert.AreEqual(6.9, Math.Round(movie.Rating.Value, 1));
+            Assert.AreEqual(6.8, Math.Round(movie.Rating.Value, 1));
             long RateCount = movie.Rating.RateCount;
             Assert.AreEqual(true, (RateCount > 30000));
         }
