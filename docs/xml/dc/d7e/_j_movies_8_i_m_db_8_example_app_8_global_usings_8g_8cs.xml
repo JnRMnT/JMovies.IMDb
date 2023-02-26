@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dc/d7e/_j_movies_8_i_m_db_8_example_app_8_global_usings_8g_8cs" kind="file" language="C#">
+    <compoundname>JMovies.IMDb.ExampleApp.GlobalUsings.g.cs</compoundname>
+    <innernamespace refid="dc/d4e/namespaceglobal_1_1_system">global::System</innernamespace>
+    <innernamespace refid="d7/d7d/namespaceglobal_1_1_system_1_1_collections_1_1_generic">global::System::Collections::Generic</innernamespace>
+    <innernamespace refid="dc/d56/namespaceglobal_1_1_system_1_1_i_o">global::System::IO</innernamespace>
+    <innernamespace refid="d8/d28/namespaceglobal_1_1_system_1_1_linq">global::System::Linq</innernamespace>
+    <innernamespace refid="db/d63/namespaceglobal_1_1_system_1_1_net_1_1_http">global::System::Net::Http</innernamespace>
+    <innernamespace refid="db/dd5/namespaceglobal_1_1_system_1_1_threading">global::System::Threading</innernamespace>
+    <innernamespace refid="d3/d6d/namespaceglobal_1_1_system_1_1_threading_1_1_tasks">global::System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>&lt;auto-generated/&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">global::System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">global::System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">global::System.IO;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">global::System.Linq;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">global::System.Net.Http;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">global::System.Threading;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">global::System.Threading.Tasks;</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.ExampleApp/obj/Debug/net6.0/JMovies.IMDb.ExampleApp.GlobalUsings.g.cs"/>
+  </compounddef>
+</doxygen>

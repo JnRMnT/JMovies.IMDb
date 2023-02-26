@@ -1,18 +1,18 @@
-﻿using HtmlAgilityPack;
+﻿using Fizzler.Systems.HtmlAgilityPack;
+using HtmlAgilityPack;
+using JM.Entities.Framework;
 using JMovies.IMDb.Common.Constants;
+using JMovies.IMDb.Entities.Interfaces;
 using JMovies.IMDb.Entities.Movies;
 using JMovies.IMDb.Entities.People;
-using JMovies.IMDb.Entities.Interfaces;
-using System.IO;
-using System.Net;
-using Fizzler.Systems.HtmlAgilityPack;
-using System.Text.RegularExpressions;
+using JMovies.IMDb.Entities.Settings;
 using JMovies.IMDb.Helpers;
 using JMovies.IMDb.Helpers.Movies;
 using JMovies.IMDb.Helpers.People;
+using System.IO;
+using System.Net;
 using System.Text;
-using JM.Entities.Framework;
-using JMovies.IMDb.Entities.Settings;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace JMovies.IMDb.Providers
@@ -138,6 +138,12 @@ namespace JMovies.IMDb.Providers
         }
 
         /// <inheritdoc/>
+        public Movie GetMovie(long id)
+        {
+            return GetMovie(id, new ProductionDataFetchSettings());
+        }
+
+        /// <inheritdoc/>
         public async Task<TVSeries> GetTvSeriesAsync(long id)
         {
             return await GetTvSeriesAsync(id, new ProductionDataFetchSettings());
@@ -152,49 +158,52 @@ namespace JMovies.IMDb.Providers
         /// <inheritdoc/>
         public Production GetProduction(long id)
         {
-            return GetProductionAsync(id).Result;
-        }
-
-        /// <inheritdoc/>
-        public Movie GetMovie(long id)
-        {
-            return GetMovieAsync(id).Result;
+            return GetProduction(id, new ProductionDataFetchSettings());
         }
 
         /// <inheritdoc/>
         TVSeries IIMDbDataProvider.GetTvSeries(long id)
         {
-            return GetTvSeriesAsync(id).Result;
+            return GetTvSeries(id, new ProductionDataFetchSettings());
         }
 
         /// <inheritdoc/>
         public Production GetProduction(long id, ProductionDataFetchSettings settings)
         {
-            return GetProductionAsync(id, settings).Result;
+            Task<Production> task = GetProductionAsync(id, settings);
+            task.Wait();
+            return task.Result;
         }
 
         /// <inheritdoc/>
         public Movie GetMovie(long id, ProductionDataFetchSettings settings)
         {
-            return GetMovieAsync(id, settings).Result;
+            Task<Production> task = GetProductionAsync(id, settings);
+            task.Wait();
+            return task.Result as Movie;
         }
 
         /// <inheritdoc/>
         public TVSeries GetTvSeries(long id, ProductionDataFetchSettings settings)
         {
-            return GetTvSeriesAsync(id, settings).Result;
+            Task<Production> task = GetProductionAsync(id, settings);
+            task.Wait();
+            return task.Result as TVSeries;
         }
 
         /// <inheritdoc/>
         public Person GetPerson(long id, PersonDataFetchSettings settings)
         {
-            return GetPersonAsync(id, settings).Result;
+            Person person = new Person();
+            Task<Person> task = AsyncGetPerson(id, person, settings);
+            task.Wait();
+            return task.Result;
         }
 
         /// <inheritdoc/>
         public Person GetPerson(long id)
         {
-            return GetPersonAsync(id).Result;
+            return GetPerson(id, new PersonDataFetchSettings());
         }
     }
 }

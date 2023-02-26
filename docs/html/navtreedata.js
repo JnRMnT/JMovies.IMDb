@@ -56,8 +56,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/d13/namespace_j_movies.html",
-"da/d5e/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_full_production_data_fetch_settings.html"
+"d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character.html#ac2d256cbe38340e539089cfb2fd81495",
+"d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people.html#ae76df969ca3d166e30b7839a3e046389aec0fc0100c4fc1ce4eea230c3dc10360"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

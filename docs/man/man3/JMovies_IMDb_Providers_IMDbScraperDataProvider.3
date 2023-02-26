@@ -1,4 +1,4 @@
-.TH "JMovies.IMDb.Providers.IMDbScraperDataProvider" 3 "Thu Feb 16 2023" "JMovies.IMDb" \" -*- nroff -*-
+.TH "JMovies.IMDb.Providers.IMDbScraperDataProvider" 3 "Sun Feb 26 2023" "JMovies.IMDb" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -120,6 +120,22 @@ Task that fetches Movie instance containing retreived information
 .PP
  "
 .ti -1c
+.RI "\fBMovie\fP \fBGetMovie\fP (long id)"
+.br
+.RI "Gets Movie information using the default settings\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID of the movie
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Movie instance containing retreived information
+.RE
+.PP
+ "
+.ti -1c
 .RI "async Task< \fBTVSeries\fP > \fBGetTvSeriesAsync\fP (long id)"
 .br
 .RI "Gets TV Series information using the default settings\&.
@@ -164,22 +180,6 @@ Task that fetches the Person instance containing retreived information
 \fBReturns\fP
 .RS 4
 Production instance containing retreived information
-.RE
-.PP
- "
-.ti -1c
-.RI "\fBMovie\fP \fBGetMovie\fP (long id)"
-.br
-.RI "Gets Movie information using the default settings\&.
-.PP
-\fBParameters\fP
-.RS 4
-\fIid\fP ID of the movie
-.RE
-.PP
-\fBReturns\fP
-.RS 4
-Movie instance containing retreived information
 .RE
 .PP
  "

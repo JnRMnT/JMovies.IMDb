@@ -316,6 +316,9 @@
         <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovieAsync(System.Int64)">
             <inheritdoc/>
         </member>
+        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64)">
+            <inheritdoc/>
+        </member>
         <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetTvSeriesAsync(System.Int64)">
             <inheritdoc/>
         </member>
@@ -323,9 +326,6 @@
             <inheritdoc/>
         </member>
         <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetProduction(System.Int64)">
-            <inheritdoc/>
-        </member>
-        <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.GetMovie(System.Int64)">
             <inheritdoc/>
         </member>
         <member name="M:JMovies.IMDb.Providers.IMDbScraperDataProvider.JMovies#IMDb#Entities#Interfaces#IIMDbDataProvider#GetTvSeries(System.Int64)">

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dd/d5c/_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <innernamespace refid="d6/d4b/namespace_entities">Entities</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dd/d5c/_program_8cs_1a2f560258b2ccd490a894ffa488ee1724" prot="public" static="no">
+        <type>JMovies.IMDb.Entities</type>
+        <definition>using Entities =  JMovies.IMDb.Entities</definition>
+        <argsstring></argsstring>
+        <name>Entities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.ExampleApp/Program.cs" line="4" column="1" bodyfile="JMovies.IMDb.ExampleApp/Program.cs" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dd/d5c/_program_8cs_1a8054e59b52aee01926e0e76fe8aba751" prot="public" static="no" mutable="no">
+        <type><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" kindref="compound">IIMDbDataProvider</ref></type>
+        <definition>IIMDbDataProvider imdbDataProvider</definition>
+        <argsstring></argsstring>
+        <name>imdbDataProvider</name>
+        <initializer>= new <ref refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider" kindref="compound">IMDbScraperDataProvider</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.ExampleApp/Program.cs" line="7" column="19" bodyfile="JMovies.IMDb.ExampleApp/Program.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d5c/_program_8cs_1a68bed4fd8bd977ef5dad1855227f1513" prot="public" static="no" mutable="no">
+        <type>Entities.Movies.Movie</type>
+        <definition>Entities.Movies.Movie movie</definition>
+        <argsstring></argsstring>
+        <name>movie</name>
+        <initializer>= imdbDataProvider.GetMovie(232500, new <ref refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings" kindref="compound">BasicProductionDataFetchSettings</ref>())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.ExampleApp/Program.cs" line="8" column="21" bodyfile="JMovies.IMDb.ExampleApp/Program.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dd/d5c/_program_8cs_1ac0b83916f305c81100dc077f1f3d993d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Console.</type>
+        <definition>Console WriteLine</definition>
+        <argsstring>($&quot;Movie Title: {movie.Title}&quot;)</argsstring>
+        <name>WriteLine</name>
+        <param>
+          <declname>$&quot;Movie Title: {movie.Title}&quot;</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.ExampleApp/Program.cs" line="9" column="8" declfile="JMovies.IMDb.ExampleApp/Program.cs" declline="9" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5c/_program_8cs_1ac6d120112610b7ed9cda77f2f411fca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Console.</type>
+        <definition>Console. WriteLine</definition>
+        <argsstring>(&quot;Press any key to continue...&quot;)</argsstring>
+        <name>WriteLine</name>
+        <param>
+          <type>&quot;Press any key to continue...&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.ExampleApp/Program.cs" line="14" column="8" declfile="JMovies.IMDb.ExampleApp/Program.cs" declline="14" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5c/_program_8cs_1a5a137ae7b5f6bee4a5dcbdb7bae3772e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Console.</type>
+        <definition>Console. ReadLine</definition>
+        <argsstring>()</argsstring>
+        <name>ReadLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JMovies.IMDb.ExampleApp/Program.cs" line="15" column="8" declfile="JMovies.IMDb.ExampleApp/Program.cs" declline="15" declcolumn="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="da/d9a/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces" kindref="compound">JMovies.IMDb.Entities.Interfaces</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="d5/dd5/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets" kindref="compound">JMovies.IMDb.Entities.Settings.Presets</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="df/d60/namespace_j_movies_1_1_i_m_db_1_1_providers" kindref="compound">JMovies.IMDb.Providers</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Entities<sp/>=<sp/><ref refid="d5/d13/namespace_j_movies" kindref="compound">JMovies</ref>.<ref refid="dc/ded/namespace_j_movies_1_1_i_m_db" kindref="compound">IMDb</ref>.<ref refid="dc/d2c/namespace_j_movies_1_1_i_m_db_1_1_entities" kindref="compound">Entities</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#region<sp/>Basic<sp/>Usage<sp/>Example</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider" kindref="compound">IIMDbDataProvider</ref><sp/>imdbDataProvider<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider" kindref="compound">IMDbScraperDataProvider</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">Entities.Movies.Movie<sp/>movie<sp/>=<sp/>imdbDataProvider.<ref refid="d2/d79/interface_j_movies_1_1_i_m_db_1_1_entities_1_1_interfaces_1_1_i_i_m_db_data_provider_1a32ab2adcb7e1427bf2a6343f4255a2c4" kindref="member">GetMovie</ref>(232500,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/d76/class_j_movies_1_1_i_m_db_1_1_entities_1_1_settings_1_1_presets_1_1_basic_production_data_fetch_settings" kindref="compound">BasicProductionDataFetchSettings</ref>());</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">Console.WriteLine($</highlight><highlight class="stringliteral">&quot;Movie<sp/>Title:<sp/>{movie.Title}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">Console.WriteLine($</highlight><highlight class="stringliteral">&quot;Original<sp/>Title:<sp/>{movie.OriginalTitle}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">Console.WriteLine($</highlight><highlight class="stringliteral">&quot;Year:<sp/>{movie.Year}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">Console.WriteLine($</highlight><highlight class="stringliteral">&quot;Poster<sp/>URL:<sp/>{movie.Poster?.URL}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">Console.WriteLine($</highlight><highlight class="stringliteral">&quot;Rating:<sp/>{movie.Rating.Value}/{movie.Rating.RateCount}<sp/>ratings&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Press<sp/>any<sp/>key<sp/>to<sp/>continue...&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">Console.ReadLine();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endregion</highlight></codeline>
+    </programlisting>
+    <location file="JMovies.IMDb.ExampleApp/Program.cs"/>
+  </compounddef>
+</doxygen>

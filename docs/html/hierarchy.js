@@ -79,6 +79,7 @@ var hierarchy =
     [ "JMovies.IMDb.Entities.Movies.ReleaseDate", "dd/d13/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_release_date.html", null ],
     [ "JMovies.IMDb.Tests.Production.RuntimeTests", "d1/d6d/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_runtime_tests.html", null ],
     [ "JMovies.IMDb.Tests.Production.ScrapingCultureTests", "d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests.html", null ],
+    [ "JMovies.IMDb.Tests.Production.SpecificMoviesTests", "d4/d7b/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_specific_movies_tests.html", null ],
     [ "JMovies.IMDb.Entities.Movies.TagLine", "db/df5/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_tag_line.html", null ],
     [ "JMovies.IMDb.Tests.Production.TVShowTests", "dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests.html", null ]
 ];

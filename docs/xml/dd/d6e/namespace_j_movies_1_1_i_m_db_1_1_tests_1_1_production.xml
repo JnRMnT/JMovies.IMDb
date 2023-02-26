@@ -9,7 +9,7 @@
     <innerclass refid="d3/d24/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_production_gallery_tests" prot="public">JMovies::IMDb::Tests::Production::ProductionGalleryTests</innerclass>
     <innerclass refid="d1/d6d/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_runtime_tests" prot="public">JMovies::IMDb::Tests::Production::RuntimeTests</innerclass>
     <innerclass refid="d6/d85/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_scraping_culture_tests" prot="public">JMovies::IMDb::Tests::Production::ScrapingCultureTests</innerclass>
-    <innerclass refid="d4/d7b/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_specific_movies_tests" prot="package">JMovies::IMDb::Tests::Production::SpecificMoviesTests</innerclass>
+    <innerclass refid="d4/d7b/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_specific_movies_tests" prot="public">JMovies::IMDb::Tests::Production::SpecificMoviesTests</innerclass>
     <innerclass refid="dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests" prot="public">JMovies::IMDb::Tests::Production::TVShowTests</innerclass>
     <briefdescription>
     </briefdescription>

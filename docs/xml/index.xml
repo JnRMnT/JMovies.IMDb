@@ -277,10 +277,10 @@
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1aa26ffd520f3435707d58547677f92bc0" kind="function"><name>GetTvSeriesAsync</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a8f711a3c4f54c7c9eb64d12fbe071323" kind="function"><name>GetProductionAsync</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a90d9b7d563acf4b085568e1483e9a55b" kind="function"><name>GetMovieAsync</name></member>
+    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ad26f0b3ac75c285466312d51627d1ea7" kind="function"><name>GetMovie</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a1245ce2cebbfa5803bc346e2e33b98b4" kind="function"><name>GetTvSeriesAsync</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a1d00e7e3d61bb47d1ba6a42a0bc614d8" kind="function"><name>GetPersonAsync</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1adee371f09187f5d157bfc1390d43badc" kind="function"><name>GetProduction</name></member>
-    <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1ad26f0b3ac75c285466312d51627d1ea7" kind="function"><name>GetMovie</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a0d8fd0f4a0b613a7db19af22f841414d" kind="function"><name>GetProduction</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1a5748daa2f474b5d531098d4285b0774a" kind="function"><name>GetMovie</name></member>
     <member refid="d8/d74/class_j_movies_1_1_i_m_db_1_1_providers_1_1_i_m_db_scraper_data_provider_1acbcd6885db34798b96c968e9b804e267" kind="function"><name>GetTvSeries</name></member>
@@ -540,7 +540,23 @@
     <member refid="dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests_1aa6000f22b4faf776d0475c4bb5efc099" kind="function"><name>TVShowWithNoEndTest</name></member>
     <member refid="dc/dd3/class_j_movies_1_1_i_m_db_1_1_tests_1_1_production_1_1_t_v_show_tests_1a68ee26759e023a232edbf871277330af" kind="function"><name>SummaryTVShowTest</name></member>
   </compound>
+  <compound refid="d6/d4b/namespace_entities" kind="namespace"><name>Entities</name>
+  </compound>
   <compound refid="d0/d5f/namespace_fizzler_1_1_systems_1_1_html_agility_pack" kind="namespace"><name>Fizzler::Systems::HtmlAgilityPack</name>
+  </compound>
+  <compound refid="dc/d4e/namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="d7/d7d/namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="dc/d56/namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="d8/d28/namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="db/d63/namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="db/dd5/namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="d3/d6d/namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
   </compound>
   <compound refid="de/de4/namespace_html_agility_pack" kind="namespace"><name>HtmlAgilityPack</name>
   </compound>
@@ -798,7 +814,21 @@
   </compound>
   <compound refid="d5/d87/_production_fetch_settings_builder_8cs" kind="file"><name>ProductionFetchSettingsBuilder.cs</name>
   </compound>
-  <compound refid="d6/d0b/_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  <compound refid="d4/d59/_j_movies_8_i_m_db_8_example_app_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="d4/d92/_j_movies_8_i_m_db_8_tests_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="d2/d69/_j_movies_8_i_m_db_8_example_app_8_assembly_info_8cs" kind="file"><name>JMovies.IMDb.ExampleApp.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dc/d7e/_j_movies_8_i_m_db_8_example_app_8_global_usings_8g_8cs" kind="file"><name>JMovies.IMDb.ExampleApp.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="dd/d5c/_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="dd/d5c/_program_8cs_1a2f560258b2ccd490a894ffa488ee1724" kind="typedef"><name>Entities</name></member>
+    <member refid="dd/d5c/_program_8cs_1a8054e59b52aee01926e0e76fe8aba751" kind="variable"><name>imdbDataProvider</name></member>
+    <member refid="dd/d5c/_program_8cs_1a68bed4fd8bd977ef5dad1855227f1513" kind="variable"><name>movie</name></member>
+    <member refid="dd/d5c/_program_8cs_1ac0b83916f305c81100dc077f1f3d993d" kind="function"><name>WriteLine</name></member>
+    <member refid="dd/d5c/_program_8cs_1ac6d120112610b7ed9cda77f2f411fca2" kind="function"><name>WriteLine</name></member>
+    <member refid="dd/d5c/_program_8cs_1a5a137ae7b5f6bee4a5dcbdb7bae3772e" kind="function"><name>ReadLine</name></member>
   </compound>
   <compound refid="d8/d15/_debug_2net6_80_2_j_movies_8_i_m_db_8_tests_8_assembly_info_8cs" kind="file"><name>JMovies.IMDb.Tests.AssemblyInfo.cs</name>
   </compound>
@@ -896,6 +926,8 @@
   </compound>
   <compound refid="dir_b8edf593ad9ee64b03b63e7d5e7b73d5" kind="dir"><name>JMovies.IMDb.Entities/obj/Debug</name>
   </compound>
+  <compound refid="dir_0ce4f3d606db0abe4ef8fb385c6163f4" kind="dir"><name>JMovies.IMDb.ExampleApp/obj/Debug</name>
+  </compound>
   <compound refid="dir_d0eeca1ac6c2f7639a332465ae50c376" kind="dir"><name>JMovies.IMDb.Tests/obj/Debug</name>
   </compound>
   <compound refid="dir_8302d3691b256d58585368fddefcc0e4" kind="dir"><name>JMovies.IMDb/obj/Debug</name>
@@ -916,6 +948,8 @@
   </compound>
   <compound refid="dir_1a9dc16cf67625c2e82b44a2372ceddb" kind="dir"><name>JMovies.IMDb.Entities</name>
   </compound>
+  <compound refid="dir_51976cf34e0587fd16b3fa8789c981a8" kind="dir"><name>JMovies.IMDb.ExampleApp</name>
+  </compound>
   <compound refid="dir_aa5a95831cf236ce2a5bc71a5a2500a9" kind="dir"><name>JMovies.IMDb.Tests</name>
   </compound>
   <compound refid="dir_6623ebb6ca63788656788f04f194cd0d" kind="dir"><name>JMovies.IMDb.Entities/Movies/LDJson</name>
@@ -925,6 +959,8 @@
   <compound refid="dir_28abb59ce676e667a30dee57ee7264a1" kind="dir"><name>JMovies.IMDb.Entities/Movies</name>
   </compound>
   <compound refid="dir_0aabda6c481e63b04d4a96874fac18b8" kind="dir"><name>JMovies.IMDb/Helpers/Movies</name>
+  </compound>
+  <compound refid="dir_5325e94d19c3e146b9994e4533b36c72" kind="dir"><name>JMovies.IMDb.ExampleApp/obj/Debug/net6.0</name>
   </compound>
   <compound refid="dir_bb99f5e4621329dfb960d786487e148f" kind="dir"><name>JMovies.IMDb.Tests/obj/Debug/net6.0</name>
   </compound>
@@ -955,6 +991,8 @@
   <compound refid="dir_345e197ceffc95b9e5460ec2428f0f7a" kind="dir"><name>JMovies.IMDb.Common/obj</name>
   </compound>
   <compound refid="dir_aa4252ba76727ceb40ff9d3cd4ad35dd" kind="dir"><name>JMovies.IMDb.Entities/obj</name>
+  </compound>
+  <compound refid="dir_fe8f6a01c16389892e0ed004d183aef7" kind="dir"><name>JMovies.IMDb.ExampleApp/obj</name>
   </compound>
   <compound refid="dir_909a052c62ef55cf04415d9b7eba5fd6" kind="dir"><name>JMovies.IMDb.Tests/obj</name>
   </compound>

@@ -20,12 +20,12 @@
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10" refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kindref="compound">Length</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length_1acf922d881cab55ef34fe92790ab7ef9b" kindref="member">Length</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kindref="compound">Length</ref>()</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length_1acf922d881cab55ef34fe92790ab7ef9b" kindref="member">Length</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>metricLength)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/dc7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_common_1_1_length" kindref="compound">Length</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>metricLength)</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Metric<sp/>=<sp/>metricLength;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>

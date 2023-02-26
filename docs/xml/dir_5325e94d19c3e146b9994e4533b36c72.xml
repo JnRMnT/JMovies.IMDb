@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_5325e94d19c3e146b9994e4533b36c72" kind="dir">
+    <compoundname>JMovies.IMDb.ExampleApp/obj/Debug/net6.0</compoundname>
+    <innerfile refid="d4/d59/_j_movies_8_i_m_db_8_example_app_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="d2/d69/_j_movies_8_i_m_db_8_example_app_8_assembly_info_8cs">JMovies.IMDb.ExampleApp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="dc/d7e/_j_movies_8_i_m_db_8_example_app_8_global_usings_8g_8cs">JMovies.IMDb.ExampleApp.GlobalUsings.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JMovies.IMDb.ExampleApp/obj/Debug/net6.0/"/>
+  </compounddef>
+</doxygen>
