@@ -15,7 +15,7 @@ namespace JMovies.IMDb.Tests.Person
         /// <summary>
         /// Static list of IMDb IDs of some persons to be tested
         /// </summary>
-        private static readonly long[] personIDsToTest = new long[] { 18652, 3614913, 5253, 1297015, 3614913, 1877 };
+        private static readonly long[] personIDsToTest = new long[] { 325717, 18652, 3614913, 5253, 1297015, 3614913, 1877 };
 
         /// <summary>
         /// Method that tests scraping of person pages

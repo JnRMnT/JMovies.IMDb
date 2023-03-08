@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="28" column="28" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="28" bodyend="167"/>
+        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="28" column="28" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="28" bodyend="170"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="174" column="29" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="174" bodyend="193"/>
+        <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="177" column="29" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="177" bodyend="196"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -105,7 +105,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="20" column="19" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="21" bodyend="194"/>
+    <location file="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" line="20" column="19" bodyfile="JMovies.IMDb/Helpers/People/PersonPageHelper.cs" bodystart="21" bodyend="197"/>
     <listofallmembers>
       <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1aef14ac2a0c87f6d48ff6ed2cc44df72d" prot="private" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::PersonPageHelper</scope><name>DetectGender</name></member>
       <member refid="d1/dea/class_j_movies_1_1_i_m_db_1_1_helpers_1_1_people_1_1_person_page_helper_1ab30c13d632ce59f43cd8ee55f61f0d9a" prot="public" virt="non-virtual"><scope>JMovies::IMDb::Helpers::People::PersonPageHelper</scope><name>Parse</name></member>

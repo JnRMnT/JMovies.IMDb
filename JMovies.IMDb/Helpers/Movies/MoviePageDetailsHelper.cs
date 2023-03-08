@@ -47,18 +47,28 @@ namespace JMovies.IMDb.Helpers.Movies
             }
 
             //Parse Title
-            HtmlNode blockMetadataElement = documentNode.QuerySelector("[data-testid=hero-title-block__metadata]");
-            if (blockMetadataElement != null)
+            HtmlNode blockTitleElement = documentNode.QuerySelector("[data-testid=hero-title-block__title]");
+            HtmlNode simpleTitleElement = documentNode.QuerySelector("[data-testid=hero__pageTitle]");
+            if (blockTitleElement != null || simpleTitleElement != null)
             {
-                HtmlNode titleWrapper = blockMetadataElement.ParentNode.ParentNode;
-                movie.Title = titleWrapper.QuerySelector("h1").InnerText.Prepare();
-                if (IMDbConstants.MovieYearRegex.IsMatch(movie.Title))
+                HtmlNode titleWrapper = null;
+                if (blockTitleElement != null)
                 {
-                    Match yearMatch = IMDbConstants.MovieYearRegex.Match(movie.Title);
-                    movie.Year = yearMatch.Groups[2].Value.Trim().ToInteger();
-                    movie.Title = yearMatch.Groups[1].Value.Trim();
+                    titleWrapper = blockTitleElement.ParentNode.ParentNode;
                 }
-                HtmlNode originalTitleNode = titleWrapper.QuerySelector(".originalTitle");
+                else
+                {
+                    titleWrapper = simpleTitleElement.ParentNode.ParentNode;
+                }
+                HtmlNode documentTitle = documentNode.QuerySelector("title");
+                string documentTitleText = documentTitle.InnerText.Prepare();
+                movie.Title = titleWrapper.QuerySelector("h1").InnerText.Prepare();
+                if (IMDbConstants.MovieYearRegex.IsMatch(documentTitleText))
+                {
+                    Match yearMatch = IMDbConstants.MovieYearRegex.Match(documentTitleText);
+                    movie.Year = yearMatch.Groups[1].Value.Trim().ToInteger();
+                }
+                HtmlNode originalTitleNode = titleWrapper.QuerySelector("[data-testid=hero-title-block__original-title]");
                 if (originalTitleNode != null)
                 {
                     movie.OriginalTitle = originalTitleNode.InnerText.Prepare();

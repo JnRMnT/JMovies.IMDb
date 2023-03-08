@@ -103,14 +103,17 @@ namespace JMovies.IMDb.Helpers.People
 
                     int titleYear = default(int);
                     int? titleEndYear = null;
-                    string titleYearString = titleYearElement.InnerText;
-                    Match titleYearMatch = IMDbConstants.CreditYearRegex.Match(titleYearString);
-                    if (titleYearMatch.Success)
+                    if (titleYearElement != null)
                     {
-                        titleYear = titleYearMatch.Groups[1].Value.ToInteger();
-                        if (titleYearMatch.Groups.Count >= 4 && titleYearMatch.Groups[3].Success)
+                        string titleYearString = titleYearElement.InnerText;
+                        Match titleYearMatch = IMDbConstants.CreditYearRegex.Match(titleYearString);
+                        if (titleYearMatch.Success)
                         {
-                            titleEndYear = titleYearMatch.Groups[3].Value.ToInteger();
+                            titleYear = titleYearMatch.Groups[1].Value.ToInteger();
+                            if (titleYearMatch.Groups.Count >= 4 && titleYearMatch.Groups[3].Success)
+                            {
+                                titleEndYear = titleYearMatch.Groups[3].Value.ToInteger();
+                            }
                         }
                     }
 
