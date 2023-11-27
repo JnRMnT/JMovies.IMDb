@@ -24,40 +24,12 @@
 */
 var NAVTREE =
 [
-  [ "JMovies.IMDb", "index.html", [
-    [ "JMovies.IMDb", "d3/dcc/md__r_e_a_d_m_e.html", [
-      [ "How to Use?", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "Under the hood", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md3", null ],
-      [ "Maintenance", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md4", null ],
-      [ "Code Documentation", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md5", null ],
-      [ "Warning", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md6", null ]
-    ] ],
-    [ "Packages", "namespaces.html", [
-      [ "Package List", "namespaces.html", "namespaces_dup" ],
-      [ "Package Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", null ]
-      ] ]
-    ] ]
-  ] ]
+  [ "JMovies.IMDb", "index.html", ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"d4/df7/class_j_movies_1_1_i_m_db_1_1_entities_1_1_movies_1_1_t_v_character.html#ac2d256cbe38340e539089cfb2fd81495",
-"d9/dbe/namespace_j_movies_1_1_i_m_db_1_1_entities_1_1_people.html#ae76df969ca3d166e30b7839a3e046389aec0fc0100c4fc1ce4eea230c3dc10360"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

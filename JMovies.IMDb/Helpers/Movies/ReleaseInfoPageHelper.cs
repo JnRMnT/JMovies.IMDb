@@ -46,7 +46,7 @@ namespace JMovies.IMDb.Helpers.Movies
                         releaseDate.Country.Identifier = countryMatch.Groups[1].Value;
                     }
 
-                    string releaseDateString = releaseDateColumns[1].QuerySelector("label").InnerText.Prepare();
+                    string releaseDateString = releaseDateColumns[1].QuerySelector("span").InnerText.Prepare();
                     Match allNumericReleaseDateMatch = GeneralRegexConstants.AllNumericRegex.Match(releaseDateString);
                     if (allNumericReleaseDateMatch.Success)
                     {
@@ -57,7 +57,7 @@ namespace JMovies.IMDb.Helpers.Movies
                         releaseDate.Date = DateTime.Parse(releaseDateString);
                     }
 
-                    HtmlNode releaseDateDescriptionNode = releaseDateColumns[1].QuerySelector("label+span");
+                    HtmlNode releaseDateDescriptionNode = releaseDateColumns[1].QuerySelector("span+span");
                     if (releaseDateDescriptionNode != null)
                     {
                         releaseDate.Description = releaseDateDescriptionNode.InnerText.Prepare();
@@ -79,9 +79,13 @@ namespace JMovies.IMDb.Helpers.Movies
                 foreach (HtmlNode akaRow in akaRows)
                 {
                     AKA aka = new AKA();
-                    aka.Description = akaRow.QuerySelector("button").InnerText.Prepare().TrimStart('(').TrimEnd(')');
-                    aka.Name = akaRow.QuerySelector("label").InnerText.Prepare();
-                    akas.Add(aka);
+                    IEnumerable<HtmlNode> tuple = akaRow.QuerySelectorAll("span");
+                    if (tuple != null && tuple.Count() == 2)
+                    {
+                        aka.Description = tuple.ElementAt(0).InnerText.Prepare().TrimStart('(').TrimEnd(')');
+                        aka.Name = tuple.ElementAt(1).InnerText.Prepare();
+                        akas.Add(aka);
+                    }
                 }
 
                 HtmlNode moreButton = releaseInfoPageDocument.DocumentNode.QuerySelector("[data-testid=sub-section-akas]>ul>div button");
