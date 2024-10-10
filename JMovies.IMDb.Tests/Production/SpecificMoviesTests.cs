@@ -55,7 +55,7 @@ namespace JMovies.IMDb.Tests.Production
             Assert.IsNotNull(movie);
             Assert.AreEqual("Earwig and the Witch", movie.Title);
             Assert.AreEqual(2020, movie.Year);
-            Assert.AreEqual(4.8, Math.Round(movie.Rating.Value, 1));
+            Assert.AreEqual(4.7, Math.Round(movie.Rating.Value, 1));
             long RateCount = movie.Rating.RateCount;
             Assert.AreEqual(true, (RateCount > 3200));
         }

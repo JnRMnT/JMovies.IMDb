@@ -93,7 +93,7 @@ namespace JMovies.IMDb.Helpers.Movies
                 {
                     //Has More
                     string getMoreURL = $"https://caching.graphql.imdb.com/?operationName=TitleAkasPaginated&" +
-                        $"variables={{\"after\":\"NA==\",\"const\":\"{IMDbConstants.MovieIDPrefix}{IMDBIDHelper.GetPaddedIMDBId(movie.IMDbID)}\",\"first\":150,\"locale\":\"{settings.GetActiveCulture()}\",\"originalTitleText\":false}}&extensions={{\"persistedQuery\":{{\"sha256Hash\":\"180f0f5df1b03c9ee78b1f410d65928ec22e7aca590e5321fbb6a6c39b802695\",\"version\":1}}}}";
+                        $"variables={{\"after\":\"NA==\",\"const\":\"{IMDbConstants.MovieIDPrefix}{IMDBIDHelper.GetPaddedIMDBId(movie.IMDbID)}\",\"first\":150,\"locale\":\"{settings.GetActiveCulture()}\",\"originalTitleText\":false}}&extensions={{\"persistedQuery\":{{\"sha256Hash\":\"48d4f7bfa73230fb550147bd4704d8050080e65fe2ad576da6276cac2330e446\",\"version\":1}}}}";
                     using (HttpClient client = new HttpClient())
                     {
                         HttpRequestMessage getMoreRequest = new HttpRequestMessage()

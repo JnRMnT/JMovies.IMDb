@@ -13,6 +13,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace JMovies.IMDb.Providers
@@ -27,39 +28,54 @@ namespace JMovies.IMDb.Providers
         {
             return Task.Run<Production>(() =>
             {
-                if (id == default(long))
+                string oldthreadCulture = Thread.CurrentThread.CurrentCulture.Name;
+                string oldthreadUICulture = Thread.CurrentThread.CurrentUICulture.Name;
+                try
                 {
-                    throw new JMException("IMDbIDEmpty");
-                }
-                else if (settings == null)
-                {
-                    throw new JMException("SettingsEmpty");
-                }
+                    if (settings.PreferredCulture != oldthreadCulture && !string.IsNullOrEmpty(settings.PreferredCulture))
+                    {
+                        Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(settings.PreferredCulture);
+                        Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
+                    }
+                    if (id == default(long))
+                    {
+                        throw new JMException("IMDbIDEmpty");
+                    }
+                    else if (settings == null)
+                    {
+                        throw new JMException("SettingsEmpty");
+                    }
 
-                Movie movie = new Movie();
-                string url = IMDbConstants.BaseURL + IMDbConstants.MoviesPath + IMDbConstants.MovieIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
-                HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
-                WebRequest webRequest = HttpHelper.InitializeWebRequest(url + "/", settings);
-                using (Stream stream = HttpHelper.GetResponseStream(webRequest, settings))
-                {
-                    htmlDocument.Load(stream, Encoding.UTF8);
-                }
-                HtmlNode documentNode = htmlDocument.DocumentNode;
+                    Movie movie = new Movie();
+                    string url = IMDbConstants.BaseURL + IMDbConstants.MoviesPath + IMDbConstants.MovieIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
+                    HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
+                    WebRequest webRequest = HttpHelper.InitializeWebRequest(url + "/", settings);
+                    using (Stream stream = HttpHelper.GetResponseStream(webRequest, settings))
+                    {
+                        htmlDocument.Load(stream, Encoding.UTF8);
+                    }
+                    HtmlNode documentNode = htmlDocument.DocumentNode;
 
-                //Parse and verify IMDb ID Meta Tag
-                string foundID = IMDbConstants.ProductionTitleMatcherRegex.Match(documentNode.InnerHtml)?.Groups?[1]?.Value;
-                if (!string.IsNullOrEmpty(foundID))
-                {
-                    movie.IMDbID = foundID.ToLong();
-                }
-                else
-                {
-                    return null;
-                }
+                    //Parse and verify IMDb ID Meta Tag
+                    string foundID = IMDbConstants.ProductionTitleMatcherRegex.Match(documentNode.InnerHtml)?.Groups?[1]?.Value;
+                    if (!string.IsNullOrEmpty(foundID))
+                    {
+                        movie.IMDbID = foundID.ToLong();
+                    }
+                    else
+                    {
+                        return null;
+                    }
 
-                MoviePageDetailsHelper.Parse(this, ref movie, documentNode, url, settings);
+                    MoviePageDetailsHelper.Parse(this, ref movie, documentNode, url, settings);
 
-                return movie;
+                    return movie;
+                }
+                finally
+                {
+                    Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(oldthreadCulture);
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(oldthreadUICulture);
+                }
             });
         }
 
@@ -75,41 +91,56 @@ namespace JMovies.IMDb.Providers
         {
             return Task.Run(() =>
             {
-                if (id == default(long))
+                string oldthreadCulture = Thread.CurrentThread.CurrentCulture.Name;
+                string oldthreadUICulture = Thread.CurrentThread.CurrentUICulture.Name;
+                try
                 {
-                    throw new JMException("IMDbIDEmpty");
+                    if (settings.PreferredCulture != oldthreadCulture && !string.IsNullOrEmpty(settings.PreferredCulture))
+                    {
+                        Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(settings.PreferredCulture);
+                        Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
+                    }
+                    if (id == default(long))
+                    {
+                        throw new JMException("IMDbIDEmpty");
+                    }
+
+                    string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
+                    HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
+
+                    WebRequest webRequest = HttpHelper.InitializeWebRequest(url, settings);
+                    using (Stream stream = HttpHelper.GetResponseStream(webRequest, settings))
+                    {
+                        htmlDocument.Load(stream, Encoding.UTF8);
+                    }
+                    HtmlNode documentNode = htmlDocument.DocumentNode;
+
+                    //Parse and verify IMDb ID Meta Tag
+                    HtmlNode idMetaTag = documentNode.QuerySelector("meta[property='imdb:pageConst']");
+                    if (idMetaTag != null)
+                    {
+                        person.IMDbID = Regex.Replace(idMetaTag.Attributes["content"].Value, IMDbConstants.PersonIDPrefix, string.Empty).ToLong();
+                    }
+                    else
+                    {
+                        return null;
+                    }
+
+                    PersonPageHelper.Parse(person, documentNode, settings);
+
+                    #region Parse Photo Gallery Page
+                    if (settings.MediaImagesFetchCount > 0)
+                    {
+                        Helpers.People.PhotoGalleryPageHelper.Parse(person, url, settings);
+                    }
+                    #endregion
+                    return person;
                 }
-
-                string url = IMDbConstants.BaseURL + IMDbConstants.PersonsPath + IMDbConstants.PersonIDPrefix + IMDBIDHelper.GetPaddedIMDBId(id);
-                HtmlDocument htmlDocument = HtmlHelper.GetNewHtmlDocument();
-
-                WebRequest webRequest = HttpHelper.InitializeWebRequest(url, settings);
-                using (Stream stream = HttpHelper.GetResponseStream(webRequest, settings))
+                finally
                 {
-                    htmlDocument.Load(stream, Encoding.UTF8);
+                    Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(oldthreadCulture);
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(oldthreadUICulture);
                 }
-                HtmlNode documentNode = htmlDocument.DocumentNode;
-
-                //Parse and verify IMDb ID Meta Tag
-                HtmlNode idMetaTag = documentNode.QuerySelector("meta[property='imdb:pageConst']");
-                if (idMetaTag != null)
-                {
-                    person.IMDbID = Regex.Replace(idMetaTag.Attributes["content"].Value, IMDbConstants.PersonIDPrefix, string.Empty).ToLong();
-                }
-                else
-                {
-                    return null;
-                }
-
-                PersonPageHelper.Parse(person, documentNode, settings);
-
-                #region Parse Photo Gallery Page
-                if (settings.MediaImagesFetchCount > 0)
-                {
-                    Helpers.People.PhotoGalleryPageHelper.Parse(person, url, settings);
-                }
-                #endregion
-                return person;
             });
         }
 

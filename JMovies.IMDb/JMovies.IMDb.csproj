@@ -8,7 +8,7 @@
     <Copyright>JnRMnT</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>JMovies IMDb Data Provider Library - Currently supports on-demand screen scraping from IMDb to receive movie and person details.</Description>
-    <Version>1.8.5</Version>
+    <Version>1.8.6</Version>
     <PackageTags>scraper,movies,movie,imdb,actor,scraping,screenscrapping,api,imdb-scraper</PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/JnRMnT/JMovies.IMDb</RepositoryUrl>
@@ -30,7 +30,7 @@
 
   <ItemGroup>
     <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.1" />
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.36" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.67" />
     <PackageReference Include="JM.Framework" Version="1.0.5" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
     <PackageReference Include="System.Net.Requests" Version="4.3.0" />

@@ -49,7 +49,7 @@ namespace JMovies.IMDb.Helpers.People
 
             if (photoGalleryPageDocument.DocumentNode != null)
             {
-                HtmlNode mediaIndexNode = photoGalleryPageDocument.DocumentNode.QuerySelector("#media_index_content");
+                HtmlNode mediaIndexNode = photoGalleryPageDocument.DocumentNode.QuerySelector("[data-testid=section-images]");
                 if (mediaIndexNode != null)
                 {
                     HtmlNode[] allImageNodes = mediaIndexNode.QuerySelectorAll("img").ToArray();

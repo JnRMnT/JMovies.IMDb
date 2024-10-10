@@ -4,6 +4,31 @@
         <name>JMovies.IMDb.Tests</name>
     </assembly>
     <members>
+        <member name="T:JMovies.IMDb.Tests.Culture.BasicCultureTests">
+            <summary>
+            Test class responsible for checking the locale/culture related issues that might occur
+            </summary>
+        </member>
+        <member name="F:JMovies.IMDb.Tests.Culture.BasicCultureTests.testID">
+            <summary>
+            Joker as the test id
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Culture.BasicCultureTests.EnglishBasicTest">
+            <summary>
+            The very basic test that uses en-UK as preferred culture
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Culture.BasicCultureTests.BrazilianBasicTest">
+            <summary>
+            The very basic test that uses en-UK as preferred culture to check datetime parsing issues
+            </summary>
+        </member>
+        <member name="M:JMovies.IMDb.Tests.Culture.BasicCultureTests.TurkishBasicTest">
+            <summary>
+            The very basic test that uses tr-TR as preferred culture to check non-latin chars
+            </summary>
+        </member>
         <member name="T:JMovies.IMDb.Tests.Person.BasicPersonScrapingTests">
             <summary>
             Test class that contains the tests for basic async scraping scenarios for persons
